@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Zero Tab",
+  "version": "1.2.0",
+  "description": "A local-first developer dashboard for organizing tabs, clearing duplicates, saving links, and reading AI builder updates.",
+  "permissions": ["tabs", "storage", "favicon"],
+  "optional_host_permissions": ["https://raw.githubusercontent.com/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src https://raw.githubusercontent.com; base-uri 'none';"
+  },
+  "chrome_url_overrides": { "newtab": "index.html" },
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Zero Tab",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

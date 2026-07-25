@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zero Tab Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; line-height: 1.65; }
+    h1 { font-size: 32px; letter-spacing: -0.03em; }
+    h2 { margin-top: 32px; font-size: 20px; }
+    p, li { color: color-mix(in srgb, CanvasText 76%, transparent); }
+    code { padding: 2px 5px; border-radius: 5px; background: color-mix(in srgb, CanvasText 8%, transparent); }
+    .meta { color: color-mix(in srgb, CanvasText 54%, transparent); }
+  </style>
+</head>
+<body>
+  <h1>Zero Tab Privacy Policy</h1>
+  <p class="meta"><strong>Effective date:</strong> July 25, 2026<br>
+    <strong>Publisher:</strong> REPLACE_WITH_PUBLISHER_NAME<br>
+    <strong>Contact:</strong> REPLACE_WITH_SUPPORT_EMAIL</p>
+
+  <p>Zero Tab is a local-first Chrome extension that replaces the new tab page with a dashboard for organizing open tabs.</p>
+
+  <h2>Data Zero Tab handles</h2>
+  <p>Zero Tab processes open-tab URLs, titles, favicons, window identifiers, pinned state, and active state locally in the browser. It also handles links saved for later, preferences, read states, translations, and cached public-feed content.</p>
+
+  <h2>Local storage</h2>
+  <p>Saved links, preferences, AI Builder Daily Report cache, read state, and translations are stored in <code>chrome.storage.local</code>. Zero Tab does not operate a server and does not synchronize this data to the publisher.</p>
+
+  <h2>AI Builder Daily Report</h2>
+  <p>This optional feature is disabled until the user enables it. When enabled, Zero Tab downloads public JSON feeds from <code>https://raw.githubusercontent.com/</code>. These requests do not contain tab data, saved links, browsing history, identifiers, credentials, or API keys.</p>
+
+  <h2>On-device translation</h2>
+  <p>When supported and explicitly requested, Zero Tab uses Chrome's built-in Translator API. Chrome may download a language pack or model. Zero Tab does not send report text to a third-party translation API.</p>
+
+  <h2>Sharing and sale</h2>
+  <p>Zero Tab does not sell, rent, transfer, or share user data with advertisers, data brokers, analytics providers, or the publisher. It does not use Chrome API data for advertising, credit decisions, or unrelated profiling.</p>
+
+  <h2>Security and Limited Use</h2>
+  <ul>
+    <li>All extension logic is packaged with the extension.</li>
+    <li>Optional feed requests use HTTPS.</li>
+    <li>Remote feed strings are rendered as untrusted data and cannot execute code.</li>
+    <li>Chrome API data is used only for the extension's user-facing developer workspace functionality.</li>
+  </ul>
+
+  <h2>User controls</h2>
+  <p>Users can leave the report disabled, revoke the optional GitHub permission, remove saved content, clear extension data, or uninstall Zero Tab.</p>
+
+  <h2>Third-party content</h2>
+  <p>The report displays links and excerpts from public third-party sources. Those sources have their own terms and privacy policies.</p>
+
+  <h2>Changes and contact</h2>
+  <p>This policy may be updated when Zero Tab's behavior changes. Questions or privacy requests: <strong>REPLACE_WITH_SUPPORT_EMAIL</strong>.</p>
+</body>
+</html>

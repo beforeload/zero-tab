@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero Tab</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+
+
+  <!-- ================================================================
+       HEADER — greeting on the left, tab count on the right
+       ================================================================ -->
+  <header>
+    <div class="header-left">
+      <!-- "Good afternoon" — written by getGreeting() in app.js -->
+      <h1 id="greeting"></h1>
+      <!-- "Friday, April 4, 2026" — written by getDateDisplay() in app.js -->
+      <div class="date" id="dateDisplay"></div>
+    </div>
+    <div class="header-stats">
+      <div class="stat">
+        <div class="stat-num" id="statTabs">—</div>
+        <div class="stat-label">Open tabs</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================================================================
+       ZERO TAB DUPES BANNER — appears when you have extra Zero Tab pages open
+       Hidden by default; app.js shows it when zeroTabDupeCount > 1
+       ================================================================ -->
+  <div class="tab-cleanup-banner" id="zeroTabDupeBanner" style="display:none">
+    <div class="tab-cleanup-left">
+      <div class="tab-cleanup-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+        </svg>
+      </div>
+      <div class="tab-cleanup-text">
+        You have <strong id="zeroTabDupeCount"></strong> Zero Tab pages open. Keep just this one?
+      </div>
+    </div>
+    <button class="tab-cleanup-btn" data-action="close-zero-tab-dupes">Close extras</button>
+  </div>
+
+  <section class="builder-digest" id="builderDigest" aria-labelledby="builderDigestTitle">
+    <div class="builder-digest-toolbar" data-action="toggle-builder-digest" role="button" tabindex="0" aria-controls="builderDigestBody" aria-expanded="true">
+      <div class="builder-digest-heading">
+        <div class="builder-digest-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3.75v16.5M3.75 12h16.5M6.17 6.17l11.66 11.66M17.83 6.17 6.17 17.83"/>
+          </svg>
+        </div>
+        <div>
+          <h2 id="builderDigestTitle">AI Builder Daily Report</h2>
+          <div class="builder-digest-meta" id="builderDigestMeta">来自 Follow Builders 的公开动态</div>
+        </div>
+      </div>
+      <div class="builder-digest-actions">
+        <button class="toolbar-button" id="builderDigestRefresh" data-action="refresh-builder-digest" type="button" title="刷新速报" aria-label="刷新速报">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M20 11a8.1 8.1 0 0 0-15.5-3M4 4v4h4M4 13a8.1 8.1 0 0 0 15.5 3M20 20v-4h-4"/></svg>
+        </button>
+        <button class="toolbar-button translation-button" id="builderDigestTranslate" data-action="translate-builder-digest" type="button" title="翻译为系统语言" aria-label="翻译为系统语言" hidden>
+          <span aria-hidden="true">文A</span>
+        </button>
+        <button class="toolbar-button" id="builderDigestToggle" data-action="toggle-builder-digest" type="button" title="折叠速报" aria-label="折叠速报" aria-expanded="true">
+          <svg class="builder-digest-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="builder-digest-body" id="builderDigestBody">
+      <div class="builder-digest-status" id="builderDigestStatus"></div>
+      <div class="builder-digest-items" id="builderDigestItems"></div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       MAIN CONTENT AREA — two-column layout
+       Left: open tabs (domain/mission cards)
+       Right: saved for later
+       ================================================================ -->
+  <div class="dashboard-columns" id="dashboardColumns">
+
+    <!-- LEFT COLUMN: Open tabs -->
+    <div class="active-section" id="openTabsSection" style="display:none">
+      <div class="section-header">
+        <h2 id="openTabsSectionTitle">Right now</h2>
+        <div class="section-line"></div>
+        <div class="section-count" id="openTabsSectionCount"></div>
+      </div>
+      <div class="missions" id="openTabsMissions"></div>
+    </div>
+
+    <!-- RIGHT COLUMN: Saved for Later checklist -->
+    <div class="deferred-column" id="deferredColumn" style="display:none">
+        <div class="section-header">
+          <h2>Saved for later</h2>
+          <div class="section-line"></div>
+          <div class="section-count" id="deferredCount"></div>
+        </div>
+
+        <div class="deferred-list" id="deferredList"></div>
+
+        <div class="deferred-empty" id="deferredEmpty" style="display:none">
+          Nothing saved. Living in the moment.
+        </div>
+
+        <div class="deferred-archive" id="deferredArchive" style="display:none">
+          <button class="archive-toggle" id="archiveToggle">
+            <svg class="archive-chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+            Archive
+            <span class="archive-count" id="archiveCount"></span>
+          </button>
+          <div class="archive-body" id="archiveBody" style="display:none">
+            <input type="text" class="archive-search" id="archiveSearch" placeholder="Search archived tabs...">
+            <div class="archive-list" id="archiveList"></div>
+          </div>
+        </div>
+    </div>
+
+  </div><!-- end .dashboard-columns -->
+
+</div><!-- end .container -->
+
+<!-- ================================================================
+     TOAST — floats above everything, used for action confirmations
+     Hidden by default via CSS (opacity:0, translateY)
+     ================================================================ -->
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <!-- Checkmark circle icon (Heroicons outline) -->
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+  </svg>
+  <span id="toastText"></span>
+</div>
+
+<!-- Personal config (gitignored) — defines LOCAL_LANDING_PAGE_PATTERNS etc. -->
+<!-- If the file doesn't exist, that's fine — app.js uses sensible defaults. -->
+<script src="config.local.js"></script>
+
+<!-- Optional public-feed client for AI Builder daily brief -->
+<script src="builder-digest.js"></script>
+
+<!-- Main dashboard logic — loads last so the DOM is ready -->
+<script src="app.js"></script>
+</body>
+</html>
