@@ -1311,9 +1311,9 @@ function formatDigestDate(dateStr) {
 }
 
 function digestKindLabel(kind) {
-  if (kind === 'blog') return '官方博客';
-  if (kind === 'podcast') return '播客';
-  return 'X 动态';
+  if (kind === 'blog') return 'Blog';
+  if (kind === 'podcast') return 'Podcast';
+  return 'X';
 }
 
 function getDigestTargetLanguage() {
@@ -1408,7 +1408,7 @@ function renderBuilderDigestState(state) {
   if (toolbar) toolbar.setAttribute('aria-expanded', String(!state.collapsed));
   if (toggleButton) {
     toggleButton.setAttribute('aria-expanded', String(!state.collapsed));
-    toggleButton.title = state.collapsed ? '展开速报' : '折叠速报';
+    toggleButton.title = state.collapsed ? 'Expand report' : 'Collapse report';
     toggleButton.setAttribute('aria-label', toggleButton.title);
   }
   if (refreshButton) refreshButton.hidden = !state.enabled;
@@ -1417,19 +1417,19 @@ function renderBuilderDigestState(state) {
     translateButton.hidden = !state.enabled
       || targetLanguage === 'en'
       || typeof Translator === 'undefined';
-    translateButton.title = `翻译为 ${targetLanguage}`;
+    translateButton.title = `Translate to ${targetLanguage}`;
     translateButton.setAttribute('aria-label', translateButton.title);
   }
 
   if (!state.enabled) {
-    metaEl.textContent = '启用后每天读取一次公开 feed';
+    metaEl.textContent = 'Reads the public feed once per day after you enable it';
     statusEl.innerHTML = `
       <div class="digest-permission">
         <div class="digest-permission-copy">
-          <strong>关注真正动手构建 AI 产品的人</strong>
-          仅从 GitHub 下载 Follow Builders 的公开动态；不会上传标签页、Saved for later 或浏览数据。
+          <strong>Follow the people actually building AI products</strong>
+          Downloads only public Follow Builders updates from GitHub. Your tabs, Saved for later items, and browsing data are never uploaded.
         </div>
-        <button class="digest-enable-button" data-action="enable-builder-digest" type="button">启用每日速报</button>
+        <button class="digest-enable-button" data-action="enable-builder-digest" type="button">Enable daily report</button>
       </div>`;
     itemsEl.innerHTML = '';
     return;
@@ -1437,19 +1437,19 @@ function renderBuilderDigestState(state) {
 
   const stale = api.isStale(state);
   const updatedLabel = state.feedGeneratedAt
-    ? `Feed 更新于 ${formatDigestDate(state.feedGeneratedAt)}`
+    ? `Feed updated ${formatDigestDate(state.feedGeneratedAt)}`
     : state.fetchedAt
-      ? `获取于 ${formatDigestDate(state.fetchedAt)}`
-      : '等待首次更新';
-  metaEl.textContent = `${updatedLabel}${stale ? ' · 缓存可能已过期' : ''}`;
+      ? `Fetched ${formatDigestDate(state.fetchedAt)}`
+      : 'Waiting for the first update';
+  metaEl.textContent = `${updatedLabel}${stale ? ' · Cache may be out of date' : ''}`;
 
   const reportItems = api.selectTimelineItems(state.items);
   if (state.errors?.length) {
     statusEl.textContent = reportItems.length
-      ? '部分来源暂时不可用，当前展示最近一次成功获取的内容。'
-      : '暂时无法获取速报，请稍后重试。';
+      ? 'Some sources are temporarily unavailable. Showing the last successful fetch.'
+      : 'The report could not be fetched right now. Please try again later.';
   } else if (reportItems.length === 0) {
-    statusEl.textContent = '今天暂时没有新的 Builder 动态。';
+    statusEl.textContent = 'No new builder updates today.';
   } else {
     statusEl.textContent = 'Ordered newest first from the locally cached feed. Nothing is sent to a cloud AI service.';
   }
@@ -1479,7 +1479,7 @@ async function initializeBuilderDigest() {
   } catch (err) {
     console.warn('[zero-tab] Could not initialize Builder Digest:', err);
     const statusEl = document.getElementById('builderDigestStatus');
-    if (statusEl) statusEl.textContent = '每日速报暂时不可用。';
+    if (statusEl) statusEl.textContent = 'The daily report is temporarily unavailable.';
   } finally {
     setBuilderDigestLoading(false);
   }
@@ -1509,17 +1509,17 @@ document.addEventListener('click', async (e) => {
     try {
       const result = await api.enable();
       if (!result.granted) {
-        showToast('未授予公开 feed 读取权限');
+        showToast('Permission to read the public feed was not granted');
         renderBuilderDigestState(result.state);
         return;
       }
       setBuilderDigestLoading(true);
       const state = await api.refresh({ force: true });
       renderBuilderDigestState(state);
-      showToast('AI Builder Daily Report 已启用');
+      showToast('AI Builder Daily Report enabled');
     } catch (err) {
       console.warn('[zero-tab] Could not enable Builder Digest:', err);
-      showToast('启用每日速报失败');
+      showToast('Could not enable the daily report');
     } finally {
       actionEl.disabled = false;
       setBuilderDigestLoading(false);
@@ -1535,10 +1535,10 @@ document.addEventListener('click', async (e) => {
     try {
       const state = await api.refresh({ force: true });
       renderBuilderDigestState(state);
-      showToast(state.errors?.length ? '已显示最近可用内容' : '每日速报已更新');
+      showToast(state.errors?.length ? 'Showing the last available content' : 'Daily report updated');
     } catch (err) {
       console.warn('[zero-tab] Could not refresh Builder Digest:', err);
-      showToast('刷新每日速报失败');
+      showToast('Could not refresh the daily report');
     } finally {
       setBuilderDigestLoading(false);
     }
@@ -1585,10 +1585,10 @@ document.addEventListener('click', async (e) => {
       const translated = await translateDigestItems(items, targetLanguage, translatorPromise);
       const nextState = await api.saveTranslations(targetLanguage, translated);
       renderBuilderDigestState(nextState);
-      showToast(`已翻译为 ${targetLanguage}`);
+      showToast(`Translated to ${targetLanguage}`);
     } catch (err) {
       console.warn('[zero-tab] Could not translate Builder Digest:', err);
-      showToast('当前设备暂不支持本地翻译');
+      showToast('On-device translation is not supported on this device');
     } finally {
       actionEl.disabled = false;
     }

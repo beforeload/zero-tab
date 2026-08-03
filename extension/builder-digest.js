@@ -350,7 +350,7 @@
     if (!(await hasPermission())) {
       return setState({
         enabled: false,
-        errors: ['读取权限已被移除，请重新启用每日速报。'],
+        errors: ['Read permission was removed. Enable the daily report again.'],
       });
     }
 
@@ -365,7 +365,7 @@
     if (Object.keys(feeds).length === 0) {
       return setState({
         lastAttemptAt: now.toISOString(),
-        errors: errors.length ? errors : ['无法获取公开 feed'],
+        errors: errors.length ? errors : ['Could not fetch the public feed'],
       });
     }
 
