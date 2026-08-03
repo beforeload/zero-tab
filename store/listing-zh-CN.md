@@ -44,9 +44,9 @@ AI Builder Daily Report 不会上传浏览数据；请求中不包含标签页�
 
 ## 支持与链接
 
-**支持邮箱：** `REPLACE_WITH_SUPPORT_EMAIL`  
-**产品主页：** `REPLACE_WITH_HOMEPAGE_URL`  
-**隐私政策：** `REPLACE_WITH_PRIVACY_POLICY_URL`
+**支持邮箱：** `fe.daniel91@gmail.com`  
+**产品主页：** `https://github.com/beforeload/zero-tab`  
+**隐私政策：** `https://beforeload.github.io/zero-tab/privacy.html`
 
 ## 来源说明
 

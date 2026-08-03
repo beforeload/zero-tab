@@ -1,0 +1,24 @@
+/* Render-fixture styles for Chrome Web Store screenshots.
+   These files reuse extension/style.css and only stand in for data the live
+   extension pulls from Chrome APIs (favicons) plus entry animations that must
+   not be captured mid-flight. */
+
+* {
+  animation: none !important;
+  transition: none !important;
+}
+
+.chip-favicon {
+  background: linear-gradient(160deg, #cbd2dc, #a8b0bd);
+}
+
+.chip-favicon[data-c="blue"] { background: linear-gradient(160deg, #58b0ff, #0a66e8); }
+.chip-favicon[data-c="red"] { background: linear-gradient(160deg, #ff7a6d, #e0342a); }
+.chip-favicon[data-c="green"] { background: linear-gradient(160deg, #5fdd86, #1f9c4a); }
+.chip-favicon[data-c="orange"] { background: linear-gradient(160deg, #ffbf5a, #ef8b1b); }
+.chip-favicon[data-c="purple"] { background: linear-gradient(160deg, #a78bfa, #6d43e6); }
+.chip-favicon[data-c="dark"] { background: linear-gradient(160deg, #6b7280, #24292f); }
+
+.deferred-title .chip-favicon {
+  display: inline-block;
+}

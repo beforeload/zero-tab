@@ -24,7 +24,7 @@ No server and no account are required. Open-tab URLs, titles, and saved links st
 1. Clone this repository:
 
    ```bash
-   git clone REPLACE_WITH_REPOSITORY_URL
+   git clone https://github.com/beforeload/zero-tab.git
    cd zero-tab
    ```
 
@@ -41,17 +41,21 @@ AI Builder Daily Report is disabled until the user enables it. When enabled, Zer
 
 Translation uses Chrome's built-in on-device Translator API when available. The language model or language pack may be downloaded by Chrome, but report text is not sent to a third-party translation service by Zero Tab.
 
-See [`store/privacy-policy.md`](store/privacy-policy.md) for the publication-ready privacy policy template.
+The full policy text lives in [`store/privacy-policy.md`](store/privacy-policy.md), and [`docs/privacy.html`](docs/privacy.html) is the version published through GitHub Pages.
 
 ## Build a Web Store package
 
 ```bash
-cd extension
-zip -r ../dist/zero-tab-webstore-1.2.0.zip . \
-  -x "config.local.js" "*.DS_Store"
+./store/assets/generate-assets.sh
 ```
 
-The ZIP root must contain `manifest.json`. Never upload `dist/zero-tab.pem`.
+This renders the extension icons, the store icon, the promo tile, and both
+1280×800 screenshots, then writes `dist/zero-tab-webstore-<version>.zip`. The
+ZIP root contains `manifest.json` and excludes SVG sources and local config.
+Never upload `dist/zero-tab.pem`.
+
+See [`store/SUBMISSION_GUIDE.md`](store/SUBMISSION_GUIDE.md) for the full
+Chrome Web Store submission walkthrough.
 
 ## Technology
 
@@ -69,8 +73,8 @@ Special thanks to [Zara Zhang](https://github.com/zarazhangrui) for the original
 
 The original copyright and MIT permission notice are preserved in [`LICENSE`](LICENSE) and the packaged [`extension/THIRD_PARTY_NOTICES.txt`](extension/THIRD_PARTY_NOTICES.txt).
 
-Publisher: `REPLACE_WITH_PUBLISHER_NAME`
+Publisher: Daniel
 
-Support: `REPLACE_WITH_SUPPORT_EMAIL`
+Support: `fe.daniel91@gmail.com`
 
-Homepage: `REPLACE_WITH_HOMEPAGE_URL`
+Homepage: `https://github.com/beforeload/zero-tab`

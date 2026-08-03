@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <rect x="4" y="4" width="120" height="120" rx="28" fill="#0A84FF"/>
-  <rect x="24" y="24" width="80" height="18" rx="9" fill="#FFFFFF" opacity="0.4"/>
-  <rect x="24" y="48" width="80" height="56" rx="14" fill="#FFFFFF"/>
-  <path d="M42 66H86L42 88H86" fill="none" stroke="#0A84FF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="zt-surface" x1="64" y1="0" x2="64" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4AA8FF"/>
+      <stop offset="1" stop-color="#0A66E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="29" fill="url(#zt-surface)"/>
+  <rect x="27" y="25" width="42" height="15" rx="7.5" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="27" y="46" width="74" height="57" rx="14" fill="#FFFFFF"/>
+  <path d="M47 61h34L47 88h34" fill="none" stroke="#0A66E8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,12 +1,12 @@
 # Zero Tab Chrome Web Store Publishing Checklist
 
-## Replace placeholders
+## Publisher details
 
-- [ ] `REPLACE_WITH_PUBLISHER_NAME`
-- [ ] `REPLACE_WITH_SUPPORT_EMAIL`
-- [ ] `REPLACE_WITH_REPOSITORY_URL`
-- [ ] `REPLACE_WITH_HOMEPAGE_URL`
-- [ ] `REPLACE_WITH_PRIVACY_POLICY_URL`
+- [x] Publisher name: Daniel
+- [x] Support email: fe.daniel91@gmail.com
+- [x] Repository: https://github.com/beforeload/zero-tab
+- [x] Homepage: https://github.com/beforeload/zero-tab
+- [x] Privacy policy URL: https://beforeload.github.io/zero-tab/privacy.html
 
 Search before publishing:
 
@@ -23,42 +23,50 @@ rg "REPLACE_WITH_" .
 
 ## Product and package
 
-- [ ] Confirm extension name is Zero Tab
-- [ ] Confirm manifest version is higher than the previous upload
+- [x] Confirm extension name is Zero Tab
+- [x] Confirm manifest version is `1.2.0`
 - [ ] Run automated tests
 - [ ] Load the release package locally and test all features
-- [ ] Confirm ZIP root contains `manifest.json`
-- [ ] Confirm ZIP does not contain `.pem`, `.git`, tests, personal config, or `.DS_Store`
+- [x] Confirm ZIP root contains `manifest.json`
+- [x] Confirm ZIP does not contain `.pem`, `.git`, tests, personal config, or `.DS_Store`
 - [ ] Keep `dist/zero-tab.pem` private and never upload it
+
+Generate package:
+
+```bash
+./store/assets/generate-assets.sh
+```
 
 ## Store listing
 
-- [ ] Upload 128×128 store icon
-- [ ] Upload at least one 1280×800 screenshot
-- [ ] Upload required 440×280 small promo tile
-- [ ] Add English listing
-- [ ] Add Simplified Chinese localization
+- [x] Prepare 128×128 store icon
+- [x] Prepare at least one 1280×800 screenshot
+- [x] Prepare required 440×280 small promo tile
+- [x] Add English listing copy
+- [x] Add Simplified Chinese localization copy
+- [ ] Upload assets in the Chrome Developer Dashboard
 - [ ] Set category to Productivity
 - [ ] Add support email
 - [ ] Add homepage URL
 - [ ] Add privacy policy URL
+- [ ] Enable GitHub Pages from `/docs` so `docs/privacy.html` is reachable
 
 ## Privacy practices
 
-- [ ] Declare the extension's single purpose
-- [ ] Explain local handling of tab URLs and titles
-- [ ] Explain Saved for later storage
-- [ ] Disclose optional GitHub feed requests
-- [ ] State that no browsing data is included in feed requests
-- [ ] Certify Limited Use compliance
-- [ ] Confirm no analytics, advertising, or data sale
+- [x] Declare the extension's single purpose
+- [x] Explain local handling of tab URLs and titles
+- [x] Explain Saved for later storage
+- [x] Disclose optional GitHub feed requests
+- [x] State that no browsing data is included in feed requests
+- [ ] Certify Limited Use compliance in the dashboard
+- [x] Confirm no analytics, advertising, or data sale in policy text
 
 ## Distribution and review
 
 - [ ] Select target countries
 - [ ] Select public/unlisted/private visibility
-- [ ] Add reviewer test instructions
-- [ ] Add permission and remote-data review notes
+- [x] Add reviewer test instructions
+- [x] Add permission and remote-data review notes
 - [ ] Choose automatic or deferred publishing
 - [ ] Submit for review
 - [ ] Monitor the publisher email for review questions
@@ -66,3 +74,5 @@ rg "REPLACE_WITH_" .
 ## Known publication decision
 
 The first release includes AI Builder Daily Report. Its listing and review notes position it as part of one developer-focused new-tab workspace. The Follow Builders data source currently lacks a repository-level license; obtain written permission for public feed display before final publication.
+
+See [`SUBMISSION_GUIDE.md`](SUBMISSION_GUIDE.md) for the full submission walkthrough.

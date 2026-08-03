@@ -1,0 +1,38 @@
+/* Forces the dark palette for screenshot capture. Values are copied verbatim
+   from the prefers-color-scheme: dark block in extension/style.css, which
+   headless Chrome cannot trigger from the command line. */
+
+:root {
+  color-scheme: dark;
+  --bg: #1c1c1e;
+  --bg-tint: rgba(10, 132, 255, 0.12);
+  --surface: rgba(44, 44, 46, 0.76);
+  --surface-solid: #2c2c2e;
+  --surface-muted: rgba(255, 255, 255, 0.06);
+  --surface-hover: rgba(255, 255, 255, 0.1);
+  --surface-active: rgba(10, 132, 255, 0.18);
+  --text: rgba(255, 255, 255, 0.94);
+  --text-secondary: rgba(235, 235, 245, 0.68);
+  --text-tertiary: rgba(235, 235, 245, 0.38);
+  --separator: rgba(84, 84, 88, 0.64);
+  --separator-strong: rgba(99, 99, 102, 0.82);
+  --blue: #0a84ff;
+  --green: #30d158;
+  --orange: #ff9f0a;
+  --red: #ff453a;
+  --blue-tint: rgba(10, 132, 255, 0.18);
+  --green-tint: rgba(48, 209, 88, 0.16);
+  --orange-tint: rgba(255, 159, 10, 0.18);
+  --red-tint: rgba(255, 69, 58, 0.16);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.18), 0 12px 36px rgba(0, 0, 0, 0.2);
+  --shadow-float: 0 20px 56px rgba(0, 0, 0, 0.42);
+  --ink: var(--text);
+  --paper: var(--bg);
+  --warm-gray: var(--separator);
+  --muted: var(--text-secondary);
+  --accent-amber: var(--orange);
+  --accent-sage: var(--green);
+  --status-active: var(--green);
+  --status-abandoned: var(--red);
+  --card-bg: var(--surface-solid);
+}

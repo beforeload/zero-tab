@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zero Tab — daily report screenshot</title>
+  <link rel="stylesheet" href="../../../extension/style.css">
+  <link rel="stylesheet" href="mock-dark-theme.css">
+  <link rel="stylesheet" href="mock-shared.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="header-left">
+      <h1>Good evening</h1>
+      <div class="date">Monday, August 3, 2026</div>
+    </div>
+    <div class="header-stats">
+      <div class="stat">
+        <div class="stat-num">12</div>
+        <div class="stat-label">Open tabs</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="builder-digest">
+    <div class="builder-digest-toolbar">
+      <div class="builder-digest-heading">
+        <div class="builder-digest-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3.75v16.5M3.75 12h16.5M6.17 6.17l11.66 11.66M17.83 6.17 6.17 17.83"/>
+          </svg>
+        </div>
+        <div>
+          <h2>AI Builder Daily Report</h2>
+          <div class="builder-digest-meta">Feed updated Aug 3, 09:20</div>
+        </div>
+      </div>
+      <div class="builder-digest-actions">
+        <button class="toolbar-button" type="button" title="Refresh report">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M20 11a8.1 8.1 0 0 0-15.5-3M4 4v4h4M4 13a8.1 8.1 0 0 0 15.5 3M20 20v-4h-4"/></svg>
+        </button>
+        <button class="toolbar-button translation-button" type="button" title="Translate to system language">
+          <span aria-hidden="true">文A</span>
+        </button>
+        <button class="toolbar-button" type="button" title="Collapse report">
+          <svg class="builder-digest-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="builder-digest-body">
+      <div class="builder-digest-status">Ordered newest first from the locally cached feed. Nothing is sent to a cloud AI service.</div>
+      <div class="builder-digest-items">
+        <article class="digest-item">
+          <div class="digest-item-top">
+            <div class="digest-item-meta">
+              <span class="digest-kind" data-kind="blog">Blog</span>
+              <span class="digest-freshness">today 09:12</span>
+            </div>
+          </div>
+          <a class="digest-item-title" href="#">Shipping smaller context windows for local coding agents</a>
+          <p class="digest-item-excerpt">Practical notes on trimming prompts, caching tool results, and keeping the edit loop under a second.</p>
+          <div class="digest-item-source">simonwillison.net</div>
+        </article>
+        <article class="digest-item">
+          <div class="digest-item-top">
+            <div class="digest-item-meta">
+              <span class="digest-kind" data-kind="x">X</span>
+              <span class="digest-freshness">today 08:04</span>
+            </div>
+          </div>
+          <a class="digest-item-title" href="#">Chrome's on-device Translator API is shipping to stable</a>
+          <p class="digest-item-excerpt">Useful for lightweight localization in extensions without sending page text to a cloud endpoint.</p>
+          <div class="digest-item-source">@addyosmani</div>
+        </article>
+        <article class="digest-item">
+          <div class="digest-item-top">
+            <div class="digest-item-meta">
+              <span class="digest-kind" data-kind="podcast">Podcast</span>
+              <span class="digest-freshness">yesterday 19:40</span>
+            </div>
+          </div>
+          <a class="digest-item-title" href="#">How teams evaluate coding agents in production</a>
+          <p class="digest-item-excerpt">Rollout guardrails, eval harnesses, and where humans still stay in the loop.</p>
+          <div class="digest-item-source">Latent Space</div>
+        </article>
+        <article class="digest-item is-read">
+          <div class="digest-item-top">
+            <div class="digest-item-meta">
+              <span class="digest-kind" data-kind="blog">Blog</span>
+              <span class="digest-freshness">yesterday 11:02</span>
+            </div>
+          </div>
+          <a class="digest-item-title" href="#">Designing local-first browser tools</a>
+          <p class="digest-item-excerpt">Why tab metadata should stay on the device, and how to keep every network call opt-in.</p>
+          <div class="digest-item-source">jvns.ca</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="dashboard-columns">
+    <div class="active-section">
+      <div class="section-header">
+        <h2>Right now</h2>
+        <div class="section-line"></div>
+        <div class="section-count">4 groups</div>
+      </div>
+
+      <div class="missions">
+        <div class="masonry-column">
+          <div class="mission-card domain-card has-neutral-bar">
+            <div class="mission-content">
+              <div class="mission-top">
+                <div class="mission-heading">
+                  <span class="mission-name">Homepages</span>
+                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>3 tabs open</span>
+                </div>
+                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
+              </div>
+              <div class="mission-pages">
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="red"></span><span class="chip-text">Gmail</span></div>
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">GitHub</span></div>
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">X</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-column">
+          <div class="mission-card domain-card has-amber-bar">
+            <div class="mission-content">
+              <div class="mission-top">
+                <div class="mission-heading">
+                  <span class="mission-name">github.com</span>
+                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>3 tabs open</span>
+                  <span class="open-tabs-badge is-duplicate">1 duplicate</span>
+                </div>
+                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
+              </div>
+              <div class="mission-pages">
+                <div class="page-chip clickable chip-has-dupes"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Pull requests</span> <span class="chip-dupe-badge">(2x)</span></div>
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Actions</span></div>
+              </div>
+              <div class="actions">
+                <button class="action-btn">Close 1 duplicate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-column">
+          <div class="mission-card domain-card has-neutral-bar">
+            <div class="mission-content">
+              <div class="mission-top">
+                <div class="mission-heading">
+                  <span class="mission-name">localhost</span>
+                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>3 tabs open</span>
+                </div>
+                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
+              </div>
+              <div class="mission-pages">
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">3000 Dashboard</span></div>
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">5173 Vite dev</span></div>
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">8080 API docs</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry-column">
+          <div class="mission-card domain-card has-neutral-bar">
+            <div class="mission-content">
+              <div class="mission-top">
+                <div class="mission-heading">
+                  <span class="mission-name">docs.anthropic.com</span>
+                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>2 tabs open</span>
+                </div>
+                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
+              </div>
+              <div class="mission-pages">
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Tool use</span></div>
+                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Prompt caching</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deferred-column">
+      <div class="section-header">
+        <h2>Saved for later</h2>
+        <div class="section-line"></div>
+        <div class="section-count">3</div>
+      </div>
+      <div class="deferred-list">
+        <label class="deferred-item"><input class="deferred-checkbox" type="checkbox"><span class="deferred-title"><span class="chip-favicon" data-c="dark"></span>Chrome Web Store review checklist</span></label>
+        <label class="deferred-item"><input class="deferred-checkbox" type="checkbox"><span class="deferred-title"><span class="chip-favicon" data-c="blue"></span>Manifest V3 migration notes</span></label>
+        <label class="deferred-item"><input class="deferred-checkbox" type="checkbox"><span class="deferred-title"><span class="chip-favicon" data-c="green"></span>Translator API availability table</span></label>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

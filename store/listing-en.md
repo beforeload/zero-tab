@@ -44,9 +44,9 @@ AI Builder Daily Report never uploads browsing data. Its optional requests conta
 
 ## Support and links
 
-**Support email:** `REPLACE_WITH_SUPPORT_EMAIL`  
-**Homepage:** `REPLACE_WITH_HOMEPAGE_URL`  
-**Privacy policy:** `REPLACE_WITH_PRIVACY_POLICY_URL`
+**Support email:** `fe.daniel91@gmail.com`  
+**Homepage:** `https://github.com/beforeload/zero-tab`  
+**Privacy policy:** `https://beforeload.github.io/zero-tab/privacy.html`
 
 ## Attribution
 

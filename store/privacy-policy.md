@@ -1,8 +1,8 @@
 # Zero Tab Privacy Policy
 
 **Effective date:** July 25, 2026  
-**Publisher:** `REPLACE_WITH_PUBLISHER_NAME`  
-**Contact:** `REPLACE_WITH_SUPPORT_EMAIL`
+**Publisher:** Daniel  
+**Contact:** `fe.daniel91@gmail.com`
 
 Zero Tab is a local-first Chrome extension that replaces the new tab page with a dashboard for organizing open tabs.
 
@@ -71,4 +71,4 @@ This policy may be updated when Zero Tab's behavior changes. The effective date 
 
 ## Contact
 
-Questions or privacy requests: `REPLACE_WITH_SUPPORT_EMAIL`
+Questions or privacy requests: `fe.daniel91@gmail.com`

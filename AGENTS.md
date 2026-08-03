@@ -27,7 +27,7 @@ Before doing anything technical, tell the user what they're about to get:
 ## Step 1 -- Clone the repo
 
 ```bash
-git clone REPLACE_WITH_REPOSITORY_URL
+git clone https://github.com/beforeload/zero-tab.git
 cd zero-tab
 ```
 
