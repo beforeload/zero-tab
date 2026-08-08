@@ -1,8 +1,8 @@
 # Zero Tab
 
-**Your tabs, under control.**
+**Your browser, organized as a personal workstation.**
 
-Zero Tab replaces Chrome's new tab page with a local-first developer dashboard. It groups open tabs by domain, protects pinned tabs, clears duplicates, saves links for later, and optionally shows a locally ranked AI Builder Daily Report.
+Zero Tab replaces Chrome's new tab page with a local-first personal workstation. It groups open tabs by domain, protects pinned tabs, clears duplicates, saves links for later, and provides an optional AI Builder Daily Report in an independent right-side drawer.
 
 No server and no account are required. Open-tab URLs, titles, and saved links stay on the device.
 
@@ -14,9 +14,11 @@ No server and no account are required. Open-tab URLs, titles, and saved links st
 - Global and per-domain duplicate cleanup
 - Pinned-tab protection
 - Saved for later checklist and archive
+- Built-in card registry with locally persisted visibility and collapsed state
+- Local, deterministic daily horoscope by zodiac sign
 - Localhost port labels
 - macOS-inspired light and dark themes
-- Optional AI Builder Daily Report sourced from public Follow Builders feeds
+- Full-height AI Builder Daily Report drawer sourced from public Follow Builders feeds
 - Optional on-device translation through Chrome's built-in Translator API
 
 ## Install locally
@@ -28,10 +30,17 @@ No server and no account are required. Open-tab URLs, titles, and saved links st
    cd zero-tab
    ```
 
-2. Open `chrome://extensions`.
-3. Enable Developer mode.
-4. Click **Load unpacked**.
-5. Select the `extension/` directory.
+2. Install dependencies and build:
+
+   ```bash
+   npm install
+   npm run build
+   ```
+
+3. Open `chrome://extensions`.
+4. Enable Developer mode.
+5. Click **Load unpacked**.
+6. Select the `dist/extension/` directory.
 
 ## Privacy
 
@@ -60,10 +69,23 @@ Chrome Web Store submission walkthrough.
 ## Technology
 
 - Chrome Manifest V3
-- Vanilla JavaScript and CSS
+- React, TypeScript, and Vite
 - `chrome.tabs`, `chrome.storage.local`, and Chrome favicon API
 - Optional Chrome Translator API
 - Web Audio API and CSS animation
+
+## Development
+
+```bash
+npm test
+npm run typecheck
+npm run build
+```
+
+The production-ready unpacked extension is written to `dist/extension/`.
+The previous Vanilla implementation remains in `extension/` as a migration
+reference while the remaining publishing assets are moved to the new source
+tree.
 
 ## Attribution and license
 

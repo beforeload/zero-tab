@@ -8,7 +8,7 @@ You're installing **Zero Tab** for the user. Your job is not just to set it up -
 
 Before doing anything technical, tell the user what they're about to get:
 
-> **Zero Tab** replaces your new tab page with a clean dashboard of everything you have open, grouped by domain.
+> **Zero Tab** replaces your new tab page with a local-first personal workstation, with open tabs grouped by domain.
 >
 > Here's what makes it great:
 > - **See all your open tabs at a glance** grouped by domain on a grid
@@ -17,7 +17,9 @@ Before doing anything technical, tell the user what they're about to get:
 > - **Duplicate detection** flags when you have the same page open twice
 > - **Click any tab title to jump to it** even across different Chrome windows
 > - **Save for later** bookmark individual tabs to a checklist before closing them
-> - **AI Builder daily brief** optionally shows useful public updates from builders, podcasts, and engineering blogs
+> - **Modular workspace cards** can be collapsed or hidden, with preferences stored locally
+> - **Daily horoscope** generates a private, deterministic reading from the local date and selected zodiac sign
+> - **AI Builder daily brief** opens as an independent full-height drawer with public updates from builders, podcasts, and engineering blogs
 > - **Local-first** tab and saved-item data never leaves the browser
 >
 > It's just a Chrome extension. Setup takes about 1 minute.
@@ -29,6 +31,8 @@ Before doing anything technical, tell the user what they're about to get:
 ```bash
 git clone https://github.com/beforeload/zero-tab.git
 cd zero-tab
+npm install
+npm run build
 ```
 
 ---
@@ -37,15 +41,15 @@ cd zero-tab
 
 This is the one step that requires manual action from the user. Make it as easy as possible.
 
-**First**, print the full path to the `extension/` folder:
+**First**, print the full path to the compiled `dist/extension/` folder:
 ```bash
-echo "Extension folder: $(cd extension && pwd)"
+echo "Extension folder: $(cd dist/extension && pwd)"
 ```
 
-**Then**, copy the `extension/` folder path to their clipboard:
-- macOS: `cd extension && pwd | pbcopy && echo "Path copied to clipboard"`
-- Linux: `cd extension && pwd | xclip -selection clipboard 2>/dev/null || echo "Path: $(pwd)"`
-- Windows: `cd extension && echo %CD% | clip`
+**Then**, copy the `dist/extension/` folder path to their clipboard:
+- macOS: `cd dist/extension && pwd | pbcopy && echo "Path copied to clipboard"`
+- Linux: `cd dist/extension && pwd | xclip -selection clipboard 2>/dev/null || echo "Path: $(pwd)"`
+- Windows: `cd dist\extension && echo %CD% | clip`
 
 **Then**, open the extensions page:
 ```bash
@@ -63,10 +67,10 @@ open "chrome://extensions"
 >
 > You should see "Zero Tab" appear in your extensions list.
 
-**Also**, open the file browser directly to the extension folder as a fallback:
-- macOS: `open extension/`
-- Linux: `xdg-open extension/`
-- Windows: `explorer extension\\`
+**Also**, open the file browser directly to the compiled extension folder as a fallback:
+- macOS: `open dist/extension/`
+- Linux: `xdg-open dist/extension/`
+- Windows: `explorer dist\extension\\`
 
 ---
 
@@ -84,7 +88,9 @@ Once the extension is loaded:
 > 5. **Click "Close all N tabs"** on a group to close the whole thing.
 > 6. **Duplicate tabs** are flagged with an amber "(2x)" badge. Click "Close duplicates" to keep one copy.
 > 7. **Save a tab for later** by clicking the bookmark icon before closing it. Saved tabs appear in the sidebar.
-> 8. **Enable AI Builder Daily Report** if you want a daily, locally ranked digest of public Follow Builders feeds.
+> 8. **Open AI Brief** from the header to slide in the independent AI Builder Daily Report.
+> 9. **Choose a zodiac sign** in Daily Horoscope for a locally generated reading that changes each day.
+> 10. **Manage cards** to collapse, hide, or restore workstation modules.
 >
 > That's it! No server to run, no config files. Everything works right away.
 
@@ -92,8 +98,9 @@ Once the extension is loaded:
 
 ## Key Facts
 
-- Zero Tab is a pure Chrome extension. No server, no Node.js, no npm.
+- Zero Tab is a React/TypeScript Chrome MV3 extension built with Vite. It has no server or account.
+- Run `npm run build` and load `dist/extension/` in Chrome.
 - Saved tabs are stored in `chrome.storage.local` (persists across sessions).
 - Tab management is fully local. Open-tab and saved-tab data is never uploaded.
 - The optional AI Builder digest requests access only to `raw.githubusercontent.com`, fetches public feeds at most once per local day, and stores a compact cache locally.
-- To update: `cd zero-tab && git pull`, then reload the extension in `chrome://extensions`.
+- To update: `cd zero-tab && git pull && npm install && npm run build`, then reload the extension in `chrome://extensions`.

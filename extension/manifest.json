@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Zero Tab",
-  "version": "1.2.0",
-  "description": "A local-first developer dashboard for organizing tabs, clearing duplicates, saving links, and reading AI builder updates.",
+  "version": "1.3.0",
+  "description": "A local-first personal workstation for organizing tabs, saved links, and builder updates.",
   "permissions": ["tabs", "storage", "favicon"],
   "optional_host_permissions": ["https://raw.githubusercontent.com/*"],
   "content_security_policy": {

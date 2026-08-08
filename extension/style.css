@@ -1,33 +1,33 @@
 :root {
   color-scheme: light dark;
-  --bg: #f5f5f7;
-  --bg-tint: rgba(0, 122, 255, 0.08);
-  --surface: rgba(255, 255, 255, 0.76);
-  --surface-solid: #ffffff;
-  --surface-muted: rgba(118, 118, 128, 0.08);
-  --surface-hover: rgba(118, 118, 128, 0.12);
-  --surface-active: rgba(0, 122, 255, 0.12);
-  --text: rgba(0, 0, 0, 0.88);
-  --text-secondary: rgba(60, 60, 67, 0.66);
-  --text-tertiary: rgba(60, 60, 67, 0.42);
-  --separator: rgba(60, 60, 67, 0.16);
-  --separator-strong: rgba(60, 60, 67, 0.24);
-  --blue: #007aff;
-  --green: #34c759;
-  --orange: #ff9500;
-  --red: #ff3b30;
-  --blue-tint: rgba(0, 122, 255, 0.12);
-  --green-tint: rgba(52, 199, 89, 0.13);
-  --orange-tint: rgba(255, 149, 0, 0.14);
-  --red-tint: rgba(255, 59, 48, 0.12);
-  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 30px rgba(0, 0, 0, 0.06);
-  --shadow-float: 0 16px 44px rgba(0, 0, 0, 0.16);
-  --radius-window: 20px;
-  --radius-card: 14px;
-  --radius-control: 9px;
-  --blur: saturate(180%) blur(24px);
-  --font-text: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  --bg: #f0eee6;
+  --bg-tint: transparent;
+  --surface: #faf9f5;
+  --surface-solid: #faf9f5;
+  --surface-muted: #e8e6dc;
+  --surface-hover: #dfddd3;
+  --surface-active: #f3e0d8;
+  --text: #141413;
+  --text-secondary: #56544d;
+  --text-tertiary: #89867d;
+  --separator: #d1cfc5;
+  --separator-strong: #b6b2a7;
+  --blue: #d97757;
+  --green: #6b8a6f;
+  --orange: #c37845;
+  --red: #a34f42;
+  --blue-tint: #f3e0d8;
+  --green-tint: #e1e8df;
+  --orange-tint: #f1e3d5;
+  --red-tint: #f2dfda;
+  --shadow-card: 0 1px 0 rgba(20, 20, 19, 0.04);
+  --shadow-float: 0 18px 50px rgba(50, 43, 34, 0.14);
+  --radius-window: 14px;
+  --radius-card: 9px;
+  --radius-control: 6px;
+  --blur: none;
+  --font-text: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: Georgia, "Times New Roman", "Songti SC", "Source Han Serif SC", serif;
 
   /* Compatibility aliases for inline animation code and older templates. */
   --ink: var(--text);
@@ -43,28 +43,28 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1c1c1e;
-    --bg-tint: rgba(10, 132, 255, 0.12);
-    --surface: rgba(44, 44, 46, 0.76);
-    --surface-solid: #2c2c2e;
-    --surface-muted: rgba(255, 255, 255, 0.06);
-    --surface-hover: rgba(255, 255, 255, 0.1);
-    --surface-active: rgba(10, 132, 255, 0.18);
-    --text: rgba(255, 255, 255, 0.94);
-    --text-secondary: rgba(235, 235, 245, 0.68);
-    --text-tertiary: rgba(235, 235, 245, 0.38);
-    --separator: rgba(84, 84, 88, 0.64);
-    --separator-strong: rgba(99, 99, 102, 0.82);
-    --blue: #0a84ff;
-    --green: #30d158;
-    --orange: #ff9f0a;
-    --red: #ff453a;
-    --blue-tint: rgba(10, 132, 255, 0.18);
-    --green-tint: rgba(48, 209, 88, 0.16);
-    --orange-tint: rgba(255, 159, 10, 0.18);
-    --red-tint: rgba(255, 69, 58, 0.16);
-    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.18), 0 12px 36px rgba(0, 0, 0, 0.2);
-    --shadow-float: 0 20px 56px rgba(0, 0, 0, 0.42);
+    --bg: #191918;
+    --bg-tint: transparent;
+    --surface: #23221f;
+    --surface-solid: #23221f;
+    --surface-muted: #2d2c28;
+    --surface-hover: #383630;
+    --surface-active: #49352d;
+    --text: #efeae0;
+    --text-secondary: #b8b3a8;
+    --text-tertiary: #817d74;
+    --separator: #3d3b35;
+    --separator-strong: #555149;
+    --blue: #e08062;
+    --green: #87a18a;
+    --orange: #d29261;
+    --red: #c66e5f;
+    --blue-tint: #49352d;
+    --green-tint: #2f3a30;
+    --orange-tint: #44372d;
+    --red-tint: #452f2c;
+    --shadow-card: 0 1px 0 rgba(0, 0, 0, 0.24);
+    --shadow-float: 0 22px 58px rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -88,9 +88,7 @@ body {
   color: var(--text);
   font-family: var(--font-text);
   -webkit-font-smoothing: antialiased;
-  background:
-    radial-gradient(circle at 12% -8%, var(--bg-tint), transparent 34rem),
-    var(--bg);
+  background: var(--bg);
 }
 
 button,

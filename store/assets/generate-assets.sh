@@ -78,20 +78,16 @@ capture_screenshot "$SCREENSHOTS/mock-dashboard-light.html" "$SCREENSHOTS/zero-t
 capture_screenshot "$SCREENSHOTS/mock-dashboard-dark.html" "$SCREENSHOTS/zero-tab-report-dark-1280x800.png"
 
 echo "Building Web Store ZIP..."
+npm --prefix "$ROOT" run build
 rm -f "$ROOT/dist/zero-tab-webstore-$VERSION.zip"
-# Staged so the released package never carries the developer's personal
-# config.local.js, while index.html still finds the file it references.
+# Stage the compiled MV3 extension so source files and local configuration
+# never leak into the Web Store package.
 STAGE="$(mktemp -d "/tmp/zero-tab-package.XXXXXX")/extension"
 mkdir -p "$STAGE"
 rsync -a \
-  --exclude "config.local.js" \
   --exclude ".DS_Store" \
   --exclude "icons/*.svg" \
-  "$ROOT/extension/" "$STAGE/"
-cat > "$STAGE/config.local.js" <<'STUB'
-// Optional personal configuration hook. Released builds ship it empty so the
-// page never requests a missing file. See README for the available globals.
-STUB
+  "$ROOT/dist/extension/" "$STAGE/"
 (
   cd "$STAGE"
   zip -qr "$ROOT/dist/zero-tab-webstore-$VERSION.zip" .
