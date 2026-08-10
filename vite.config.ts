@@ -23,7 +23,7 @@ function copyExtensionAssets(): Plugin {
       const manifest = JSON.parse(
         readFileSync(resolve(extensionSource, 'manifest.json'), 'utf8'),
       ) as Record<string, unknown>;
-      manifest.version = '1.3.0';
+      manifest.version = '1.4.0';
       manifest.description =
         'A local-first personal workstation for organizing tabs, saved links, and builder updates.';
       writeFileSync(

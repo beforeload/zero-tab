@@ -1,233 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="terracotta">
 <head>
   <meta charset="UTF-8">
-  <title>Zero Tab — dashboard screenshot</title>
+  <title>Zero Tab — workstation screenshot</title>
   <link rel="stylesheet" href="../../../extension/style.css">
-  <link rel="stylesheet" href="mock-shared.css">
+  <link rel="stylesheet" href="../../../src/workstation.css">
+  <link rel="stylesheet" href="mock-workstation.css">
 </head>
 <body>
-<div class="container">
-  <header>
+<div class="container workstation">
+  <header class="workstation-header">
     <div class="header-left">
       <h1>Good afternoon</h1>
-      <div class="date">Monday, August 3, 2026</div>
+      <div class="date">Monday, August 10, 2026</div>
     </div>
-    <div class="header-stats">
-      <div class="stat">
-        <div class="stat-num">21</div>
-        <div class="stat-label">Open tabs</div>
+    <div class="header-controls">
+      <div class="header-stats">
+        <div class="stat">
+          <div class="stat-num">18</div>
+          <div class="stat-label">Open tabs</div>
+        </div>
       </div>
+      <div class="theme-picker workstation-theme-picker is-open">
+        <button class="header-action theme-toggle workstation-theme-toggle" aria-label="Change theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18 3 3 0 0 0 0-6 1.5 1.5 0 0 1 0-3 3 3 0 0 0 0-6Z"/></svg>
+        </button>
+        <div class="theme-menu workstation-theme-menu mock-theme-menu">
+          <div class="theme-menu-label">Theme</div>
+          <button class="theme-option is-active"><span class="theme-swatch" data-swatch="terracotta"></span><span class="theme-option-name">Terracotta</span><span class="theme-option-check">✓</span></button>
+          <button class="theme-option"><span class="theme-swatch" data-swatch="dark"></span><span class="theme-option-name">Charcoal</span></button>
+          <button class="theme-option"><span class="theme-swatch" data-swatch="sage"></span><span class="theme-option-name">Sage</span></button>
+          <button class="theme-option"><span class="theme-swatch" data-swatch="slate"></span><span class="theme-option-name">Slate</span></button>
+        </div>
+      </div>
+      <button class="header-action">Manage cards</button>
+      <button class="header-action ai-brief-trigger">AI Brief</button>
     </div>
   </header>
 
-  <div class="dashboard-columns">
-    <div class="active-section">
-      <div class="section-header">
-        <h2>Right now</h2>
-        <div class="section-line"></div>
-        <div class="section-count">10 groups</div>
+  <main class="workstation-grid has-sidebar">
+    <section class="workstation-card open-tabs-card">
+      <div class="workstation-card-header">
+        <div class="workstation-card-heading"><h2>Open tabs</h2><span class="section-count">6 domains</span></div>
+        <div class="workstation-card-actions">
+          <button class="action-btn compact-action duplicate-tabs">Close duplicates</button>
+          <button class="action-btn compact-action close-tabs">Close 17 unpinned</button>
+          <button class="toolbar-button">⌃</button>
+        </div>
       </div>
-
-      <div class="missions">
-        <div class="masonry-column">
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">Homepages</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>5 tabs open</span>
+      <div class="workstation-card-body">
+        <div class="missions react-masonry">
+          <div class="masonry-column">
+            <article class="mission-card domain-card has-neutral-bar">
+              <div class="mission-content">
+                <div class="mission-top"><div class="mission-heading"><span class="mission-name">Homepages</span><span class="open-tabs-badge">5 tabs open</span></div><button class="card-close-button">×</button></div>
+                <div class="mission-pages">
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="red"></span><span class="chip-text">Gmail</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">GitHub</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="red"></span><span class="chip-text">YouTube</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="blue"></span><span class="chip-text">LinkedIn</span><span class="chip-actions">×</span></div>
                 </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
               </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="red"></span><span class="chip-text">Gmail</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">GitHub</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="red"></span><span class="chip-text">YouTube</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">X</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="blue"></span><span class="chip-text">LinkedIn</span></div>
+            </article>
+            <article class="mission-card domain-card has-neutral-bar">
+              <div class="mission-content">
+                <div class="mission-top"><div class="mission-heading"><span class="mission-name">linear.app</span><span class="open-tabs-badge">2 tabs open</span></div><button class="card-close-button">×</button></div>
+                <div class="mission-pages">
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="purple"></span><span class="chip-text">Product roadmap</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="purple"></span><span class="chip-text">Sprint board</span><span class="chip-actions">×</span></div>
+                </div>
               </div>
-            </div>
+            </article>
           </div>
 
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">vercel.com</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>2 tabs open</span>
+          <div class="masonry-column">
+            <article class="mission-card domain-card has-amber-bar">
+              <div class="mission-content">
+                <div class="mission-top"><div class="mission-heading"><span class="mission-name">github.com</span><span class="open-tabs-badge">4 tabs open</span><span class="open-tabs-badge is-duplicate">1 duplicate</span></div><button class="card-close-button">×</button></div>
+                <div class="mission-pages">
+                  <div class="page-chip clickable chip-has-dupes"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Pull requests</span><span class="chip-dupe-badge">(2x)</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Issues</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Actions</span><span class="chip-actions">×</span></div>
                 </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
+                <div class="actions"><button class="action-btn">Close 1 duplicate</button></div>
               </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Deployments</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Build logs</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="masonry-column">
-          <div class="mission-card domain-card has-amber-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">github.com</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>4 tabs open</span>
-                  <span class="open-tabs-badge is-duplicate">1 duplicate</span>
+            </article>
+            <article class="mission-card domain-card has-neutral-bar">
+              <div class="mission-content">
+                <div class="mission-top"><div class="mission-heading"><span class="mission-name">notion.so</span><span class="open-tabs-badge">2 tabs open</span></div><button class="card-close-button">×</button></div>
+                <div class="mission-pages">
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Release notes</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Research notes</span><span class="chip-actions">×</span></div>
                 </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
               </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable chip-has-dupes"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Pull requests</span> <span class="chip-dupe-badge">(2x)</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Issues</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Actions</span></div>
-              </div>
-              <div class="actions">
-                <button class="action-btn">Close 1 duplicate</button>
-              </div>
-            </div>
+            </article>
           </div>
 
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">linear.app</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>2 tabs open</span>
+          <div class="masonry-column">
+            <article class="mission-card domain-card has-neutral-bar">
+              <div class="mission-content">
+                <div class="mission-top"><div class="mission-heading"><span class="mission-name">localhost</span><span class="open-tabs-badge">3 tabs open</span></div><button class="card-close-button">×</button></div>
+                <div class="mission-pages">
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">3000 Dashboard</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">5173 Vite dev</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">8080 API docs</span><span class="chip-actions">×</span></div>
                 </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
               </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="purple"></span><span class="chip-text">Sprint board</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="purple"></span><span class="chip-text">My issues</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="masonry-column">
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">localhost</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>3 tabs open</span>
+            </article>
+            <article class="mission-card domain-card has-neutral-bar">
+              <div class="mission-content">
+                <div class="mission-top"><div class="mission-heading"><span class="mission-name">docs.anthropic.com</span><span class="open-tabs-badge">2 tabs open</span></div><button class="card-close-button">×</button></div>
+                <div class="mission-pages">
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Tool use</span><span class="chip-actions">×</span></div>
+                  <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Prompt caching</span><span class="chip-actions">×</span></div>
                 </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
               </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">3000 Dashboard</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">5173 Vite dev</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="green"></span><span class="chip-text">8080 API docs</span></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">notion.so</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>2 tabs open</span>
-                </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
-              </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Release notes</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="dark"></span><span class="chip-text">Roadmap</span></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">figma.com</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>1 tab open</span>
-                </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
-              </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Icon specs</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="masonry-column">
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">docs.anthropic.com</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>2 tabs open</span>
-                </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
-              </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Tool use</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Prompt caching</span></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">news.ycombinator.com</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>2 tabs open</span>
-                </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
-              </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Front page</span></div>
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">Show HN</span></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mission-card domain-card has-neutral-bar">
-            <div class="mission-content">
-              <div class="mission-top">
-                <div class="mission-heading">
-                  <span class="mission-name">stackoverflow.com</span>
-                  <span class="open-tabs-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18"/></svg>1 tab open</span>
-                </div>
-                <button class="card-close-button"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button>
-              </div>
-              <div class="mission-pages">
-                <div class="page-chip clickable"><span class="chip-favicon" data-c="orange"></span><span class="chip-text">CSS grid gap</span></div>
-              </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="deferred-column">
-      <div class="section-header">
-        <h2>Saved for later</h2>
-        <div class="section-line"></div>
-        <div class="section-count">4</div>
-      </div>
-      <div class="deferred-list">
-        <label class="deferred-item"><input class="deferred-checkbox" type="checkbox"><span class="deferred-title"><span class="chip-favicon" data-c="dark"></span>Chrome Web Store review checklist</span></label>
-        <label class="deferred-item"><input class="deferred-checkbox" type="checkbox"><span class="deferred-title"><span class="chip-favicon" data-c="blue"></span>Manifest V3 migration notes</span></label>
-        <label class="deferred-item"><input class="deferred-checkbox" type="checkbox"><span class="deferred-title"><span class="chip-favicon" data-c="green"></span>Translator API availability table</span></label>
-        <label class="deferred-item checked"><input class="deferred-checkbox" type="checkbox" checked><span class="deferred-title"><span class="chip-favicon" data-c="orange"></span>Follow Builders feed license</span></label>
-      </div>
-      <div class="deferred-archive">
-        <button class="archive-toggle">
-          <svg class="archive-chevron" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
-          Archive
-          <span class="archive-count">12</span>
-        </button>
-      </div>
-    </div>
-  </div>
+    <aside class="workstation-sidebar">
+      <section class="workstation-card saved-card">
+        <div class="workstation-card-header"><div class="workstation-card-heading"><h2>Saved for later</h2><span class="section-count">3 items</span></div><div class="workstation-card-actions">⌃ &nbsp; ×</div></div>
+        <div class="workstation-card-body">
+          <div class="deferred-list">
+            <div class="deferred-item"><input class="deferred-checkbox" type="checkbox"><div class="deferred-info"><span class="deferred-title">Chrome Web Store checklist</span><div class="deferred-meta"><span>developer.chrome.com</span><span>12 min ago</span></div></div></div>
+            <div class="deferred-item"><input class="deferred-checkbox" type="checkbox"><div class="deferred-info"><span class="deferred-title">Agent design patterns</span><div class="deferred-meta"><span>anthropic.com</span><span>2 hrs ago</span></div></div></div>
+            <div class="deferred-item"><input class="deferred-checkbox" type="checkbox"><div class="deferred-info"><span class="deferred-title">React release notes</span><div class="deferred-meta"><span>react.dev</span><span>yesterday</span></div></div></div>
+          </div>
+          <div class="deferred-archive"><button class="archive-toggle">Archive <span class="archive-count">(8)</span></button></div>
+        </div>
+      </section>
+
+      <section class="workstation-card horoscope-card">
+        <div class="workstation-card-header"><div class="workstation-card-heading"><h2>今日运势</h2><span class="section-count">狮子座</span></div><div class="workstation-card-actions">⌃ &nbsp; ×</div></div>
+        <div class="workstation-card-body">
+          <div class="horoscope-hero"><div class="horoscope-sign"><span>♌</span><div><strong>狮子座</strong><small>7.23–8.22</small></div></div><div class="horoscope-score"><strong>86</strong><small>综合指数</small></div></div>
+          <p class="horoscope-summary">今天适合把注意力放回真正重要的事情。</p>
+          <div class="horoscope-metrics"><div><span>事业</span><span class="horoscope-rating"><b class="is-active">◆ ◆ ◆ ◆</b> ◆</span></div><div><span>感情</span><span class="horoscope-rating"><b class="is-active">◆ ◆ ◆</b> ◆ ◆</span></div><div><span>能量</span><span class="horoscope-rating"><b class="is-active">◆ ◆ ◆ ◆</b> ◆</span></div></div>
+          <div class="horoscope-lucky"><div><span class="horoscope-color" style="background:#d97757"></span><span>陶土红</span></div><div><span class="horoscope-number">7</span><span>幸运数字</span></div></div>
+          <blockquote>完成一个小目标，比同时开启五件事更有力量。</blockquote>
+        </div>
+      </section>
+    </aside>
+  </main>
 </div>
 </body>
 </html>

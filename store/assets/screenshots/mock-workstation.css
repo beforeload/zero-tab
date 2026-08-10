@@ -1,0 +1,102 @@
+html,
+body {
+  width: 1280px;
+  min-width: 1280px;
+  height: 800px;
+  min-height: 800px;
+  overflow: hidden;
+}
+
+body {
+  padding: 28px 34px;
+}
+
+.workstation {
+  width: 100%;
+  max-width: none;
+}
+
+.workstation-header {
+  min-height: 78px;
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+}
+
+.workstation-header .header-left h1 {
+  font-size: 42px;
+}
+
+.header-controls {
+  pointer-events: none;
+}
+
+.mock-theme-menu {
+  display: block;
+  z-index: 140;
+}
+
+.workstation-grid {
+  gap: 14px;
+}
+
+.workstation-grid.has-sidebar {
+  grid-template-columns: minmax(0, 1fr) 310px;
+}
+
+.workstation-sidebar {
+  gap: 14px;
+}
+
+.workstation-card-header {
+  min-height: 54px;
+  padding-block: 11px;
+}
+
+.workstation-card-body {
+  padding: 12px;
+}
+
+.react-masonry {
+  --masonry-columns: 3;
+  gap: 10px;
+}
+
+.masonry-column {
+  gap: 10px;
+}
+
+.mission-content {
+  padding: 12px;
+}
+
+.page-chip {
+  min-height: 34px;
+}
+
+.chip-actions {
+  opacity: 1;
+}
+
+.saved-card .workstation-card-body {
+  padding: 10px;
+}
+
+.saved-card .deferred-item {
+  min-height: 48px;
+}
+
+.horoscope-card .workstation-card-body {
+  padding: 13px;
+}
+
+.digest-drawer {
+  width: 610px;
+}
+
+.digest-drawer-content {
+  padding-bottom: 20px;
+}
+
+.digest-changelog-item:nth-child(n + 6) {
+  display: none;
+}
