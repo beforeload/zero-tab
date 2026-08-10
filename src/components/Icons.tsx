@@ -37,6 +37,18 @@ export function SettingsIcon(props: IconProps) {
   );
 }
 
+export function PaletteIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 3a9 9 0 0 0 0 18 3 3 0 0 0 0-6 1.5 1.5 0 0 1 0-3 3 3 0 0 0 0-6Z" />
+      <circle cx="8.5" cy="9" r="0.8" fill="currentColor" stroke="none" />
+      <circle cx="12" cy="7.5" r="0.8" fill="currentColor" stroke="none" />
+      <circle cx="15.5" cy="9" r="0.8" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 export function ChevronIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>

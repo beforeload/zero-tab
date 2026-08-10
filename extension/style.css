@@ -41,8 +41,23 @@
   --card-bg: var(--surface-solid);
 }
 
+/* ================================================================
+   THEMES
+
+   The base :root above is the "Terracotta" theme (Anthropic warm
+   paper). Every component reads its colors through var(), so a theme
+   is nothing more than a fresh set of custom-property values.
+
+   - Auto dark (below) only applies when the user has NOT picked an
+     explicit theme, i.e. :root:not([data-theme]). Once a theme is
+     chosen it becomes authoritative and the OS preference is ignored.
+   - Explicit themes are keyed off :root[data-theme="..."], which
+     out-specifies the bare :root and thus overrides it per-property.
+     Any variable a theme doesn't redefine falls back to the base.
+   ================================================================ */
+
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     --bg: #191918;
     --bg-tint: transparent;
     --surface: #23221f;
@@ -66,6 +81,112 @@
     --shadow-card: 0 1px 0 rgba(0, 0, 0, 0.24);
     --shadow-float: 0 22px 58px rgba(0, 0, 0, 0.4);
   }
+}
+
+/* Terracotta — explicit light. Same values as the base :root, but
+   pinned so it wins over the OS dark preference when chosen. */
+:root[data-theme="terracotta"] {
+  --bg: #f0eee6;
+  --bg-tint: transparent;
+  --surface: #faf9f5;
+  --surface-solid: #faf9f5;
+  --surface-muted: #e8e6dc;
+  --surface-hover: #dfddd3;
+  --surface-active: #f3e0d8;
+  --text: #141413;
+  --text-secondary: #56544d;
+  --text-tertiary: #89867d;
+  --separator: #d1cfc5;
+  --separator-strong: #b6b2a7;
+  --blue: #d97757;
+  --green: #6b8a6f;
+  --orange: #c37845;
+  --red: #a34f42;
+  --blue-tint: #f3e0d8;
+  --green-tint: #e1e8df;
+  --orange-tint: #f1e3d5;
+  --red-tint: #f2dfda;
+  --shadow-card: 0 1px 0 rgba(20, 20, 19, 0.04);
+  --shadow-float: 0 18px 50px rgba(50, 43, 34, 0.14);
+}
+
+/* Charcoal — Anthropic deep dark: near-black warm ground, bone text,
+   warm-orange accent. */
+:root[data-theme="dark"] {
+  --bg: #191918;
+  --bg-tint: transparent;
+  --surface: #23221f;
+  --surface-solid: #23221f;
+  --surface-muted: #2d2c28;
+  --surface-hover: #383630;
+  --surface-active: #49352d;
+  --text: #efeae0;
+  --text-secondary: #b8b3a8;
+  --text-tertiary: #817d74;
+  --separator: #3d3b35;
+  --separator-strong: #555149;
+  --blue: #e08062;
+  --green: #87a18a;
+  --orange: #d29261;
+  --red: #c66e5f;
+  --blue-tint: #49352d;
+  --green-tint: #2f3a30;
+  --orange-tint: #44372d;
+  --red-tint: #452f2c;
+  --shadow-card: 0 1px 0 rgba(0, 0, 0, 0.24);
+  --shadow-float: 0 22px 58px rgba(0, 0, 0, 0.4);
+}
+
+/* Sage — muted sage-green tinted paper, green primary accent. */
+:root[data-theme="sage"] {
+  --bg: #eef1ea;
+  --bg-tint: transparent;
+  --surface: #f7f9f4;
+  --surface-solid: #f7f9f4;
+  --surface-muted: #e2e7dc;
+  --surface-hover: #d8ded1;
+  --surface-active: #dde7dc;
+  --text: #182019;
+  --text-secondary: #4c554b;
+  --text-tertiary: #7c857a;
+  --separator: #d0d6c9;
+  --separator-strong: #b3bcaa;
+  --blue: #5f8265;
+  --green: #5f8265;
+  --orange: #b07d4e;
+  --red: #a34f42;
+  --blue-tint: #dde7dc;
+  --green-tint: #dde7dc;
+  --orange-tint: #ece2d3;
+  --red-tint: #f0ddd8;
+  --shadow-card: 0 1px 0 rgba(24, 32, 25, 0.05);
+  --shadow-float: 0 18px 50px rgba(34, 43, 35, 0.14);
+}
+
+/* Slate — hazy blue-grey mist, cool slate-blue accent. */
+:root[data-theme="slate"] {
+  --bg: #ebedf0;
+  --bg-tint: transparent;
+  --surface: #f6f7f9;
+  --surface-solid: #f6f7f9;
+  --surface-muted: #e0e3e8;
+  --surface-hover: #d5d9df;
+  --surface-active: #dbe1e8;
+  --text: #16181c;
+  --text-secondary: #4d525a;
+  --text-tertiary: #7c828c;
+  --separator: #cdd1d8;
+  --separator-strong: #b0b5be;
+  --blue: #5c7392;
+  --green: #6b8a6f;
+  --orange: #b07d4e;
+  --red: #a34f42;
+  --blue-tint: #dbe1e8;
+  --green-tint: #e1e8df;
+  --orange-tint: #ece2d3;
+  --red-tint: #f0ddd8;
+  --shadow-card: 0 1px 0 rgba(22, 24, 28, 0.05);
+  --shadow-float: 0 18px 50px rgba(34, 38, 43, 0.14);
 }
 
 * {
@@ -118,6 +239,8 @@ input:focus-visible,
 
 /* Top toolbar */
 header {
+  position: relative;
+  z-index: 30;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -1336,3 +1459,129 @@ header,
 .digest-item.is-read:hover {
   opacity: 0.72;
 }
+
+
+/* ================================================================
+   THEME PICKER
+
+   A single quiet toolbar icon in the header. Clicking it reveals a
+   small popover of theme rows, each with a color swatch. Deliberately
+   understated — no gradients, glow, or oversized controls — so the
+   page still reads as a finished product with the picker closed.
+   ================================================================ */
+
+.theme-picker {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 0;
+  border-radius: 8px;
+  color: var(--text-tertiary);
+  background: transparent;
+  cursor: pointer;
+  transition: color 150ms ease, background 150ms ease;
+}
+
+.theme-toggle:hover,
+.theme-picker.is-open .theme-toggle {
+  color: var(--text-secondary);
+  background: var(--surface-hover);
+}
+
+.theme-toggle svg {
+  width: 16px;
+  height: 16px;
+}
+
+.theme-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 40;
+  min-width: 172px;
+  padding: 6px;
+  border: 1px solid var(--separator);
+  border-radius: var(--radius-card);
+  background: var(--surface-solid);
+  box-shadow: var(--shadow-float);
+}
+
+.theme-menu[hidden] {
+  display: none;
+}
+
+.theme-menu-label {
+  padding: 4px 8px 6px;
+  color: var(--text-tertiary);
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.theme-option {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 8px;
+  border: 0;
+  border-radius: var(--radius-control);
+  color: var(--text-secondary);
+  font-family: var(--font-text);
+  font-size: 13px;
+  text-align: left;
+  background: transparent;
+  cursor: pointer;
+  transition: color 120ms ease, background 120ms ease;
+}
+
+.theme-option:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+}
+
+.theme-option.is-active {
+  color: var(--text);
+}
+
+.theme-swatch {
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--separator-strong);
+  border-radius: 50%;
+  /* Two-tone: ground color as fill, accent as an inset dot. */
+  background:
+    radial-gradient(circle at 50% 50%, var(--swatch-accent) 0 42%, transparent 43%),
+    var(--swatch-bg);
+}
+
+.theme-option-name {
+  flex: 1 1 auto;
+}
+
+.theme-option-check {
+  flex: 0 0 auto;
+  width: 14px;
+  height: 14px;
+  color: var(--blue);
+  opacity: 0;
+}
+
+.theme-option.is-active .theme-option-check {
+  opacity: 1;
+}
+
+/* Swatch color pairs (ground + accent) for each preset. */
+.theme-swatch[data-swatch="terracotta"] { --swatch-bg: #f0eee6; --swatch-accent: #d97757; }
+.theme-swatch[data-swatch="dark"]        { --swatch-bg: #23221f; --swatch-accent: #e08062; }
+.theme-swatch[data-swatch="sage"]        { --swatch-bg: #eef1ea; --swatch-accent: #5f8265; }
+.theme-swatch[data-swatch="slate"]       { --swatch-bg: #ebedf0; --swatch-accent: #5c7392; }

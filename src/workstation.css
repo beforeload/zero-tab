@@ -95,6 +95,21 @@
   height: 15px;
 }
 
+.workstation-theme-picker {
+  flex: 0 0 auto;
+}
+
+.workstation-theme-toggle {
+  width: 38px;
+  min-width: 38px;
+  padding: 0;
+}
+
+.workstation-theme-menu {
+  z-index: 130;
+  animation: managerIn 160ms ease both;
+}
+
 .ai-brief-trigger {
   color: var(--blue);
   border-color: var(--blue);
