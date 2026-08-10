@@ -26,6 +26,7 @@ import { BuilderDigestDrawer } from './components/BuilderDigestDrawer';
 import { DailyHoroscopeCard } from './components/DailyHoroscopeCard';
 import { OpenTabsCard } from './components/OpenTabsCard';
 import { SavedForLaterCard } from './components/SavedForLaterCard';
+import { ThemePicker } from './components/ThemePicker';
 import { CloseIcon, SettingsIcon, SparklesIcon } from './components/Icons';
 import { BUILT_IN_CARDS, type CardId } from './cards/registry';
 
@@ -213,6 +214,7 @@ export default function App() {
                 <div className="stat-label">Open tabs</div>
               </div>
             </div>
+            <ThemePicker onChange={showToast} />
             <div className="header-action-wrap">
               <button
                 className="header-action"
