@@ -238,6 +238,11 @@
   overflow: auto;
   flex-direction: column;
   gap: 18px;
+  scrollbar-width: none;
+}
+
+.workstation-sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .workstation-card {

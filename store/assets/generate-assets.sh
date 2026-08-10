@@ -51,13 +51,13 @@ HTML
 }
 
 capture_screenshot() {
-  local page="$1" out="$2"
+  local page="$1" out="$2" width="${3:-1280}" height="${4:-800}"
   "$CHROME" \
     --headless=new \
     --disable-gpu \
     --hide-scrollbars \
     --force-device-scale-factor=1 \
-    --window-size=1280,800 \
+    --window-size="${width},${height}" \
     --screenshot="$out" \
     "file://$page" >/dev/null 2>&1
 }
@@ -76,6 +76,7 @@ render_svg "$ASSETS/zero-tab-promo-440x280.svg" "$ASSETS/zero-tab-promo-440x280.
 echo "Capturing store screenshots..."
 capture_screenshot "$SCREENSHOTS/mock-dashboard-light.html" "$SCREENSHOTS/zero-tab-dashboard-1280x800.png"
 capture_screenshot "$SCREENSHOTS/mock-dashboard-dark.html" "$SCREENSHOTS/zero-tab-report-dark-1280x800.png"
+capture_screenshot "$ASSETS/zero-tab-marquee-1400x560.html" "$ASSETS/zero-tab-marquee-1400x560.png" 1400 560
 
 echo "Building Web Store ZIP..."
 npm --prefix "$ROOT" run build
@@ -98,5 +99,6 @@ echo "Done."
 echo "Icons:       $ICONS"
 echo "Store icon:  $ASSETS/zero-tab-icon-128.png"
 echo "Promo:       $ASSETS/zero-tab-promo-440x280.png"
+echo "Marquee:     $ASSETS/zero-tab-marquee-1400x560.png"
 echo "Screenshots: $SCREENSHOTS"
 echo "Package:     $ROOT/dist/zero-tab-webstore-$VERSION.zip"
