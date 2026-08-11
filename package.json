@@ -3,10 +3,13 @@
   "version": "1.4.0",
   "description": "A local-first personal workstation for Chrome.",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "test": "node --test tests/*.test.js && vitest run",
+    "test": "TZ=UTC node --test tests/*.test.js && TZ=UTC vitest run",
     "typecheck": "tsc -b"
   },
   "repository": {
