@@ -11,9 +11,9 @@ export const DEFAULT_LAYOUT: WorkstationLayout = {
   },
 };
 
-export async function getLayout(): Promise<WorkstationLayout> {
-  const result = await chrome.storage.local.get(STORAGE_KEY);
-  const stored = result[STORAGE_KEY] as Partial<WorkstationLayout> | undefined;
+export function normalizeLayout(
+  stored?: Partial<WorkstationLayout> | null,
+): WorkstationLayout {
   return {
     ...DEFAULT_LAYOUT,
     ...stored,
@@ -33,6 +33,12 @@ export async function getLayout(): Promise<WorkstationLayout> {
       },
     },
   };
+}
+
+export async function getLayout(): Promise<WorkstationLayout> {
+  const result = await chrome.storage.local.get(STORAGE_KEY);
+  const stored = result[STORAGE_KEY] as Partial<WorkstationLayout> | undefined;
+  return normalizeLayout(stored);
 }
 
 export async function saveLayout(layout: WorkstationLayout): Promise<void> {
