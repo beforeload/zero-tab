@@ -105,9 +105,14 @@ test('merges duplicate items and drops entries older than 48 hours', () => {
 });
 
 test('detects local-day cache hits and stale feeds', () => {
+  // Use explicit UTC instants so the local-day check is stable across CI timezones.
   assert.equal(
-    digest.isSameLocalDay('2026-07-25T01:00:00+08:00', new Date('2026-07-25T20:00:00+08:00')),
+    digest.isSameLocalDay('2026-07-25T01:00:00.000Z', new Date('2026-07-25T20:00:00.000Z')),
     true,
+  );
+  assert.equal(
+    digest.isSameLocalDay('2026-07-24T23:00:00.000Z', new Date('2026-07-25T01:00:00.000Z')),
+    false,
   );
   assert.equal(
     digest.isStale({ feedGeneratedAt: '2026-07-22T00:00:00.000Z' }, NOW),
