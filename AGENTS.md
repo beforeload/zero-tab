@@ -102,5 +102,5 @@ Once the extension is loaded:
 - Run `npm run build` and load `dist/extension/` in Chrome.
 - Saved tabs are stored in `chrome.storage.local` (persists across sessions).
 - Tab management is fully local. Open-tab and saved-tab data is never uploaded.
-- The optional AI Builder digest requests access only to `raw.githubusercontent.com`, fetches public feeds at most once per local day, and stores a compact cache locally.
+- The optional AI Builder digest requests access only to `raw.githubusercontent.com`, fetches public feeds from this repository's `feeds` branch at most once per local day, and stores a compact cache locally.
 - To update: `cd zero-tab && git pull && npm install && npm run build`, then reload the extension in `chrome://extensions`.

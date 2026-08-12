@@ -7,3 +7,7 @@ dist/
 
 # Personal config (landing page patterns, etc.) — never push to GitHub
 extension/config.local.js
+
+# Local feed generation output; published only on the feeds branch
+builder-feeds/generated/
+tests/fixtures/out/

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Example Blog</title>
+    <item>
+      <title>Shipping smaller context windows</title>
+      <link>https://example.com/posts/context-windows</link>
+      <guid>https://example.com/posts/context-windows</guid>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 GMT</pubDate>
+      <description>Practical notes on trimming prompts and keeping the edit loop fast.</description>
+    </item>
+    <item>
+      <title>Local-first browser tools</title>
+      <link>https://example.com/posts/local-first</link>
+      <guid>https://example.com/posts/local-first</guid>
+      <pubDate>Sun, 09 Aug 2026 11:00:00 GMT</pubDate>
+      <description>Why tab metadata should stay on the device.</description>
+    </item>
+  </channel>
+</rss>

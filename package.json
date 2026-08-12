@@ -9,8 +9,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "test": "TZ=UTC node --test tests/*.test.js && TZ=UTC vitest run",
-    "typecheck": "tsc -b"
+    "test": "TZ=UTC node --test tests/*.test.js tests/*.test.mjs && TZ=UTC vitest run",
+    "typecheck": "tsc -b",
+    "generate:builder-feeds": "node scripts/generate-builder-feeds.mjs"
   },
   "repository": {
     "type": "git",

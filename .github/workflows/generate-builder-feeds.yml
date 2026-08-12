@@ -1,0 +1,72 @@
+name: Generate builder feeds
+
+on:
+  schedule:
+    # Daily at 01:15 UTC
+    - cron: '15 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-builder-feeds
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: generate · publish feeds
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate public feeds
+        run: npm run generate:builder-feeds
+
+      - name: Publish to feeds branch
+        run: |
+          set -euo pipefail
+          PUBLISH_DIR="${RUNNER_TEMP}/zero-tab-feeds"
+          rm -rf "$PUBLISH_DIR"
+          mkdir -p "$PUBLISH_DIR"
+
+          if git ls-remote --exit-code --heads origin feeds >/dev/null 2>&1; then
+            git fetch origin feeds
+            git worktree add "$PUBLISH_DIR" origin/feeds
+            git -C "$PUBLISH_DIR" checkout -B feeds
+          else
+            git worktree add --detach "$PUBLISH_DIR"
+            git -C "$PUBLISH_DIR" checkout --orphan feeds
+            git -C "$PUBLISH_DIR" rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          cp builder-feeds/generated/feed-x.json "$PUBLISH_DIR/feed-x.json"
+          cp builder-feeds/generated/feed-blogs.json "$PUBLISH_DIR/feed-blogs.json"
+          cp builder-feeds/generated/feed-podcasts.json "$PUBLISH_DIR/feed-podcasts.json"
+          cp builder-feeds/generated/generation-report.json "$PUBLISH_DIR/generation-report.json"
+
+          git -C "$PUBLISH_DIR" config user.name "github-actions[bot]"
+          git -C "$PUBLISH_DIR" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$PUBLISH_DIR" add feed-x.json feed-blogs.json feed-podcasts.json generation-report.json
+
+          if git -C "$PUBLISH_DIR" diff --cached --quiet; then
+            echo "No feed changes to publish."
+          else
+            git -C "$PUBLISH_DIR" commit -m "Update builder feeds $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git -C "$PUBLISH_DIR" push origin HEAD:feeds
+          fi

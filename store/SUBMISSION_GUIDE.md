@@ -90,7 +90,7 @@ Paste the contents of [`store/test-instructions.md`](test-instructions.md) into 
 | `tabs` | Read, focus, and close user-selected tabs |
 | `storage` | Saved for later, preferences, report cache |
 | `favicon` | Show local favicons without third-party requests |
-| `https://raw.githubusercontent.com/*` (optional) | Fetch public Follow Builders JSON feeds after user opt-in |
+| `https://raw.githubusercontent.com/*` (optional) | Fetch public Zero Tab JSON feeds after user opt-in |
 
 ## 8. Distribution settings
 
@@ -100,9 +100,9 @@ Recommended first release:
 - Regions: all supported countries
 - Publishing: manual review, then publish when approved
 
-## 9. Known blocker before final approval
+## 9. Feed readiness before final approval
 
-AI Builder Daily Report displays public content from the Follow Builders repository. That repository does not currently include a repository-level license for public feed display. Before the final public release, obtain written permission from the feed owner or remove/replace the feed source.
+AI Builder Daily Report reads public JSON from this repository's `feeds` branch. Before relying on the report in production listings, run `.github/workflows/generate-builder-feeds.yml` at least once and confirm the three feed files are present on `feeds`.
 
 ## 10. After approval
 

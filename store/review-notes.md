@@ -27,9 +27,9 @@ Required to display Chrome's local favicon representation without sending tab ho
 
 Requested only after the user clicks **Enable AI Builder Daily Report**. Used only to fetch these public data files:
 
-- `zarazhangrui/follow-builders/main/feed-x.json`
-- `zarazhangrui/follow-builders/main/feed-podcasts.json`
-- `zarazhangrui/follow-builders/main/feed-blogs.json`
+- `beforeload/zero-tab/feeds/feed-x.json`
+- `beforeload/zero-tab/feeds/feed-podcasts.json`
+- `beforeload/zero-tab/feeds/feed-blogs.json`
 
 The files contain data, not executable logic. All parsing, ranking, rendering, and interaction logic is packaged in the extension.
 
@@ -37,7 +37,7 @@ No tab data, saved links, identifiers, credentials, or API keys are transmitted 
 
 ## Remote code
 
-Zero Tab does not download or execute remotely hosted code. The optional GitHub resources are JSON content feeds only.
+Zero Tab does not download or execute remotely hosted code. The optional GitHub resources are JSON content feeds only. Feed generation runs in GitHub Actions and aggregates public web/RSS summaries into static JSON; the extension does not scrape third-party sites itself.
 
 ## Built-in AI
 

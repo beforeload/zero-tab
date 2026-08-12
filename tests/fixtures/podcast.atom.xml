@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Builders Podcast</title>
+  <entry>
+    <title>Evaluating coding agents</title>
+    <id>episode-agents</id>
+    <link href="https://example.com/episodes/agents"/>
+    <published>2026-08-09T19:40:00Z</published>
+    <summary>Rollout guardrails and evaluation harnesses.</summary>
+  </entry>
+</feed>

@@ -71,8 +71,8 @@ Generate package:
 - [ ] Submit for review
 - [ ] Monitor the publisher email for review questions
 
-## Known publication decision
+## Builder feed publication
 
-The first release includes AI Builder Daily Report. Its listing and review notes position it as part of one developer-focused new-tab workspace. The Follow Builders data source currently lacks a repository-level license; obtain written permission for public feed display before final publication.
+AI Builder Daily Report reads public JSON from `beforeload/zero-tab` on the `feeds` branch. Generate those files with the scheduled GitHub Action (or `workflow_dispatch`) before submitting listing updates that mention the report.
 
 See [`SUBMISSION_GUIDE.md`](SUBMISSION_GUIDE.md) for the full submission walkthrough.
