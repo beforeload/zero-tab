@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "x": [{ "name": "Simon Willison", "handle": "simonw" }],
+  "blogs": [
+    {
+      "name": "Example Blog",
+      "url": "https://example.com/",
+      "rssUrl": "https://example.com/feed.xml"
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Builders Podcast",
+      "rssUrl": "https://example.com/podcast.xml"
+    }
+  ]
+}

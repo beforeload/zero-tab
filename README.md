@@ -18,7 +18,7 @@ No server and no account are required. Open-tab URLs, titles, and saved links st
 - Local, deterministic daily horoscope by zodiac sign
 - Localhost port labels
 - macOS-inspired light and dark themes
-- Full-height AI Builder Daily Report drawer sourced from public Follow Builders feeds
+- Full-height AI Builder Daily Report drawer sourced from public Zero Tab feeds
 - Optional on-device translation through Chrome's built-in Translator API
 
 ## Install locally
@@ -46,7 +46,7 @@ No server and no account are required. Open-tab URLs, titles, and saved links st
 
 Core tab management makes no external requests. Tab URLs, titles, Saved for later items, read state, and preferences are stored locally using Chrome extension storage.
 
-AI Builder Daily Report is disabled until the user enables it. When enabled, Zero Tab requests optional access to `raw.githubusercontent.com` and downloads three public Follow Builders JSON feeds at most once per local calendar day. No tab, browsing, saved-link, identifier, or API-key data is included in those requests.
+AI Builder Daily Report is disabled until the user enables it. When enabled, Zero Tab requests optional access to `raw.githubusercontent.com` and downloads three public JSON feeds published by this repository's `feeds` branch at most once per local calendar day. No tab, browsing, saved-link, identifier, or API-key data is included in those requests.
 
 Translation uses Chrome's built-in on-device Translator API when available. The language model or language pack may be downloaded by Chrome, but report text is not sent to a third-party translation service by Zero Tab.
 
@@ -86,6 +86,16 @@ The production-ready unpacked extension is written to `dist/extension/`.
 The previous Vanilla implementation remains in `extension/` as a migration
 reference while the remaining publishing assets are moved to the new source
 tree.
+
+## Builder feed generation
+
+Zero Tab publishes AI Builder JSON feeds from this repository's `feeds` branch.
+
+```bash
+npm run generate:builder-feeds
+```
+
+Sources live in [`builder-feeds/sources.json`](builder-feeds/sources.json). GitHub Actions runs [`.github/workflows/generate-builder-feeds.yml`](.github/workflows/generate-builder-feeds.yml) daily and on `workflow_dispatch`, then commits `feed-x.json`, `feed-blogs.json`, and `feed-podcasts.json` to the `feeds` branch root. The extension reads those files from `raw.githubusercontent.com`.
 
 ## Attribution and license
 

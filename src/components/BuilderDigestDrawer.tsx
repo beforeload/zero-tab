@@ -237,7 +237,7 @@ export function BuilderDigestDrawer({ open, onClose, onToast }: Props) {
               <div className="digest-permission-copy">
                 <strong>Follow the people actually building AI products</strong>
                 <p>
-                  Downloads public Follow Builders updates from GitHub at most
+                  Downloads public Zero Tab builder feeds from GitHub at most
                   once per day. Your tabs and saved links never leave Chrome.
                 </p>
               </div>

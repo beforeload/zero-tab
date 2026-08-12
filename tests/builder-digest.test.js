@@ -142,6 +142,22 @@ test('returns partial feed results when one source fails', async () => {
   assert.match(result.errors[0], /podcasts/);
 });
 
+test('points AI Builder feeds at this repository feeds branch', () => {
+  assert.equal(digest.OPTIONAL_ORIGIN, 'https://raw.githubusercontent.com/');
+  assert.equal(
+    digest.FEED_URLS.x,
+    'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-x.json',
+  );
+  assert.equal(
+    digest.FEED_URLS.blogs,
+    'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-blogs.json',
+  );
+  assert.equal(
+    digest.FEED_URLS.podcasts,
+    'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-podcasts.json',
+  );
+});
+
 test('requests the declared raw GitHub origin without a wildcard path', async () => {
   const storage = {};
   let requestedOrigins;

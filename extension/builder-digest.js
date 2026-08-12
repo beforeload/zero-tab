@@ -8,9 +8,9 @@
   const CACHE_KEY = 'builderDigestState';
   const OPTIONAL_ORIGIN = 'https://raw.githubusercontent.com/';
   const FEED_URLS = {
-    x: 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json',
-    podcasts: 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json',
-    blogs: 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json',
+    x: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-x.json',
+    podcasts: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-podcasts.json',
+    blogs: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-blogs.json',
   };
   const MAX_RESPONSE_CHARS = 1_500_000;
   const CACHE_RETENTION_MS = 48 * 60 * 60 * 1000;

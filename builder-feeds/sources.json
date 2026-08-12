@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "x": [
+    { "name": "Boris Cherny", "handle": "boris_cherny" },
+    { "name": "Anthropic", "handle": "AnthropicAI" },
+    { "name": "Guillermo Rauch", "handle": "rauchg" },
+    { "name": "Simon Willison", "handle": "simonw" },
+    { "name": "Addy Osmani", "handle": "addyosmani" },
+    { "name": "Swyx", "handle": "swyx" },
+    { "name": "Andrej Karpathy", "handle": "karpathy" }
+  ],
+  "blogs": [
+    {
+      "name": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog",
+      "rssUrl": "https://openai.com/blog/rss.xml"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/",
+      "rssUrl": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "name": "Julia Evans",
+      "url": "https://jvns.ca/",
+      "rssUrl": "https://jvns.ca/atom.xml"
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/",
+      "rssUrl": "https://www.latent.space/feed"
+    },
+    {
+      "name": "Cursor Blog",
+      "url": "https://cursor.com/blog"
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "rssUrl": "https://api.substack.com/feed/podcast/1084089.rss"
+    },
+    {
+      "name": "Practical AI",
+      "rssUrl": "https://changelog.com/practicalai/feed"
+    }
+  ]
+}
