@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2026-08-13T03:33:08.195Z",
+  "blogs": [
+    {
+      "name": "Anthropic Engineering",
+      "title": "Skip to main content",
+      "url": "https://www.anthropic.com/engineering#main-content",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "Skip to footer",
+      "url": "https://www.anthropic.com/engineering#footer",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve lear…",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports Apr 23, 2026",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands Apr 08, 2026",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "How we built Claude Code auto mode: a safer way to skip permissions Mar 25, 2026",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Skip to main content",
+      "url": "https://www.anthropic.com/news#main-content",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Skip to footer",
+      "url": "https://www.anthropic.com/news#footer",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "How to get support",
+      "url": "https://support.claude.com/en/articles/9015913-how-to-get-support",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Introducing Claude Opus 5 Product Jul 24, 2026 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and profe…",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Announcements Jul 9, 2026 Inviting hard questions We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Features Jul 6, 2026 The Making of Claude Code The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early…",
+      "url": "https://www.anthropic.com/features/making-of-claude-code",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "content": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "publishedAt": "2026-08-12T06:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "url": "https://openai.com/index/ringcentral",
+      "description": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "content": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "publishedAt": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "content": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "description": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "content": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "description": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "content": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "publishedAt": "2026-08-10T14:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "description": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "content": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "publishedAt": "2026-08-10T12:00:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "description": "<p><strong><a href=\"https://openrouter.ai/deepseek/deepseek-v4-pro-0813\">DeepSeek V4 Pro 0813 (on OpenRouter)</a></strong></p> The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.</p> <p>I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro\">deepseek-…",
+      "content": "<p><strong><a href=\"https://openrouter.ai/deepseek/deepseek-v4-pro-0813\">DeepSeek V4 Pro 0813 (on OpenRouter)</a></strong></p> The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.</p> <p>I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro\">deepseek-…",
+      "publishedAt": "2026-08-12T23:59:23.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "alchemy-utils 0.1a0",
+      "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a0\">alchemy-utils 0.1a0</a></p> <p>I've long pondered what a database agnostic version of my <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a> Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:</p> <blockquote> <p><code>Do a research spike to see what it would take to build a library with…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a0\">alchemy-utils 0.1a0</a></p> <p>I've long pondered what a database agnostic version of my <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a> Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:</p> <blockquote> <p><code>Do a research spike to see what it would take to build a library with…",
+      "publishedAt": "2026-08-12T19:51:30.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Florian Herrengt",
+      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+      "description": "<blockquote cite=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p> <p>You go talk to the person who worked on this feature.</p> <p>\"So where does the data come from?\"</p> <p>\"Hmm... actually I don't know. Let me ask Claude.\"</p> <p>You sit next to each other watc…",
+      "content": "<blockquote cite=\"https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html\"><p>But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out.</p> <p>You go talk to the person who worked on this feature.</p> <p>\"So where does the data come from?\"</p> <p>\"Hmm... actually I don't know. Let me ask Claude.\"</p> <p>You sit next to each other watc…",
+      "publishedAt": "2026-08-12T15:08:47.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "There are no lossless transformations of natural-language text",
+      "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+      "description": "<p><strong><a href=\"https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text\">There are no lossless transformations of natural-language text</a></strong></p> Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good.</p> <p>If you chose to have LLMs help massage your writing the following rule seems crucial to me:</p> <blockquote> <p><strong>You must stan…",
+      "content": "<p><strong><a href=\"https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text\">There are no lossless transformations of natural-language text</a></strong></p> Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good.</p> <p>If you chose to have LLMs help massage your writing the following rule seems crucial to me:</p> <blockquote> <p><strong>You must stan…",
+      "publishedAt": "2026-08-11T23:48:35.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+      "description": "<p><strong><a href=\"https://stolen-thoughts.com/\">Stealing Reasoning Traces from Proprietary LLM APIs</a></strong></p> A vanity domain name (<code>stolen-thoughts.com</code>) for <a href=\"https://www.alphaxiv.org/abs/2608.09867\">a neat paper</a>:</p> <blockquote> <p>Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the…",
+      "content": "<p><strong><a href=\"https://stolen-thoughts.com/\">Stealing Reasoning Traces from Proprietary LLM APIs</a></strong></p> A vanity domain name (<code>stolen-thoughts.com</code>) for <a href=\"https://www.alphaxiv.org/abs/2608.09867\">a neat paper</a>:</p> <blockquote> <p>Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the…",
+      "publishedAt": "2026-08-11T22:40:45.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette-upload-dbs 0.5a0",
+      "url": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0\">datasette-upload-dbs 0.5a0</a></p> <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p> <p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0\">datasette-upload-dbs 0.5a0</a></p> <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p> <p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>…",
+      "publishedAt": "2026-08-11T20:35:13.000Z"
+    },
+    {
+      "name": "Julia Evans",
+      "title": "Some more things about Django I've been enjoying",
+      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+      "description": "<p>Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend.</p> <p>It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn.</p> <p>So here are some Django features that make building this kin…",
+      "content": "<p>Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend.</p> <p>It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn.</p> <p>So here are some Django features that make building this kin…",
+      "publishedAt": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "name": "Julia Evans",
+      "title": "Learning a few things about running SQLite",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "description": "<p>Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a <a href=\"https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production\">bunch</a> of blog posts about how it is totally fine to use SQLite in production for a small site and I think it <em>is</em> totally fine, but what I did not fully appreciate is that SQLite is still a database, databas…",
+      "content": "<p>Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a <a href=\"https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production\">bunch</a> of blog posts about how it is totally fine to use SQLite in production for a small site and I think it <em>is</em> totally fine, but what I did not fully appreciate is that SQLite is still a database, databas…",
+      "publishedAt": "2026-07-17T00:00:00.000Z"
+    },
+    {
+      "name": "Julia Evans",
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "description": "<p>Hello! 8 years ago, I <a href=\"https://jvns.ca/blog/2018/11/01/tailwind--write-css-without-the-css/\">wrote excitedly about discovering Tailwind</a>.</p> <p>At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites!</p> <p>I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and…",
+      "content": "<p>Hello! 8 years ago, I <a href=\"https://jvns.ca/blog/2018/11/01/tailwind--write-css-without-the-css/\">wrote excitedly about discovering Tailwind</a>.</p> <p>At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites!</p> <p>I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and…",
+      "publishedAt": "2026-05-15T00:00:00.000Z"
+    },
+    {
+      "name": "Julia Evans",
+      "title": "Links to CSS colour palettes",
+      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
+      "description": "<p>A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead.</p> <p>But one thing I missed about Tailwind was the <a href=\"https://v2.tailwindcss.com/docs/customizing-colors#color-palette-reference\">colour palette</a> (<a href=\"https://gist.github.com/jvns/9e59b2cd1fe12601084ba78dded072fe\">here as CSS</a>). If I wanted a light blue I could just use <code>blue-100</code> and if I didn&rsquo;t like it maybe try <code>blue-200</code> or <code>blue-50</co…",
+      "content": "<p>A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead.</p> <p>But one thing I missed about Tailwind was the <a href=\"https://v2.tailwindcss.com/docs/customizing-colors#color-palette-reference\">colour palette</a> (<a href=\"https://gist.github.com/jvns/9e59b2cd1fe12601084ba78dded072fe\">here as CSS</a>). If I wanted a light blue I could just use <code>blue-100</code> and if I didn&rsquo;t like it maybe try <code>blue-200</code> or <code>blue-50</co…",
+      "publishedAt": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "name": "Julia Evans",
+      "title": "Testing Vue components in the browser",
+      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
+      "description": "<p>Hello! One of my long term projects on here is <a href=\"https://jvns.ca/#javascript\">figuring out how to write frontend Javascript without using Node</a> or any other server JS runtime.</p> <p>One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests.</…",
+      "content": "<p>Hello! One of my long term projects on here is <a href=\"https://jvns.ca/#javascript\">figuring out how to write frontend Javascript without using Node</a> or any other server JS runtime.</p> <p>One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests.</…",
+      "publishedAt": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "name": "Julia Evans",
+      "title": "Examples for the tcpdump and dig man pages",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "description": "<p>Hello! My big takeaway from last month&rsquo;s <a href=\"https://jvns.ca/blog/2026/02/18/man-pages/\">musings about man pages</a> was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages.</p> <p>Here they are:</p> <ul> <li>the <a href=\"https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility\">dig man page (now with examples)</a></li> <li>the <a href=\"https://www.tcpdump.org/manpages/tcpdump.1…",
+      "content": "<p>Hello! My big takeaway from last month&rsquo;s <a href=\"https://jvns.ca/blog/2026/02/18/man-pages/\">musings about man pages</a> was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages.</p> <p>Here they are:</p> <ul> <li>the <a href=\"https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility\">dig man page (now with examples)</a></li> <li>the <a href=\"https://www.tcpdump.org/manpages/tcpdump.1…",
+      "publishedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "description": "AI teammate category just had its most significant new entrant yet",
+      "content": "AI teammate category just had its most significant new entrant yet",
+      "publishedAt": "2026-08-13T01:53:47.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] How to steal a Reasoning Trace",
+      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+      "description": "Speculative Decoding by any other name would distil as sweet",
+      "content": "Speculative Decoding by any other name would distil as sweet",
+      "publishedAt": "2026-08-12T07:11:08.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "url": "https://www.latent.space/p/chai-discovery",
+      "description": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
+      "content": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
+      "publishedAt": "2026-08-11T21:03:50.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+      "description": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+      "content": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+      "publishedAt": "2026-08-11T05:16:41.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Zawinski's Law of MultiAgents",
+      "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
+      "description": "a quiet day lets us find some connections among recent themes",
+      "content": "a quiet day lets us find some connections among recent themes",
+      "publishedAt": "2026-08-08T01:12:07.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] AMD buys Taalas",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "description": "The Inference Inflection is HEATING up.",
+      "content": "The Inference Inflection is HEATING up.",
+      "publishedAt": "2026-08-07T05:13:46.000Z"
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Skip to content",
+      "url": "https://cursor.com/blog#main",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Aug 12, 2026 · Research Introducing Grok 4.6 Built for long-running agents and more ambitious interactive and visual work. Cursor Team · 3m 3 min read",
+      "url": "https://cursor.com/blog/grok-4-6",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Jul 20, 2026 · Research Agent swarms and the new model economics We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers simi…",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Jun 29, 2026 · Product Build from anywhere with Cursor for iOS Cursor is available as a native iOS app on your phone, now in public beta. Chris, Rikki & Kevin · 7m 7 min read",
+      "url": "https://cursor.com/blog/ios-mobile-app",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Aug 6, 2026 · research How Cursor Router chooses the right model for the task Connor & Yuri 6m Connor & Yuri · 6m",
+      "url": "https://cursor.com/blog/how-cursor-router-works",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Aug 4, 2026 · research Mixture-of-Kittens: our open-source MoE megakernel for NVL72s Stuart, Nash, Henry, William & Federico 28m Stuart, Nash, Henry, William & Federico · 28m",
+      "url": "https://cursor.com/blog/mixture-of-kittens",
+      "description": "",
+      "content": ""
+    }
+  ]
+}
