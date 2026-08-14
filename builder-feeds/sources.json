@@ -52,5 +52,19 @@
       "name": "Practical AI",
       "rssUrl": "https://changelog.com/practicalai/feed"
     }
+  ],
+  "videos": [
+    {
+      "name": "AI Engineer",
+      "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"
+    },
+    {
+      "name": "Cursor Compile",
+      "rssUrl": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLuI2ZfvGpzwDCn0njJpjZ3ZiEpCqhN7BK"
+    },
+    {
+      "name": "Figma Config",
+      "rssUrl": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLXDU_eVOJTx6erPKfFHtCNbyCmcCn4zrp"
+    }
   ]
 }

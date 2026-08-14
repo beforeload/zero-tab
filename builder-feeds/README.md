@@ -2,7 +2,7 @@
 
 Curated source list and local generation output for the AI Builder Daily Report.
 
-- [`sources.json`](sources.json) — X handles, blogs (RSS and/or HTML), podcasts (RSS)
+- [`sources.json`](sources.json) — X handles, blogs (RSS and/or HTML), podcasts (RSS), conference videos (YouTube RSS)
 - `generated/` — local output of `npm run generate:builder-feeds` (gitignored)
 - Published artifacts live on the repository `feeds` branch root
 

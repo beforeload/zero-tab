@@ -9,7 +9,7 @@ if (!result.hasData) {
 }
 
 console.log(
-  `Generated feeds: x=${result.feedX.x.length} blogs=${result.feedBlogs.blogs.length} podcasts=${result.feedPodcasts.podcasts.length}`,
+  `Generated feeds: x=${result.feedX.x.length} blogs=${result.feedBlogs.blogs.length} podcasts=${result.feedPodcasts.podcasts.length} videos=${result.feedVideos.videos.length}`,
 );
 if (result.errors.length) {
   console.warn(`Completed with ${result.errors.length} source warning(s).`);

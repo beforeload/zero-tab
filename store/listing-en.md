@@ -32,7 +32,7 @@ Move a tab into a local Saved for later checklist before closing it. Completed i
 
 ### Optional AI Builder Daily Report
 
-Enable a chronological feed of public updates from selected AI builders, engineering blogs, and podcasts. The report is disabled by default and requests access only to public JSON files on GitHub when enabled.
+Enable a chronological feed of public updates from selected AI builders, engineering blogs, podcasts, and conference videos. The report is disabled by default and requests access only to public JSON files on GitHub when enabled.
 
 Cards can be marked as read, opened at their original source, and translated with Chrome's on-device Translator API when supported.
 

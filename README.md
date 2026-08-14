@@ -95,7 +95,7 @@ Zero Tab publishes AI Builder JSON feeds from this repository's `feeds` branch.
 npm run generate:builder-feeds
 ```
 
-Sources live in [`builder-feeds/sources.json`](builder-feeds/sources.json). GitHub Actions runs [`.github/workflows/generate-builder-feeds.yml`](.github/workflows/generate-builder-feeds.yml) daily and on `workflow_dispatch`, then commits `feed-x.json`, `feed-blogs.json`, and `feed-podcasts.json` to the `feeds` branch root. The extension reads those files from `raw.githubusercontent.com`.
+Sources live in [`builder-feeds/sources.json`](builder-feeds/sources.json). GitHub Actions runs [`.github/workflows/generate-builder-feeds.yml`](.github/workflows/generate-builder-feeds.yml) daily and on `workflow_dispatch`, then commits `feed-x.json`, `feed-blogs.json`, `feed-podcasts.json`, and `feed-videos.json` to the `feeds` branch root. The extension reads those files from `raw.githubusercontent.com`.
 
 ## Attribution and license
 

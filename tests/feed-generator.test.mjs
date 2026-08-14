@@ -61,6 +61,19 @@ describe('feed generator parsers', () => {
     );
   });
 
+  it('parses YouTube Atom video entries and keeps watch IDs', () => {
+    const xml = readFileSync(join(fixtures, 'youtube.atom.xml'), 'utf8');
+    const items = parseRssOrAtom(xml, {
+      sourceName: 'Cursor Compile',
+      baseUrl: 'https://www.youtube.com/feeds/videos.xml?playlist_id=example',
+      limit: 1,
+    });
+    assert.equal(items.length, 1);
+    assert.equal(items[0].title, 'Opening Keynote, Michael Truell | Compile 26');
+    assert.equal(items[0].url, 'https://www.youtube.com/watch?v=abc123Compile');
+    assert.match(items[0].description, /Compile keynote/i);
+  });
+
   it('parses X syndication markup into tweets', () => {
     const html = readFileSync(join(fixtures, 'x-syndication.html'), 'utf8');
     const builder = parseXSyndicationHtml(html, {
@@ -80,6 +93,7 @@ describe('feed generator parsers', () => {
         readFileSync(join(fixtures, 'x-syndication.html'), 'utf8'),
       'https://example.com/feed.xml': readFileSync(join(fixtures, 'blog.rss.xml'), 'utf8'),
       'https://example.com/podcast.xml': readFileSync(join(fixtures, 'podcast.atom.xml'), 'utf8'),
+      'https://example.com/youtube.xml': readFileSync(join(fixtures, 'youtube.atom.xml'), 'utf8'),
     };
     const fetchImpl = async (url) => {
       const body = fixturesByUrl[url];
@@ -104,6 +118,8 @@ describe('feed generator parsers', () => {
     assert.equal(result.feedX.x[0].tweets.length, 1);
     assert.ok(result.feedBlogs.blogs.length >= 1);
     assert.ok(result.feedPodcasts.podcasts.length >= 1);
+    assert.ok(result.feedVideos.videos.length >= 1);
+    assert.equal(result.feedVideos.videos[0].url, 'https://www.youtube.com/watch?v=abc123Compile');
 
     const writtenX = JSON.parse(readFileSync(join(outDir, 'feed-x.json'), 'utf8'));
     assert.equal(writtenX.generatedAt, '2026-08-11T12:00:00.000Z');

@@ -11,6 +11,7 @@ const FETCH_TIMEOUT_MS = 20_000;
 const MAX_TWEETS_PER_HANDLE = 8;
 const MAX_BLOG_ITEMS_PER_SOURCE = 6;
 const MAX_PODCAST_ITEMS_PER_SOURCE = 4;
+const MAX_VIDEO_ITEMS_PER_SOURCE = 6;
 
 export function normalizeText(value) {
   return String(value || '')
@@ -69,7 +70,7 @@ const NAV_TITLE =
 
 function isJunkTitle(title) {
   const text = normalizeText(title);
-  if (!text || text.length < 16 || text.length > 160) return true;
+  if (!text || text.length < 8 || text.length > 200) return true;
   if (SKIP_LINK_TITLE.test(text)) return true;
   if (NAV_TITLE.test(text)) return true;
   if (/^(skip to|jump to)\b/i.test(text)) return true;
@@ -96,7 +97,16 @@ function canonicalizeArticleUrl(value, baseUrl) {
       }
     }
     url.hash = '';
-    url.search = '';
+    // Keep YouTube watch IDs; stripping all search params breaks video links.
+    if (/^(www\.)?youtube\.com$/i.test(url.hostname) && url.pathname === '/watch') {
+      const videoId = url.searchParams.get('v');
+      url.search = '';
+      if (videoId) url.searchParams.set('v', videoId);
+    } else if (/^(www\.)?youtu\.be$/i.test(url.hostname)) {
+      url.search = '';
+    } else {
+      url.search = '';
+    }
     return url.href.replace(/\/$/, '');
   } catch {
     return '';
@@ -246,6 +256,7 @@ export function parseRssOrAtom(xml, { sourceName, baseUrl, limit = 6 } = {}) {
     const description = truncate(
       tagValue(block, 'description') ||
         tagValue(block, 'summary') ||
+        tagValue(block, 'media:description') ||
         tagValue(block, 'content:encoded') ||
         tagValue(block, 'content') ||
         '',
@@ -498,27 +509,27 @@ export async function collectBlogFeed(sources, options = {}) {
   return { blogs, errors };
 }
 
-export async function collectPodcastFeed(sources, options = {}) {
-  const podcasts = [];
+async function collectRssListFeed(sources, { kind, limit, options = {} } = {}) {
+  const items = [];
   const errors = [];
   for (const source of sources || []) {
     try {
       if (!source.rssUrl) {
-        errors.push(`podcast:${source.name || 'unknown'}: missing rssUrl`);
+        errors.push(`${kind}:${source.name || 'unknown'}: missing rssUrl`);
         continue;
       }
       const xml = await fetchText(source.rssUrl, options);
-      const items = parseRssOrAtom(xml, {
+      const parsed = parseRssOrAtom(xml, {
         sourceName: source.name,
         baseUrl: source.rssUrl,
-        limit: MAX_PODCAST_ITEMS_PER_SOURCE,
+        limit,
       });
-      if (!items.length) {
-        errors.push(`podcast:${source.name}: empty RSS`);
+      if (!parsed.length) {
+        errors.push(`${kind}:${source.name}: empty RSS`);
         continue;
       }
-      for (const item of items) {
-        podcasts.push({
+      for (const item of parsed) {
+        items.push({
           name: item.name,
           title: item.title,
           url: item.url,
@@ -528,10 +539,28 @@ export async function collectPodcastFeed(sources, options = {}) {
         });
       }
     } catch (error) {
-      errors.push(`podcast:${source.name || source.rssUrl}: ${error.message}`);
+      errors.push(`${kind}:${source.name || source.rssUrl}: ${error.message}`);
     }
   }
-  return { podcasts, errors };
+  return { items, errors };
+}
+
+export async function collectPodcastFeed(sources, options = {}) {
+  const result = await collectRssListFeed(sources, {
+    kind: 'podcast',
+    limit: MAX_PODCAST_ITEMS_PER_SOURCE,
+    options,
+  });
+  return { podcasts: result.items, errors: result.errors };
+}
+
+export async function collectVideoFeed(sources, options = {}) {
+  const result = await collectRssListFeed(sources, {
+    kind: 'video',
+    limit: MAX_VIDEO_ITEMS_PER_SOURCE,
+    options,
+  });
+  return { videos: result.items, errors: result.errors };
 }
 
 export function atomicWriteJson(filePath, value) {
@@ -551,26 +580,35 @@ export async function generateBuilderFeeds({
   const generatedAt = now.toISOString();
   const options = { fetchImpl };
 
-  const [xResult, blogResult, podcastResult] = await Promise.all([
+  const [xResult, blogResult, podcastResult, videoResult] = await Promise.all([
     collectXFeed(sources.x, options),
     collectBlogFeed(sources.blogs, options),
     collectPodcastFeed(sources.podcasts, options),
+    collectVideoFeed(sources.videos, options),
   ]);
 
   const feedX = { generatedAt, x: xResult.builders };
   const feedBlogs = { generatedAt, blogs: blogResult.blogs };
   const feedPodcasts = { generatedAt, podcasts: podcastResult.podcasts };
-  const errors = [...xResult.errors, ...blogResult.errors, ...podcastResult.errors];
+  const feedVideos = { generatedAt, videos: videoResult.videos };
+  const errors = [
+    ...xResult.errors,
+    ...blogResult.errors,
+    ...podcastResult.errors,
+    ...videoResult.errors,
+  ];
 
   const hasData =
     feedX.x.some((builder) => builder.tweets?.length) ||
     feedBlogs.blogs.length > 0 ||
-    feedPodcasts.podcasts.length > 0;
+    feedPodcasts.podcasts.length > 0 ||
+    feedVideos.videos.length > 0;
 
   mkdirSync(outDir, { recursive: true });
   atomicWriteJson(join(outDir, 'feed-x.json'), feedX);
   atomicWriteJson(join(outDir, 'feed-blogs.json'), feedBlogs);
   atomicWriteJson(join(outDir, 'feed-podcasts.json'), feedPodcasts);
+  atomicWriteJson(join(outDir, 'feed-videos.json'), feedVideos);
   atomicWriteJson(join(outDir, 'generation-report.json'), {
     generatedAt,
     hasData,
@@ -579,11 +617,12 @@ export async function generateBuilderFeeds({
       xTweets: feedX.x.reduce((sum, builder) => sum + (builder.tweets?.length || 0), 0),
       blogs: feedBlogs.blogs.length,
       podcasts: feedPodcasts.podcasts.length,
+      videos: feedVideos.videos.length,
     },
     errors,
   });
 
-  return { hasData, errors, feedX, feedBlogs, feedPodcasts };
+  return { hasData, errors, feedX, feedBlogs, feedPodcasts, feedVideos };
 }
 
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1]);
@@ -596,7 +635,7 @@ if (isMain) {
     process.exit(1);
   }
   console.log(
-    `Generated feeds: x=${result.feedX.x.length} blogs=${result.feedBlogs.blogs.length} podcasts=${result.feedPodcasts.podcasts.length}`,
+    `Generated feeds: x=${result.feedX.x.length} blogs=${result.feedBlogs.blogs.length} podcasts=${result.feedPodcasts.podcasts.length} videos=${result.feedVideos.videos.length}`,
   );
   if (result.errors.length) {
     console.warn(`Completed with ${result.errors.length} source warning(s).`);

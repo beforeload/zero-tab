@@ -29,6 +29,7 @@ Requested only after the user clicks **Enable AI Builder Daily Report**. Used on
 
 - `beforeload/zero-tab/feeds/feed-x.json`
 - `beforeload/zero-tab/feeds/feed-podcasts.json`
+- `beforeload/zero-tab/feeds/feed-videos.json`
 - `beforeload/zero-tab/feeds/feed-blogs.json`
 
 The files contain data, not executable logic. All parsing, ranking, rendering, and interaction logic is packaged in the extension.

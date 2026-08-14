@@ -13,5 +13,11 @@
       "name": "Builders Podcast",
       "rssUrl": "https://example.com/podcast.xml"
     }
+  ],
+  "videos": [
+    {
+      "name": "Cursor Compile",
+      "rssUrl": "https://example.com/youtube.xml"
+    }
   ]
 }

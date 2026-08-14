@@ -11,9 +11,11 @@
     x: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-x.json',
     podcasts: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-podcasts.json',
     blogs: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-blogs.json',
+    videos: 'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-videos.json',
   };
   const MAX_RESPONSE_CHARS = 1_500_000;
   const CACHE_RETENTION_MS = 48 * 60 * 60 * 1000;
+  const VIDEO_RETENTION_MS = 90 * 24 * 60 * 60 * 1000;
   const RETRY_COOLDOWN_MS = 15 * 60 * 1000;
   const KEYWORDS = /\b(launch|launched|release|released|ship|shipped|announce|model|agent|coding|code|api|open[\s-]?source|research|benchmark|security|product|tool|framework|developer|build|robot|autonom)/i;
 
@@ -79,6 +81,7 @@
     const xFeed = feeds?.x;
     const podcastFeed = feeds?.podcasts;
     const blogFeed = feeds?.blogs;
+    const videoFeed = feeds?.videos;
 
     for (const builder of Array.isArray(xFeed?.x) ? xFeed.x : []) {
       for (const tweet of Array.isArray(builder?.tweets) ? builder.tweets : []) {
@@ -144,16 +147,41 @@
       });
     }
 
+    for (const video of Array.isArray(videoFeed?.videos) ? videoFeed.videos : []) {
+      const url = safeHttpsUrl(video?.url);
+      const title = truncate(video?.title, 180);
+      if (!url || !title) continue;
+
+      const fallbackTime = timestamp(videoFeed?.generatedAt, nowMs);
+      const publishedAt = new Date(timestamp(video?.publishedAt, fallbackTime)).toISOString();
+      const excerpt = truncate(video?.transcript, 340);
+      const guid = normalizeText(video?.guid) || url;
+      items.push({
+        id: `video:${guid}`,
+        kind: 'video',
+        source: truncate(video?.name || 'Conference talk', 80),
+        title,
+        excerpt,
+        url,
+        publishedAt,
+        score: 64 + keywordScore(`${title} ${excerpt}`) + recencyScore(publishedAt, nowMs),
+      });
+    }
+
     return items.sort((a, b) => b.score - a.score || b.publishedAt.localeCompare(a.publishedAt));
   }
 
+  function retentionMsFor(item) {
+    return item?.kind === 'video' ? VIDEO_RETENTION_MS : CACHE_RETENTION_MS;
+  }
+
   function mergeItems(previous, incoming, now = new Date(), limit = Infinity) {
-    const cutoff = now.getTime() - CACHE_RETENTION_MS;
+    const nowMs = now.getTime();
     const merged = new Map();
 
     for (const item of [...(Array.isArray(previous) ? previous : []), ...(Array.isArray(incoming) ? incoming : [])]) {
       if (!item?.id || !safeHttpsUrl(item.url)) continue;
-      if (timestamp(item.publishedAt, now.getTime()) < cutoff) continue;
+      if (timestamp(item.publishedAt, nowMs) < nowMs - retentionMsFor(item)) continue;
       merged.set(item.id, item);
     }
 
@@ -168,7 +196,7 @@
     const selected = [];
     const selectedIds = new Set();
 
-    for (const kind of ['x', 'blog', 'podcast']) {
+    for (const kind of ['x', 'blog', 'podcast', 'video']) {
       const item = sorted.find(candidate => candidate.kind === kind);
       if (item && !selectedIds.has(item.id)) {
         selected.push(item);

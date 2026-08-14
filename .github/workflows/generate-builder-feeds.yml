@@ -58,11 +58,12 @@ jobs:
           cp builder-feeds/generated/feed-x.json "$PUBLISH_DIR/feed-x.json"
           cp builder-feeds/generated/feed-blogs.json "$PUBLISH_DIR/feed-blogs.json"
           cp builder-feeds/generated/feed-podcasts.json "$PUBLISH_DIR/feed-podcasts.json"
+          cp builder-feeds/generated/feed-videos.json "$PUBLISH_DIR/feed-videos.json"
           cp builder-feeds/generated/generation-report.json "$PUBLISH_DIR/generation-report.json"
 
           git -C "$PUBLISH_DIR" config user.name "github-actions[bot]"
           git -C "$PUBLISH_DIR" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git -C "$PUBLISH_DIR" add feed-x.json feed-blogs.json feed-podcasts.json generation-report.json
+          git -C "$PUBLISH_DIR" add feed-x.json feed-blogs.json feed-podcasts.json feed-videos.json generation-report.json
 
           if git -C "$PUBLISH_DIR" diff --cached --quiet; then
             echo "No feed changes to publish."

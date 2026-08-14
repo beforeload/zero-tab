@@ -1313,6 +1313,7 @@ function formatDigestDate(dateStr) {
 function digestKindLabel(kind) {
   if (kind === 'blog') return 'Blog';
   if (kind === 'podcast') return 'Podcast';
+  if (kind === 'video') return 'Video';
   return 'X';
 }
 
@@ -1372,7 +1373,7 @@ function renderDigestItemCard(item, state, stale, targetLanguage) {
   const safeExcerpt = escapeHtml(localized?.excerpt || item.excerpt);
   const safeSource = escapeHtml(item.source);
   const safeItemId = escapeHtml(item.id);
-  const kind = ['x', 'blog', 'podcast'].includes(item.kind) ? item.kind : 'x';
+  const kind = ['x', 'blog', 'podcast', 'video'].includes(item.kind) ? item.kind : 'x';
   const dateLabel = escapeHtml(formatDigestDate(item.publishedAt));
   const isRead = state.readIds?.includes(item.id);
 

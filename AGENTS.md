@@ -19,7 +19,7 @@ Before doing anything technical, tell the user what they're about to get:
 > - **Save for later** bookmark individual tabs to a checklist before closing them
 > - **Modular workspace cards** can be collapsed or hidden, with preferences stored locally
 > - **Daily horoscope** generates a private, deterministic reading from the local date and selected zodiac sign
-> - **AI Builder daily brief** opens as an independent full-height drawer with public updates from builders, podcasts, and engineering blogs
+> - **AI Builder daily brief** opens as an independent full-height drawer with public updates from builders, podcasts, engineering blogs, and conference videos
 > - **Local-first** tab and saved-item data never leaves the browser
 >
 > It's just a Chrome extension. Setup takes about 1 minute.

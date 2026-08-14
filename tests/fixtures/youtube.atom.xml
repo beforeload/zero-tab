@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns="http://www.w3.org/2005/Atom">
+  <title>Cursor Compile</title>
+  <entry>
+    <id>yt:video:abc123Compile</id>
+    <yt:videoId>abc123Compile</yt:videoId>
+    <title>Opening Keynote, Michael Truell | Compile 26</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=abc123Compile"/>
+    <published>2026-06-20T17:00:00+00:00</published>
+    <media:group>
+      <media:description>Cursor's first Compile keynote.</media:description>
+    </media:group>
+  </entry>
+</feed>

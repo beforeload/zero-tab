@@ -42,10 +42,21 @@ test('normalizes and ranks all supported feed types', () => {
         transcript: 'Today we discuss product iteration and shipping reliable AI tools.',
       }],
     },
+    videos: {
+      generatedAt: NOW.toISOString(),
+      videos: [{
+        name: 'Cursor Compile',
+        title: 'Opening Keynote, Michael Truell | Compile 26',
+        guid: 'yt:video:compile1',
+        url: 'https://www.youtube.com/watch?v=compile1',
+        transcript: 'Cursor Compile conference keynote about shipping agent coding tools.',
+        publishedAt: '2026-06-20T17:00:00.000Z',
+      }],
+    },
   }, NOW);
 
-  assert.equal(items.length, 3);
-  assert.deepEqual(new Set(items.map(item => item.kind)), new Set(['x', 'blog', 'podcast']));
+  assert.equal(items.length, 4);
+  assert.deepEqual(new Set(items.map(item => item.kind)), new Set(['x', 'blog', 'podcast', 'video']));
   assert.ok(items.every(item => item.url.startsWith('https://')));
   assert.ok(items.every(item => Number.isFinite(item.score)));
 });
@@ -63,10 +74,11 @@ test('keeps a balanced top selection when sources exist', () => {
     { id: 'x:2', kind: 'x', score: 90 },
     { id: 'blog:1', kind: 'blog', score: 50 },
     { id: 'podcast:1', kind: 'podcast', score: 40 },
+    { id: 'video:1', kind: 'video', score: 35 },
   ];
 
-  const selected = digest.selectTopItems(items, 3);
-  assert.deepEqual(new Set(selected.map(item => item.kind)), new Set(['x', 'blog', 'podcast']));
+  const selected = digest.selectTopItems(items, 4);
+  assert.deepEqual(new Set(selected.map(item => item.kind)), new Set(['x', 'blog', 'podcast', 'video']));
 });
 
 test('orders report items by published time descending', () => {
@@ -104,6 +116,36 @@ test('merges duplicate items and drops entries older than 48 hours', () => {
   assert.equal(merged[0].score, 30);
 });
 
+test('keeps conference videos for 90 days while dropping older tweets', () => {
+  const recentTweet = {
+    id: 'x:recent',
+    kind: 'x',
+    url: 'https://x.com/example/status/recent',
+    publishedAt: '2026-07-25T07:00:00.000Z',
+    score: 10,
+  };
+  const oldTweet = {
+    id: 'x:old',
+    kind: 'x',
+    url: 'https://x.com/example/status/old',
+    publishedAt: '2026-07-20T07:00:00.000Z',
+    score: 100,
+  };
+  const conferenceVideo = {
+    id: 'video:compile',
+    kind: 'video',
+    url: 'https://www.youtube.com/watch?v=compile1',
+    publishedAt: '2026-06-20T17:00:00.000Z',
+    score: 64,
+  };
+
+  const merged = digest.mergeItems([recentTweet, oldTweet, conferenceVideo], [], NOW);
+  assert.deepEqual(
+    merged.map((item) => item.id).sort(),
+    ['video:compile', 'x:recent'],
+  );
+});
+
 test('detects local-day cache hits and stale feeds', () => {
   // Use explicit UTC instants so the local-day check is stable across CI timezones.
   assert.equal(
@@ -137,7 +179,7 @@ test('returns partial feed results when one source fails', async () => {
   };
 
   const result = await digest.fetchFeeds({ fetchImpl, timeoutMs: 100 });
-  assert.deepEqual(Object.keys(result.feeds).sort(), ['blogs', 'x']);
+  assert.deepEqual(Object.keys(result.feeds).sort(), ['blogs', 'videos', 'x']);
   assert.equal(result.errors.length, 1);
   assert.match(result.errors[0], /podcasts/);
 });
@@ -155,6 +197,10 @@ test('points AI Builder feeds at this repository feeds branch', () => {
   assert.equal(
     digest.FEED_URLS.podcasts,
     'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-podcasts.json',
+  );
+  assert.equal(
+    digest.FEED_URLS.videos,
+    'https://raw.githubusercontent.com/beforeload/zero-tab/feeds/feed-videos.json',
   );
 });
 
@@ -221,6 +267,8 @@ test('enables optional permission, caches a refresh, and skips a second same-day
         }
       : url.includes('feed-podcasts')
         ? { generatedAt: NOW.toISOString(), podcasts: [] }
+        : url.includes('feed-videos')
+          ? { generatedAt: NOW.toISOString(), videos: [] }
         : { generatedAt: NOW.toISOString(), blogs: [] };
     return { ok: true, text: async () => JSON.stringify(payload) };
   };
@@ -231,7 +279,7 @@ test('enables optional permission, caches a refresh, and skips a second same-day
 
     const first = await digest.refresh({ force: true, now: NOW, fetchImpl });
     assert.equal(first.items.length, 1);
-    assert.equal(fetchCount, 3);
+    assert.equal(fetchCount, 4);
 
     await digest.refresh({
       now: new Date('2026-07-25T12:00:00.000Z'),
@@ -239,7 +287,7 @@ test('enables optional permission, caches a refresh, and skips a second same-day
         throw new Error('same-day refresh should use cache');
       },
     });
-    assert.equal(fetchCount, 3);
+    assert.equal(fetchCount, 4);
   } finally {
     delete global.chrome;
   }
@@ -287,6 +335,8 @@ test('serializes concurrent refreshes and lets the second caller reuse the new c
       ? { generatedAt: NOW.toISOString(), x: [] }
       : url.includes('feed-podcasts')
         ? { generatedAt: NOW.toISOString(), podcasts: [] }
+        : url.includes('feed-videos')
+          ? { generatedAt: NOW.toISOString(), videos: [] }
         : { generatedAt: NOW.toISOString(), blogs: [] };
     return { ok: true, text: async () => JSON.stringify(payload) };
   };
@@ -296,7 +346,7 @@ test('serializes concurrent refreshes and lets the second caller reuse the new c
       digest.refresh({ force: true, now: NOW, fetchImpl }),
       digest.refresh({ now: NOW, fetchImpl }),
     ]);
-    assert.equal(fetchCount, 3);
+    assert.equal(fetchCount, 4);
   } finally {
     delete global.chrome;
     if (originalNavigator) {

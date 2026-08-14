@@ -605,6 +605,11 @@ header {
   background: var(--orange-tint);
 }
 
+.digest-kind[data-kind="video"] {
+  color: var(--green);
+  background: var(--green-tint);
+}
+
 .digest-freshness.is-stale {
   color: var(--orange);
   background: var(--orange-tint);
