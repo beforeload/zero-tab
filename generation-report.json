@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T03:29:20.372Z",
+  "generatedAt": "2026-08-14T04:21:40.232Z",
   "hasData": true,
   "counts": {
     "xBuilders": 0,
@@ -8,13 +8,13 @@
     "podcasts": 4
   },
   "errors": [
-    "x:@boris_cherny: HTTP 403 for https://r.jina.ai/https://x.com/boris_cherny",
-    "x:@AnthropicAI: HTTP 403 for https://r.jina.ai/https://x.com/AnthropicAI",
-    "x:@rauchg: HTTP 403 for https://r.jina.ai/https://x.com/rauchg",
-    "x:@simonw: HTTP 403 for https://r.jina.ai/https://x.com/simonw",
-    "x:@addyosmani: HTTP 403 for https://r.jina.ai/https://x.com/addyosmani",
-    "x:@swyx: HTTP 403 for https://r.jina.ai/https://x.com/swyx",
-    "x:@karpathy: HTTP 403 for https://r.jina.ai/https://x.com/karpathy",
-    "podcast:Latent Space: HTTP 403 for https://api.substack.com/feed/podcast/1084089.rss"
+    "x:@bcherny: fetch failed",
+    "x:@AnthropicAI: fetch failed",
+    "x:@rauchg: fetch failed",
+    "x:@simonw: fetch failed",
+    "x:@addyosmani: fetch failed",
+    "x:@swyx: fetch failed",
+    "x:@karpathy: fetch failed",
+    "podcast:Latent Space: fetch failed"
   ]
 }

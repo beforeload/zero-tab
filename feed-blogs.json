@@ -1,87 +1,87 @@
 {
-  "generatedAt": "2026-08-14T03:29:20.372Z",
+  "generatedAt": "2026-08-14T04:21:40.232Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
-      "title": "Skip to main content",
-      "url": "https://www.anthropic.com/engineering#main-content",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic Engineering",
-      "title": "Skip to footer",
-      "url": "https://www.anthropic.com/engineering#footer",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic Engineering",
-      "title": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve lear…",
+      "title": "How we contain Claude across products",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports Apr 23, 2026",
+      "title": "An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands Apr 08, 2026",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "How we built Claude Code auto mode: a safer way to skip permissions Mar 25, 2026",
+      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "description": "",
       "content": ""
     },
     {
-      "name": "Anthropic News",
-      "title": "Skip to main content",
-      "url": "https://www.anthropic.com/news#main-content",
+      "name": "Anthropic Engineering",
+      "title": "Harness design for long-running application development",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Skip to footer",
-      "url": "https://www.anthropic.com/news#footer",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic News",
-      "title": "How to get support",
-      "url": "https://support.claude.com/en/articles/9015913-how-to-get-support",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic News",
-      "title": "Introducing Claude Opus 5 Product Jul 24, 2026 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and profe…",
+      "title": "Introducing Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Jul 9, 2026 Inviting hard questions We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
+      "title": "Inviting hard questions",
       "url": "https://www.anthropic.com/news/hard-questions",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Features Jul 6, 2026 The Making of Claude Code The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early…",
+      "title": "The Making of Claude Code",
       "url": "https://www.anthropic.com/features/making-of-claude-code",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Redeploying Fable 5",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Improving Fable 5's biology safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "description": "",
       "content": ""
     },
@@ -136,97 +136,97 @@
     {
       "name": "Simon Willison",
       "title": "sqlite-utils 4.2.1",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p> <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p> <pre><code>from typing_extensions import Self </code></pre> <p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p> <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p> <pre><code>from typing_extensions import Self </code></pre> <p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils…",
+      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2",
+      "description": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even wit…",
+      "content": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even wit…",
       "publishedAt": "2026-08-13T23:53:47.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "sqlite-utils 4.2",
-      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2\">sqlite-utils 4.2</a></p> <p>Lots of improvements in this one relating to the <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table\">table.transform() feature</a>, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.</p> <p><code>transform()</code> now preserves a much la…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2\">sqlite-utils 4.2</a></p> <p>Lots of improvements in this one relating to the <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table\">table.transform() feature</a>, which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one.</p> <p><code>transform()</code> now preserves a much la…",
+      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils",
+      "description": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whol…",
+      "content": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whol…",
       "publishedAt": "2026-08-13T20:11:29.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "llm-gemini 0.33",
-      "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.33\">llm-gemini 0.33</a></p> <p>It's been a while since the last <code>llm-gemini</code> release. This version of the plugin adds support for today's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\">Gemini 3.7 Flash</a> release, plus <code>gemini-3.6-flash</code>, <code>gemini-3.5-flash-lite</code> and two embedding models <code>gemini-embedding…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.33\">llm-gemini 0.33</a></p> <p>It's been a while since the last <code>llm-gemini</code> release. This version of the plugin adds support for today's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\">Gemini 3.7 Flash</a> release, plus <code>gemini-3.6-flash</code>, <code>gemini-3.5-flash-lite</code> and two embedding models <code>gemini-embedding…",
-      "publishedAt": "2026-08-13T19:37:34.000Z"
-    },
-    {
-      "name": "Simon Willison",
       "title": "alchemy-utils 0.1a1",
-      "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a1\">alchemy-utils 0.1a1</a></p> <p>Performance boost for DuckDB exports and CSV imports, <a href=\"https://simonwillison.net/2026/Aug/12/alchemy-utils/\">see here</a>.</p>",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a1\">alchemy-utils 0.1a1</a></p> <p>Performance boost for DuckDB exports and CSV imports, <a href=\"https://simonwillison.net/2026/Aug/12/alchemy-utils/\">see here</a>.</p>",
+      "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils",
+      "description": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+      "content": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
       "publishedAt": "2026-08-13T03:03:17.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-      "description": "<p><strong><a href=\"https://openrouter.ai/deepseek/deepseek-v4-pro-0813\">DeepSeek V4 Pro 0813 (on OpenRouter)</a></strong></p> The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.</p> <p>I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro\">deepseek-…",
-      "content": "<p><strong><a href=\"https://openrouter.ai/deepseek/deepseek-v4-pro-0813\">DeepSeek V4 Pro 0813 (on OpenRouter)</a></strong></p> The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.</p> <p>I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro\">deepseek-…",
+      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813",
+      "description": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Update : the weights are now available on Hugging Face, 1.7T parameters, 893…",
+      "content": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Update : the weights are now available on Hugging Face, 1.7T parameters, 893…",
       "publishedAt": "2026-08-12T23:59:23.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "alchemy-utils 0.1a0",
-      "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a0\">alchemy-utils 0.1a0</a></p> <p>I've long pondered what a database agnostic version of my <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a> Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:</p> <blockquote> <p><code>Do a research spike to see what it would take to build a library with…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/alchemy-utils/releases/tag/0.1a0\">alchemy-utils 0.1a0</a></p> <p>I've long pondered what a database agnostic version of my <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a> Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:</p> <blockquote> <p><code>Do a research spike to see what it would take to build a library with…",
+      "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils",
+      "description": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but ba…",
+      "content": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but ba…",
       "publishedAt": "2026-08-12T19:51:30.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Florian Herrengt",
+      "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt",
+      "description": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confide…",
+      "content": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confide…",
+      "publishedAt": "2026-08-12T15:08:47.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Some more things about Django I've been enjoying",
-      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
-      "description": "<p>Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend.</p> <p>It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn.</p> <p>So here are some Django features that make building this kin…",
-      "content": "<p>Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend.</p> <p>It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn.</p> <p>So here are some Django features that make building this kin…",
+      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things",
+      "description": "Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend. It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn. So here are some Django features that make building this kind of site feel mo…",
+      "content": "Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend. It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn. So here are some Django features that make building this kind of site feel mo…",
       "publishedAt": "2026-07-21T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Learning a few things about running SQLite",
-      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
-      "description": "<p>Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a <a href=\"https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production\">bunch</a> of blog posts about how it is totally fine to use SQLite in production for a small site and I think it <em>is</em> totally fine, but what I did not fully appreciate is that SQLite is still a database, databas…",
-      "content": "<p>Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a <a href=\"https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production\">bunch</a> of blog posts about how it is totally fine to use SQLite in production for a small site and I think it <em>is</em> totally fine, but what I did not fully appreciate is that SQLite is still a database, databas…",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite",
+      "description": "Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated, and I do not know a lot about operating databases. So here are a couple of small things I&r…",
+      "content": "Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated, and I do not know a lot about operating databases. So here are a couple of small things I&r…",
       "publishedAt": "2026-07-17T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Moving away from Tailwind, and learning to structure my CSS",
-      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
-      "description": "<p>Hello! 8 years ago, I <a href=\"https://jvns.ca/blog/2018/11/01/tailwind--write-css-without-the-css/\">wrote excitedly about discovering Tailwind</a>.</p> <p>At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites!</p> <p>I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and…",
-      "content": "<p>Hello! 8 years ago, I <a href=\"https://jvns.ca/blog/2018/11/01/tailwind--write-css-without-the-css/\">wrote excitedly about discovering Tailwind</a>.</p> <p>At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites!</p> <p>I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and…",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-",
+      "description": "Hello! 8 years ago, I wrote excitedly about discovering Tailwind . At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites! I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and it was SO fun and SO interesting, so here are some things I learned! As usual I&rsquo;m not a full…",
+      "content": "Hello! 8 years ago, I wrote excitedly about discovering Tailwind . At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites! I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and it was SO fun and SO interesting, so here are some things I learned! As usual I&rsquo;m not a full…",
       "publishedAt": "2026-05-15T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Links to CSS colour palettes",
-      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
-      "description": "<p>A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead.</p> <p>But one thing I missed about Tailwind was the <a href=\"https://v2.tailwindcss.com/docs/customizing-colors#color-palette-reference\">colour palette</a> (<a href=\"https://gist.github.com/jvns/9e59b2cd1fe12601084ba78dded072fe\">here as CSS</a>). If I wanted a light blue I could just use <code>blue-100</code> and if I didn&rsquo;t like it maybe try <code>blue-200</code> or <code>blue-50</co…",
-      "content": "<p>A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead.</p> <p>But one thing I missed about Tailwind was the <a href=\"https://v2.tailwindcss.com/docs/customizing-colors#color-palette-reference\">colour palette</a> (<a href=\"https://gist.github.com/jvns/9e59b2cd1fe12601084ba78dded072fe\">here as CSS</a>). If I wanted a light blue I could just use <code>blue-100</code> and if I didn&rsquo;t like it maybe try <code>blue-200</code> or <code>blue-50</co…",
+      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes",
+      "description": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn&rsquo;t like it maybe try blue-200 or blue-50 . I&rsquo;m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebody who is better at colour than me has thought about. But I&rsquo;m also a little tired…",
+      "content": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn&rsquo;t like it maybe try blue-200 or blue-50 . I&rsquo;m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebody who is better at colour than me has thought about. But I&rsquo;m also a little tired…",
       "publishedAt": "2026-05-04T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Testing Vue components in the browser",
-      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
-      "description": "<p>Hello! One of my long term projects on here is <a href=\"https://jvns.ca/#javascript\">figuring out how to write frontend Javascript without using Node</a> or any other server JS runtime.</p> <p>One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests.</…",
-      "content": "<p>Hello! One of my long term projects on here is <a href=\"https://jvns.ca/#javascript\">figuring out how to write frontend Javascript without using Node</a> or any other server JS runtime.</p> <p>One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests.</…",
+      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser",
+      "description": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests. The result is that I just don&rsquo;t test my fronten…",
+      "content": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests. The result is that I just don&rsquo;t test my fronten…",
       "publishedAt": "2026-05-02T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Examples for the tcpdump and dig man pages",
-      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
-      "description": "<p>Hello! My big takeaway from last month&rsquo;s <a href=\"https://jvns.ca/blog/2026/02/18/man-pages/\">musings about man pages</a> was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages.</p> <p>Here they are:</p> <ul> <li>the <a href=\"https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility\">dig man page (now with examples)</a></li> <li>the <a href=\"https://www.tcpdump.org/manpages/tcpdump.1…",
-      "content": "<p>Hello! My big takeaway from last month&rsquo;s <a href=\"https://jvns.ca/blog/2026/02/18/man-pages/\">musings about man pages</a> was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages.</p> <p>Here they are:</p> <ul> <li>the <a href=\"https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility\">dig man page (now with examples)</a></li> <li>the <a href=\"https://www.tcpdump.org/manpages/tcpdump.1…",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages",
+      "description": "Hello! My big takeaway from last month&rsquo;s musings about man pages was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages. Here they are: the dig man page (now with examples) the tcpdump man page examples (this one is an update to the previous examples) the goal: include the most basic examples The goal here was really just to give the absolute most basic examples of how to use the tool, for people who use…",
+      "content": "Hello! My big takeaway from last month&rsquo;s musings about man pages was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages. Here they are: the dig man page (now with examples) the tcpdump man page examples (this one is an update to the previous examples) the goal: include the most basic examples The goal here was really just to give the absolute most basic examples of how to use the tool, for people who use…",
       "publishedAt": "2026-03-10T00:00:00.000Z"
     },
     {
@@ -279,43 +279,43 @@
     },
     {
       "name": "Cursor Blog",
-      "title": "Skip to content",
-      "url": "https://cursor.com/blog#main",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Cursor Blog",
-      "title": "Aug 12, 2026 · Research Introducing Grok 4.6 Built for long-running agents and more ambitious interactive and visual work. Cursor Team · 3m 3 min read",
+      "title": "Introducing Grok 4.6",
       "url": "https://cursor.com/blog/grok-4-6",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Jul 20, 2026 · Research Agent swarms and the new model economics We compared old and new agent swarms building SQLite from scratch and found that better coordination delivers simi…",
+      "title": "Agent swarms and the new model economics",
       "url": "https://cursor.com/blog/agent-swarm-model-economics",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Jun 29, 2026 · Product Build from anywhere with Cursor for iOS Cursor is available as a native iOS app on your phone, now in public beta. Chris, Rikki & Kevin · 7m 7 min read",
+      "title": "Build from anywhere with Cursor for iOS",
       "url": "https://cursor.com/blog/ios-mobile-app",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Aug 13, 2026 · company Firetiger joins Cursor Maxime Prades 2m Maxime Prades · 2m",
+      "title": "Firetiger joins Cursor",
       "url": "https://cursor.com/blog/firetiger",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m",
+      "title": "Cursor earns AIUC-1 certification for agent security and reliability",
       "url": "https://cursor.com/blog/aiuc-1",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Cursor Blog",
+      "title": "Cloud agents start 3x faster with builds",
+      "url": "https://cursor.com/blog/builds",
       "description": "",
       "content": ""
     }
