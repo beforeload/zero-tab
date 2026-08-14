@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-14T05:13:54.779Z",
+  "videos": [
+    {
+      "name": "AI Engineer",
+      "title": "Improving Agents is a Data Mining Problem — Vivek Trivedy, LangChain",
+      "url": "https://www.youtube.com/watch?v=CvRngaQZQ3Y",
+      "guid": "yt:video:CvRngaQZQ3Y",
+      "transcript": "Does your agent get dumber after the first compaction? After the second? You cannot read that off the code, only off the traces, and there are far too many to read yourself. So LangChain points agents at the traces of other agents and asks exactly that, alongside questions like where users got upset and what a different model would have done at the same step. Vivek Trivedy's argument is that observability and continual learning are the same problem in different clothing, because an agent acting…",
+      "publishedAt": "2026-08-12T19:00:01.000Z"
+    },
+    {
+      "name": "AI Engineer",
+      "title": "Lessons from Studying Every Memory System — Shlok Khemani, Independent",
+      "url": "https://www.youtube.com/watch?v=5ZGyKWjQDr0",
+      "guid": "yt:video:5ZGyKWjQDr0",
+      "transcript": "A profile ChatGPT keeps on Shlok Khemani says he travelled to Turkey in 2025. He never has. The memory came from conversations where he was choosing between Turkey and Thailand, he went to Thailand, and the profile kept both with overlapping dates. What bothers him is not the mistake but the incuriosity: nothing notices the conflict, and the evidence to settle it was sitting in his email as flight and hotel bookings. He calls that a product problem, not a technology one. The rest is a year of r…",
+      "publishedAt": "2026-08-12T18:30:06.000Z"
+    },
+    {
+      "name": "AI Engineer",
+      "title": "Designing Agents (The Floor Is the Frontier) — Ben Hylak, Raindrop",
+      "url": "https://www.youtube.com/watch?v=jHMiYtjoJfA",
+      "guid": "yt:video:jHMiYtjoJfA",
+      "transcript": "Build the thousand example eval suite everyone tells you to build, switch harnesses, and 80% of it stops meaning anything. Ben Hylak's complaint is that eval advice is still written for the chatbot era, back when you knew the answer to nearly every question a user would ask. His reframing is that the useful question is not what issues your agent has, since it will have effectively infinite issues, but which ones matter. That turns on the gap between your ceiling, the most impressive thing your…",
+      "publishedAt": "2026-08-12T18:00:34.000Z"
+    },
+    {
+      "name": "AI Engineer",
+      "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
+      "url": "https://www.youtube.com/watch?v=ZTA0GwpAUak",
+      "guid": "yt:video:ZTA0GwpAUak",
+      "transcript": "A Qwen thinking model was taking up to 80 turns to submit on SWE bench. Applied Compute wanted it wrapping up by turn 40 and got the submit tool call rate from 22% to 60% with test pass rate flat. The interesting part is the mechanism: because the rollout was conditioned on an old production trace that never called the tool, the teacher never touched the tool call tokens at all. It moved the reasoning path toward the call instead, and the call followed. Sam Denton's frame is a grid. One axis is…",
+      "publishedAt": "2026-08-12T17:30:06.000Z"
+    },
+    {
+      "name": "AI Engineer",
+      "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
+      "url": "https://www.youtube.com/watch?v=I3bpdgFJCUY",
+      "guid": "yt:video:I3bpdgFJCUY",
+      "transcript": "Talking runs about 200 words a minute and typing does not, which is why Ben Holmes starts a knowledge base with voice dictation rather than with organization. The pipeline only works if there is enough raw material, so the capture step is deliberately sloppy: ramble into your phone after a podcast or a meeting, skip the formatting, and let agents impose structure afterward. He points at Handy and Voice Ink as local, on device options, so none of it needs a subscription. Structure then arrives i…",
+      "publishedAt": "2026-08-12T17:00:22.000Z"
+    },
+    {
+      "name": "AI Engineer",
+      "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
+      "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
+      "guid": "yt:video:XEd_SRVHBgU",
+      "transcript": "Fewer than five thousand people in the world know how to train a frontier model at scale, by Sara Hooker's estimate, and that knowledge travels like an apprenticeship rather than a literature. Modern computer science is 77 years old, two generations, and in that time the route to contributing at the frontier narrowed into one funnel: the right PhD, the right industry lab, the right problem at the right moment. She calls it the unreasonably narrow path, and notes it got compounded in this field…",
+      "publishedAt": "2026-08-12T16:30:19.000Z"
+    }
+  ]
+}

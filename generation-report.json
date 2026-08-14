@@ -1,20 +1,16 @@
 {
-  "generatedAt": "2026-08-14T04:21:40.232Z",
+  "generatedAt": "2026-08-14T05:13:54.779Z",
   "hasData": true,
   "counts": {
-    "xBuilders": 0,
-    "xTweets": 0,
+    "xBuilders": 7,
+    "xTweets": 40,
     "blogs": 42,
-    "podcasts": 4
+    "podcasts": 4,
+    "videos": 6
   },
   "errors": [
-    "x:@bcherny: fetch failed",
-    "x:@AnthropicAI: fetch failed",
-    "x:@rauchg: fetch failed",
-    "x:@simonw: fetch failed",
-    "x:@addyosmani: fetch failed",
-    "x:@swyx: fetch failed",
-    "x:@karpathy: fetch failed",
-    "podcast:Latent Space: fetch failed"
+    "podcast:Latent Space: HTTP 403 for https://api.substack.com/feed/podcast/1084089.rss",
+    "video:Cursor Compile: HTTP 500 for https://www.youtube.com/feeds/videos.xml?playlist_id=PLuI2ZfvGpzwDCn0njJpjZ3ZiEpCqhN7BK",
+    "video:Figma Config: HTTP 404 for https://www.youtube.com/feeds/videos.xml?playlist_id=PLXDU_eVOJTx6erPKfFHtCNbyCmcCn4zrp"
   ]
 }
