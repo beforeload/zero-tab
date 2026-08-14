@@ -50,19 +50,166 @@ export function safeHttpsUrl(value, base) {
 }
 
 export function stripTags(value) {
-  return decodeEntities(
-    String(value || '')
-      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-      .replace(/<[^>]+>/g, ' '),
+  const decoded = decodeEntities(String(value || ''));
+  return normalizeText(
+    decodeEntities(
+      decoded
+        .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+        .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<[^>]+>/g, ' '),
+    ),
   );
+}
+
+const SKIP_LINK_TITLE =
+  /^(跳到|跳轉到|跳转到)?\s*(主要)?(内容|內容|页脚|頁腳|导航|導航|選單|菜单|footer|main content|content|navigation|menu)\s*$/i;
+
+const NAV_TITLE =
+  /^(home|about|careers|pricing|docs|documentation|support|login|sign in|sign up|subscribe|privacy|terms|cookie|contact|research|news|blog|engineering|products?|company|api|claude|how to get support|如何获得支持|如何獲得支持)$/i;
+
+function isJunkTitle(title) {
+  const text = normalizeText(title);
+  if (!text || text.length < 16 || text.length > 160) return true;
+  if (SKIP_LINK_TITLE.test(text)) return true;
+  if (NAV_TITLE.test(text)) return true;
+  if (/^(skip to|jump to)\b/i.test(text)) return true;
+  // Concatenated card blobs usually contain multiple sentences/dates mashed together.
+  if ((text.match(/\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b/g) || []).length >= 2) {
+    return true;
+  }
+  return false;
+}
+
+function canonicalizeArticleUrl(value, baseUrl) {
+  const href = safeHttpsUrl(value, baseUrl);
+  if (!href) return '';
+  try {
+    const url = new URL(href);
+    if (url.hash && /^#(main|main-content|content|footer|nav|navigation|top)$/i.test(url.hash)) {
+      return '';
+    }
+    // Drop pure in-page skip targets that share the index path.
+    if (baseUrl) {
+      const base = new URL(baseUrl);
+      if (url.origin === base.origin && url.pathname.replace(/\/$/, '') === base.pathname.replace(/\/$/, '') && url.hash) {
+        return '';
+      }
+    }
+    url.hash = '';
+    url.search = '';
+    return url.href.replace(/\/$/, '');
+  } catch {
+    return '';
+  }
+}
+
+function looksLikeArticleUrl(url, baseUrl) {
+  try {
+    const parsed = new URL(url);
+    const path = parsed.pathname;
+    if (/\/(tag|tags|category|categories|author|authors|page|pages|search|login|signup)(\/|$)/i.test(path)) {
+      return false;
+    }
+    if (/\/(blog|news|engineering|posts|articles|research|changelog|index)\b/i.test(path)) {
+      // Index pages themselves are not articles.
+      if (/\/(blog|news|engineering|posts|articles|research|changelog|index)\/?$/i.test(path)) {
+        return false;
+      }
+      return true;
+    }
+    if (/\/\d{4}\/\d{2}\//.test(path)) return true;
+    if (/\/[a-z0-9-]{16,}\/?$/i.test(path)) return true;
+    if (baseUrl) {
+      const base = new URL(baseUrl);
+      if (
+        parsed.origin === base.origin &&
+        path.startsWith(base.pathname.replace(/\/$/, '') + '/') &&
+        path.replace(/\/$/, '') !== base.pathname.replace(/\/$/, '')
+      ) {
+        return path.split('/').filter(Boolean).pop()?.length >= 8;
+      }
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+function extractHeadingTitle(anchorHtml) {
+  const heading =
+    anchorHtml.match(/<h[1-4][^>]*>([\s\S]*?)<\/h[1-4]>/i) ||
+    anchorHtml.match(
+      /<(?:span|div|p)[^>]*class=["'][^"']*(?:title|headline|card-title|post-title|featuredTitle)[^"']*["'][^>]*>([\s\S]*?)<\/(?:span|div|p)>/i,
+    );
+  if (heading) return cleanArticleTitle(stripTags(heading[1]));
+
+  // Prefer meaningful image alts (Cursor cards put the headline in alt).
+  const imageAlt = [...anchorHtml.matchAll(/<img\b[^>]*\balt=["']([^"']{8,160})["'][^>]*>/gi)]
+    .map((match) => match[1].trim())
+    .find(Boolean);
+  if (imageAlt) return cleanArticleTitle(imageAlt);
+
+  return cleanArticleTitle(stripTags(anchorHtml));
+}
+
+function stripAuthorReadTimeCrumbs(title) {
+  let text = title;
+  for (let i = 0; i < 4; i += 1) {
+    const next = text
+      .replace(/\s+\d+\s*min(?:ute)?s?\s+read$/i, '')
+      // "Maxime Prades · 2m" / "Connor & Yuri · 6m" / "Chris, Rikki & Kevin · 7m"
+      .replace(
+        /\s+[A-Z][A-Za-z.]+(?:\s*(?:,|&|and)\s*|\s+)[A-Z][A-Za-z.]+(?:(?:\s*(?:,|&|and)\s*|\s+)[A-Z][A-Za-z.]+)*\s+·\s*\d+m$/u,
+        '',
+      )
+      // "Connor & Yuri 6m" / "Chris, Rikki & Kevin 7m"
+      .replace(
+        /\s+[A-Z][A-Za-z.]+(?:\s*(?:,|&|and)\s*)[A-Z][A-Za-z.]+(?:(?:\s*(?:,|&|and)\s*)[A-Z][A-Za-z.]+)*\s+\d+m$/u,
+        '',
+      )
+      // "Maxime Prades 2m" (exactly first + last before read-time)
+      .replace(/\s+[A-Z][a-z]+\s+[A-Z][a-z]+\s+\d+m$/u, '');
+    if (next === text) break;
+    text = next;
+  }
+  return text;
+}
+
+function cleanArticleTitle(title) {
+  let text = normalizeText(decodeEntities(title));
+  text = text.replace(
+    /^(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}\s*[·•\-–|]?\s*(?:Research|Product|Company|company|product|Features|Announcements|News)?\s*/i,
+    '',
+  );
+  text = text.replace(
+    /^(?:Featured|Announcements|Features|Product|News|Research|Company)\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}\s*/i,
+    '',
+  );
+  text = text.replace(
+    /^(?:Featured|Announcements|Features|Product|News|Research|Company)\s+/i,
+    '',
+  );
+  text = stripAuthorReadTimeCrumbs(text);
+
+  // If a short headline is followed by a description sentence, keep the headline.
+  // Avoid bare "Cursor" here — titles like "… with Cursor for iOS" are valid.
+  const split = text.match(
+    /^(.{16,100}?)(?=\s+(?:We|The|How|This|A|An|Our|Built|I|Cursor is)\b)/,
+  );
+  if (split?.[1] && !/[.!?]$/.test(split[1])) {
+    text = split[1];
+  } else if (text.length > 110) {
+    const sentence = text.match(/^.{16,110}?(?:[.!?…]|$)/)?.[0];
+    if (sentence) text = sentence;
+  }
+  return truncate(text, 120);
 }
 
 function tagValue(block, tag) {
   const cdata = block.match(
     new RegExp(`<${tag}[^>]*>\\s*<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>\\s*</${tag}>`, 'i'),
   );
-  if (cdata) return decodeEntities(cdata[1]);
+  if (cdata) return stripTags(cdata[1]);
   const plain = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, 'i'));
   return plain ? stripTags(plain[1]) : '';
 }
@@ -84,11 +231,11 @@ export function parseRssOrAtom(xml, { sourceName, baseUrl, limit = 6 } = {}) {
   for (const block of blocks) {
     const title = truncate(tagValue(block, 'title'), 180);
     const link =
-      safeHttpsUrl(tagValue(block, 'link'), baseUrl) ||
-      safeHttpsUrl(tagAttr(block, 'link', 'href'), baseUrl) ||
-      safeHttpsUrl(tagValue(block, 'guid'), baseUrl) ||
-      safeHttpsUrl(tagValue(block, 'id'), baseUrl);
-    if (!title || !link) continue;
+      canonicalizeArticleUrl(tagValue(block, 'link'), baseUrl) ||
+      canonicalizeArticleUrl(tagAttr(block, 'link', 'href'), baseUrl) ||
+      canonicalizeArticleUrl(tagValue(block, 'guid'), baseUrl) ||
+      canonicalizeArticleUrl(tagValue(block, 'id'), baseUrl);
+    if (!title || !link || isJunkTitle(title)) continue;
 
     const publishedAt =
       tagValue(block, 'pubDate') ||
@@ -96,12 +243,14 @@ export function parseRssOrAtom(xml, { sourceName, baseUrl, limit = 6 } = {}) {
       tagValue(block, 'updated') ||
       tagValue(block, 'dc:date') ||
       null;
-    const description =
+    const description = truncate(
       tagValue(block, 'description') ||
-      tagValue(block, 'summary') ||
-      tagValue(block, 'content:encoded') ||
-      tagValue(block, 'content') ||
-      '';
+        tagValue(block, 'summary') ||
+        tagValue(block, 'content:encoded') ||
+        tagValue(block, 'content') ||
+        '',
+      500,
+    );
     const guid = tagValue(block, 'guid') || tagValue(block, 'id') || link;
 
     items.push({
@@ -109,9 +258,9 @@ export function parseRssOrAtom(xml, { sourceName, baseUrl, limit = 6 } = {}) {
       title,
       url: link,
       guid,
-      description: truncate(description, 500),
-      content: truncate(description, 500),
-      transcript: truncate(description, 500),
+      description,
+      content: description,
+      transcript: description,
       publishedAt: publishedAt ? new Date(Date.parse(publishedAt) || Date.now()).toISOString() : undefined,
     });
     if (items.length >= limit) break;
@@ -121,28 +270,25 @@ export function parseRssOrAtom(xml, { sourceName, baseUrl, limit = 6 } = {}) {
 }
 
 export function parseBlogHtml(html, { sourceName, baseUrl, limit = 6 } = {}) {
-  const text = String(html || '');
+  // Strip site chrome only. Do NOT strip <header> — many blog cards (e.g. Cursor)
+  // wrap the title/media inside a card-level <header>.
+  const text = String(html || '')
+    .replace(/<nav[\s\S]*?<\/nav>/gi, ' ')
+    .replace(/<footer[\s\S]*?<\/footer>/gi, ' ');
   const found = new Map();
 
-  const patterns = [
-    /<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi,
-  ];
+  // Document order; extractHeadingTitle already prefers h1–h4 / img[alt] inside the card.
+  const candidates = text.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi);
 
-  for (const pattern of patterns) {
-    for (const match of text.matchAll(pattern)) {
-      const href = match[1];
-      const title = truncate(stripTags(match[2]), 180);
-      const url = safeHttpsUrl(href, baseUrl);
-      if (!url || !title || title.length < 12) continue;
-      if (!/\/(blog|news|engineering|posts|articles|research|changelog)\b/i.test(url) &&
-          !/blog|news|engineering|post|article/i.test(href)) {
-        // Keep homepage-relative article-looking paths with dates or long slugs.
-        if (!/\/\d{4}\/\d{2}\//.test(url) && !/\/[a-z0-9-]{16,}\/?$/i.test(url)) continue;
-      }
-      if (/#(respond|comments)|\/tag\/|\/category\/|\/author\//i.test(url)) continue;
-      if (!found.has(url)) found.set(url, title);
-      if (found.size >= limit * 3) break;
-    }
+  for (const match of candidates) {
+    const href = match[1];
+    const inner = match[2] || '';
+    const title = extractHeadingTitle(inner);
+    const url = canonicalizeArticleUrl(href, baseUrl);
+    if (!url || !title || isJunkTitle(title)) continue;
+    if (!looksLikeArticleUrl(url, baseUrl)) continue;
+    if (!found.has(url)) found.set(url, title);
+    if (found.size >= limit * 2) break;
   }
 
   return [...found.entries()].slice(0, limit).map(([url, title]) => ({

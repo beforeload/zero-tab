@@ -23,6 +23,9 @@ describe('feed generator parsers', () => {
     assert.equal(items[0].title, 'Shipping smaller context windows');
     assert.equal(items[0].url, 'https://example.com/posts/context-windows');
     assert.match(items[0].description, /prompts/i);
+    assert.equal(items[0].description.includes('<'), false);
+    assert.equal(items[0].description.includes('&lt;'), false);
+    assert.equal(items[0].description.includes('</'), false);
   });
 
   it('parses Atom podcast entries', () => {
@@ -37,15 +40,25 @@ describe('feed generator parsers', () => {
     assert.equal(items[0].url, 'https://example.com/episodes/agents');
   });
 
-  it('parses blog HTML article links', () => {
+  it('parses blog HTML article links and ignores skip/nav junk', () => {
     const html = readFileSync(join(fixtures, 'blog.html'), 'utf8');
     const items = parseBlogHtml(html, {
       sourceName: 'Cursor Blog',
       baseUrl: 'https://cursor.com/blog',
     });
-    assert.ok(items.length >= 1);
-    assert.equal(items[0].url, 'https://cursor.com/blog/agent-harness');
-    assert.match(items[0].title, /agent harness/i);
+    assert.equal(items.length, 3);
+    assert.deepEqual(
+      items.map((item) => [item.url, item.title]),
+      [
+        ['https://cursor.com/blog/agent-harness', 'Building a reliable agent harness'],
+        ['https://cursor.com/blog/tab-workstation', 'Designing a personal tab workstation'],
+        ['https://cursor.com/blog/ios-mobile-app', 'Build from anywhere with Cursor for iOS'],
+      ],
+    );
+    assert.equal(
+      items.every((item) => !/跳到|Skip to|如何获得支持/i.test(item.title)),
+      true,
+    );
   });
 
   it('parses X syndication markup into tweets', () => {

@@ -7,7 +7,7 @@
       <link>https://example.com/posts/context-windows</link>
       <guid>https://example.com/posts/context-windows</guid>
       <pubDate>Mon, 10 Aug 2026 09:00:00 GMT</pubDate>
-      <description>Practical notes on trimming prompts and keeping the edit loop fast.</description>
+      <description><![CDATA[&lt;p&gt;&lt;strong&gt;Release:&lt;/strong&gt; Practical notes on trimming &lt;a href="https://example.com/x"&gt;prompts&lt;/a&gt;.&lt;/p&gt;]]></description>
     </item>
     <item>
       <title>Local-first browser tools</title>

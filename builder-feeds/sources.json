@@ -1,7 +1,7 @@
 {
   "version": 1,
   "x": [
-    { "name": "Boris Cherny", "handle": "boris_cherny" },
+    { "name": "Boris Cherny", "handle": "bcherny" },
     { "name": "Anthropic", "handle": "AnthropicAI" },
     { "name": "Guillermo Rauch", "handle": "rauchg" },
     { "name": "Simon Willison", "handle": "simonw" },
