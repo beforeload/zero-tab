@@ -20,10 +20,12 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Checkout main
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main
+          # Use the triggering ref so workflow_dispatch from a feature branch
+          # can publish with that branch's generator/sources.
+          ref: ${{ github.sha }}
           fetch-depth: 0
 
       - name: Setup Node.js
