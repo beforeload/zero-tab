@@ -1,53 +1,149 @@
 {
-  "generatedAt": "2026-08-14T05:13:54.779Z",
+  "generatedAt": "2026-08-15T08:45:25.123Z",
   "videos": [
     {
       "name": "AI Engineer",
-      "title": "Improving Agents is a Data Mining Problem — Vivek Trivedy, LangChain",
-      "url": "https://www.youtube.com/watch?v=CvRngaQZQ3Y",
-      "guid": "yt:video:CvRngaQZQ3Y",
-      "transcript": "Does your agent get dumber after the first compaction? After the second? You cannot read that off the code, only off the traces, and there are far too many to read yourself. So LangChain points agents at the traces of other agents and asks exactly that, alongside questions like where users got upset and what a different model would have done at the same step. Vivek Trivedy's argument is that observability and continual learning are the same problem in different clothing, because an agent acting…",
-      "publishedAt": "2026-08-12T19:00:01.000Z"
+      "title": "How Web Data Infrastructure Powers the Next Generation of AI — Patricija Žemaitytė, Oxylabs",
+      "url": "https://www.youtube.com/watch?v=1UmZHb_E_SM",
+      "guid": "yt:video:1UmZHb_E_SM",
+      "transcript": "Minutes into a call to demo a search API rebuilt to answer in under a second, the system got blocked, badly, in front of the client. Patricija Žemaitytė treats that as the useful distinction: something that works in development, something that passes tests, and something that survives reality are three different systems. The rebuild had no trick to it. Browsers are slow, expensive, and incompatible with low latency, and they were unavoidable, so the team went hunting for time across layouts, pa…",
+      "publishedAt": "2026-08-14T17:00:37.000Z"
     },
     {
       "name": "AI Engineer",
-      "title": "Lessons from Studying Every Memory System — Shlok Khemani, Independent",
-      "url": "https://www.youtube.com/watch?v=5ZGyKWjQDr0",
-      "guid": "yt:video:5ZGyKWjQDr0",
-      "transcript": "A profile ChatGPT keeps on Shlok Khemani says he travelled to Turkey in 2025. He never has. The memory came from conversations where he was choosing between Turkey and Thailand, he went to Thailand, and the profile kept both with overlapping dates. What bothers him is not the mistake but the incuriosity: nothing notices the conflict, and the evidence to settle it was sitting in his email as flight and hotel bookings. He calls that a product problem, not a technology one. The rest is a year of r…",
-      "publishedAt": "2026-08-12T18:30:06.000Z"
+      "title": "The Rise of CaaS: Context-as-a-Service for Agentic AI — Omer Primor, Bright Data",
+      "url": "https://www.youtube.com/watch?v=Ot4OPrPH4xY",
+      "guid": "yt:video:Ot4OPrPH4xY",
+      "transcript": "Just past 15,000 queries, renting context stopped being the cheaper option. Omer Primor gets that number from a small experiment he is careful to call a test rather than a benchmark: enrich one company across 25 fields, run it 100 times against this event's sponsors, and compare AI search products, context as a service vendors, and a scraper pipeline built in roughly a day. Pricing a week of setup at $5,000, the build it yourself path crossed over a little above 15,000 entities, and he expects…",
+      "publishedAt": "2026-08-14T16:30:36.000Z"
     },
     {
       "name": "AI Engineer",
-      "title": "Designing Agents (The Floor Is the Frontier) — Ben Hylak, Raindrop",
-      "url": "https://www.youtube.com/watch?v=jHMiYtjoJfA",
-      "guid": "yt:video:jHMiYtjoJfA",
-      "transcript": "Build the thousand example eval suite everyone tells you to build, switch harnesses, and 80% of it stops meaning anything. Ben Hylak's complaint is that eval advice is still written for the chatbot era, back when you knew the answer to nearly every question a user would ask. His reframing is that the useful question is not what issues your agent has, since it will have effectively infinite issues, but which ones matter. That turns on the gap between your ceiling, the most impressive thing your…",
-      "publishedAt": "2026-08-12T18:00:34.000Z"
+      "title": "From RL to IRL — Gaurav Mishra, Amazon AGI Lab",
+      "url": "https://www.youtube.com/watch?v=Cc0_nyxROBA",
+      "guid": "yt:video:Cc0_nyxROBA",
+      "transcript": "Asked to file an expense, the agent gets signed out mid task, reasons that it can infer the password, guesses twice, and locks the account. In a second run it clicks a sponsored button styled like the real submit button, lands on a different site, and begins typing personal details into it. Both are real trajectories from early browser training runs at the Amazon AGI Lab, and Gaurav Mishra's summary is that RL worked while the world was a game, and IRL starts when the game fights back. The talk…",
+      "publishedAt": "2026-08-14T16:00:06.000Z"
     },
     {
       "name": "AI Engineer",
-      "title": "Bringing Continual Learning into Enterprises — Samuel Denton, Applied Compute",
-      "url": "https://www.youtube.com/watch?v=ZTA0GwpAUak",
-      "guid": "yt:video:ZTA0GwpAUak",
-      "transcript": "A Qwen thinking model was taking up to 80 turns to submit on SWE bench. Applied Compute wanted it wrapping up by turn 40 and got the submit tool call rate from 22% to 60% with test pass rate flat. The interesting part is the mechanism: because the rollout was conditioned on an old production trace that never called the tool, the teacher never touched the tool call tokens at all. It moved the reasoning path toward the call instead, and the call followed. Sam Denton's frame is a grid. One axis is…",
-      "publishedAt": "2026-08-12T17:30:06.000Z"
+      "title": "The Dark Arts of Web Automation: Teaching Agents to Use Websites Like Humans — Corey Gallon, Rexmore",
+      "url": "https://www.youtube.com/watch?v=26RtyAm9y_Q",
+      "guid": "yt:video:26RtyAm9y_Q",
+      "transcript": "Preparing this talk got Corey Gallon a warning from OpenAI that his account faced a ban for cyber abuse with a web browser. The offending work was an agent clearing Cloudflare Turnstile, two image captchas, and finally reCAPTCHA v2 with no human in the loop. His premise fits on one slide: a browser driven through the Chrome DevTools Protocol is just a meat bag with a mouse, because the agent's clicks and keystrokes travel the same path inside Chrome that yours do. Chrome stamps every event as t…",
+      "publishedAt": "2026-08-14T15:30:00.000Z"
     },
     {
       "name": "AI Engineer",
-      "title": "LLM Knowledge Bases: a practical guide — Ben Holmes, Warp",
-      "url": "https://www.youtube.com/watch?v=I3bpdgFJCUY",
-      "guid": "yt:video:I3bpdgFJCUY",
-      "transcript": "Talking runs about 200 words a minute and typing does not, which is why Ben Holmes starts a knowledge base with voice dictation rather than with organization. The pipeline only works if there is enough raw material, so the capture step is deliberately sloppy: ramble into your phone after a podcast or a meeting, skip the formatting, and let agents impose structure afterward. He points at Handy and Voice Ink as local, on device options, so none of it needs a subscription. Structure then arrives i…",
-      "publishedAt": "2026-08-12T17:00:22.000Z"
+      "title": "Bringing agents onto the world wide web — Paul Klein IV, Browserbase",
+      "url": "https://www.youtube.com/watch?v=GqoNrUz8hEU",
+      "guid": "yt:video:GqoNrUz8hEU",
+      "transcript": "When OpenClaw shipped, people started buying Mac minis to run it from home, SSHing in and clearing captchas off a residential IP. Paul Klein IV points out he has yet to see a SOC 2 compliant Mac Mini setup at scale, and that this felt like a reasonable answer is itself the problem. His argument is that browser agents are no longer held back by the models. The capability is already there and the engineering around it is missing, which makes the overhang something any team can close rather than w…",
+      "publishedAt": "2026-08-14T15:00:31.000Z"
     },
     {
       "name": "AI Engineer",
-      "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
-      "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
-      "guid": "yt:video:XEd_SRVHBgU",
-      "transcript": "Fewer than five thousand people in the world know how to train a frontier model at scale, by Sara Hooker's estimate, and that knowledge travels like an apprenticeship rather than a literature. Modern computer science is 77 years old, two generations, and in that time the route to contributing at the frontier narrowed into one funnel: the right PhD, the right industry lab, the right problem at the right moment. She calls it the unreasonably narrow path, and notes it got compounded in this field…",
-      "publishedAt": "2026-08-12T16:30:19.000Z"
+      "title": "Computer Use at the Edge of the Statistical Precipice — Pierluca D'Oro, Programma Labs",
+      "url": "https://www.youtube.com/watch?v=CTLa_p6iOiY",
+      "guid": "yt:video:CTLa_p6iOiY",
+      "transcript": "A script under one megabyte that never looks at the screen matches or beats the frontier model it was copied from. Pierluca D'Oro builds it by recording one successful trajectory per task and then replaying those actions blindly, and on deterministic benchmarks like OSWorld that counts as a valid agent and it scores at the top. The paper goes further and proves that pass@k on a deterministic environment is exactly the success rate of that replay script, so a metric the field leans on turns out…",
+      "publishedAt": "2026-08-14T14:30:31.000Z"
+    },
+    {
+      "name": "Cursor Compile",
+      "title": "Opening Keynote, Michael Truell | Compile 26",
+      "url": "https://www.youtube.com/watch?v=fWa7uxyhVDE",
+      "guid": "yt:video:fWa7uxyhVDE",
+      "transcript": "At this opening keynote of Cursor's inaugural Compile conference, co-founder and CEO Michael Truell traces Cursor's path to today. Michael, Kevin Niparko, and Tomas Reimers then announce Cursor Mobile, the Origin Git platform, and updates on a new model trained from scratch. 0:00 - How Cursor started 4:11 - Becoming agent-first 5:10 - 95% of usage is now agents 7:47 - Giving agents their own computer 8:05 - Cursor as a platform 9:55 - Building our own models 13:18 - Updates to cloud agents 18:0…",
+      "publishedAt": "2026-06-22T20:02:42.000Z"
+    },
+    {
+      "name": "Cursor Compile",
+      "title": "What Is Your Job Now, Farhan Thawar | Compile 26",
+      "url": "https://www.youtube.com/watch?v=ByOF8qByGHU",
+      "guid": "yt:video:ByOF8qByGHU",
+      "transcript": "Farhan Thawar, head of engineering at Shopify, on what an engineer's job becomes when AI writes most of the code. 0:00 - What is your job now? 0:55 - How the SDLC is shifting 3:13 - Learning is the collateral 4:33 - The bottleneck always moves 7:58 - Tobi's memo 11:17 - Hiring 1,000 interns 12:48 - The end of the centaur 19:39 - Prototype is not production 20:46 - How Shopify works with AI 25:22 - What changed, what stayed",
+      "publishedAt": "2026-06-24T15:00:27.000Z"
+    },
+    {
+      "name": "Cursor Compile",
+      "title": "The Memory Problem, Baseten | Compile 26",
+      "url": "https://www.youtube.com/watch?v=I8YnwUV2C9w",
+      "guid": "yt:video:I8YnwUV2C9w",
+      "transcript": "Mudith Jayasekara, Charlie O'Neill, and Harry Partridge of Baseten's research team on the memory problem for long-horizon agents: compressing the KV cache to get near-lossless retrieval of relevant context at inference time. 00:00 The memory problem 03:15 Selection vs. synthesis 04:22 Amortization and sparse autoencoders 05:38 Compressing the KV cache 08:39 Iterative compaction 10:41 A compacted cache is an MLP",
+      "publishedAt": "2026-06-29T15:30:09.000Z"
+    },
+    {
+      "name": "Cursor Compile",
+      "title": "Closer to the Material, Ryo Lu | Compile 26",
+      "url": "https://www.youtube.com/watch?v=az6OEZV8iHw",
+      "guid": "yt:video:az6OEZV8iHw",
+      "transcript": "Ryo Lu on how AI changes the way we build and what it must not erase. 0:00 - Building ryOS 1:21 - What should exist? 2:11 - The loop AI changes 4:17 - The black box risk 6:43 - Output vs. material 8:31 - The Glass interface 11:14 - Prototyping Glass with Cursor 14:03 - When software felt alive 17:36 - Where craft moves 20:25 - A more human future",
+      "publishedAt": "2026-06-23T00:02:32.000Z"
+    },
+    {
+      "name": "Cursor Compile",
+      "title": "The New PM, Claire Vo | Compile 26",
+      "url": "https://www.youtube.com/watch?v=4CAFK-rc26A",
+      "guid": "yt:video:4CAFK-rc26A",
+      "transcript": "Claire Vo, founder of ChatPRD, on what product management becomes when code is abundant but the market is not. 0:00 - Anybody can build anything 1:38 - Inventing ways to not build 7:13 - The constraint has shifted 9:42 - The age of abundance 11:51 - What product should be now 13:03 - Build something people want 15:41 - Manifesting novel ideas 17:50 - Bringing people along 20:17 - Is PM dead? 24:42 - Find the money, build companies",
+      "publishedAt": "2026-06-24T15:00:27.000Z"
+    },
+    {
+      "name": "Cursor Compile",
+      "title": "Agents and Infrastructure, Sam Lambert | Compile 26",
+      "url": "https://www.youtube.com/watch?v=zxvyO5vnknI",
+      "guid": "yt:video:zxvyO5vnknI",
+      "transcript": "Sam Lambert, CEO of PlanetScale, on how infrastructure must change for agents, with a live demo of agents optimizing and sharding a real database. 0:00 - Infrastructure for agents 1:18 - A talk run by agents 3:10 - Agents optimize the database 6:00 - Branching, deploys, and safety 8:36 - Catching and undoing a bad change 11:23 - Why sharding is hard 14:02 - Refactoring for sharding 19:28 - Built for humans first 21:34 - A safe loop for agents 24:56 - Infrastructure, not just smarter models",
+      "publishedAt": "2026-06-24T15:00:11.000Z"
+    },
+    {
+      "name": "Figma Config",
+      "title": "Designing Math ft. Grant Sanderson (3Blue1Brown) I Config 2026",
+      "url": "https://www.youtube.com/watch?v=bLSLN96Gn-w",
+      "guid": "yt:video:bLSLN96Gn-w",
+      "transcript": "For many who have a bad relationship with math, it is often because the subject can come across as static and rote. Those who have been fortunate enough to see what the subject truly is know that it is rife with creativity, choices, and regular shifts in perspective that fundamentally reshape how you view problems. Where there is choice, there is design, and this talk will explore various design challenges and principles that go into presenting and discovering math. This is 'Designing Math' wit…",
+      "publishedAt": "2026-06-26T19:23:17.000Z"
+    },
+    {
+      "name": "Figma Config",
+      "title": "Config 2026 Keynote with Dylan Field (CEO & Co-founder, Figma)",
+      "url": "https://www.youtube.com/watch?v=2ZCc4k_IV5w",
+      "guid": "yt:video:2ZCc4k_IV5w",
+      "transcript": "Design and product-building are changing, and so are the roles we play in the process. This means rethinking product development from the ground up—shifting mindsets and methods to make great work. Figma’s biggest product launch of the year kicks off Config. Read the Full Recap: https://www.figma.com/blog/config-2026-recap/ Disclaimer: This presentation contains certain forward-looking information, such as that relating to the expected development of features and functionality that are currentl…",
+      "publishedAt": "2026-06-24T17:47:38.000Z"
+    },
+    {
+      "name": "Figma Config",
+      "title": "Death of the finished state ft. Brent David Freaney (Special Offer) | Config 2026",
+      "url": "https://www.youtube.com/watch?v=Yz03ERsfDDM",
+      "guid": "yt:video:Yz03ERsfDDM",
+      "transcript": "From the process behind a single shade of green for Charli XCX's Brat to the systems thinking that holds together large-scale creative campaigns, Brent will share how he approaches design work that spans albums, magazines, live media, and screens. He'll walk through his process, his tools, and what it actually takes to design for cultural impact. ____________________________________________________ Find us on ⬇️ X (formerly Twitter): https://x.com/figma Instagram: https://www.instagram.com/figm…",
+      "publishedAt": "2026-06-26T16:57:58.000Z"
+    },
+    {
+      "name": "Figma Config",
+      "title": "The future is low-tech: lessons from the early 2000s ft. Jésabel DC | Config 2026",
+      "url": "https://www.youtube.com/watch?v=otkSbl399tU",
+      "guid": "yt:video:otkSbl399tU",
+      "transcript": "We’ll rewind to the early 2000s—when tech was low-tech, playful and non-extractive. Think: loading bars, Tamagotchis and RollerCoaster Tycoon in a cereal box. This talk explores calm, nervous-system-friendly design: attention regulation, slowness as a feature, autonomy-first mechanics, real-world interaction and gentle feedback loops. A call for designers and builders to make tech feel human again. ____________________________________________________ Find us on ⬇️ X (formerly Twitter): https://…",
+      "publishedAt": "2026-07-01T21:40:58.000Z"
+    },
+    {
+      "name": "Figma Config",
+      "title": "Designing in code | Config 2026",
+      "url": "https://www.youtube.com/watch?v=Q3BkuQRBg-w",
+      "guid": "yt:video:Q3BkuQRBg-w",
+      "transcript": "The gap between designing and working in code is closing. Learn how two new launches bring code natively into Figma. Use Make to design in your local codebase, and Code layers to explore right on the canvas. Iterate, prototype, and collaborate in code all the way to production. ____________________________________________________ Find us on ⬇️ X (formerly Twitter): https://x.com/figma Instagram: https://www.instagram.com/figma LinkedIn: https://www.linkedin.com/company/figma TikTok: https://tik…",
+      "publishedAt": "2026-06-26T21:02:03.000Z"
+    },
+    {
+      "name": "Figma Config",
+      "title": "Figma deep dive: Agentic workflows and the MCP | Config 2026",
+      "url": "https://www.youtube.com/watch?v=D5WUW9X_-L0",
+      "guid": "yt:video:D5WUW9X_-L0",
+      "transcript": "Clarity at the front of a process makes agentic workflows successful, and design context can help you use AI with intentionality. In this talk we'll dive into how Figma's entire platform can be leveraged to work with agents efficiently. ____________________________________________________ Find us on ⬇️ X (formerly Twitter): https://x.com/figma Instagram: https://www.instagram.com/figma LinkedIn: https://www.linkedin.com/company/figma TikTok: https://tiktok.com/@figma Figma forum: https://forum.…",
+      "publishedAt": "2026-06-26T21:06:03.000Z"
     }
   ]
 }
