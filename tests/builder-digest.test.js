@@ -57,8 +57,48 @@ test('normalizes and ranks all supported feed types', () => {
 
   assert.equal(items.length, 4);
   assert.deepEqual(new Set(items.map(item => item.kind)), new Set(['x', 'blog', 'podcast', 'video']));
+  const xItem = items.find(item => item.kind === 'x');
+  assert.equal(xItem.title, 'We launched a new open-source agent framework today.');
+  assert.equal(xItem.source, 'Builder (@builder)');
+  assert.equal(xItem.excerpt, '');
   assert.ok(items.every(item => item.url.startsWith('https://')));
   assert.ok(items.every(item => Number.isFinite(item.score)));
+});
+
+test('drops junk X markdown profile chrome from feed normalization', () => {
+  const items = digest.normalizeFeeds({
+    x: {
+      generatedAt: NOW.toISOString(),
+      x: [{
+        name: 'Swyx',
+        handle: 'swyx',
+        tweets: [
+          {
+            id: 'good',
+            text: 'Shipping agents that actually stay useful for a week',
+            createdAt: '2026-07-25T07:00:00.000Z',
+            url: 'https://x.com/swyx/status/good',
+          },
+          {
+            id: 'bad-avatar',
+            text: '* [![Image 8: user avatar](https://pbs.twimg.com/profile_images/x.jpg)](https://x.com/swyx)',
+            createdAt: '2026-07-25T07:00:00.000Z',
+            url: 'https://x.com/swyx/status/bad-avatar',
+          },
+          {
+            id: 'bad-login',
+            text: '## Log in or sign up for X',
+            createdAt: '2026-07-25T07:00:00.000Z',
+            url: 'https://x.com/swyx/status/bad-login',
+          },
+        ],
+      }],
+    },
+  }, NOW);
+
+  assert.equal(items.length, 1);
+  assert.equal(items[0].id, 'x:good');
+  assert.equal(items[0].title, 'Shipping agents that actually stay useful for a week');
 });
 
 test('rejects unsafe links and control characters', () => {

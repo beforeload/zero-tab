@@ -311,6 +311,71 @@ export function parseBlogHtml(html, { sourceName, baseUrl, limit = 6 } = {}) {
   }));
 }
 
+export function cleanTweetText(value) {
+  let text = String(value || '');
+  text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, ' ');
+  text = text.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1');
+  text = text.replace(/^#{1,6}\s+/gm, '');
+  text = text.replace(/^\*\s+/gm, '');
+  text = text.replace(/\*\*|__/g, '');
+  text = stripTags(text);
+  return normalizeText(text);
+}
+
+export function isJunkTweetText(value) {
+  const text = cleanTweetText(value);
+  if (!text || text.length < 16 || text.length > 500) return true;
+  if (/^(log in or sign up|sign up for x|create an account)\b/i.test(text)) return true;
+  if (/^joined (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(text)) return true;
+  if (/\bfollowing\b/i.test(text) && /\bfollowers?\b/i.test(text)) return true;
+  if (/pbs\.twimg\.com\/profile_images/i.test(text)) return true;
+  if (/\buser avatar\b/i.test(text)) return true;
+  if (/^image\s+\d+\b/i.test(text)) return true;
+  if (/^(posts?|replies|highlights|media|likes|articles|subscriptions)\b/i.test(text)) return true;
+  if (/^(san francisco|singapore|new york|london|seattle|remote)\b/i.test(text) && text.length < 48) {
+    return true;
+  }
+  // Bare domain / vanity URL profile fields.
+  if (/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?$/i.test(text)) return true;
+  // Profile chrome leftovers that still contain the handle after cleaning.
+  if (/^@?[A-Za-z0-9_]{2,40}$/.test(text)) return true;
+  return false;
+}
+
+function extractTweetBodyNearMatch(text, matchIndex, permalink, previousIndex = 0) {
+  const around = text.slice(Math.max(0, matchIndex - 900), matchIndex + 1400);
+  const textMatch =
+    around.match(/data-tweet-text=["']([^"']+)["']/i) ||
+    around.match(/<p[^>]*class=["'][^"']*tweet-text[^"']*["'][^>]*>([\s\S]*?)<\/p>/i) ||
+    around.match(/"full_text"\s*:\s*"((?:\\.|[^"\\])*)"/) ||
+    around.match(/"text"\s*:\s*"((?:\\.|[^"\\])*)"/);
+
+  if (textMatch) {
+    const body = cleanTweetText(
+      textMatch[1]
+        .replace(/\\n/g, ' ')
+        .replace(/\\"/g, '"')
+        .replace(/\\u([0-9a-f]{4})/gi, (_, hex) =>
+          String.fromCharCode(Number.parseInt(hex, 16)),
+        ),
+    );
+    if (body && !isJunkTweetText(body)) return body;
+  }
+
+  // jina.ai markdown: only inspect text between the previous permalink and this one.
+  const before = text.slice(Math.max(previousIndex, matchIndex - 700), matchIndex);
+  const candidates = before
+    .split('\n')
+    .map((part) => cleanTweetText(part))
+    .filter((part) => part.length >= 16)
+    .filter((part) => !/^https?:\/\//i.test(part))
+    .filter((part) => !isJunkTweetText(part))
+    .filter((part) => !part.includes(permalink));
+
+  if (!candidates.length) return '';
+  return candidates.sort((a, b) => b.length - a.length)[0];
+}
+
 export function parseXSyndicationHtml(html, { name, handle } = {}) {
   const text = String(html || '');
   const tweets = [];
@@ -323,41 +388,25 @@ export function parseXSyndicationHtml(html, { name, handle } = {}) {
     ),
   ];
 
+  let previousIndex = 0;
   for (const match of permalinks) {
     const tweetHandle = match[1];
     const id = match[2];
-    if (expectedHandle && tweetHandle.toLowerCase() !== expectedHandle) continue;
-    if (seen.has(id)) continue;
+    const nextIndex = match.index + match[0].length;
+    if (expectedHandle && tweetHandle.toLowerCase() !== expectedHandle) {
+      previousIndex = nextIndex;
+      continue;
+    }
+    if (seen.has(id)) {
+      previousIndex = nextIndex;
+      continue;
+    }
     seen.add(id);
 
     const around = text.slice(Math.max(0, match.index - 800), match.index + 1200);
-    const textMatch =
-      around.match(/data-tweet-text=["']([^"']+)["']/i) ||
-      around.match(/<p[^>]*class=["'][^"']*tweet-text[^"']*["'][^>]*>([\s\S]*?)<\/p>/i) ||
-      around.match(/"full_text"\s*:\s*"((?:\\.|[^"\\])*)"/) ||
-      around.match(/"text"\s*:\s*"((?:\\.|[^"\\])*)"/) ||
-      around.match(/\n([^\n]{20,280})\n/);
-    let body = '';
-    if (textMatch) {
-      body = textMatch[1]
-        .replace(/\\n/g, ' ')
-        .replace(/\\"/g, '"')
-        .replace(/\\u([0-9a-f]{4})/gi, (_, hex) =>
-          String.fromCharCode(Number.parseInt(hex, 16)),
-        );
-      body = stripTags(body);
-    }
-    if (!body) {
-      // jina.ai markdown often has the tweet body on the previous lines.
-      const before = text.slice(Math.max(0, match.index - 400), match.index);
-      const line = before
-        .split('\n')
-        .map((part) => normalizeText(part))
-        .filter((part) => part.length >= 24 && !/^https?:\/\//i.test(part) && !/^@/.test(part))
-        .at(-1);
-      body = line || '';
-    }
-    if (!body) continue;
+    const body = extractTweetBodyNearMatch(text, match.index, match[0], previousIndex);
+    previousIndex = nextIndex;
+    if (!body || isJunkTweetText(body)) continue;
 
     const created =
       around.match(/datetime=["']([^"']+)["']/i)?.[1] ||
@@ -385,9 +434,9 @@ export function parseXSyndicationHtml(html, { name, handle } = {}) {
         const payload = JSON.parse(jsonMatch[0]);
         for (const tweet of Array.isArray(payload.tweets) ? payload.tweets : []) {
           const id = String(tweet.id_str || tweet.id || '');
-          const body = normalizeText(tweet.full_text || tweet.text || '');
+          const body = cleanTweetText(tweet.full_text || tweet.text || '');
           const tweetHandle = tweet.user?.screen_name || handle;
-          if (!id || !body || !tweetHandle) continue;
+          if (!id || !body || !tweetHandle || isJunkTweetText(body)) continue;
           tweets.push({
             id,
             text: truncate(body, 400),

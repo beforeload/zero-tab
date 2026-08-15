@@ -45,6 +45,35 @@
     return `${text.slice(0, Math.max(0, maxLength - 1)).trimEnd()}…`;
   }
 
+  function cleanTweetText(value) {
+    let text = String(value || '');
+    text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, ' ');
+    text = text.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1');
+    text = text.replace(/^#{1,6}\s+/gm, '');
+    text = text.replace(/^\*\s+/gm, '');
+    text = text.replace(/\*\*|__/g, '');
+    text = text.replace(/<[^>]+>/g, ' ');
+    return normalizeText(text);
+  }
+
+  function isJunkTweetText(value) {
+    const text = cleanTweetText(value);
+    if (!text || text.length < 16 || text.length > 500) return true;
+    if (/^(log in or sign up|sign up for x|create an account)\b/i.test(text)) return true;
+    if (/^joined (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(text)) return true;
+    if (/\bfollowing\b/i.test(text) && /\bfollowers?\b/i.test(text)) return true;
+    if (/pbs\.twimg\.com\/profile_images/i.test(text)) return true;
+    if (/\buser avatar\b/i.test(text)) return true;
+    if (/^image\s+\d+\b/i.test(text)) return true;
+    if (/^(posts?|replies|highlights|media|likes|articles|subscriptions)\b/i.test(text)) return true;
+    if (/^(san francisco|singapore|new york|london|seattle|remote)\b/i.test(text) && text.length < 48) {
+      return true;
+    }
+    if (/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?$/i.test(text)) return true;
+    if (/^@?[A-Za-z0-9_]{2,40}$/.test(text)) return true;
+    return false;
+  }
+
   function safeHttpsUrl(value) {
     try {
       const url = new URL(value);
@@ -87,21 +116,23 @@
       for (const tweet of Array.isArray(builder?.tweets) ? builder.tweets : []) {
         const url = safeHttpsUrl(tweet?.url);
         const id = normalizeText(tweet?.id);
-        const excerpt = truncate(tweet?.text, 300);
-        if (!id || !url || !excerpt) continue;
+        const text = cleanTweetText(tweet?.text);
+        if (!id || !url || !text || isJunkTweetText(text)) continue;
 
         const name = truncate(builder?.name || builder?.handle || 'AI Builder', 80);
         const handle = truncate(builder?.handle, 40);
         const publishedAt = new Date(timestamp(tweet?.createdAt, nowMs)).toISOString();
+        const title = truncate(text, 180);
+        const excerpt = text.length > 180 ? truncate(text, 320) : '';
         items.push({
           id: `x:${id}`,
           kind: 'x',
-          source: name,
-          title: handle ? `${name} (@${handle})` : name,
+          source: handle ? `${name} (@${handle})` : name,
+          title,
           excerpt,
           url,
           publishedAt,
-          score: 40 + engagementScore(tweet) + keywordScore(excerpt) + recencyScore(publishedAt, nowMs),
+          score: 40 + engagementScore(tweet) + keywordScore(text) + recencyScore(publishedAt, nowMs),
         });
       }
     }

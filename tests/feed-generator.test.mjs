@@ -87,6 +87,18 @@ describe('feed generator parsers', () => {
     assert.equal(builder.tweets[0].url, 'https://x.com/simonw/status/1234567890');
   });
 
+  it('parses jina markdown timelines and ignores profile chrome', () => {
+    const markdown = readFileSync(join(fixtures, 'x-jina.md'), 'utf8');
+    const builder = parseXSyndicationHtml(markdown, {
+      name: 'Swyx',
+      handle: 'swyx',
+    });
+    assert.equal(builder.tweets.length, 1);
+    assert.equal(builder.tweets[0].id, '2088381680478540096');
+    assert.equal(builder.tweets[0].text, 'Shipping agents that actually stay useful for a week');
+    assert.equal(builder.tweets.every((tweet) => !/avatar|Log in|Joined|Following/i.test(tweet.text)), true);
+  });
+
   it('writes feed JSON through a mocked fetch layer', async () => {
     const fixturesByUrl = {
       'https://cdn.syndication.twimg.com/timeline/profile?screen_name=simonw':
