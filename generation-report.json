@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-08-16T02:34:55.256Z",
+  "generatedAt": "2026-08-17T02:33:44.868Z",
   "hasData": true,
   "counts": {
-    "xBuilders": 4,
-    "xTweets": 17,
+    "xBuilders": 0,
+    "xTweets": 0,
     "blogs": 42,
     "podcasts": 4
   },
   "errors": [
-    "x:@boris_cherny: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/boris_cherny",
-    "x:@AnthropicAI: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/AnthropicAI",
-    "x:@karpathy: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/karpathy",
+    "x:@boris_cherny: HTTP 403 for https://r.jina.ai/https://x.com/boris_cherny",
+    "x:@AnthropicAI: HTTP 403 for https://r.jina.ai/https://x.com/AnthropicAI",
+    "x:@rauchg: HTTP 403 for https://r.jina.ai/https://x.com/rauchg",
+    "x:@simonw: HTTP 403 for https://r.jina.ai/https://x.com/simonw",
+    "x:@addyosmani: HTTP 403 for https://r.jina.ai/https://x.com/addyosmani",
+    "x:@swyx: HTTP 403 for https://r.jina.ai/https://x.com/swyx",
+    "x:@karpathy: HTTP 403 for https://r.jina.ai/https://x.com/karpathy",
     "podcast:Latent Space: HTTP 403 for https://api.substack.com/feed/podcast/1084089.rss"
   ]
 }
