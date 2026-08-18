@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T02:33:44.868Z",
+  "generatedAt": "2026-08-18T02:20:42.701Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,30 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "description": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "content": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "publishedAt": "2026-08-17T05:30:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "description": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "content": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "publishedAt": "2026-08-17T05:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "description": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "content": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "publishedAt": "2026-08-17T03:15:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "The builder’s guide to GPT‑5.6",
       "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
       "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
@@ -110,28 +134,20 @@
       "publishedAt": "2026-08-13T09:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "description": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "content": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "publishedAt": "2026-08-12T06:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "description": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.</p> <p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishi…",
+      "content": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.</p> <p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishi…",
+      "publishedAt": "2026-08-17T23:58:14.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "url": "https://openai.com/index/ringcentral",
-      "description": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-      "content": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-      "publishedAt": "2026-08-12T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "description": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "content": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "publishedAt": "2026-08-11T10:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "description": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p> Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a…",
+      "content": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p> Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a…",
+      "publishedAt": "2026-08-17T15:21:29.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/cors-chat\">CORS Chat</a></p> <p>I built this today (<a href=\"https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36\">with GPT-5.6-Sol xhigh</a>) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.</p> <p>It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the <code>--cors</code> option and OpenRouter, and bot…",
       "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/cors-chat\">CORS Chat</a></p> <p>I built this today (<a href=\"https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36\">with GPT-5.6-Sol xhigh</a>) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.</p> <p>It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the <code>--cors</code> option and OpenRouter, and bot…",
       "publishedAt": "2026-08-15T14:49:54.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Northern Gannet",
-      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-      "description": "<p><img src=\"https://static.inaturalist.org/photos/716984157/large.jpg\" alt=\"Northern Gannet\"></p><p>Northern Gannet, in Pillar Point Harbor, CA, US</p><p>This is Morris.</p> <p>Morris is a local celebrity: the only known Northern Gannet (<em>Morus bassanus</em>) in the entire Pacific Ocean.</p> <p>They showed up in the Farallon Islands off the coast of San Francisco <a href=\"https://baynature.org/magazine/spring2017/atlantic-bird-makes-home-california-maybe-melting-arctic-ice/\">14 years ago</a…",
-      "content": "<p><img src=\"https://static.inaturalist.org/photos/716984157/large.jpg\" alt=\"Northern Gannet\"></p><p>Northern Gannet, in Pillar Point Harbor, CA, US</p><p>This is Morris.</p> <p>Morris is a local celebrity: the only known Northern Gannet (<em>Morus bassanus</em>) in the entire Pacific Ocean.</p> <p>They showed up in the Farallon Islands off the coast of San Francisco <a href=\"https://baynature.org/magazine/spring2017/atlantic-bird-makes-home-california-maybe-melting-arctic-ice/\">14 years ago</a…",
-      "publishedAt": "2026-08-15T03:22:00.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Don't classify. Hallucinate!",
-      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-      "description": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don't classify. Hallucinate!</a></strong></p> I still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p> <p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existi…",
-      "content": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don't classify. Hallucinate!</a></strong></p> I still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p> <p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existi…",
-      "publishedAt": "2026-08-14T21:54:35.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,11 +231,27 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "description": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+      "content": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+      "publishedAt": "2026-08-17T23:13:41.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
       "url": "https://www.latent.space/p/flue-2",
       "description": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
       "content": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
       "publishedAt": "2026-08-15T15:46:22.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+      "url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
+      "description": "Congrats to the team!",
+      "content": "Congrats to the team!",
+      "publishedAt": "2026-08-14T06:16:00.000Z"
     },
     {
       "name": "Latent Space",
@@ -260,22 +276,6 @@
       "description": "Speculative Decoding by any other name would distil as sweet",
       "content": "Speculative Decoding by any other name would distil as sweet",
       "publishedAt": "2026-08-12T07:11:08.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
-      "url": "https://www.latent.space/p/chai-discovery",
-      "description": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
-      "content": "Pharma is suddenly paying for Bio × AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
-      "publishedAt": "2026-08-11T21:03:50.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-      "description": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
-      "content": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
-      "publishedAt": "2026-08-11T05:16:41.000Z"
     },
     {
       "name": "Cursor Blog",
