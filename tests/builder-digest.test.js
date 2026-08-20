@@ -81,9 +81,21 @@ test('drops junk X markdown profile chrome from feed normalization', () => {
           },
           {
             id: 'bad-avatar',
-            text: '* [![Image 8: user avatar](https://pbs.twimg.com/profile_images/x.jpg)](https://x.com/swyx)',
+            text: '* [![Image 8: user avatar](https://pbs.twimg.com/profile_images/x.jpg)](https://x.com/swyx) [swyx](https://x.com/swyx) [Aug 15](',
             createdAt: '2026-07-25T07:00:00.000Z',
             url: 'https://x.com/swyx/status/bad-avatar',
+          },
+          {
+            id: 'bad-date-chrome',
+            text: 'Simon Willison @simonw [Aug 15](',
+            createdAt: '2026-07-25T07:00:00.000Z',
+            url: 'https://x.com/simonw/status/bad-date-chrome',
+          },
+          {
+            id: 'bad-json',
+            text: ',"is_blue_verified":true}}}},{"type":"tweet","entry_id":"tweet-1"',
+            createdAt: '2026-07-25T07:00:00.000Z',
+            url: 'https://x.com/swyx/status/bad-json',
           },
           {
             id: 'bad-login',

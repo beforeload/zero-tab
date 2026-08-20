@@ -315,6 +315,9 @@ export function cleanTweetText(value) {
   let text = String(value || '');
   text = text.replace(/!\[[^\]]*\]\([^)]*\)/g, ' ');
   text = text.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1');
+  // Drop broken/incomplete markdown links left by truncated scrapes: [Aug 15](
+  text = text.replace(/\[[^\]]*\]\([^)]*$/g, ' ');
+  text = text.replace(/\[[^\]]*\]\(/g, ' ');
   text = text.replace(/^#{1,6}\s+/gm, '');
   text = text.replace(/^\*\s+/gm, '');
   text = text.replace(/\*\*|__/g, '');
@@ -323,13 +326,20 @@ export function cleanTweetText(value) {
 }
 
 export function isJunkTweetText(value) {
+  const raw = String(value || '');
+  // Check raw first — cleaning strips the evidence from avatar/profile chrome.
+  if (/pbs\.twimg\.com\/profile_images/i.test(raw)) return true;
+  if (/\buser avatar\b/i.test(raw)) return true;
+  if (/!\[[^\]]*\]\([^)]*profile_images/i.test(raw)) return true;
+  if (/is_blue_verified|entry_id|conversation_id_str|withheld_in_countries|"sort_index"/i.test(raw)) {
+    return true;
+  }
+
   const text = cleanTweetText(value);
-  if (!text || text.length < 16 || text.length > 500) return true;
+  if (!text || text.length < 20 || text.length > 400) return true;
   if (/^(log in or sign up|sign up for x|create an account)\b/i.test(text)) return true;
   if (/^joined (jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(text)) return true;
   if (/\bfollowing\b/i.test(text) && /\bfollowers?\b/i.test(text)) return true;
-  if (/pbs\.twimg\.com\/profile_images/i.test(text)) return true;
-  if (/\buser avatar\b/i.test(text)) return true;
   if (/^image\s+\d+\b/i.test(text)) return true;
   if (/^(posts?|replies|highlights|media|likes|articles|subscriptions)\b/i.test(text)) return true;
   if (/^(san francisco|singapore|new york|london|seattle|remote)\b/i.test(text) && text.length < 48) {
@@ -337,29 +347,89 @@ export function isJunkTweetText(value) {
   }
   // Bare domain / vanity URL profile fields.
   if (/^(?:[a-z0-9-]+\.)+[a-z]{2,}(?:\/\S*)?$/i.test(text)) return true;
-  // Profile chrome leftovers that still contain the handle after cleaning.
   if (/^@?[A-Za-z0-9_]{2,40}$/.test(text)) return true;
+  // "Simon Willison @simonw Aug 15" / "Name @handle [Aug 15](" profile chrome.
+  if (
+    /^.{2,60}\s@\w{1,40}\s+(?:\[)?(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b/i.test(
+      text,
+    )
+  ) {
+    return true;
+  }
+  // Author line with no tweet body left after cleaning: "Simon Willison @simonw"
+  if (/^[\p{L}\p{N}.''\-\s]{2,60}\s@\w{1,40}$/u.test(text)) return true;
+  // Leftover truncated markdown crumbs.
+  if (/\[[^\]]*$/.test(text) || /\]\($/.test(text) || /\[[^\]]*\]\($/.test(text)) return true;
+  // JSON/API debris that slipped through.
+  if (/[{}=]|\\u00|"type":/.test(text)) return true;
   return false;
 }
 
+function decodeJsonString(value) {
+  return String(value || '')
+    .replace(/\\n/g, ' ')
+    .replace(/\\"/g, '"')
+    .replace(/\\\//g, '/')
+    .replace(/\\u([0-9a-f]{4})/gi, (_, hex) =>
+      String.fromCharCode(Number.parseInt(hex, 16)),
+    );
+}
+
+function extractTweetsFromStructuredJson(text, { handle, limit = MAX_TWEETS_PER_HANDLE } = {}) {
+  const tweets = [];
+  const seen = new Set();
+  const expectedHandle = String(handle || '').replace(/^@/, '').toLowerCase();
+
+  const candidates = [
+    ...text.matchAll(/"id_str"\s*:\s*"(\d+)"[\s\S]{0,1200}?"full_text"\s*:\s*"((?:\\.|[^"\\])*)"/g),
+    ...text.matchAll(/"full_text"\s*:\s*"((?:\\.|[^"\\])*)"[\s\S]{0,800}?"id_str"\s*:\s*"(\d+)"/g),
+    ...text.matchAll(/"id_str"\s*:\s*"(\d+)"[\s\S]{0,1200}?"text"\s*:\s*"((?:\\.|[^"\\])*)"/g),
+  ];
+
+  for (const match of candidates) {
+    const looksLikeFullTextFirst = match[0].trimStart().startsWith('"full_text"');
+    const id = looksLikeFullTextFirst ? match[2] : match[1];
+    const rawBody = looksLikeFullTextFirst ? match[1] : match[2];
+    if (!id || seen.has(id)) continue;
+    const body = cleanTweetText(decodeJsonString(rawBody));
+    if (!body || isJunkTweetText(rawBody) || isJunkTweetText(body)) continue;
+
+    const around = text.slice(Math.max(0, match.index - 400), match.index + 1600);
+    const screen =
+      around.match(/"screen_name"\s*:\s*"([A-Za-z0-9_]+)"/)?.[1] || handle || '';
+    if (expectedHandle && screen && screen.toLowerCase() !== expectedHandle) continue;
+
+    seen.add(id);
+    const created = around.match(/"created_at"\s*:\s*"([^"]+)"/)?.[1] || null;
+    tweets.push({
+      id,
+      text: truncate(body, 400),
+      createdAt: created
+        ? new Date(Date.parse(created) || Date.now()).toISOString()
+        : new Date().toISOString(),
+      url: `https://x.com/${screen || handle}/status/${id}`,
+      likes: Number(around.match(/"favorite_count"\s*:\s*(\d+)/)?.[1] || 0) || undefined,
+      retweets: Number(around.match(/"retweet_count"\s*:\s*(\d+)/)?.[1] || 0) || undefined,
+      replies: Number(around.match(/"reply_count"\s*:\s*(\d+)/)?.[1] || 0) || undefined,
+    });
+    if (tweets.length >= limit) break;
+  }
+  return tweets;
+}
+
 function extractTweetBodyNearMatch(text, matchIndex, permalink, previousIndex = 0) {
+  // JSON timelines should be handled by extractTweetsFromStructuredJson.
+  if (/"is_blue_verified"|"entry_id"|"conversation_id_str"/.test(text)) return '';
+
   const around = text.slice(Math.max(0, matchIndex - 900), matchIndex + 1400);
   const textMatch =
     around.match(/data-tweet-text=["']([^"']+)["']/i) ||
     around.match(/<p[^>]*class=["'][^"']*tweet-text[^"']*["'][^>]*>([\s\S]*?)<\/p>/i) ||
-    around.match(/"full_text"\s*:\s*"((?:\\.|[^"\\])*)"/) ||
-    around.match(/"text"\s*:\s*"((?:\\.|[^"\\])*)"/);
+    around.match(/"full_text"\s*:\s*"((?:\\.|[^"\\])*)"/);
 
   if (textMatch) {
-    const body = cleanTweetText(
-      textMatch[1]
-        .replace(/\\n/g, ' ')
-        .replace(/\\"/g, '"')
-        .replace(/\\u([0-9a-f]{4})/gi, (_, hex) =>
-          String.fromCharCode(Number.parseInt(hex, 16)),
-        ),
-    );
-    if (body && !isJunkTweetText(body)) return body;
+    const body = cleanTweetText(decodeJsonString(textMatch[1]));
+    if (body && !isJunkTweetText(body) && !isJunkTweetText(textMatch[1])) return body;
   }
 
   // jina.ai markdown: only inspect text between the previous permalink and this one.
@@ -367,7 +437,7 @@ function extractTweetBodyNearMatch(text, matchIndex, permalink, previousIndex = 
   const candidates = before
     .split('\n')
     .map((part) => cleanTweetText(part))
-    .filter((part) => part.length >= 16)
+    .filter((part) => part.length >= 20)
     .filter((part) => !/^https?:\/\//i.test(part))
     .filter((part) => !isJunkTweetText(part))
     .filter((part) => !part.includes(permalink));
@@ -378,9 +448,20 @@ function extractTweetBodyNearMatch(text, matchIndex, permalink, previousIndex = 
 
 export function parseXSyndicationHtml(html, { name, handle } = {}) {
   const text = String(html || '');
+  const expectedHandle = String(handle || '').replace(/^@/, '').toLowerCase();
+
+  // Prefer structured JSON tweet objects when present (syndication/timeline payloads).
+  const fromJson = extractTweetsFromStructuredJson(text, { handle: expectedHandle });
+  if (fromJson.length) {
+    return {
+      name: truncate(name || handle || 'AI Builder', 80),
+      handle: truncate(expectedHandle, 40),
+      tweets: fromJson,
+    };
+  }
+
   const tweets = [];
   const seen = new Set();
-  const expectedHandle = String(handle || '').replace(/^@/, '').toLowerCase();
 
   const permalinks = [
     ...text.matchAll(
