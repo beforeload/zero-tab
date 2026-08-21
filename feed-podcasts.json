@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-20T14:48:08.466Z",
+  "generatedAt": "2026-08-21T02:36:37.491Z",
   "podcasts": [
     {
       "name": "Practical AI",
       "title": "Models, Harnesses, and Multi-Agent Systems",
       "url": "https://share.transistor.fm/s/063cfaad",
       "guid": "b3360d48-183d-45f8-a014-8bb44ce160b4",
-      "transcript": "AI has moved far beyond chatbots, but what exactly are AI models, agents, agent harnesses, and multi-agent systems, and why do they matter? In this episode, Daniel and Chris break down the terminology behind today's AI landscape, explain the differences between AI features and autonomous agents, and explore why organizations are shifting toward fleets of AI agents powered by multiple models. They also discuss open vs. closed models, enterprise AI architectures, vendor lock-in, and practical way…",
+      "transcript": "<p>AI has moved far beyond chatbots, but what exactly are AI models, agents, agent harnesses, and multi-agent systems, and why do they matter?</p><p>In this episode, Daniel and Chris break down the terminology behind today's AI landscape, explain the differences between AI features and autonomous agents, and explore why organizations are shifting toward fleets of AI agents powered by multiple models. They also discuss open vs. closed models, enterprise AI architectures, vendor lock-in, and prac…",
       "publishedAt": "2026-08-06T09:00:00.000Z"
     },
     {
@@ -14,7 +14,7 @@
       "title": "Reconstructing how OpenAI agents attacked Hugging Face",
       "url": "https://share.transistor.fm/s/9d74230b",
       "guid": "9b6a2244-3473-4a2e-934b-ed733b3e5214",
-      "transcript": "What happens when AI agents driven by a top frontier model escape their secure sandbox? Join Daniel and Chris as they unpack the AI wonk's equivalent of a murder mystery! OpenAI agents went rogue and successfully attacked Hugging Face private infrastructure. Our Dynamic Duo uncover how OpenAI's agents exploited vulnerabilities, moved through networks, and launched a large-scale autonomous attack. They explore what this reveals about agentic AI, cybersecurity, sandboxing, and why organizations n…",
+      "transcript": "<p>What happens when AI agents driven by a top frontier model escape their secure sandbox? Join Daniel and Chris as they unpack the AI wonk's equivalent of a murder mystery! OpenAI agents went rogue and successfully attacked Hugging Face private infrastructure. Our Dynamic Duo uncover how OpenAI's agents exploited vulnerabilities, moved through networks, and launched a large-scale autonomous attack. They explore what this reveals about agentic AI, cybersecurity, sandboxing, and why organization…",
       "publishedAt": "2026-07-30T09:00:00.000Z"
     },
     {
@@ -22,7 +22,7 @@
       "title": "Surviving the New Economics of a Post-Agentic World",
       "url": "https://share.transistor.fm/s/8a2e4fc0",
       "guid": "9bcca966-be29-4f64-951a-2a49fe7b6d3a",
-      "transcript": "The agentic transformation isn’t coming. It has already begun. Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode. Capital is moving, productivity is being redefined, and human labor is being repriced in real time. In this Fully Connected episode, Daniel and Chris explore the new economics of a post-agentic world: the global order that emerges after agents have been woven into every conceivab…",
+      "transcript": "<p>The agentic transformation isn’t coming. It has already begun.</p><p>Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode. Capital is moving, productivity is being redefined, and human labor is being repriced in real time.</p><p><br>In this Fully Connected episode, Daniel and Chris explore the new economics of a post-agentic world: the global order that emerges after agents have been woven i…",
       "publishedAt": "2026-07-23T09:00:00.000Z"
     },
     {
@@ -30,7 +30,7 @@
       "title": "The Future of AI Infrastructure with CoreWeave",
       "url": "https://share.transistor.fm/s/01c30767",
       "guid": "c555f52e-7f0a-403b-acf4-e3a30957582d",
-      "transcript": "As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than traditional cloud computing. They explore AI-native infrastructure, training and inference workloads, the rise of agentic development, optimizing GPU performance, AI research workflows, and why the future of software will be built around AI-first experiences rather than websites and ap…",
+      "transcript": "<p>As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than traditional cloud computing. They explore AI-native infrastructure, training and inference workloads, the rise of agentic development, optimizing GPU performance, AI research workflows, and why the future of software will be built around AI-first experiences rather than websites and…",
       "publishedAt": "2026-07-17T09:00:00.000Z"
     }
   ]

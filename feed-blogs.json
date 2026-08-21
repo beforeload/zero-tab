@@ -1,89 +1,105 @@
 {
-  "generatedAt": "2026-08-20T14:48:08.466Z",
+  "generatedAt": "2026-08-21T02:36:37.491Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
+      "title": "Skip to main content",
+      "url": "https://www.anthropic.com/engineering#main-content",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "Skip to footer",
+      "url": "https://www.anthropic.com/engineering#footer",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve lear…",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
+      "title": "An update on recent Claude Code quality reports Apr 23, 2026",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands Apr 08, 2026",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+      "title": "How we built Claude Code auto mode: a safer way to skip permissions Mar 25, 2026",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "description": "",
       "content": ""
     },
     {
-      "name": "Anthropic Engineering",
-      "title": "Harness design for long-running application development",
-      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic Engineering",
-      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
-      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "name": "Anthropic News",
+      "title": "Skip to main content",
+      "url": "https://www.anthropic.com/news#main-content",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Introducing Claude Opus 5",
+      "title": "Skip to footer",
+      "url": "https://www.anthropic.com/news#footer",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "How to get support",
+      "url": "https://support.claude.com/en/articles/9015913-how-to-get-support",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Introducing Claude Opus 5 Product Jul 24, 2026 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and profe…",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Inviting hard questions",
+      "title": "Announcements Jul 9, 2026 Inviting hard questions We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
       "url": "https://www.anthropic.com/news/hard-questions",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "The Making of Claude Code",
+      "title": "Features Jul 6, 2026 The Making of Claude Code The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early…",
       "url": "https://www.anthropic.com/features/making-of-claude-code",
       "description": "",
       "content": ""
     },
     {
-      "name": "Anthropic News",
-      "title": "Redeploying Fable 5",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "description": "",
-      "content": ""
+      "name": "OpenAI Blog",
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "description": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "content": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "publishedAt": "2026-08-20T07:00:00.000Z"
     },
     {
-      "name": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic News",
-      "title": "How Claude’s text watermark works",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "description": "",
-      "content": ""
+      "name": "OpenAI Blog",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "url": "https://openai.com/index/stampli",
+      "description": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "content": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "publishedAt": "2026-08-20T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -118,116 +134,108 @@
       "publishedAt": "2026-08-18T19:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "description": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "content": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "publishedAt": "2026-08-18T11:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "description": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p> Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p> <p>The Promptwatch product uses automation to track responses to prompts across end-user chat product…",
+      "content": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p> Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p> <p>The Promptwatch product uses automation to track responses to prompts across end-user chat product…",
+      "publishedAt": "2026-08-20T23:57:32.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "description": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "content": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "publishedAt": "2026-08-18T11:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release notes,…",
+      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release notes,…",
+      "publishedAt": "2026-08-20T15:37:00.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
-      "description": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal i…",
-      "content": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal i…",
+      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p> <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p> <blockquote> <p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limi…",
+      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p> <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p> <blockquote> <p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limi…",
       "publishedAt": "2026-08-19T23:16:00.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "Quoting Jeremy Morrell",
-      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell",
-      "description": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. &mdash; Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxin…",
-      "content": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. &mdash; Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxin…",
+      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+      "description": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. <stron…",
+      "content": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. <stron…",
       "publishedAt": "2026-08-19T22:56:31.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "Conceptual integrity and counting lines of code",
-      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
-      "description": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents,…",
-      "content": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents,…",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "description": "<p>Last week I recorded <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison\">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").</p> <p>This is the latest version of an argument I've been trying to bui…",
+      "content": "<p>Last week I recorded <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison\">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").</p> <p>This is the latest version of an argument I've been trying to bui…",
       "publishedAt": "2026-08-19T22:46:07.000Z"
     },
     {
       "name": "Simon Willison",
       "title": "Mojo🔥 is now open source",
-      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source",
-      "description": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed around August 2025 : Mojo may or may not evolve into a f…",
-      "content": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed around August 2025 : Mojo may or may not evolve into a f…",
+      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+      "description": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p> The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p> <p>When…",
+      "content": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p> The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p> <p>When…",
       "publishedAt": "2026-08-18T21:39:20.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52",
-      "description": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis",
-      "content": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis",
-      "publishedAt": "2026-08-17T23:58:14.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
-      "description": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they r…",
-      "content": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they r…",
-      "publishedAt": "2026-08-17T15:21:29.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Some more things about Django I've been enjoying",
-      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things",
-      "description": "Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend. It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn. So here are some Django features that make building this kind of site feel mo…",
-      "content": "Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend. It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn. So here are some Django features that make building this kind of site feel mo…",
+      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+      "description": "<p>Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend.</p> <p>It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn.</p> <p>So here are some Django features that make building this kin…",
+      "content": "<p>Hello! I&rsquo;m on a funny journey right now where I&rsquo;m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend.</p> <p>It&rsquo;s kind of an interesting journey because it doesn&rsquo;t necessarily feel &ldquo;easy&rdquo; to me to make websites in this way: I never learned how to do it in the 2000s or 2010s, and there&rsquo;s a lot I need to learn.</p> <p>So here are some Django features that make building this kin…",
       "publishedAt": "2026-07-21T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Learning a few things about running SQLite",
-      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite",
-      "description": "Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated, and I do not know a lot about operating databases. So here are a couple of small things I&r…",
-      "content": "Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a bunch of blog posts about how it is totally fine to use SQLite in production for a small site and I think it is totally fine, but what I did not fully appreciate is that SQLite is still a database, databases are complicated, and I do not know a lot about operating databases. So here are a couple of small things I&r…",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "description": "<p>Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a <a href=\"https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production\">bunch</a> of blog posts about how it is totally fine to use SQLite in production for a small site and I think it <em>is</em> totally fine, but what I did not fully appreciate is that SQLite is still a database, databas…",
+      "content": "<p>Hello! I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database. When I was getting started with using SQLite as database for a website I read a <a href=\"https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production\">bunch</a> of blog posts about how it is totally fine to use SQLite in production for a small site and I think it <em>is</em> totally fine, but what I did not fully appreciate is that SQLite is still a database, databas…",
       "publishedAt": "2026-07-17T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Moving away from Tailwind, and learning to structure my CSS",
-      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-",
-      "description": "Hello! 8 years ago, I wrote excitedly about discovering Tailwind . At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites! I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and it was SO fun and SO interesting, so here are some things I learned! As usual I&rsquo;m not a full…",
-      "content": "Hello! 8 years ago, I wrote excitedly about discovering Tailwind . At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites! I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and it was SO fun and SO interesting, so here are some things I learned! As usual I&rsquo;m not a full…",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "description": "<p>Hello! 8 years ago, I <a href=\"https://jvns.ca/blog/2018/11/01/tailwind--write-css-without-the-css/\">wrote excitedly about discovering Tailwind</a>.</p> <p>At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites!</p> <p>I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and…",
+      "content": "<p>Hello! 8 years ago, I <a href=\"https://jvns.ca/blog/2018/11/01/tailwind--write-css-without-the-css/\">wrote excitedly about discovering Tailwind</a>.</p> <p>At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites!</p> <p>I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and…",
       "publishedAt": "2026-05-15T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Links to CSS colour palettes",
-      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes",
-      "description": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn&rsquo;t like it maybe try blue-200 or blue-50 . I&rsquo;m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebody who is better at colour than me has thought about. But I&rsquo;m also a little tired…",
-      "content": "A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead. But one thing I missed about Tailwind was the colour palette ( here as CSS ). If I wanted a light blue I could just use blue-100 and if I didn&rsquo;t like it maybe try blue-200 or blue-50 . I&rsquo;m not very good with colours so it makes a big difference to me to have a reasonable colour palette that somebody who is better at colour than me has thought about. But I&rsquo;m also a little tired…",
+      "url": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/",
+      "description": "<p>A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead.</p> <p>But one thing I missed about Tailwind was the <a href=\"https://v2.tailwindcss.com/docs/customizing-colors#color-palette-reference\">colour palette</a> (<a href=\"https://gist.github.com/jvns/9e59b2cd1fe12601084ba78dded072fe\">here as CSS</a>). If I wanted a light blue I could just use <code>blue-100</code> and if I didn&rsquo;t like it maybe try <code>blue-200</code> or <code>blue-50</co…",
+      "content": "<p>A while back I decided to stop using Tailwind for new projects and to just write vanilla CSS instead.</p> <p>But one thing I missed about Tailwind was the <a href=\"https://v2.tailwindcss.com/docs/customizing-colors#color-palette-reference\">colour palette</a> (<a href=\"https://gist.github.com/jvns/9e59b2cd1fe12601084ba78dded072fe\">here as CSS</a>). If I wanted a light blue I could just use <code>blue-100</code> and if I didn&rsquo;t like it maybe try <code>blue-200</code> or <code>blue-50</co…",
       "publishedAt": "2026-05-04T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Testing Vue components in the browser",
-      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser",
-      "description": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests. The result is that I just don&rsquo;t test my fronten…",
-      "content": "Hello! One of my long term projects on here is figuring out how to write frontend Javascript without using Node or any other server JS runtime. One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests. The result is that I just don&rsquo;t test my fronten…",
+      "url": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/",
+      "description": "<p>Hello! One of my long term projects on here is <a href=\"https://jvns.ca/#javascript\">figuring out how to write frontend Javascript without using Node</a> or any other server JS runtime.</p> <p>One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests.</…",
+      "content": "<p>Hello! One of my long term projects on here is <a href=\"https://jvns.ca/#javascript\">figuring out how to write frontend Javascript without using Node</a> or any other server JS runtime.</p> <p>One issue I run into a lot in my frontend JS projects is that I don&rsquo;t know how to write tests for them. I&rsquo;ve tried to use Playwright in the past, but it felt slow and unwieldy to be starting these new browser processes all the time, and it involved some Node code to orchestrate the tests.</…",
       "publishedAt": "2026-05-02T00:00:00.000Z"
     },
     {
       "name": "Julia Evans",
       "title": "Examples for the tcpdump and dig man pages",
-      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages",
-      "description": "Hello! My big takeaway from last month&rsquo;s musings about man pages was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages. Here they are: the dig man page (now with examples) the tcpdump man page examples (this one is an update to the previous examples) the goal: include the most basic examples The goal here was really just to give the absolute most basic examples of how to use the tool, for people who use…",
-      "content": "Hello! My big takeaway from last month&rsquo;s musings about man pages was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages. Here they are: the dig man page (now with examples) the tcpdump man page examples (this one is an update to the previous examples) the goal: include the most basic examples The goal here was really just to give the absolute most basic examples of how to use the tool, for people who use…",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "description": "<p>Hello! My big takeaway from last month&rsquo;s <a href=\"https://jvns.ca/blog/2026/02/18/man-pages/\">musings about man pages</a> was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages.</p> <p>Here they are:</p> <ul> <li>the <a href=\"https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility\">dig man page (now with examples)</a></li> <li>the <a href=\"https://www.tcpdump.org/manpages/tcpdump.1…",
+      "content": "<p>Hello! My big takeaway from last month&rsquo;s <a href=\"https://jvns.ca/blog/2026/02/18/man-pages/\">musings about man pages</a> was that examples in man pages are really great, so I worked on adding (or improving) examples to two of my favourite tools&rsquo; man pages.</p> <p>Here they are:</p> <ul> <li>the <a href=\"https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility\">dig man page (now with examples)</a></li> <li>the <a href=\"https://www.tcpdump.org/manpages/tcpdump.1…",
       "publishedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "description": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "content": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "publishedAt": "2026-08-20T20:59:09.000Z"
     },
     {
       "name": "Latent Space",
@@ -270,52 +278,44 @@
       "publishedAt": "2026-08-15T15:46:22.000Z"
     },
     {
-      "name": "Latent Space",
-      "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
-      "url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
-      "description": "Congrats to the team!",
-      "content": "Congrats to the team!",
-      "publishedAt": "2026-08-14T06:16:00.000Z"
+      "name": "Cursor Blog",
+      "title": "Skip to content",
+      "url": "https://cursor.com/blog#main",
+      "description": "",
+      "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Cursor is now a part of SpaceX",
+      "title": "Aug 14, 2026 · Company Cursor is now a part of SpaceX Cursor has officially been acquired by SpaceX. Cursor Team · 2m 2 min read",
       "url": "https://cursor.com/blog/joining-spacex",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Introducing Grok 4.6",
+      "title": "Aug 12, 2026 · Research Introducing Grok 4.6 Built for long-running agents and more ambitious interactive and visual work. Cursor Team · 3m 3 min read",
       "url": "https://cursor.com/blog/grok-4-6",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Git at any scale VM Vicent Martí · 27m",
+      "title": "Aug 18, 2026 · Research Git at any scale VM Vicent Martí · 27m 27 min read",
       "url": "https://cursor.com/blog/git-at-any-scale",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Firetiger joins Cursor",
+      "title": "Aug 13, 2026 · company Firetiger joins Cursor Maxime Prades 2m Maxime Prades · 2m",
       "url": "https://cursor.com/blog/firetiger",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Cursor earns AIUC-1 certification for agent security and reliability",
+      "title": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m",
       "url": "https://cursor.com/blog/aiuc-1",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Cursor Blog",
-      "title": "Cloud agents start 3x faster with builds",
-      "url": "https://cursor.com/blog/builds",
       "description": "",
       "content": ""
     }

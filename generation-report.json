@@ -1,15 +1,14 @@
 {
-  "generatedAt": "2026-08-20T14:48:08.466Z",
+  "generatedAt": "2026-08-21T02:36:37.491Z",
   "hasData": true,
   "counts": {
     "xBuilders": 0,
     "xTweets": 0,
     "blogs": 42,
-    "podcasts": 4,
-    "videos": 18
+    "podcasts": 4
   },
   "errors": [
-    "x:@bcherny: HTTP 403 for https://r.jina.ai/https://x.com/bcherny",
+    "x:@boris_cherny: HTTP 403 for https://r.jina.ai/https://x.com/boris_cherny",
     "x:@AnthropicAI: HTTP 403 for https://r.jina.ai/https://x.com/AnthropicAI",
     "x:@rauchg: HTTP 403 for https://r.jina.ai/https://x.com/rauchg",
     "x:@simonw: HTTP 403 for https://r.jina.ai/https://x.com/simonw",
