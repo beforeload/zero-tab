@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T02:36:37.491Z",
+  "generatedAt": "2026-08-22T02:20:37.161Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,38 @@
     },
     {
       "name": "Simon Willison",
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai<3</code>, and a soon-to-drop 0.33 release will switch from <code>h…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai<3</code>, and a soon-to-drop 0.33 release will switch from <code>h…",
+      "publishedAt": "2026-08-21T17:16:13.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's impleme…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's impleme…",
+      "publishedAt": "2026-08-21T16:58:19.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Stop Making TUIs",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>,…",
+      "content": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>,…",
+      "publishedAt": "2026-08-21T16:07:32.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Matt Webb",
+      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "description": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p> <p>So learning doesn’t stop just because I outsource a…",
+      "content": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p> <p>So learning doesn’t stop just because I outsource a…",
+      "publishedAt": "2026-08-21T15:06:26.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "ChatGPT search now uses the site:operator at scale",
       "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
       "description": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p> Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p> <p>The Promptwatch product uses automation to track responses to prompts across end-user chat product…",
@@ -148,38 +180,6 @@
       "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release notes,…",
       "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release notes,…",
       "publishedAt": "2026-08-20T15:37:00.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
-      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p> <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p> <blockquote> <p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limi…",
-      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p> <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p> <blockquote> <p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limi…",
-      "publishedAt": "2026-08-19T23:16:00.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Jeremy Morrell",
-      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
-      "description": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. <stron…",
-      "content": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. <stron…",
-      "publishedAt": "2026-08-19T22:56:31.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Conceptual integrity and counting lines of code",
-      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-      "description": "<p>Last week I recorded <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison\">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").</p> <p>This is the latest version of an argument I've been trying to bui…",
-      "content": "<p>Last week I recorded <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison\">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").</p> <p>This is the latest version of an argument I've been trying to bui…",
-      "publishedAt": "2026-08-19T22:46:07.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Mojo🔥 is now open source",
-      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-      "description": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p> The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p> <p>When…",
-      "content": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p> The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p> <p>When…",
-      "publishedAt": "2026-08-18T21:39:20.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "url": "https://www.latent.space/p/simile",
+      "description": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+      "content": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+      "publishedAt": "2026-08-21T23:37:38.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "description": "Yes, we’re confused too.",
+      "content": "Yes, we’re confused too.",
+      "publishedAt": "2026-08-21T05:45:21.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
       "url": "https://www.latent.space/p/wayfinder-skill",
       "description": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
@@ -260,22 +276,6 @@
       "description": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
       "content": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
       "publishedAt": "2026-08-18T21:41:10.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Stripe buys OpenRouter for $7B",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "description": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-      "content": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-      "publishedAt": "2026-08-17T23:13:41.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "url": "https://www.latent.space/p/flue-2",
-      "description": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-      "content": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-      "publishedAt": "2026-08-15T15:46:22.000Z"
     },
     {
       "name": "Cursor Blog",
