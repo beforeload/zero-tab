@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:37:13.329Z",
+  "generatedAt": "2026-08-24T02:37:24.896Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,22 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "description": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p> A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p> <ul> <li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li> <li>Anthropic expec…",
+      "content": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p> A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p> <ul> <li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li> <li>Anthropic expec…",
+      "publishedAt": "2026-08-23T20:24:52.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Drew Breunig",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "description": "<blockquote cite=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p> <p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we…",
+      "content": "<blockquote cite=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p> <p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we…",
+      "publishedAt": "2026-08-23T19:55:30.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quoting Linus Torvalds",
       "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
       "description": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p> <p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p> <p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p> <p>But while the…",
@@ -153,8 +169,8 @@
       "name": "Simon Willison",
       "title": "More than just code review",
       "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "description": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p> <p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software.</p> <p>Tags: <a href=\"https://simonwillison…",
-      "content": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p> <p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software.</p> <p>Tags: <a href=\"https://simonwillison…",
+      "description": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p> <p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a change to a piece of software.</p> <p>Tags: <a href=\"https://simonwillison…",
+      "content": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p> <p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a change to a piece of software.</p> <p>Tags: <a href=\"https://simonwillison…",
       "publishedAt": "2026-08-22T15:56:54.000Z"
     },
     {
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai<3</code>, and a soon-to-drop 0.33 release will switch from <code>h…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai<3</code>, and a soon-to-drop 0.33 release will switch from <code>h…",
       "publishedAt": "2026-08-21T17:16:13.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-openrouter 0.7",
-      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's imp…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's imp…",
-      "publishedAt": "2026-08-21T16:58:19.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Stop Making TUIs",
-      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-      "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>,…",
-      "content": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>,…",
-      "publishedAt": "2026-08-21T16:07:32.000Z"
     },
     {
       "name": "Julia Evans",
