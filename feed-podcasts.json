@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-25T02:31:02.260Z",
+  "generatedAt": "2026-08-26T02:38:54.456Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "AI Proficiency: From Users to Builders",
+      "url": "https://share.transistor.fm/s/0f57c0bc",
+      "guid": "5fb15f12-94b9-4fee-a8da-326eab85362e",
+      "transcript": "<p>As AI continues to reshape how organizations work, companies are increasingly asking what AI proficiency should look like across their workforce, and how they can help employees adapt without simply mandating AI adoption. Our returning guest Mike Lewis, Chief AI Architect at TiER1 Performance, joins Dan and Chris to explore AI proficiency through the L0–L3 framework, with a particular focus on the role of non-technical builders. They discuss AI resistance, identifying the right people to bui…",
+      "publishedAt": "2026-08-25T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Models, Harnesses, and Multi-Agent Systems",
@@ -24,14 +32,6 @@
       "guid": "9bcca966-be29-4f64-951a-2a49fe7b6d3a",
       "transcript": "<p>The agentic transformation isn’t coming. It has already begun.</p><p>Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode. Capital is moving, productivity is being redefined, and human labor is being repriced in real time.</p><p><br>In this Fully Connected episode, Daniel and Chris explore the new economics of a post-agentic world: the global order that emerges after agents have been woven i…",
       "publishedAt": "2026-07-23T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "The Future of AI Infrastructure with CoreWeave",
-      "url": "https://share.transistor.fm/s/01c30767",
-      "guid": "c555f52e-7f0a-403b-acf4-e3a30957582d",
-      "transcript": "<p>As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than traditional cloud computing. They explore AI-native infrastructure, training and inference workloads, the rise of agentic development, optimizing GPU performance, AI research workflows, and why the future of software will be built around AI-first experiences rather than websites and…",
-      "publishedAt": "2026-07-17T09:00:00.000Z"
     }
   ]
 }

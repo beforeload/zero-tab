@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:31:02.260Z",
+  "generatedAt": "2026-08-26T02:38:54.456Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,38 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "content": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "publishedAt": "2026-08-25T07:05:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "description": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "content": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "publishedAt": "2026-08-25T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "description": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "content": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "description": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "content": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "publishedAt": "2026-08-25T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "url": "https://openai.com/index/gpt-5-6-in-kiro",
       "description": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
@@ -102,36 +134,12 @@
       "publishedAt": "2026-08-20T07:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "url": "https://openai.com/index/stampli",
-      "description": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "content": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "publishedAt": "2026-08-20T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "description": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "content": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "publishedAt": "2026-08-19T19:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "description": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "content": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "publishedAt": "2026-08-19T07:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "description": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "content": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "publishedAt": "2026-08-18T22:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+      "description": "<p><strong><a href=\"https://www.eveonline.com/news/view/the-move-to-python-3-begins\">EVE Online: The Move to Python 3 Begins!</a></strong></p> EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p> <p>They've been running on <a href=\"https://github.com/stackless-dev/stackless/wiki/\">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href=\"https://www.eveonline.com/news…",
+      "content": "<p><strong><a href=\"https://www.eveonline.com/news/view/the-move-to-python-3-begins\">EVE Online: The Move to Python 3 Begins!</a></strong></p> EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p> <p>They've been running on <a href=\"https://github.com/stackless-dev/stackless/wiki/\">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href=\"https://www.eveonline.com/news…",
+      "publishedAt": "2026-08-25T22:59:30.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p> <p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p> <p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p> <p>But while the…",
       "content": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p> <p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p> <p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p> <p>But while the…",
       "publishedAt": "2026-08-22T21:04:26.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.33\">llm 0.33</a></p> <p>My highlights from this release:</p> <blockquote> <ul> <li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href=\"https://github.com/simonw/llm/issues/1608\">#1608</a>, <a href=\"https://github.com/simonw/llm/pull/1631\">#1631</a></li> </ul> </blockquote> <p>I shipped a quick <a href=\"https://simonwillison.net…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.33\">llm 0.33</a></p> <p>My highlights from this release:</p> <blockquote> <ul> <li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href=\"https://github.com/simonw/llm/issues/1608\">#1608</a>, <a href=\"https://github.com/simonw/llm/pull/1631\">#1631</a></li> </ul> </blockquote> <p>I shipped a quick <a href=\"https://simonwillison.net…",
-      "publishedAt": "2026-08-22T17:01:16.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Andrew Ng gets into AI Engineering",
+      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+      "description": "An industry legend starts covering the inevitable!",
+      "content": "An industry legend starts covering the inevitable!",
+      "publishedAt": "2026-08-25T02:50:57.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
       "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
       "description": "Did you think RSI stopped at model training?",
@@ -268,14 +276,6 @@
       "description": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
       "content": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
       "publishedAt": "2026-08-20T20:59:09.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
-      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
-      "description": "Every lab CEO is on X now",
-      "content": "Every lab CEO is on X now",
-      "publishedAt": "2026-08-20T05:17:12.000Z"
     },
     {
       "name": "Cursor Blog",
