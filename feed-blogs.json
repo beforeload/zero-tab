@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T02:38:54.456Z",
+  "generatedAt": "2026-08-27T11:10:47.806Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,46 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "description": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "content": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "publishedAt": "2026-08-27T03:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "content": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "publishedAt": "2026-08-26T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "description": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "content": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "publishedAt": "2026-08-26T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "description": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "content": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "description": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "content": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "publishedAt": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "The full stack behind abundant intelligence",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
       "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
@@ -94,44 +134,20 @@
       "publishedAt": "2026-08-25T07:05:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "description": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "content": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "publishedAt": "2026-08-25T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Qwen3.8-Flash-Next",
+      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+      "description": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p> Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p> <p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p> <p>I've been trying it out on a DGX Spark using <a href=\"https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF\">these Unsloth quantized mo…",
+      "content": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p> Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p> <p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p> <p>I've been trying it out on a DGX Spark using <a href=\"https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF\">these Unsloth quantized mo…",
+      "publishedAt": "2026-08-26T23:52:58.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "description": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "content": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "publishedAt": "2026-08-25T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "description": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "content": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "publishedAt": "2026-08-25T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "description": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "content": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "publishedAt": "2026-08-24T12:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Introducing AI Futures",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "description": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "content": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "publishedAt": "2026-08-20T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Paul Dix",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "description": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can…",
+      "content": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can…",
+      "publishedAt": "2026-08-26T08:07:55.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p> A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p> <ul> <li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li> <li>Anthropic expec…",
       "content": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p> A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p> <ul> <li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li> <li>Anthropic expec…",
       "publishedAt": "2026-08-23T20:24:52.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Drew Breunig",
-      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-      "description": "<blockquote cite=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p> <p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we…",
-      "content": "<blockquote cite=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p> <p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we…",
-      "publishedAt": "2026-08-23T19:55:30.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Linus Torvalds",
-      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-      "description": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p> <p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p> <p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p> <p>But while the…",
-      "content": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p> <p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p> <p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p> <p>But while the…",
-      "publishedAt": "2026-08-22T21:04:26.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,38 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "description": "Open Source wins!",
+      "content": "Open Source wins!",
+      "publishedAt": "2026-08-27T01:50:54.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "description": "The conference with hot chips and even hotter companies",
+      "content": "The conference with hot chips and even hotter companies",
+      "publishedAt": "2026-08-27T01:31:22.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+      "url": "https://www.latent.space/p/lovable-future-of-saas",
+      "description": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
+      "content": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
+      "publishedAt": "2026-08-26T16:16:25.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "url": "https://www.latent.space/p/anima",
+      "description": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
+      "content": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
+      "publishedAt": "2026-08-26T15:15:39.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Andrew Ng gets into AI Engineering",
       "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
       "description": "An industry legend starts covering the inevitable!",
@@ -244,38 +276,6 @@
       "description": "Did you think RSI stopped at model training?",
       "content": "Did you think RSI stopped at model training?",
       "publishedAt": "2026-08-22T07:36:00.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "The Evolution of the Agent Harness",
-      "url": "https://www.latent.space/p/attention-interface",
-      "description": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
-      "content": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
-      "publishedAt": "2026-08-22T07:30:52.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-      "url": "https://www.latent.space/p/simile",
-      "description": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
-      "content": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
-      "publishedAt": "2026-08-21T23:37:38.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "description": "Yes, we’re confused too.",
-      "content": "Yes, we’re confused too.",
-      "publishedAt": "2026-08-21T05:45:21.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "url": "https://www.latent.space/p/wayfinder-skill",
-      "description": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-      "content": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-      "publishedAt": "2026-08-20T20:59:09.000Z"
     },
     {
       "name": "Cursor Blog",
