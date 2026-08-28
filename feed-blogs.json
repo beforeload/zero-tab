@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T11:10:47.806Z",
+  "generatedAt": "2026-08-28T12:45:13.410Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -66,8 +66,8 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Introducing Claude Opus 5 Product Jul 24, 2026 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and profe…",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to sa…",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "description": "",
       "content": ""
     },
@@ -80,10 +80,26 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Product Aug 7, 2026 Improving Fable 5's biology safeguards We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5…",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "title": "Product Jul 24, 2026 Introducing Claude Opus 5 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and profe…",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
       "description": "",
       "content": ""
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "description": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "content": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "publishedAt": "2026-08-28T02:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "description": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "content": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "publishedAt": "2026-08-27T09:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -118,20 +134,12 @@
       "publishedAt": "2026-08-26T00:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "url": "https://openai.com/index/loveholidays",
-      "description": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "content": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "publishedAt": "2026-08-26T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "description": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "content": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "publishedAt": "2026-08-25T07:05:00.000Z"
+      "name": "Simon Willison",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "description": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr…",
+      "content": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr…",
+      "publishedAt": "2026-08-27T22:50:25.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then a…",
       "content": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then a…",
       "publishedAt": "2026-08-24T11:38:15.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-      "description": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p> A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p> <ul> <li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li> <li>Anthropic expec…",
-      "content": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p> A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p> <ul> <li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li> <li>Anthropic expec…",
-      "publishedAt": "2026-08-23T20:24:52.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "description": "It’s Time. We’re in the Endgame now.",
+      "content": "It’s Time. We’re in the Endgame now.",
+      "publishedAt": "2026-08-28T07:12:10.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
       "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
       "description": "Open Source wins!",
@@ -268,14 +276,6 @@
       "description": "An industry legend starts covering the inevitable!",
       "content": "An industry legend starts covering the inevitable!",
       "publishedAt": "2026-08-25T02:50:57.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "description": "Did you think RSI stopped at model training?",
-      "content": "Did you think RSI stopped at model training?",
-      "publishedAt": "2026-08-22T07:36:00.000Z"
     },
     {
       "name": "Cursor Blog",

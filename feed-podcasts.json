@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-27T11:10:47.806Z",
+  "generatedAt": "2026-08-28T12:45:13.410Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Building the Foundation for the Agentic AI Era",
+      "url": "https://share.transistor.fm/s/123da941",
+      "guid": "c00bb124-af61-414f-8956-8c9a9e49c8e1",
+      "transcript": "<p>How do we build an AI ecosystem where agents, tools, and systems can work together at scale? Angie Jones, VP of the Agentic AI Foundation, joins Chris to discuss the open standards and projects shaping the agentic future, including MCP, A2A, Goose, etc. They also explore what it takes to drive AI adoption across an entire organization, the importance of neutral standards, global perspectives on agentic AI, and how humans can find the right balance between what they delegate to AI and what th…",
+      "publishedAt": "2026-08-28T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "AI Proficiency: From Users to Builders",
@@ -24,14 +32,6 @@
       "guid": "9b6a2244-3473-4a2e-934b-ed733b3e5214",
       "transcript": "<p>What happens when AI agents driven by a top frontier model escape their secure sandbox? Join Daniel and Chris as they unpack the AI wonk's equivalent of a murder mystery! OpenAI agents went rogue and successfully attacked Hugging Face private infrastructure. Our Dynamic Duo uncover how OpenAI's agents exploited vulnerabilities, moved through networks, and launched a large-scale autonomous attack. They explore what this reveals about agentic AI, cybersecurity, sandboxing, and why organization…",
       "publishedAt": "2026-07-30T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Surviving the New Economics of a Post-Agentic World",
-      "url": "https://share.transistor.fm/s/8a2e4fc0",
-      "guid": "9bcca966-be29-4f64-951a-2a49fe7b6d3a",
-      "transcript": "<p>The agentic transformation isn’t coming. It has already begun.</p><p>Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode. Capital is moving, productivity is being redefined, and human labor is being repriced in real time.</p><p><br>In this Fully Connected episode, Daniel and Chris explore the new economics of a post-agentic world: the global order that emerges after agents have been woven i…",
-      "publishedAt": "2026-07-23T09:00:00.000Z"
     }
   ]
 }
