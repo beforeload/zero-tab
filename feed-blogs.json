@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T12:45:13.410Z",
+  "generatedAt": "2026-08-29T07:51:47.926Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,14 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "content": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "publishedAt": "2026-08-28T06:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Supporting Thailand’s next generation of AI startups",
       "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
       "description": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
@@ -111,14 +119,6 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "content": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "publishedAt": "2026-08-26T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
       "title": "Learning never stops: How AI makes learning continuous",
       "url": "https://openai.com/index/learning-never-stops",
       "description": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
@@ -127,11 +127,19 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "The Hugging Face incident and the road ahead",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "description": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "content": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "publishedAt": "2026-08-26T00:00:00.000Z"
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "content": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "publishedAt": "2026-08-26T10:00:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "description": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p> Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p> <blockquote> <p>This normally takes a few day…",
+      "content": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p> Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p> <blockquote> <p>This normally takes a few day…",
+      "publishedAt": "2026-08-28T22:12:02.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made t…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made t…",
       "publishedAt": "2026-08-24T16:27:04.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Your executable is a SQLite database",
-      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-      "description": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then a…",
-      "content": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then a…",
-      "publishedAt": "2026-08-24T11:38:15.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "description": "Elon v Altman has a real consequence.",
+      "content": "Elon v Altman has a real consequence.",
+      "publishedAt": "2026-08-29T05:11:52.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] OpenAI to reach AGI bar by end-2026",
       "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
       "description": "It’s Time. We’re in the Endgame now.",
@@ -268,14 +276,6 @@
       "description": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
       "content": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
       "publishedAt": "2026-08-26T15:15:39.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Andrew Ng gets into AI Engineering",
-      "url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-      "description": "An industry legend starts covering the inevitable!",
-      "content": "An industry legend starts covering the inevitable!",
-      "publishedAt": "2026-08-25T02:50:57.000Z"
     },
     {
       "name": "Cursor Blog",
