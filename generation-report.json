@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-29T07:51:47.926Z",
+  "generatedAt": "2026-08-30T06:37:44.396Z",
   "hasData": true,
   "counts": {
-    "xBuilders": 6,
-    "xTweets": 44,
+    "xBuilders": 5,
+    "xTweets": 23,
     "blogs": 42,
     "podcasts": 4
   },
   "errors": [
-    "x:@boris_cherny: no public tweets parsed",
+    "x:@boris_cherny: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/boris_cherny",
+    "x:@karpathy: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/karpathy",
     "podcast:Latent Space: HTTP 403 for https://api.substack.com/feed/podcast/1084089.rss"
   ]
 }

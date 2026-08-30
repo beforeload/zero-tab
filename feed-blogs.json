@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T07:51:47.926Z",
+  "generatedAt": "2026-08-30T06:37:44.396Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,14 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Introducing Hy4 Preview",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "description": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p> New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p> <p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 5…",
+      "content": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p> New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p> <p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 5…",
+      "publishedAt": "2026-08-29T23:53:13.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Just a rumour of a bug is enough to find a security exploit these days",
       "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
       "description": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p> Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p> <blockquote> <p>This normally takes a few day…",
@@ -172,14 +180,6 @@
       "description": "<p><strong><a href=\"https://www.eveonline.com/news/view/the-move-to-python-3-begins\">EVE Online: The Move to Python 3 Begins!</a></strong></p> EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p> <p>They've been running on <a href=\"https://github.com/stackless-dev/stackless/wiki/\">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href=\"https://www.eveonline.com/news…",
       "content": "<p><strong><a href=\"https://www.eveonline.com/news/view/the-move-to-python-3-begins\">EVE Online: The Move to Python 3 Begins!</a></strong></p> EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now.</p> <p>They've been running on <a href=\"https://github.com/stackless-dev/stackless/wiki/\">Stackless Python</a> since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 <a href=\"https://www.eveonline.com/news…",
       "publishedAt": "2026-08-25T22:59:30.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-anthropic 0.27",
-      "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made t…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made t…",
-      "publishedAt": "2026-08-24T16:27:04.000Z"
     },
     {
       "name": "Julia Evans",
