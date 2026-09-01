@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T07:01:17.348Z",
+  "generatedAt": "2026-09-01T06:13:53.342Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,30 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "content": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "publishedAt": "2026-08-31T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "content": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "publishedAt": "2026-08-31T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "content": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "publishedAt": "2026-08-31T04:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Our decision on Cursor following its acquisition by SpaceX",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
@@ -110,28 +134,20 @@
       "publishedAt": "2026-08-27T09:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "description": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "content": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "publishedAt": "2026-08-27T03:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Introducing wrapture",
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "description": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p> New from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p> <p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap…",
+      "content": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p> New from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p> <p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap…",
+      "publishedAt": "2026-08-31T23:59:36.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "description": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "content": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "publishedAt": "2026-08-26T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "content": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "publishedAt": "2026-08-26T10:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Andrew Digby",
+      "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+      "description": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year<…",
+      "content": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year<…",
+      "publishedAt": "2026-08-31T22:25:02.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr…",
       "content": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr…",
       "publishedAt": "2026-08-27T22:50:25.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Qwen3.8-Flash-Next",
-      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-      "description": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p> Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p> <p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p> <p>I've been trying it out on a DGX Spark using <a href=\"https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF\">these Unsloth quantized mo…",
-      "content": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p> Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p> <p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p> <p>I've been trying it out on a DGX Spark using <a href=\"https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF\">these Unsloth quantized mo…",
-      "publishedAt": "2026-08-26T23:52:58.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Paul Dix",
-      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-      "description": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can…",
-      "content": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can…",
-      "publishedAt": "2026-08-26T08:07:55.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "description": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+      "content": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+      "publishedAt": "2026-09-01T04:36:54.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] OpenAI shuts off Cursor",
       "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
       "description": "Elon v Altman has a real consequence.",
@@ -268,14 +276,6 @@
       "description": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
       "content": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
       "publishedAt": "2026-08-26T16:16:25.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
-      "url": "https://www.latent.space/p/anima",
-      "description": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
-      "content": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
-      "publishedAt": "2026-08-26T15:15:39.000Z"
     },
     {
       "name": "Cursor Blog",
