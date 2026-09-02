@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T06:13:53.342Z",
+  "generatedAt": "2026-09-02T05:48:14.000Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -66,7 +66,14 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to sa…",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Announcements Sep 1, 2026 Our most advanced models for coding and knowledge work. Their research capabilities also offer an earl…",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Announcements Aug 27, 2026 Previewing the Model Hardware Standard We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to sa…",
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "description": "",
       "content": ""
@@ -79,11 +86,36 @@
       "content": ""
     },
     {
-      "name": "Anthropic News",
-      "title": "Product Jul 24, 2026 Introducing Claude Opus 5 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and profe…",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "description": "",
-      "content": ""
+      "name": "OpenAI Blog",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "content": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "publishedAt": "2026-09-01T17:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "content": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "publishedAt": "2026-09-01T13:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "content": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "publishedAt": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "content": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "publishedAt": "2026-09-01T01:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -102,84 +134,52 @@
       "publishedAt": "2026-08-31T07:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "content": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "content": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "publishedAt": "2026-08-28T06:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "description": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "content": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "publishedAt": "2026-08-28T02:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "description": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "content": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "publishedAt": "2026-08-27T09:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "description": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new <a href=\"https://www.terminal-bench-science.ai\">Terminal-Bench-Science 0.1</a> benchmark (first announced <a href=\"https://www.tbench.ai/news/termi…",
+      "content": "<p>Today is <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Claude Fable (and Mythos) 5.1 day</a>. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new <a href=\"https://www.terminal-bench-science.ai\">Terminal-Bench-Science 0.1</a> benchmark (first announced <a href=\"https://www.tbench.ai/news/termi…",
+      "publishedAt": "2026-09-01T23:57:28.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Introducing wrapture",
-      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "description": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p> New from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p> <p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap…",
-      "content": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p> New from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p> <p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap…",
-      "publishedAt": "2026-08-31T23:59:36.000Z"
+      "title": "Codex bundles LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "description": "<p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app\">rebranded</a> to just ChatGPT) has 1.7GB of stuff in there in a folder called <code>codex-primary-runtime</code>, including a full Python installation, a full Node.js installation, and native binaries for <…",
+      "content": "<p>I was poking around in my <code>~/.cache/</code> folder using <a href=\"https://www.omnigroup.com/more\">OmniDiskSweeper</a> when I spotted something interesting. The OpenAI Codex desktop app (since <a href=\"https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app\">rebranded</a> to just ChatGPT) has 1.7GB of stuff in there in a folder called <code>codex-primary-runtime</code>, including a full Python installation, a full Node.js installation, and native binaries for <…",
+      "publishedAt": "2026-09-01T19:03:01.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Quoting Andrew Digby",
-      "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-      "description": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year<…",
-      "content": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year<…",
-      "publishedAt": "2026-08-31T22:25:02.000Z"
+      "title": "GeoJSON Map Viewer",
+      "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a> and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one.…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a> and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one.…",
+      "publishedAt": "2026-09-01T18:05:45.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Understanding ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "description": "<p>OpenAI <a href=\"https://openai.com/index/chatgpt-for-your-most-ambitious-work/\">announced ChatGPT Work</a> on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.</p> <h4 id=\"two-products\">ChatGPT Work is actually two products</h4> <p>The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via <a href=\"https://www.chatgpt.com/\">chat…",
-      "content": "<p>OpenAI <a href=\"https://openai.com/index/chatgpt-for-your-most-ambitious-work/\">announced ChatGPT Work</a> on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.</p> <h4 id=\"two-products\">ChatGPT Work is actually two products</h4> <p>The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via <a href=\"https://www.chatgpt.com/\">chat…",
-      "publishedAt": "2026-08-30T23:59:47.000Z"
+      "title": "Quoting Tarn Adams",
+      "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+      "description": "<blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortre…",
+      "content": "<blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortre…",
+      "publishedAt": "2026-09-01T17:01:11.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Introducing Hy4 Preview",
-      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-      "description": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p> New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p> <p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 5…",
-      "content": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p> New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p> <p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 5…",
-      "publishedAt": "2026-08-29T23:53:13.000Z"
+      "title": "datasette-mcp 0.2",
+      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p> <blockquote> <ul> <li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li> <li>Now depends on <code>mcp>=2.1.1</code>.</li> </ul> <…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p> <blockquote> <ul> <li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li> <li>Now depends on <code>mcp>=2.1.1</code>.</li> </ul> <…",
+      "publishedAt": "2026-09-01T15:30:12.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-      "description": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p> Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p> <blockquote> <p>This normally takes a few day…",
-      "content": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p> Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p> <blockquote> <p>This normally takes a few day…",
-      "publishedAt": "2026-08-28T22:12:02.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "description": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr…",
-      "content": "<p><strong><a href=\"https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/\">Breaking Claude Code Opus 5 Auto Mode</a></strong></p> Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently <a href=\"https://simonwillison.net/2026/Aug/8/auto-mode/\">made that the default</a> and have made bold claims about its effectiveness.</p> <p>Johann Rehberger is one of the most cr…",
-      "publishedAt": "2026-08-27T22:50:25.000Z"
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+      "description": "<p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p> Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p> <blockquote> <p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p> <p>We <strong>stron…",
+      "content": "<p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p> Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p> <blockquote> <p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p> <p>We <strong>stron…",
+      "publishedAt": "2026-09-01T14:59:18.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "description": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+      "content": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+      "publishedAt": "2026-09-01T16:17:15.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
       "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
       "description": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
@@ -268,14 +276,6 @@
       "description": "The conference with hot chips and even hotter companies",
       "content": "The conference with hot chips and even hotter companies",
       "publishedAt": "2026-08-27T01:31:22.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
-      "url": "https://www.latent.space/p/lovable-future-of-saas",
-      "description": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
-      "content": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
-      "publishedAt": "2026-08-26T16:16:25.000Z"
     },
     {
       "name": "Cursor Blog",
