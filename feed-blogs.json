@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:48:14.000Z",
+  "generatedAt": "2026-09-03T05:45:53.958Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,14 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "content": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "publishedAt": "2026-09-02T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "How AI-native companies turn workflows into operating capability",
       "url": "https://openai.com/index/ai-native-company-workflows",
       "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
@@ -126,12 +134,28 @@
       "publishedAt": "2026-08-31T07:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "description": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "content": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "publishedAt": "2026-08-31T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li> <li>Fixed async responses failing to record the resolved model ve…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li> <li>Fixed async responses failing to record the resolved model ve…",
+      "publishedAt": "2026-09-02T16:39:38.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "description": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p> <p>They used to keep all of the prompts on a single page, but when I checked to…",
+      "content": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p> <p>They used to keep all of the prompts on a single page, but when I checked to…",
+      "publishedAt": "2026-09-02T14:16:42.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "description": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</stro…",
+      "content": "<blockquote cite=\"https://forums.paint.net/topic/134563-🍷-extremely-experimental-winelinux-support-how-to-get-started/\"><p>Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, <strong>Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE</strong> (triggered by using <strong>/wine</stro…",
+      "publishedAt": "2026-09-02T05:50:57.000Z"
     },
     {
       "name": "Simon Willison",
@@ -153,33 +177,9 @@
       "name": "Simon Willison",
       "title": "GeoJSON Map Viewer",
       "url": "https://simonwillison.net/2026/Sep/1/geojson/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a> and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one.…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a> and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one.…",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a>) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/geojson\">GeoJSON Map Viewer</a></p> <p>I was helping Natalie gather some maps of local political boundaries (for the <a href=\"https://granada.ca.gov\">Granada Community Services District</a> and the <a href=\"https://midcoastcommunitycouncil.org\">Midcoast Community Council</a>) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one…",
       "publishedAt": "2026-09-01T18:05:45.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Tarn Adams",
-      "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-      "description": "<blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortre…",
-      "content": "<blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortre…",
-      "publishedAt": "2026-09-01T17:01:11.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-mcp 0.2",
-      "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p> <blockquote> <ul> <li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li> <li>Now depends on <code>mcp>=2.1.1</code>.</li> </ul> <…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.2\">datasette-mcp 0.2</a></p> <blockquote> <ul> <li><code>\"rows\"</code> from <code>execute_sql</code> is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. <a href=\"https://github.com/datasette/datasette-mcp/issues/1\">#1</a></li> <li>Now depends on <code>mcp>=2.1.1</code>.</li> </ul> <…",
-      "publishedAt": "2026-09-01T15:30:12.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Python 3.15.0 candidate 2 is here!",
-      "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-      "description": "<p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p> Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p> <blockquote> <p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p> <p>We <strong>stron…",
-      "content": "<p><strong><a href=\"https://discuss.python.org/t/python-3-15-0-candidate-2-is-here/108841\">Python 3.15.0 candidate 2 is here!</a></strong></p> Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October:</p> <blockquote> <p>Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...]</p> <p>We <strong>stron…",
-      "publishedAt": "2026-09-01T14:59:18.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "description": "an epic comeback story for Meta",
+      "content": "an epic comeback story for Meta",
+      "publishedAt": "2026-09-03T04:38:33.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "description": "Queue the usual rush of model launches...",
+      "content": "Queue the usual rush of model launches...",
+      "publishedAt": "2026-09-02T07:46:08.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
       "url": "https://www.latent.space/p/pr-not-welcome",
       "description": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
@@ -262,22 +278,6 @@
       "publishedAt": "2026-08-28T07:12:10.000Z"
     },
     {
-      "name": "Latent Space",
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "description": "Open Source wins!",
-      "content": "Open Source wins!",
-      "publishedAt": "2026-08-27T01:50:54.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "description": "The conference with hot chips and even hotter companies",
-      "content": "The conference with hot chips and even hotter companies",
-      "publishedAt": "2026-08-27T01:31:22.000Z"
-    },
-    {
       "name": "Cursor Blog",
       "title": "Skip to content",
       "url": "https://cursor.com/blog#main",
@@ -307,15 +307,15 @@
     },
     {
       "name": "Cursor Blog",
-      "title": "Aug 13, 2026 · company Firetiger joins Cursor Maxime Prades 2m Maxime Prades · 2m",
-      "url": "https://cursor.com/blog/firetiger",
+      "title": "Sep 2, 2026 · product Run cloud agents on machines you manage Jack Pertschuk 6m Jack Pertschuk · 6m",
+      "url": "https://cursor.com/blog/self-hosted-machines",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Aug 13, 2026 · company Cursor earns AIUC-1 certification for agent security and reliability Kenneth Moras 4m Kenneth Moras · 4m",
-      "url": "https://cursor.com/blog/aiuc-1",
+      "title": "Aug 13, 2026 · company Firetiger joins Cursor Maxime Prades 2m Maxime Prades · 2m",
+      "url": "https://cursor.com/blog/firetiger",
       "description": "",
       "content": ""
     }
