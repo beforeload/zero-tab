@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-03T05:45:53.958Z",
+  "generatedAt": "2026-09-04T05:54:08.886Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Less about Models; More about Architecture",
+      "url": "https://share.transistor.fm/s/ec79b4ac",
+      "guid": "7bb54711-ad56-4a39-85ae-290d2a0eaff5",
+      "transcript": "<p>As AI moves from experimentation to enterprise deployment, are organizations thinking too much about models and not enough about architecture? In this episode, Daniel and Chris talk with Chetan Gupta, Chief AI Officer at Rackspace, about the evolution from industrial AI and physical AI to today’s enterprise AI landscape. Discover how organizations can navigate the complex AI landscape responsibly and effectively as they think about AI architecture, model deployment, AI governance, and AI sov…",
+      "publishedAt": "2026-09-03T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Building the Foundation for the Agentic AI Era",
@@ -24,14 +32,6 @@
       "guid": "b3360d48-183d-45f8-a014-8bb44ce160b4",
       "transcript": "<p>AI has moved far beyond chatbots, but what exactly are AI models, agents, agent harnesses, and multi-agent systems, and why do they matter?</p><p>In this episode, Daniel and Chris break down the terminology behind today's AI landscape, explain the differences between AI features and autonomous agents, and explore why organizations are shifting toward fleets of AI agents powered by multiple models. They also discuss open vs. closed models, enterprise AI architectures, vendor lock-in, and prac…",
       "publishedAt": "2026-08-06T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Reconstructing how OpenAI agents attacked Hugging Face",
-      "url": "https://share.transistor.fm/s/9d74230b",
-      "guid": "9b6a2244-3473-4a2e-934b-ed733b3e5214",
-      "transcript": "<p>What happens when AI agents driven by a top frontier model escape their secure sandbox? Join Daniel and Chris as they unpack the AI wonk's equivalent of a murder mystery! OpenAI agents went rogue and successfully attacked Hugging Face private infrastructure. Our Dynamic Duo uncover how OpenAI's agents exploited vulnerabilities, moved through networks, and launched a large-scale autonomous attack. They explore what this reveals about agentic AI, cybersecurity, sandboxing, and why organization…",
-      "publishedAt": "2026-07-30T09:00:00.000Z"
     }
   ]
 }
