@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T05:44:08.498Z",
+  "generatedAt": "2026-09-06T05:55:53.773Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,22 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Introducing GPT-6 Astra for developers",
+      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p> Blink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119\">1m59s</a>:</p> <blockquote> <p>Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible render…",
+      "content": "<p><strong><a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg\">Introducing GPT-6 Astra for developers</a></strong></p> Blink and you'll miss it, but there's a familiar creature at <a href=\"https://www.youtube.com/watch?v=bOC3DisEOfg&amp;t=119\">1m59s</a>:</p> <blockquote> <p>Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible render…",
+      "publishedAt": "2026-09-05T23:27:48.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Using Blender with coding agents on macOS",
+      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p> <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from <a href=\"https://www.blender.org\">blender.org</a> and run a prompt like this:</p> <blockquote> <p><code>Use the already install /Applications/Blender to render a scene of a pelican ridi…",
+      "content": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p> <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from <a href=\"https://www.blender.org\">blender.org</a> and run a prompt like this:</p> <blockquote> <p><code>Use the already install /Applications/Blender to render a scene of a pelican ridi…",
+      "publishedAt": "2026-09-05T15:51:09.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "The Pelican comparison grid for Astra is pretty interesting",
       "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
       "description": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in <a href=\"https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html\">a comparison grid</a> with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisi…",
@@ -164,22 +180,6 @@
       "description": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p> GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet.</p> <p>It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million…",
       "content": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p> GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet.</p> <p>It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million…",
       "publishedAt": "2026-09-03T20:18:41.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-gemini 0.34",
-      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li> <li>Fixed async responses failing to record the resolved model ve…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p> <blockquote> <ul> <li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li> <li>Fixed async responses failing to record the resolved model ve…",
-      "publishedAt": "2026-09-02T16:39:38.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-      "description": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p> <p>They used to keep all of the prompts on a single page, but when I checked to…",
-      "content": "<p>Anthropic <a href=\"https://platform.claude.com/docs/en/release-notes/system-prompts/overview\">publish the system prompts</a> for their Claude consumer applications (<a href=\"https://claude.ai/\">Claude.ai</a> and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I <em>love</em> that they do this, and that they share not just the current prompts but historic changes to their prompts as well.</p> <p>They used to keep all of the prompts on a single page, but when I checked to…",
-      "publishedAt": "2026-09-02T14:16:42.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "description": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.",
+      "content": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.",
+      "publishedAt": "2026-09-05T15:01:02.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
       "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
       "description": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
@@ -268,14 +276,6 @@
       "description": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
       "content": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
       "publishedAt": "2026-09-01T16:17:15.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "description": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
-      "content": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
-      "publishedAt": "2026-09-01T04:36:54.000Z"
     },
     {
       "name": "Cursor Blog",
