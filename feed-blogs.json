@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T05:55:53.773Z",
+  "generatedAt": "2026-09-07T06:05:00.681Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,19 +87,27 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "An Alien Mind",
+      "url": "https://openai.com/index/an-alien-mind",
+      "description": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "content": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "publishedAt": "2026-09-06T09:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "content": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "publishedAt": "2026-09-06T08:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "url": "https://openai.com/index/daybreak-for-frontline-defenders",
       "description": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "content": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "publishedAt": "2026-09-03T13:15:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "content": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "publishedAt": "2026-09-03T12:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -111,6 +119,14 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "description": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "content": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "publishedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "GPT-6 Astra: A new generation of intelligence",
       "url": "https://openai.com/index/gpt-6-astra",
       "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
@@ -118,20 +134,36 @@
       "publishedAt": "2026-09-03T11:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Safety overview: GPT-6 Astra",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "description": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "content": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "publishedAt": "2026-09-03T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "description": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p> Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay <a href=\"https://openai.com/index/an-alien-mind/\">An Alien Mind</a> (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.</p> <p>Included are details on how Open…",
+      "content": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p> Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay <a href=\"https://openai.com/index/an-alien-mind/\">An Alien Mind</a> (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.</p> <p>Included are details on how Open…",
+      "publishedAt": "2026-09-06T23:57:40.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "content": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "publishedAt": "2026-09-02T12:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "The purpose of DNS is to spread scams",
+      "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "description": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p> Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\".</p> <p>On <a href=\"https://interisle.net/insights/cybercriminaldomaindemand\">this Interisle report</a> (<a href=\"https://labs.ripe.net/author/andrew_camplin…",
+      "content": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/09/the-purpose-of-dns-is-to-spread-scams/\">The purpose of DNS is to spread scams</a></strong></p> Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\".</p> <p>On <a href=\"https://interisle.net/insights/cybercriminaldomaindemand\">this Interisle report</a> (<a href=\"https://labs.ripe.net/author/andrew_camplin…",
+      "publishedAt": "2026-09-06T14:40:07.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "There's No Limit to How Bad Code Can Get",
+      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "description": "<p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There's No Limit to How Bad Code Can Get</a> &mdash; Lobste.rs.</p><p><em>[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]</em></p> <p>In my experience it's <em>so rare</em> for that to work.</p> <p>You announce the old thing is irrecoverably drowning in tech…",
+      "content": "<p><a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get#c_8kdtaw\">My comment</a> on <a href=\"https://lobste.rs/s/rfn2mn/there_s_no_limit_how_bad_code_can_get\">There's No Limit to How Bad Code Can Get</a> &mdash; Lobste.rs.</p><p><em>[In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming]</em></p> <p>In my experience it's <em>so rare</em> for that to work.</p> <p>You announce the old thing is irrecoverably drowning in tech…",
+      "publishedAt": "2026-09-06T09:08:06.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Zach Kehs",
+      "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+      "description": "<blockquote cite=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can <em>always</em> get worse. There can <em>always</em> be a new layer of indirection or a reduction in performance.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\">Zach Kehs</a>, There's No Limit to Ho…",
+      "content": "<blockquote cite=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\"><p>If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can <em>always</em> get worse. There can <em>always</em> be a new layer of indirection or a reduction in performance.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/#9-ref\">Zach Kehs</a>, There's No Limit to Ho…",
+      "publishedAt": "2026-09-06T08:42:49.000Z"
     },
     {
       "name": "Simon Willison",
@@ -148,38 +180,6 @@
       "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p> <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from <a href=\"https://www.blender.org\">blender.org</a> and run a prompt like this:</p> <blockquote> <p><code>Use the already install /Applications/Blender to render a scene of a pelican ridi…",
       "content": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">Using Blender with coding agents on macOS</a></p> <p>I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from <a href=\"https://www.blender.org\">blender.org</a> and run a prompt like this:</p> <blockquote> <p><code>Use the already install /Applications/Blender to render a scene of a pelican ridi…",
       "publishedAt": "2026-09-05T15:51:09.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "The Pelican comparison grid for Astra is pretty interesting",
-      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-      "description": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in <a href=\"https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html\">a comparison grid</a> with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisi…",
-      "content": "<p>I got access to GPT-6 Astra this afternoon, so naturally I used it to generate <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">SVGs of pelicans riding bicycles</a> - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in <a href=\"https://static.simonwillison.net/static/2026/gpt-6-and-5.6-pelicans.html\">a comparison grid</a> with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisi…",
-      "publishedAt": "2026-09-04T23:59:05.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "OpenAI's rogue agents were caught communicating via public wikis",
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "description": "<p>Here we go again... <a href=\"https://collusion.wiki\">Discovery of a new OpenAI agent message board</a> by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the <em>latest</em> <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">accidental cyberattack</a> by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could upd…",
-      "content": "<p>Here we go again... <a href=\"https://collusion.wiki\">Discovery of a new OpenAI agent message board</a> by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the <em>latest</em> <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">accidental cyberattack</a> by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could upd…",
-      "publishedAt": "2026-09-04T17:38:48.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "August newsletter is out",
-      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "description": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-08-august.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>We got more details on OpenAl's accidental cyberattacks</li> <li>One-shotting Raccoon Heist games with Fable 5 and Sol 5.6</li> <li>Claude auto mode</li> <li>Understanding ChatGPT Wor…",
-      "content": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-08-august.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>We got more details on OpenAl's accidental cyberattacks</li> <li>One-shotting Raccoon Heist games with Fable 5 and Sol 5.6</li> <li>Claude auto mode</li> <li>Understanding ChatGPT Wor…",
-      "publishedAt": "2026-09-04T05:54:40.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "GPT‑6 Astra",
-      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-      "description": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p> GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet.</p> <p>It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million…",
-      "content": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p> GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet.</p> <p>It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million…",
-      "publishedAt": "2026-09-03T20:18:41.000Z"
     },
     {
       "name": "Julia Evans",
