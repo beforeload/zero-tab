@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:57:58.460Z",
+  "generatedAt": "2026-09-10T05:56:56.651Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,30 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "description": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "content": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "publishedAt": "2026-09-09T13:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "content": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "publishedAt": "2026-09-09T11:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "content": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
       "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
@@ -110,28 +134,20 @@
       "publishedAt": "2026-09-08T11:30:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "description": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "content": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "publishedAt": "2026-09-08T10:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Calif Research",
+      "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+      "description": "<blockquote cite=\"https://calif.io/research/weworm\"><p>Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]</p> <p>The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]</p> <p>Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took o…",
+      "content": "<blockquote cite=\"https://calif.io/research/weworm\"><p>Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...]</p> <p>The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...]</p> <p>Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took o…",
+      "publishedAt": "2026-09-10T00:56:41.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Funding grants for new research into AI and teen development",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "content": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "publishedAt": "2026-09-08T09:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "content": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "publishedAt": "2026-09-08T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": ".blend URL Viewer",
+      "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/blender-viewer\">.blend URL Viewer</a></p> <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">my TIL</a>).</p> <p>As a big fan of the <a href=\"https://en.wikipedia.org/wiki/Faberg%C3%A9_egg\">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p> <p>Yesterday I deci…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/blender-viewer\">.blend URL Viewer</a></p> <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href=\"https://til.simonwillison.net/llms/blender-coding-agents-macos\">my TIL</a>).</p> <p>As a big fan of the <a href=\"https://en.wikipedia.org/wiki/Faberg%C3%A9_egg\">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p> <p>Yesterday I deci…",
+      "publishedAt": "2026-09-09T23:58:32.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li> </ul> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li> </ul> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
       "publishedAt": "2026-09-07T23:54:54.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Creepy crawlies",
-      "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-      "description": "<p><strong><a href=\"https://people.kernel.org/monsieuricon/creepy-crawlies\">Creepy crawlies</a></strong></p> Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of <a href=\"https://git.kernel.org/\">git.kernel.org</a>, the official Git repository for the Linux kernel:</p> <blockquote> <p>TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At an…",
-      "content": "<p><strong><a href=\"https://people.kernel.org/monsieuricon/creepy-crawlies\">Creepy crawlies</a></strong></p> Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of <a href=\"https://git.kernel.org/\">git.kernel.org</a>, the official Git repository for the Linux kernel:</p> <blockquote> <p>TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At an…",
-      "publishedAt": "2026-09-07T23:08:58.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Jakub Pachocki",
-      "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-      "description": "<blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]</p> <p>We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.</p> <p>At the same t…",
-      "content": "<blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]</p> <p>We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.</p> <p>At the same t…",
-      "publishedAt": "2026-09-07T22:26:25.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+      "description": "a quiet day",
+      "content": "a quiet day",
+      "publishedAt": "2026-09-10T03:33:12.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize aw…",
       "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
       "description": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
@@ -268,14 +276,6 @@
       "description": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
       "content": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
       "publishedAt": "2026-09-04T05:18:11.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-      "url": "https://www.latent.space/p/astra",
-      "description": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
-      "content": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
-      "publishedAt": "2026-09-03T21:09:41.000Z"
     },
     {
       "name": "Cursor Blog",
