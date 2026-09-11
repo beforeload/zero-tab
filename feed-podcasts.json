@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-10T05:56:56.651Z",
+  "generatedAt": "2026-09-11T05:57:16.436Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Computer-Use Agents and the Future of the Agentic Internet",
+      "url": "https://share.transistor.fm/s/72586f97",
+      "guid": "8a1c70d7-502d-40f8-b16e-341761a7f41b",
+      "transcript": "<p>Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different. They had a blast!</p><p>As AI agents become more capable of using computers, interacting with software, and taking action on behalf of users, what does that mean for the way we work and interact with the internet? Chris and Demetrios explore computer-use agents, MCP, agent harnes…",
+      "publishedAt": "2026-09-10T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Less about Models; More about Architecture",
@@ -24,14 +32,6 @@
       "guid": "5fb15f12-94b9-4fee-a8da-326eab85362e",
       "transcript": "<p>As AI continues to reshape how organizations work, companies are increasingly asking what AI proficiency should look like across their workforce, and how they can help employees adapt without simply mandating AI adoption. Our returning guest Mike Lewis, Chief AI Architect at TiER1 Performance, joins Dan and Chris to explore AI proficiency through the L0–L3 framework, with a particular focus on the role of non-technical builders. They discuss AI resistance, identifying the right people to bui…",
       "publishedAt": "2026-08-25T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Models, Harnesses, and Multi-Agent Systems",
-      "url": "https://share.transistor.fm/s/063cfaad",
-      "guid": "b3360d48-183d-45f8-a014-8bb44ce160b4",
-      "transcript": "<p>AI has moved far beyond chatbots, but what exactly are AI models, agents, agent harnesses, and multi-agent systems, and why do they matter?</p><p>In this episode, Daniel and Chris break down the terminology behind today's AI landscape, explain the differences between AI features and autonomous agents, and explore why organizations are shifting toward fleets of AI agents powered by multiple models. They also discuss open vs. closed models, enterprise AI architectures, vendor lock-in, and prac…",
-      "publishedAt": "2026-08-06T09:00:00.000Z"
     }
   ]
 }

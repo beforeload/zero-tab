@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:56:56.651Z",
+  "generatedAt": "2026-09-11T05:57:16.436Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -73,65 +73,89 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Aug 27, 2026 Previewing the Model Hardware Standard We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to sa…",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "title": "Announcements Sep 10, 2026 Detecting and countering misuse of AI: September 2026 Over the past eight months, our Threat Intelligence team identified and disrupted operations in wh…",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Aug 14, 2026 How Claude’s text watermark works In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method wor…",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "title": "Announcements Aug 31, 2026 Improving our alignment and security efforts On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer…",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "description": "",
       "content": ""
     },
     {
       "name": "OpenAI Blog",
-      "title": "The AI policy window is open. We need to act.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "description": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "content": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "publishedAt": "2026-09-09T13:00:00.000Z"
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "content": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "publishedAt": "2026-09-10T16:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "content": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "publishedAt": "2026-09-09T11:00:00.000Z"
+      "title": "Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "content": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "publishedAt": "2026-09-10T15:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "content": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "publishedAt": "2026-09-09T17:00:00.000Z"
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "content": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "publishedAt": "2026-09-10T07:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "content": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "publishedAt": "2026-09-08T17:00:00.000Z"
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "content": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "publishedAt": "2026-09-10T07:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "description": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "content": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "publishedAt": "2026-09-08T13:00:00.000Z"
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "content": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "content": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "publishedAt": "2026-09-08T11:30:00.000Z"
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "content": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Datasette 1.0a39 and 0.65.4 security releases",
+      "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "description": "<p><strong><a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette 1.0a39 and 0.65.4 security releases</a></strong></p> Today we're releasing two new security patch versions of Datasette: <a href=\"https://docs.datasette.io/en/latest/changelog.html#v1-0-a39\">1.0a39</a> and <a href=\"https://docs.datasette.io/en/stable/changelog.html#v0-65-4\">0.65.4</a> - one for the current alpha series and one for the stable 0.65.x family.</p> <p>These are security fixes which you should…",
+      "content": "<p><strong><a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette 1.0a39 and 0.65.4 security releases</a></strong></p> Today we're releasing two new security patch versions of Datasette: <a href=\"https://docs.datasette.io/en/latest/changelog.html#v1-0-a39\">1.0a39</a> and <a href=\"https://docs.datasette.io/en/stable/changelog.html#v0-65-4\">0.65.4</a> - one for the current alpha series and one for the stable 0.65.x family.</p> <p>These are security fixes which you should…",
+      "publishedAt": "2026-09-11T03:27:16.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Any Nix package, live in your browser",
+      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "description": "<p><strong><a href=\"https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser\">Any Nix package, live in your browser</a></strong></p> Farid Zakaria calls this his \"<em>magnum opus</em> of Nix work\", and I can see why.</p> <p><a href=\"https://trynix.dev\">trynix.dev</a> provides a <a href=\"https://github.com/ktock/qemu-wasm\">qemu-wasm</a> powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with <em>any Nix package</em> f…",
+      "content": "<p><strong><a href=\"https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser\">Any Nix package, live in your browser</a></strong></p> Farid Zakaria calls this his \"<em>magnum opus</em> of Nix work\", and I can see why.</p> <p><a href=\"https://trynix.dev\">trynix.dev</a> provides a <a href=\"https://github.com/ktock/qemu-wasm\">qemu-wasm</a> powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with <em>any Nix package</em> f…",
+      "publishedAt": "2026-09-10T23:44:15.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "description": "<p><strong><a href=\"https://shopify.engineering/back-to-native\">Native is now the future of mobile at Shopify</a></strong></p> Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:</p> <blockquote> <p>We decided to switch from native to React Native in 2020 for three reasons:</p> <ul> <li>Stop building the same features twice</li> <li>Allow developers to work across the stack</li> <li>Spend less time chasin…",
+      "content": "<p><strong><a href=\"https://shopify.engineering/back-to-native\">Native is now the future of mobile at Shopify</a></strong></p> Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:</p> <blockquote> <p>We decided to switch from native to React Native in 2020 for three reasons:</p> <ul> <li>Stop building the same features twice</li> <li>Allow developers to work across the stack</li> <li>Spend less time chasin…",
+      "publishedAt": "2026-09-10T21:11:15.000Z"
     },
     {
       "name": "Simon Willison",
@@ -156,30 +180,6 @@
       "description": "<blockquote cite=\"https://mathstodon.xyz/@tao/117237320796901560\"><p>I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]</p> <p>We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may…",
       "content": "<blockquote cite=\"https://mathstodon.xyz/@tao/117237320796901560\"><p>I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...]</p> <p>We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential. The incentives may…",
       "publishedAt": "2026-09-09T00:20:17.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-      "description": "<p><strong><a href=\"https://openai.com/index/navier-stokes-solution/\">On the Navier–Stokes Millennium Prize Problem</a></strong></p> Impressive result from OpenAI, who used an unreleased model to produce a resolution to <a href=\"https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness\">the Navier–Stokes existence and smoothness problem</a>, one of the seven <a href=\"https://en.wikipedia.org/wiki/Millennium_Prize_Problems\">Millennium Prize Problems</a> that have been subject to a $1,…",
-      "content": "<p><strong><a href=\"https://openai.com/index/navier-stokes-solution/\">On the Navier–Stokes Millennium Prize Problem</a></strong></p> Impressive result from OpenAI, who used an unreleased model to produce a resolution to <a href=\"https://en.wikipedia.org/wiki/Navier–Stokes_existence_and_smoothness\">the Navier–Stokes existence and smoothness problem</a>, one of the seven <a href=\"https://en.wikipedia.org/wiki/Millennium_Prize_Problems\">Millennium Prize Problems</a> that have been subject to a $1,…",
-      "publishedAt": "2026-09-08T23:55:12.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Introducing ChatGPT Images 2.5",
-      "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
-      "description": "<p><strong><a href=\"https://openai.com/index/introducing-chatgpt-images-2-5/\">Introducing ChatGPT Images 2.5</a></strong></p> OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\".</p> <p>There are two new model IDs in the API: <code>gpt-i…",
-      "content": "<p><strong><a href=\"https://openai.com/index/introducing-chatgpt-images-2-5/\">Introducing ChatGPT Images 2.5</a></strong></p> OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\".</p> <p>There are two new model IDs in the API: <code>gpt-i…",
-      "publishedAt": "2026-09-08T22:46:33.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm 0.35",
-      "url": "https://simonwillison.net/2026/Sep/7/llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li> </ul> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p> <blockquote> <ul> <li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li> </ul> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
-      "publishedAt": "2026-09-07T23:54:54.000Z"
     },
     {
       "name": "Julia Evans",
@@ -307,15 +307,15 @@
     },
     {
       "name": "Cursor Blog",
-      "title": "Sep 2, 2026 · product Run cloud agents on machines you manage Jack Pertschuk 6m Jack Pertschuk · 6m",
-      "url": "https://cursor.com/blog/self-hosted-machines",
+      "title": "Sep 10, 2026 · product Introducing Projects Alexi & Fredrika 5m Alexi & Fredrika · 5m",
+      "url": "https://cursor.com/blog/projects",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Aug 13, 2026 · company Firetiger joins Cursor Maxime Prades 2m Maxime Prades · 2m",
-      "url": "https://cursor.com/blog/firetiger",
+      "title": "Sep 2, 2026 · product Run cloud agents on machines you manage Jack Pertschuk 6m Jack Pertschuk · 6m",
+      "url": "https://cursor.com/blog/self-hosted-machines",
       "description": "",
       "content": ""
     }
