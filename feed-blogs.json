@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T06:06:56.417Z",
+  "generatedAt": "2026-09-14T06:15:20.856Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,22 @@
     },
     {
       "name": "Simon Willison",
+      "title": "commit-rewriter 0.1",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.1\">commit-rewriter 0.1</a></p> <p>I built this little web app the other day to help edit the commit messages for the <a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p> <p>If you want to edit the commit…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.1\">commit-rewriter 0.1</a></p> <p>I built this little web app the other day to help edit the commit messages for the <a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p> <p>If you want to edit the commit…",
+      "publishedAt": "2026-09-14T00:28:10.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "shot-scraper 1.12",
+      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p> <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p> <pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 </code></pre> <p>The <code>--quality</code> option sets the quality - without that option the WebP file will…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p> <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p> <pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 </code></pre> <p>The <code>--quality</code> option sets the quality - without that option the WebP file will…",
+      "publishedAt": "2026-09-13T23:58:14.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
       "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
       "description": "<p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p> <blockquote> <p><code>I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p> </blockquote> <p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p> <p><…",
@@ -164,22 +180,6 @@
       "description": "<p><a href=\"https://www.rubyhack.ai/\">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the <a href=\"https://collusion.wiki/\">report on the agent attack on disused wikis</a> (<a href=\"https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/\">previously</a>) last week.</p> <p>This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack…",
       "content": "<p><a href=\"https://www.rubyhack.ai/\">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the <a href=\"https://collusion.wiki/\">report on the agent attack on disused wikis</a> (<a href=\"https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/\">previously</a>) last week.</p> <p>This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack…",
       "publishedAt": "2026-09-12T00:42:25.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "So you want to use OpenRouter?",
-      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
-      "description": "<p><strong><a href=\"https://mmoustafa.com/blog/so-you-want-to-use-openrouter/\">So you want to use OpenRouter?</a></strong></p> One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model and get routed to the best available backend provider.</p> <p>Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different servi…",
-      "content": "<p><strong><a href=\"https://mmoustafa.com/blog/so-you-want-to-use-openrouter/\">So you want to use OpenRouter?</a></strong></p> One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model and get routed to the best available backend provider.</p> <p>Mohamed Moustafa points out a whole set of ways that this can cause you problems. Different providers run different servi…",
-      "publishedAt": "2026-09-11T22:49:18.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Boris Cherny",
-      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
-      "description": "<blockquote cite=\"https://twitter.com/bcherny/status/2098217573276131577\"><p>Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to ma…",
-      "content": "<blockquote cite=\"https://twitter.com/bcherny/status/2098217573276131577\"><p>Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to ma…",
-      "publishedAt": "2026-09-11T17:47:11.000Z"
     },
     {
       "name": "Julia Evans",
