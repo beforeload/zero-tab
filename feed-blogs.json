@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T06:15:20.856Z",
+  "generatedAt": "2026-09-15T06:09:22.629Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,14 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "content": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "publishedAt": "2026-09-14T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
@@ -126,12 +134,28 @@
       "publishedAt": "2026-09-10T15:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "content": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "publishedAt": "2026-09-10T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "The contagion of fear",
+      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "description": "<p><strong><a href=\"https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/\">The contagion of fear</a></strong></p> Bryan Cantrill responds to the <a href=\"https://x.com/hilbertspaess/status/2097476203863224394\">tweet by former Anthropic employee Jacob Coxon</a> confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\".</p> <p>Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against…",
+      "content": "<p><strong><a href=\"https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/\">The contagion of fear</a></strong></p> Bryan Cantrill responds to the <a href=\"https://x.com/hilbertspaess/status/2097476203863224394\">tweet by former Anthropic employee Jacob Coxon</a> confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\".</p> <p>Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against…",
+      "publishedAt": "2026-09-14T21:18:13.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "What blog posts influenced your thinking the most?",
+      "url": "https://simonwillison.net/2026/Sep/14/influences/",
+      "description": "<p><a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking#c_4fxnwn\">My comment</a> on <a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking\">What blog posts influenced your thinking the most?</a> &mdash; Lobste.rs.</p><p>An early Joel Spolsky one for me was <a href=\"https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/\">The Law of Leaky Abstractions</a>. I read that near the start of my career and it's encouraged me to <em>always</…",
+      "content": "<p><a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking#c_4fxnwn\">My comment</a> on <a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking\">What blog posts influenced your thinking the most?</a> &mdash; Lobste.rs.</p><p>An early Joel Spolsky one for me was <a href=\"https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/\">The Law of Leaky Abstractions</a>. I read that near the start of my career and it's encouraged me to <em>always</…",
+      "publishedAt": "2026-09-14T20:21:48.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Laurie Voss",
+      "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+      "description": "<blockquote cite=\"https://seldo.com/posts/we-are-all-product-engineers-now/\"><p>The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, tha…",
+      "content": "<blockquote cite=\"https://seldo.com/posts/we-are-all-product-engineers-now/\"><p>The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, tha…",
+      "publishedAt": "2026-09-14T14:34:29.000Z"
     },
     {
       "name": "Simon Willison",
@@ -156,30 +180,6 @@
       "description": "<p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p> <blockquote> <p><code>I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p> </blockquote> <p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p> <p><…",
       "content": "<p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p> <blockquote> <p><code>I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p> </blockquote> <p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p> <p><…",
       "publishedAt": "2026-09-12T23:56:42.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "California Brown Pelican",
-      "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "description": "<p><img src=\"https://static.inaturalist.org/photos/733368932/large.jpg\" alt=\"California Brown Pelican\"></p><p><img src=\"https://static.inaturalist.org/photos/733368989/large.jpg\" alt=\"California Brown Pelican\"></p><p>California Brown Pelican, in San Mateo County, CA, US</p><p>The <a href=\"https://en.wikipedia.org/wiki/Pacifica_Pier\">Pacifica Pier</a> shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe.</p> <p>It has since been entirely taken over…",
-      "content": "<p><img src=\"https://static.inaturalist.org/photos/733368932/large.jpg\" alt=\"California Brown Pelican\"></p><p><img src=\"https://static.inaturalist.org/photos/733368989/large.jpg\" alt=\"California Brown Pelican\"></p><p>California Brown Pelican, in San Mateo County, CA, US</p><p>The <a href=\"https://en.wikipedia.org/wiki/Pacifica_Pier\">Pacifica Pier</a> shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe.</p> <p>It has since been entirely taken over…",
-      "publishedAt": "2026-09-12T21:16:09.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Paul Ford",
-      "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
-      "description": "<blockquote cite=\"https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html\"><p>For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do some…",
-      "content": "<blockquote cite=\"https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html\"><p>For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do some…",
-      "publishedAt": "2026-09-12T18:00:21.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "description": "<p><a href=\"https://www.rubyhack.ai/\">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the <a href=\"https://collusion.wiki/\">report on the agent attack on disused wikis</a> (<a href=\"https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/\">previously</a>) last week.</p> <p>This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack…",
-      "content": "<p><a href=\"https://www.rubyhack.ai/\">OpenAI agents carried out an undisclosed attack on RubyGems</a> is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the <a href=\"https://collusion.wiki/\">report on the agent attack on disused wikis</a> (<a href=\"https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/\">previously</a>) last week.</p> <p>This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack…",
-      "publishedAt": "2026-09-12T00:42:25.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "description": "Pacing gathers pace.",
+      "content": "Pacing gathers pace.",
+      "publishedAt": "2026-09-15T04:50:36.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "url": "https://www.latent.space/p/recursive",
+      "description": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+      "content": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+      "publishedAt": "2026-09-14T16:04:16.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
       "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
       "description": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
@@ -260,22 +276,6 @@
       "description": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
       "content": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
       "publishedAt": "2026-09-09T05:04:51.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "url": "https://www.latent.space/p/aeo",
-      "description": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
-      "content": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
-      "publishedAt": "2026-09-07T21:32:37.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-      "url": "https://www.latent.space/p/grok-bot",
-      "description": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.",
-      "content": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction.",
-      "publishedAt": "2026-09-05T15:01:02.000Z"
     },
     {
       "name": "Cursor Blog",
