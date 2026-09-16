@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:09:22.629Z",
+  "generatedAt": "2026-09-16T05:59:01.548Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,14 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Gemini Live audio",
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p> <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href=\"https://openai.com/index/introducing-gpt-live/\">GPT-Live</a> family.</p> <p>I pointed GPT-6 Astra Extra…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p> <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href=\"https://openai.com/index/introducing-gpt-live/\">GPT-Live</a> family.</p> <p>I pointed GPT-6 Astra Extra…",
+      "publishedAt": "2026-09-15T22:47:07.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "The contagion of fear",
       "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
       "description": "<p><strong><a href=\"https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/\">The contagion of fear</a></strong></p> Bryan Cantrill responds to the <a href=\"https://x.com/hilbertspaess/status/2097476203863224394\">tweet by former Anthropic employee Jacob Coxon</a> confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\".</p> <p>Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against…",
@@ -172,14 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p> <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p> <pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 </code></pre> <p>The <code>--quality</code> option sets the quality - without that option the WebP file will…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p> <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p> <pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 </code></pre> <p>The <code>--quality</code> option sets the quality - without that option the WebP file will…",
       "publishedAt": "2026-09-13T23:58:14.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "description": "<p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p> <blockquote> <p><code>I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p> </blockquote> <p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p> <p><…",
-      "content": "<p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p> <blockquote> <p><code>I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p> </blockquote> <p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p> <p><…",
-      "publishedAt": "2026-09-12T23:56:42.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+      "url": "https://www.latent.space/p/good-start-labs",
+      "description": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+      "content": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+      "publishedAt": "2026-09-15T20:11:54.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
       "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
       "description": "Pacing gathers pace.",
@@ -268,14 +276,6 @@
       "description": "a quiet day",
       "content": "a quiet day",
       "publishedAt": "2026-09-10T03:33:12.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize aw…",
-      "url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-      "description": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
-      "content": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
-      "publishedAt": "2026-09-09T05:04:51.000Z"
     },
     {
       "name": "Cursor Blog",
