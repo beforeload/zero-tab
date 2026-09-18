@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-17T06:07:51.477Z",
+  "generatedAt": "2026-09-18T05:54:05.341Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "How to get discovered in AI search",
+      "url": "https://share.transistor.fm/s/66185604",
+      "guid": "feacf9a3-586b-4106-8da3-aab51f1c2765",
+      "transcript": "<p>AI search is changing how people discover information and how brands need to think about visibility. Daniel and Chris talk with Liam Dunne and Ben Moore, co-founders of Discovered Labs, about the shift from traditional SEO to AI search, what happens behind the scenes when an LLM generates an answer, and why retrieval and citations don't always tell the whole story. They dig into AI visibility, Reddit strategy, query fan-out, representation in model weights, and consensus. They also look ahea…",
+      "publishedAt": "2026-09-17T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Computer-Use Agents and the Future of the Agentic Internet",
@@ -24,14 +32,6 @@
       "guid": "c00bb124-af61-414f-8956-8c9a9e49c8e1",
       "transcript": "<p>How do we build an AI ecosystem where agents, tools, and systems can work together at scale? Angie Jones, VP of the Agentic AI Foundation, joins Chris to discuss the open standards and projects shaping the agentic future, including MCP, A2A, Goose, etc. They also explore what it takes to drive AI adoption across an entire organization, the importance of neutral standards, global perspectives on agentic AI, and how humans can find the right balance between what they delegate to AI and what th…",
       "publishedAt": "2026-08-28T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "AI Proficiency: From Users to Builders",
-      "url": "https://share.transistor.fm/s/0f57c0bc",
-      "guid": "5fb15f12-94b9-4fee-a8da-326eab85362e",
-      "transcript": "<p>As AI continues to reshape how organizations work, companies are increasingly asking what AI proficiency should look like across their workforce, and how they can help employees adapt without simply mandating AI adoption. Our returning guest Mike Lewis, Chief AI Architect at TiER1 Performance, joins Dan and Chris to explore AI proficiency through the L0–L3 framework, with a particular focus on the role of non-technical builders. They discuss AI resistance, identifying the right people to bui…",
-      "publishedAt": "2026-08-25T09:00:00.000Z"
     }
   ]
 }
