@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:11:53.873Z",
+  "generatedAt": "2026-09-23T05:56:44.504Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -66,15 +66,8 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Announcements Sep 1, 2026 Our most advanced models for coding and knowledge work. Their research capabilities also offer an earl…",
+      "title": "Announcements Sep 1, 2026 Introducing Claude Fable 5.1 and Claude Mythos 5.1 Our most advanced models for coding and knowledge work. Their research capabilities also offer an earl…",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic News",
-      "title": "Sep 17, 2026 Measurements for understanding the pace of AI development inside frontier labs Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new m…",
-      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
       "description": "",
       "content": ""
     },
@@ -86,12 +79,43 @@
       "content": ""
     },
     {
+      "name": "Anthropic News",
+      "title": "Announcements Aug 31, 2026 Improving our alignment and security efforts On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer…",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "description": "",
+      "content": ""
+    },
+    {
       "name": "OpenAI Blog",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "content": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "publishedAt": "2026-09-21T12:00:00.000Z"
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "description": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "content": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "publishedAt": "2026-09-22T21:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "content": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "publishedAt": "2026-09-22T18:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "content": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "publishedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Priorities and principles for effective third party assessments",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "description": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "content": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "publishedAt": "2026-09-22T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -103,83 +127,59 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Building standards for the next phase of AI",
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
-      "description": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "content": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "content": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "publishedAt": "2026-09-21T07:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "How V7 gives AI agents institutional memory",
-      "url": "https://openai.com/index/v7",
-      "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "content": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "publishedAt": "2026-09-21T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "content": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "publishedAt": "2026-09-18T12:00:00.000Z"
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "content": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "publishedAt": "2026-09-21T12:00:00.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
-      "description": "<p>Last week <a href=\"https://typesafe.ai/\">TypeSafe AI</a> unveiled <a href=\"https://typesafe.ai/blog/introducing-system-one-models-and-jev\">Jev</a>, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is <a href=\"https://twitter.com/Mappletons/status/2101560333441610133\">a better name</a> for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text…",
-      "content": "<p>Last week <a href=\"https://typesafe.ai/\">TypeSafe AI</a> unveiled <a href=\"https://typesafe.ai/blog/introducing-system-one-models-and-jev\">Jev</a>, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is <a href=\"https://twitter.com/Mappletons/status/2101560333441610133\">a better name</a> for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text…",
-      "publishedAt": "2026-09-21T23:09:20.000Z"
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
+      "description": "<p><strong><a href=\"https://luma.com/vxuiuyvg\">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p> I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p> <p>Think of it as an agentic show-and-tell:</p> <blockquote> <p>​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you hav…",
+      "content": "<p><strong><a href=\"https://luma.com/vxuiuyvg\">SF October 14th: A Birds of a Feather Session on Agentic Engineering</a></strong></p> I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents.</p> <p>Think of it as an agentic show-and-tell:</p> <blockquote> <p>​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you hav…",
+      "publishedAt": "2026-09-23T02:53:19.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Cloudflare Python Workers are now generally available",
-      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
-      "description": "<p><strong><a href=\"https://blog.cloudflare.com/python-workers-ga/\">Cloudflare Python Workers are now generally available</a></strong></p> After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\".</p> <p>A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based <a href=\"h…",
-      "content": "<p><strong><a href=\"https://blog.cloudflare.com/python-workers-ga/\">Cloudflare Python Workers are now generally available</a></strong></p> After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\".</p> <p>A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based <a href=\"h…",
-      "publishedAt": "2026-09-21T22:25:44.000Z"
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "description": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropic.com/claude-opus-5-5\">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href=\"https://openai.com/index/introducing-gpt-6-sol-and-luna…",
+      "content": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropic.com/claude-opus-5-5\">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href=\"https://openai.com/index/introducing-gpt-6-sol-and-luna…",
+      "publishedAt": "2026-09-22T23:46:41.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Quoting voxium",
-      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
-      "description": "<blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are worki…",
-      "content": "<blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are worki…",
-      "publishedAt": "2026-09-20T21:06:43.000Z"
+      "title": "llm 0.36",
+      "url": "https://simonwillison.net/2026/Sep/22/llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p> <blockquote> <ul> <li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-luna\">GPT-6 Luna</a>. <a href=\"https://github.com/simonw/llm/issues/1702\">#1702</a></li> <li>Model plugins can now declare <code>supports_conversation = F…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p> <blockquote> <ul> <li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-luna\">GPT-6 Luna</a>. <a href=\"https://github.com/simonw/llm/issues/1702\">#1702</a></li> <li>Model plugins can now declare <code>supports_conversation = F…",
+      "publishedAt": "2026-09-22T18:48:37.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "MCP was always a bad idea?",
-      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49779329#49779718\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49779329\">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p> <p>Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.</p> <p>If you want to operat…",
-      "content": "<p><a href=\"https://news.ycombinator.com/item?id=49779329#49779718\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49779329\">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p> <p>Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.</p> <p>If you want to operat…",
-      "publishedAt": "2026-09-20T20:24:41.000Z"
+      "title": "Quoting @therealcornpop",
+      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "description": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t…",
+      "content": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t…",
+      "publishedAt": "2026-09-22T18:03:21.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "llm-keys-ui 0.1",
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p> <p>This plugin solves a very specific problem.</p> <p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p> <p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p> <p>I don't like pasting API keys int…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p> <p>This plugin solves a very specific problem.</p> <p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p> <p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p> <p>I don't like pasting API keys int…",
-      "publishedAt": "2026-09-20T19:22:19.000Z"
+      "title": "llm-anthropic 0.29",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p> <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p> <pre><code>llm -m claude-opus-5.5 \"prompt goes here\" </code></pre> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p> <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p> <pre><code>llm -m claude-opus-5.5 \"prompt goes here\" </code></pre> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
+      "publishedAt": "2026-09-22T17:14:55.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "datasette-explain 0.2.2",
-      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-explain/releases/tag/0.2.2\">datasette-explain 0.2.2</a></p> <blockquote> <ul> <li>Explain plans now work on read-only stored-query pages.</li> </ul> </blockquote> <p>I upgraded <a href=\"https://datasette.simonwillison.net\">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"htt…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-explain/releases/tag/0.2.2\">datasette-explain 0.2.2</a></p> <blockquote> <ul> <li>Explain plans now work on read-only stored-query pages.</li> </ul> </blockquote> <p>I upgraded <a href=\"https://datasette.simonwillison.net\">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"htt…",
-      "publishedAt": "2026-09-20T00:22:04.000Z"
+      "title": "llm-typesafe 0.1a0",
+      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p> <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p> <pre><code>llm install llm-typesafe </code></pre> <p>Then set an API key (<a href=\"https://console.typesafe.ai/\">get one here</a>, the waitlist seems to move pretty fast…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p> <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p> <pre><code>llm install llm-typesafe </code></pre> <p>Then set an API key (<a href=\"https://console.typesafe.ai/\">get one here</a>, the waitlist seems to move pretty fast…",
+      "publishedAt": "2026-09-22T15:54:16.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "description": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "content": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "publishedAt": "2026-09-22T21:07:39.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "description": "crowning a new Chinese frontier lab",
+      "content": "crowning a new Chinese frontier lab",
+      "publishedAt": "2026-09-22T06:30:56.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
       "url": "https://www.latent.space/p/jev",
       "description": "The definitive Jev podcast with its lead creator.",
@@ -260,22 +276,6 @@
       "description": "A dash of cold water keeps the foomers away.",
       "content": "A dash of cold water keeps the foomers away.",
       "publishedAt": "2026-09-17T07:28:25.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
-      "url": "https://www.latent.space/p/aiuc",
-      "description": "We sit down with AIUC’s CEO on their Series A!",
-      "content": "We sit down with AIUC’s CEO on their Series A!",
-      "publishedAt": "2026-09-16T18:07:45.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
-      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
-      "description": "congrats to TypeSafe!",
-      "content": "congrats to TypeSafe!",
-      "publishedAt": "2026-09-16T11:09:53.000Z"
     },
     {
       "name": "Cursor Blog",
