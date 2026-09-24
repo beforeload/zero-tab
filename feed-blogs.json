@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T05:56:44.504Z",
+  "generatedAt": "2026-09-24T06:09:38.568Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -80,58 +80,74 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Aug 31, 2026 Improving our alignment and security efforts On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer…",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
       "description": "",
       "content": ""
     },
     {
       "name": "OpenAI Blog",
-      "title": "Better prompt caching for GPT-6",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "description": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "content": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "publishedAt": "2026-09-22T21:00:00.000Z"
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "content": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "publishedAt": "2026-09-23T16:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "content": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "publishedAt": "2026-09-22T18:00:00.000Z"
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "description": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "content": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "publishedAt": "2026-09-23T13:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "content": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "publishedAt": "2026-09-22T12:00:00.000Z"
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "content": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "publishedAt": "2026-09-23T12:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Priorities and principles for effective third party assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "description": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "content": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "publishedAt": "2026-09-22T00:00:00.000Z"
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "description": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "content": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "publishedAt": "2026-09-23T12:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "content": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "publishedAt": "2026-09-21T12:00:00.000Z"
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "description": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "content": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "publishedAt": "2026-09-23T12:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "content": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "publishedAt": "2026-09-21T12:00:00.000Z"
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "description": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "content": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "publishedAt": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Gemini 3.8 TTS Playground",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second a…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second a…",
+      "publishedAt": "2026-09-23T17:12:27.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Shadow roots, explained with live examples",
+      "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p> <p>Prompt to Fable 5.1 Medium:</p> <blockquote> <p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a></p>",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p> <p>Prompt to Fable 5.1 Medium:</p> <blockquote> <p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a></p>",
+      "publishedAt": "2026-09-23T16:37:18.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t…",
       "content": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t…",
       "publishedAt": "2026-09-22T18:03:21.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p> <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p> <pre><code>llm -m claude-opus-5.5 \"prompt goes here\" </code></pre> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p> <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p> <pre><code>llm -m claude-opus-5.5 \"prompt goes here\" </code></pre> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
-      "publishedAt": "2026-09-22T17:14:55.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-typesafe 0.1a0",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p> <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p> <pre><code>llm install llm-typesafe </code></pre> <p>Then set an API key (<a href=\"https://console.typesafe.ai/\">get one here</a>, the waitlist seems to move pretty fast…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-typesafe/releases/tag/0.1a0\">llm-typesafe 0.1a0</a></p> <p>I built this new plugin for <a href=\"https://llm.datasette.io/\">LLM</a> to add support for <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">TypeSafe AI's new Jev model</a>. Install it like this:</p> <pre><code>llm install llm-typesafe </code></pre> <p>Then set an API key (<a href=\"https://console.typesafe.ai/\">get one here</a>, the waitlist seems to move pretty fast…",
-      "publishedAt": "2026-09-22T15:54:16.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "description": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "content": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "publishedAt": "2026-09-23T13:27:18.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "description": "overshadowing more efficient GPT6 models from OpenAI",
+      "content": "overshadowing more efficient GPT6 models from OpenAI",
+      "publishedAt": "2026-09-23T06:41:41.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
       "url": "https://www.latent.space/p/john-platt",
       "description": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
@@ -262,22 +278,6 @@
       "publishedAt": "2026-09-19T05:48:28.000Z"
     },
     {
-      "name": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "description": "a quiet day",
-      "content": "a quiet day",
-      "publishedAt": "2026-09-18T06:28:43.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
-      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "description": "A dash of cold water keeps the foomers away.",
-      "content": "A dash of cold water keeps the foomers away.",
-      "publishedAt": "2026-09-17T07:28:25.000Z"
-    },
-    {
       "name": "Cursor Blog",
       "title": "Skip to content",
       "url": "https://cursor.com/blog#main",
@@ -307,15 +307,15 @@
     },
     {
       "name": "Cursor Blog",
-      "title": "Sep 10, 2026 · product Introducing Projects Alexi & Fredrika 5m Alexi & Fredrika · 5m",
-      "url": "https://cursor.com/blog/projects",
+      "title": "Sep 23, 2026 · research Improved token efficiency for longer agent runs Jediah, Connor & Calvin 7m Jediah, Connor & Calvin · 7m",
+      "url": "https://cursor.com/blog/improved-token-efficiency",
       "description": "",
       "content": ""
     },
     {
       "name": "Cursor Blog",
-      "title": "Sep 2, 2026 · product Run cloud agents on machines you manage Jack Pertschuk 6m Jack Pertschuk · 6m",
-      "url": "https://cursor.com/blog/self-hosted-machines",
+      "title": "Sep 23, 2026 · product Bots for the last mile: Rollouts, Security Review Rustam Lalkaka 3m Rustam Lalkaka · 3m",
+      "url": "https://cursor.com/blog/rollouts-and-security-reviewer",
       "description": "",
       "content": ""
     }
