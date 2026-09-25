@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T06:09:38.568Z",
+  "generatedAt": "2026-09-25T06:09:13.869Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,22 @@
     },
     {
       "name": "Simon Willison",
+      "title": "commit-rewriter 0.2",
+      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.2\">commit-rewriter 0.2</a></p> <blockquote> <p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href=\"https://github.com/simonw/commit-rewriter/issues/3\">#3</a></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a></p>",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.2\">commit-rewriter 0.2</a></p> <blockquote> <p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href=\"https://github.com/simonw/commit-rewriter/issues/3\">#3</a></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a></p>",
+      "publishedAt": "2026-09-24T20:06:53.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette 1.0a41",
+      "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other…",
+      "publishedAt": "2026-09-24T19:15:23.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Gemini 3.8 TTS Playground",
       "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
       "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second a…",
@@ -164,22 +180,6 @@
       "description": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropic.com/claude-opus-5-5\">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href=\"https://openai.com/index/introducing-gpt-6-sol-and-luna…",
       "content": "<p>Yesterday was <a href=\"https://x.ai/news/grok-4-7\">Grok 4.7</a> (<a href=\"https://news.ycombinator.com/item?id=49788838#49790209\">pelicans</a>) and <a href=\"https://mimo.xiaomi.com/mimo-v2-6\">MiMo v2.6 Flash/Pro</a> (<a href=\"https://news.ycombinator.com/item?id=49792730#49793480\">more pelicans</a>). Today Anthropic <a href=\"https://www.anthropic.com/claude-opus-5-5\">released Claude Opus 5.5</a>, and around an hour later OpenAI <a href=\"https://openai.com/index/introducing-gpt-6-sol-and-luna…",
       "publishedAt": "2026-09-22T23:46:41.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm 0.36",
-      "url": "https://simonwillison.net/2026/Sep/22/llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p> <blockquote> <ul> <li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-luna\">GPT-6 Luna</a>. <a href=\"https://github.com/simonw/llm/issues/1702\">#1702</a></li> <li>Model plugins can now declare <code>supports_conversation = F…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.36\">llm 0.36</a></p> <blockquote> <ul> <li>New OpenAI models: <code>gpt-6-sol</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-sol\">GPT-6 Sol</a> and <code>gpt-6-luna</code> for <a href=\"https://developers.openai.com/api/docs/models/gpt-6-luna\">GPT-6 Luna</a>. <a href=\"https://github.com/simonw/llm/issues/1702\">#1702</a></li> <li>Model plugins can now declare <code>supports_conversation = F…",
-      "publishedAt": "2026-09-22T18:48:37.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting @therealcornpop",
-      "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-      "description": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t…",
-      "content": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p> <p>It's the lack of <em>anything</em>. It's t…",
-      "publishedAt": "2026-09-22T18:03:21.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,38 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "description": "a quiet day lets us discuss the work behind the scenes - now open for business!",
+      "content": "a quiet day lets us discuss the work behind the scenes - now open for business!",
+      "publishedAt": "2026-09-25T05:37:00.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "description": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "content": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "publishedAt": "2026-09-25T01:30:57.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "description": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+      "content": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+      "publishedAt": "2026-09-24T15:03:16.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+      "description": "Team Zuck is absolutely on fire.",
+      "content": "Team Zuck is absolutely on fire.",
+      "publishedAt": "2026-09-24T08:12:59.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
       "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
       "description": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
@@ -244,38 +276,6 @@
       "description": "overshadowing more efficient GPT6 models from OpenAI",
       "content": "overshadowing more efficient GPT6 models from OpenAI",
       "publishedAt": "2026-09-23T06:41:41.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "url": "https://www.latent.space/p/john-platt",
-      "description": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
-      "content": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
-      "publishedAt": "2026-09-22T21:07:39.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-      "description": "crowning a new Chinese frontier lab",
-      "content": "crowning a new Chinese frontier lab",
-      "publishedAt": "2026-09-22T06:30:56.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
-      "url": "https://www.latent.space/p/jev",
-      "description": "The definitive Jev podcast with its lead creator.",
-      "content": "The definitive Jev podcast with its lead creator.",
-      "publishedAt": "2026-09-21T22:13:49.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
-      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "description": "Imitation is the sincerest form of Flattery",
-      "content": "Imitation is the sincerest form of Flattery",
-      "publishedAt": "2026-09-19T05:48:28.000Z"
     },
     {
       "name": "Cursor Blog",

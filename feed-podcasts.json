@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-09-24T06:09:38.568Z",
+  "generatedAt": "2026-09-25T06:09:13.869Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "From AGENTS.md to Enterprise Deployment",
+      "url": "https://share.transistor.fm/s/74934e48",
+      "guid": "2dbddf03-71ae-48d0-b902-a03f383621ac",
+      "transcript": "<p>AI agents are moving beyond laptops and prototypes and into enterprise environments where security, compliance, scalability, and reliability matter. Nick Kuhn from VMware Tanzu Platform joins Daniel and Chris to discuss what changes (and what doesn’t) when deploying agents alongside traditional applications. They explore agent build packs, MCP gateways, shared memory, identity, sandboxing, and what enterprises can learn from years of platform engineering. Nick also shares practical advice fo…",
+      "publishedAt": "2026-09-24T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "How to get discovered in AI search",
@@ -24,14 +32,6 @@
       "guid": "7bb54711-ad56-4a39-85ae-290d2a0eaff5",
       "transcript": "<p>As AI moves from experimentation to enterprise deployment, are organizations thinking too much about models and not enough about architecture? In this episode, Daniel and Chris talk with Chetan Gupta, Chief AI Officer at Rackspace, about the evolution from industrial AI and physical AI to today’s enterprise AI landscape. Discover how organizations can navigate the complex AI landscape responsibly and effectively as they think about AI architecture, model deployment, AI governance, and AI sov…",
       "publishedAt": "2026-09-03T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Building the Foundation for the Agentic AI Era",
-      "url": "https://share.transistor.fm/s/123da941",
-      "guid": "c00bb124-af61-414f-8956-8c9a9e49c8e1",
-      "transcript": "<p>How do we build an AI ecosystem where agents, tools, and systems can work together at scale? Angie Jones, VP of the Agentic AI Foundation, joins Chris to discuss the open standards and projects shaping the agentic future, including MCP, A2A, Goose, etc. They also explore what it takes to drive AI adoption across an entire organization, the importance of neutral standards, global perspectives on agentic AI, and how humans can find the right balance between what they delegate to AI and what th…",
-      "publishedAt": "2026-08-28T09:00:00.000Z"
     }
   ]
 }
