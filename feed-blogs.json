@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T06:09:17.851Z",
+  "generatedAt": "2026-09-27T06:35:53.004Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,14 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Kākāpō Party",
+      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/kakapo-party\">Kākāpō Party</a></p> <p>I presented a closing keynote for the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> yesterday. As <a href=\"https://simonwillison.net/2019/Dec/10/better-presentations/\">a STAR moment</a> I decided to weave in references to the record breaking <a href=\"https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakap…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/kakapo-party\">Kākāpō Party</a></p> <p>I presented a closing keynote for the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> yesterday. As <a href=\"https://simonwillison.net/2019/Dec/10/better-presentations/\">a STAR moment</a> I decided to weave in references to the record breaking <a href=\"https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakap…",
+      "publishedAt": "2026-09-26T23:39:06.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quoting John Gruber",
       "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
       "description": "<blockquote cite=\"https://daringfireball.net/linked/2026/09/25/aten-muse\"><p>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) <em>and</em> because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as <a href=\"https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute\">a cute mascot</a>. It’s the first consumer-accessible agentic AI sys…",
@@ -172,14 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other…",
       "publishedAt": "2026-09-24T19:15:23.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Gemini 3.8 TTS Playground",
-      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second a…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second a…",
-      "publishedAt": "2026-09-23T17:12:27.000Z"
     },
     {
       "name": "Julia Evans",
