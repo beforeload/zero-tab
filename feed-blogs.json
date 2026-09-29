@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T06:50:50.298Z",
+  "generatedAt": "2026-09-29T06:53:00.275Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -66,6 +66,13 @@
     },
     {
       "name": "Anthropic News",
+      "title": "Introducing Claude Sonnet 5.5 Announcements Sep 28, 2026 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
       "title": "Announcements Sep 1, 2026 Introducing Claude Fable 5.1 and Claude Mythos 5.1 Our most advanced models for coding and knowledge work. Their research capabilities also offer an earl…",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "description": "",
@@ -79,11 +86,36 @@
       "content": ""
     },
     {
-      "name": "Anthropic News",
-      "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "description": "",
-      "content": ""
+      "name": "OpenAI Blog",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "content": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "publishedAt": "2026-09-28T19:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "content": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "publishedAt": "2026-09-28T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "description": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "content": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "publishedAt": "2026-09-28T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "content": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "publishedAt": "2026-09-28T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -102,36 +134,20 @@
       "publishedAt": "2026-09-23T16:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "description": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "content": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "publishedAt": "2026-09-23T13:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "description": "<p><strong><a href=\"https://www.anthropic.com/claude-sonnet-5-5\">Claude Sonnet 5.5</a></strong></p> New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.</p> <p><a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01\">Here are some pelicans r…",
+      "content": "<p><strong><a href=\"https://www.anthropic.com/claude-sonnet-5-5\">Claude Sonnet 5.5</a></strong></p> New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.</p> <p><a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01\">Here are some pelicans r…",
+      "publishedAt": "2026-09-28T22:07:38.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "description": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "content": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "publishedAt": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "description": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "content": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "publishedAt": "2026-09-23T12:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "description": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "content": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "publishedAt": "2026-09-23T12:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting @joedaroo",
+      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+      "description": "<blockquote cite=\"https://twitter.com/joedaroo/status/2104335929293127851\"><p>To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to chan…",
+      "content": "<blockquote cite=\"https://twitter.com/joedaroo/status/2104335929293127851\"><p>To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to chan…",
+      "publishedAt": "2026-09-28T19:11:42.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p> <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p> <p>They've started manifesting on Bluesky as well.</p> <p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slo…",
       "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p> <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p> <p>They've started manifesting on Bluesky as well.</p> <p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slo…",
       "publishedAt": "2026-09-27T18:41:44.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Kākāpō Party",
-      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/kakapo-party\">Kākāpō Party</a></p> <p>I presented a closing keynote for the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> yesterday. As <a href=\"https://simonwillison.net/2019/Dec/10/better-presentations/\">a STAR moment</a> I decided to weave in references to the record breaking <a href=\"https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakap…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/kakapo-party\">Kākāpō Party</a></p> <p>I presented a closing keynote for the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> yesterday. As <a href=\"https://simonwillison.net/2019/Dec/10/better-presentations/\">a STAR moment</a> I decided to weave in references to the record breaking <a href=\"https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakap…",
-      "publishedAt": "2026-09-26T23:39:06.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting John Gruber",
-      "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
-      "description": "<blockquote cite=\"https://daringfireball.net/linked/2026/09/25/aten-muse\"><p>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) <em>and</em> because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as <a href=\"https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute\">a cute mascot</a>. It’s the first consumer-accessible agentic AI sys…",
-      "content": "<blockquote cite=\"https://daringfireball.net/linked/2026/09/25/aten-muse\"><p>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) <em>and</em> because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as <a href=\"https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute\">a cute mascot</a>. It’s the first consumer-accessible agentic AI sys…",
-      "publishedAt": "2026-09-25T17:22:01.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,30 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+      "description": "Congrats team!",
+      "content": "Congrats team!",
+      "publishedAt": "2026-09-29T02:55:27.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Opus 5.5 is good at explainer videos",
+      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "description": "a rare feature of a capability",
+      "content": "a rare feature of a capability",
+      "publishedAt": "2026-09-29T02:44:29.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "url": "https://www.latent.space/p/thariq",
+      "description": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "content": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "publishedAt": "2026-09-29T01:48:18.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
       "url": "https://www.latent.space/p/openrouter",
       "description": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
@@ -252,30 +276,6 @@
       "description": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
       "content": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
       "publishedAt": "2026-09-25T01:30:57.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Foundries vs Navigators: Lowering the Cost of Science",
-      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-      "description": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
-      "content": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
-      "publishedAt": "2026-09-24T15:03:16.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-      "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-      "description": "Team Zuck is absolutely on fire.",
-      "content": "Team Zuck is absolutely on fire.",
-      "publishedAt": "2026-09-24T08:12:59.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-      "description": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
-      "content": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
-      "publishedAt": "2026-09-23T13:27:18.000Z"
     },
     {
       "name": "Cursor Blog",
