@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T06:53:00.275Z",
+  "generatedAt": "2026-09-30T06:40:56.168Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,38 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "content": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "content": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "publishedAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "description": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "content": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "publishedAt": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "description": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "content": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "publishedAt": "2026-09-28T19:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "How we will do better for Australia",
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
@@ -102,36 +134,28 @@
       "publishedAt": "2026-09-28T07:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "description": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "content": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "publishedAt": "2026-09-28T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Anthropic Frontier Red Team",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "description": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do…",
+      "content": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do…",
+      "publishedAt": "2026-09-29T22:20:28.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "content": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "publishedAt": "2026-09-28T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p> <p>Here they are for GPT-6.1-Sol: <a hre…",
+      "content": "<p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p> <p>Here they are for GPT-6.1-Sol: <a hre…",
+      "publishedAt": "2026-09-29T18:27:48.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "description": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "content": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "publishedAt": "2026-09-25T19:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "description": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "content": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "publishedAt": "2026-09-23T16:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "OpenAI DevDay 2026 live blog",
+      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "description": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt…",
+      "content": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt…",
+      "publishedAt": "2026-09-29T15:55:13.000Z"
     },
     {
       "name": "Simon Willison",
@@ -156,30 +180,6 @@
       "description": "<blockquote cite=\"https://www.threads.com/share/_oWfPufYJ/\"><p>Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating.</p> <p>Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent him an apology from your account owning it and offering to try again an…",
       "content": "<blockquote cite=\"https://www.threads.com/share/_oWfPufYJ/\"><p>Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating.</p> <p>Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent him an apology from your account owning it and offering to try again an…",
       "publishedAt": "2026-09-28T04:01:30.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "2026 in LLMs (so far)",
-      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "description": "<p>On Friday I gave the closing keynote at the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video <a href=\"https://www.youtube.com/watch?v=GAkIytR7vcc\">is on YouTube</a>; here are my annotated slides and notes to accompany the talk.</p> <p><lite-youtube videoid=\"GAkIytR7vcc\" js-api=\"js-…",
-      "content": "<p>On Friday I gave the closing keynote at the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video <a href=\"https://www.youtube.com/watch?v=GAkIytR7vcc\">is on YouTube</a>; here are my annotated slides and notes to accompany the talk.</p> <p><lite-youtube videoid=\"GAkIytR7vcc\" js-api=\"js-…",
-      "publishedAt": "2026-09-27T23:54:15.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "S3 Is the Future, S3 Is the Past",
-      "url": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
-      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49851693#49871741\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49851693\">S3 Is the Future, S3 Is the Past</a> &mdash; Hacker News.</p><p>One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in <em>a full decade</em>:</p> <pre><code>2006-03-14 $0.150/GB-month 2010-11-01 $0.140/GB-month 2012-02-01 $0.125/GB-month 2012-12-01 $0.095/GB-month 2014-02-01 $0.…",
-      "content": "<p><a href=\"https://news.ycombinator.com/item?id=49851693#49871741\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49851693\">S3 Is the Future, S3 Is the Past</a> &mdash; Hacker News.</p><p>One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in <em>a full decade</em>:</p> <pre><code>2006-03-14 $0.150/GB-month 2010-11-01 $0.140/GB-month 2012-02-01 $0.125/GB-month 2012-12-01 $0.095/GB-month 2014-02-01 $0.…",
-      "publishedAt": "2026-09-27T23:09:19.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Bluesky reply bot checker",
-      "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p> <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p> <p>They've started manifesting on Bluesky as well.</p> <p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slo…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p> <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p> <p>They've started manifesting on Bluesky as well.</p> <p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slo…",
-      "publishedAt": "2026-09-27T18:41:44.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "description": "the most confident DevDay yet.",
+      "content": "the most confident DevDay yet.",
+      "publishedAt": "2026-09-30T05:53:10.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
       "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
       "description": "Congrats team!",
@@ -268,14 +276,6 @@
       "description": "A quiet day lets us discuss the work behind the scenes - now open for business!",
       "content": "A quiet day lets us discuss the work behind the scenes - now open for business!",
       "publishedAt": "2026-09-25T05:37:00.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "url": "https://www.latent.space/p/runway",
-      "description": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
-      "content": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
-      "publishedAt": "2026-09-25T01:30:57.000Z"
     },
     {
       "name": "Cursor Blog",
