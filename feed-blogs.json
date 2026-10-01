@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:40:56.168Z",
+  "generatedAt": "2026-10-01T07:10:28.040Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,22 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "content": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "publishedAt": "2026-09-30T10:30:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "content": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "publishedAt": "2026-09-30T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Introducing GPT-6.1 Sol",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
@@ -111,14 +127,6 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "description": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "content": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "publishedAt": "2026-09-28T19:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
       "title": "How we will do better for Australia",
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "description": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
@@ -126,12 +134,20 @@
       "publishedAt": "2026-09-28T19:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "content": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "publishedAt": "2026-09-28T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "description": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache…",
+      "content": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache…",
+      "publishedAt": "2026-10-01T06:29:01.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "He Built This City",
+      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "description": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p> <p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p> <p><img alt=\"A wide shot of the model of the island of Manhattan, plus t…",
+      "content": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p> <p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p> <p><img alt=\"A wide shot of the model of the island of Manhattan, plus t…",
+      "publishedAt": "2026-09-30T21:54:19.000Z"
     },
     {
       "name": "Simon Willison",
@@ -151,35 +167,19 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Photo Scrubber — local face blur & metadata removal",
+      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/photo-scrubber\">Photo Scrubber — local face blur &amp; metadata removal</a></p> <p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href=\"https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294\">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p> <p>It uses…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/photo-scrubber\">Photo Scrubber — local face blur &amp; metadata removal</a></p> <p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href=\"https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294\">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p> <p>It uses…",
+      "publishedAt": "2026-09-29T16:45:27.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "OpenAI DevDay 2026 live blog",
       "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
       "description": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt…",
       "content": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt…",
       "publishedAt": "2026-09-29T15:55:13.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Claude Sonnet 5.5",
-      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-      "description": "<p><strong><a href=\"https://www.anthropic.com/claude-sonnet-5-5\">Claude Sonnet 5.5</a></strong></p> New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.</p> <p><a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01\">Here are some pelicans r…",
-      "content": "<p><strong><a href=\"https://www.anthropic.com/claude-sonnet-5-5\">Claude Sonnet 5.5</a></strong></p> New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well.</p> <p><a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1d85a9be7f3ecce26e7f1569161a0d01\">Here are some pelicans r…",
-      "publishedAt": "2026-09-28T22:07:38.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting @joedaroo",
-      "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "description": "<blockquote cite=\"https://twitter.com/joedaroo/status/2104335929293127851\"><p>To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to chan…",
-      "content": "<blockquote cite=\"https://twitter.com/joedaroo/status/2104335929293127851\"><p>To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to chan…",
-      "publishedAt": "2026-09-28T19:11:42.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Muse AI Agent",
-      "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
-      "description": "<blockquote cite=\"https://www.threads.com/share/_oWfPufYJ/\"><p>Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating.</p> <p>Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent him an apology from your account owning it and offering to try again an…",
-      "content": "<blockquote cite=\"https://www.threads.com/share/_oWfPufYJ/\"><p>Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating.</p> <p>Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent him an apology from your account owning it and offering to try again an…",
-      "publishedAt": "2026-09-28T04:01:30.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "description": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
+      "content": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
+      "publishedAt": "2026-10-01T06:45:05.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "description": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
+      "content": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
+      "publishedAt": "2026-09-30T22:23:40.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
       "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
       "description": "the most confident DevDay yet.",
@@ -260,22 +276,6 @@
       "description": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
       "content": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
       "publishedAt": "2026-09-29T01:48:18.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
-      "description": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
-      "content": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
-      "publishedAt": "2026-09-25T23:14:41.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] The Future of Latent Space",
-      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-      "description": "A quiet day lets us discuss the work behind the scenes - now open for business!",
-      "content": "A quiet day lets us discuss the work behind the scenes - now open for business!",
-      "publishedAt": "2026-09-25T05:37:00.000Z"
     },
     {
       "name": "Cursor Blog",
