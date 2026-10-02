@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-01T07:10:28.040Z",
+  "generatedAt": "2026-10-02T06:59:22.251Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Open models and the future of Physical AI with NVIDIA",
+      "url": "https://share.transistor.fm/s/217445d3",
+      "guid": "b836fa1b-9246-43d5-8cbb-cf1446760a6d",
+      "transcript": "<p>As AI moves beyond the cloud and into robots, vehicles, and other physical systems, new approaches to models, simulation, and inference are emerging. Daniel and Chris are joined by Ming-Yu Liu, Vice President of Cosmos Lab at NVIDIA, who shares his perspective on open models, world models, and the future of physical AI. They explore why open models matter for innovation, how world models can help AI understand and simulate the physical world, and what it could take to build increasingly capa…",
+      "publishedAt": "2026-10-01T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "From AGENTS.md to Enterprise Deployment",
@@ -24,14 +32,6 @@
       "guid": "8a1c70d7-502d-40f8-b16e-341761a7f41b",
       "transcript": "<p>Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different. They had a blast!</p><p>As AI agents become more capable of using computers, interacting with software, and taking action on behalf of users, what does that mean for the way we work and interact with the internet? Chris and Demetrios explore computer-use agents, MCP, agent harnes…",
       "publishedAt": "2026-09-10T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Less about Models; More about Architecture",
-      "url": "https://share.transistor.fm/s/ec79b4ac",
-      "guid": "7bb54711-ad56-4a39-85ae-290d2a0eaff5",
-      "transcript": "<p>As AI moves from experimentation to enterprise deployment, are organizations thinking too much about models and not enough about architecture? In this episode, Daniel and Chris talk with Chetan Gupta, Chief AI Officer at Rackspace, about the evolution from industrial AI and physical AI to today’s enterprise AI landscape. Discover how organizations can navigate the complex AI landscape responsibly and effectively as they think about AI architecture, model deployment, AI governance, and AI sov…",
-      "publishedAt": "2026-09-03T09:00:00.000Z"
     }
   ]
 }
