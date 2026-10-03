@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T06:59:22.251Z",
+  "generatedAt": "2026-10-03T06:30:08.651Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,22 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "content": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "publishedAt": "2026-10-02T16:15:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "content": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "publishedAt": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "The eternal complement",
       "url": "https://openai.com/index/the-eternal-complement",
       "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
@@ -116,22 +132,6 @@
       "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
       "content": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
       "publishedAt": "2026-09-30T10:30:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "content": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "publishedAt": "2026-09-30T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "content": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "publishedAt": "2026-09-29T10:00:00.000Z"
     },
     {
       "name": "Simon Willison",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "description": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+      "content": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+      "publishedAt": "2026-10-02T14:04:49.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
       "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
       "description": "the minimalist harness goes stable... and TypeScript!",
@@ -268,14 +276,6 @@
       "description": "the most confident DevDay yet.",
       "content": "the most confident DevDay yet.",
       "publishedAt": "2026-09-30T05:53:10.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "description": "Congrats team!",
-      "content": "Congrats team!",
-      "publishedAt": "2026-09-29T02:55:27.000Z"
     },
     {
       "name": "Cursor Blog",
