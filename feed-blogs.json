@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T06:30:08.651Z",
+  "generatedAt": "2026-10-04T06:49:06.377Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,30 @@
     },
     {
       "name": "Simon Willison",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "description": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p> <p>Coding agents, and personal agents (coding agents wrapped in a less threatenin…",
+      "content": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p> <p>Coding agents, and personal agents (coding agents wrapped in a less threatenin…",
+      "publishedAt": "2026-10-03T23:34:02.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "description": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>More Fable class models</li> <li>A pricing war</li> <li>3D graphics, Blender, and pixel art</li> <li>LLMs come for mathematics</li> <li>So many more accidental cyberattacks</li> <…",
+      "content": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>More Fable class models</li> <li>A pricing war</li> <li>3D graphics, Blender, and pixel art</li> <li>LLMs come for mathematics</li> <li>So many more accidental cyberattacks</li> <…",
+      "publishedAt": "2026-10-03T22:00:31.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Rex's Dino Store",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "description": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex's Dino Store</a></p> <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p> <p>The density of dinosaur puns is <em>exceptional</em>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
+      "content": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex's Dino Store</a></p> <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p> <p>The density of dinosaur puns is <em>exceptional</em>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
+      "publishedAt": "2026-10-02T22:57:38.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quoting Matthew Green",
       "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
       "description": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache…",
@@ -156,30 +180,6 @@
       "description": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do…",
       "content": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do…",
       "publishedAt": "2026-09-29T22:20:28.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p> <p>Here they are for GPT-6.1-Sol: <a hre…",
-      "content": "<p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p> <p>Here they are for GPT-6.1-Sol: <a hre…",
-      "publishedAt": "2026-09-29T18:27:48.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Photo Scrubber — local face blur & metadata removal",
-      "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/photo-scrubber\">Photo Scrubber — local face blur &amp; metadata removal</a></p> <p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href=\"https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294\">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p> <p>It uses…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/photo-scrubber\">Photo Scrubber — local face blur &amp; metadata removal</a></p> <p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href=\"https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294\">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p> <p>It uses…",
-      "publishedAt": "2026-09-29T16:45:27.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "OpenAI DevDay 2026 live blog",
-      "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "description": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt…",
-      "content": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p> <p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"htt…",
-      "publishedAt": "2026-09-29T15:55:13.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "description": "a quiet day.",
+      "content": "a quiet day.",
+      "publishedAt": "2026-10-03T08:45:15.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
       "url": "https://www.latent.space/p/airbnb",
       "description": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
@@ -268,14 +276,6 @@
       "description": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
       "content": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
       "publishedAt": "2026-09-30T22:23:40.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
-      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-      "description": "the most confident DevDay yet.",
-      "content": "the most confident DevDay yet.",
-      "publishedAt": "2026-09-30T05:53:10.000Z"
     },
     {
       "name": "Cursor Blog",
