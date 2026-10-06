@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:00:56.921Z",
+  "generatedAt": "2026-10-06T07:32:23.402Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,22 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "content": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "publishedAt": "2026-10-05T15:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "content": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "publishedAt": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "A model guide for the GPT-6 family",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
@@ -118,20 +134,20 @@
       "publishedAt": "2026-10-01T16:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "content": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "publishedAt": "2026-10-01T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Felix Rieseberg",
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "description": "<blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people d…",
+      "content": "<blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people d…",
+      "publishedAt": "2026-10-05T23:56:47.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "content": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "publishedAt": "2026-09-30T10:30:00.000Z"
+      "name": "Simon Willison",
+      "title": "Qwen3.8 27B addition in words",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme\">Qwen3.8 27B addition in words</a></p> <p>Colin Frasier <a href=\"https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k\">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results:</p> <p><img alt=\"Heat…",
+      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme\">Qwen3.8 27B addition in words</a></p> <p>Colin Frasier <a href=\"https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k\">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results:</p> <p><img alt=\"Heat…",
+      "publishedAt": "2026-10-04T23:34:00.000Z"
     },
     {
       "name": "Simon Willison",
@@ -159,27 +175,11 @@
     },
     {
       "name": "Simon Willison",
-      "title": "Quoting Matthew Green",
-      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-      "description": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache…",
-      "content": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/\"><p>[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache…",
-      "publishedAt": "2026-10-01T06:29:01.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "He Built This City",
-      "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "description": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p> <p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p> <p><video src=\"https://static.simonwillison.net/static/2026-10-01/He-bui…",
-      "content": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p> <p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p> <p><video src=\"https://static.simonwillison.net/static/2026-10-01/He-bui…",
-      "publishedAt": "2026-09-30T21:54:19.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Anthropic Frontier Red Team",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "description": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do…",
-      "content": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do…",
-      "publishedAt": "2026-09-29T22:20:28.000Z"
+      "title": "pwasm 0.2a0",
+      "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/pwasm/releases/tag/0.2a0\">pwasm 0.2a0</a></p> <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp\">AI mania</a>.</p> <p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significa…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/pwasm/releases/tag/0.2a0\">pwasm 0.2a0</a></p> <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp\">AI mania</a>.</p> <p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significa…",
+      "publishedAt": "2026-10-01T17:10:31.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "description": "A small win for US open source",
+      "content": "A small win for US open source",
+      "publishedAt": "2026-10-06T06:28:43.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] not much happened today",
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
       "description": "a quiet day.",
@@ -268,14 +276,6 @@
       "description": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
       "content": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
       "publishedAt": "2026-10-01T06:45:05.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "url": "https://www.latent.space/p/devday-2026",
-      "description": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
-      "content": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
-      "publishedAt": "2026-09-30T22:23:40.000Z"
     },
     {
       "name": "Cursor Blog",
