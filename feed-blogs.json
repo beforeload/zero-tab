@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T07:32:23.402Z",
+  "generatedAt": "2026-10-07T07:12:13.202Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,38 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "description": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "content": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "publishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "content": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "publishedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "content": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "publishedAt": "2026-10-06T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "content": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "publishedAt": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Our approach to EU text provenance rules",
       "url": "https://openai.com/index/eu-text-provenance",
       "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
@@ -102,84 +134,52 @@
       "publishedAt": "2026-10-05T10:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "content": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "publishedAt": "2026-10-02T16:15:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "content": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "publishedAt": "2026-10-02T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "content": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "publishedAt": "2026-10-01T17:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "content": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "publishedAt": "2026-10-01T16:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Jake Boggan",
+      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "description": "<blockquote cite=\"https://news.ycombinator.com/item?id=49984923#49987367\"><p>I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it.</p> <p>But it's supposedly proven here - <a href=\"https://github.com/…",
+      "content": "<blockquote cite=\"https://news.ycombinator.com/item?id=49984923#49987367\"><p>I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it.</p> <p>But it's supposedly proven here - <a href=\"https://github.com/…",
+      "publishedAt": "2026-10-07T04:47:55.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Quoting Felix Rieseberg",
-      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "description": "<blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people d…",
-      "content": "<blockquote cite=\"https://twitter.com/felixrieseberg/status/2107206431376334975\"><p>The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people d…",
-      "publishedAt": "2026-10-05T23:56:47.000Z"
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "description": "<p><strong><a href=\"https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\">OpenAI “rogue” agent activities found on Wikimedia projects</a></strong></p> Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking:</p> <blockquote> <p>The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affect…",
+      "content": "<p><strong><a href=\"https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\">OpenAI “rogue” agent activities found on Wikimedia projects</a></strong></p> Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking:</p> <blockquote> <p>The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affect…",
+      "publishedAt": "2026-10-07T00:16:45.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Qwen3.8 27B addition in words",
-      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme\">Qwen3.8 27B addition in words</a></p> <p>Colin Frasier <a href=\"https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k\">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results:</p> <p><img alt=\"Heat…",
-      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/qwen38-addition-in-words#readme\">Qwen3.8 27B addition in words</a></p> <p>Colin Frasier <a href=\"https://bsky.app/profile/colin-fraser.net/post/3mwopbyznhs2k\">posted on Bluesky</a> about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results:</p> <p><img alt=\"Heat…",
-      "publishedAt": "2026-10-04T23:34:00.000Z"
+      "title": "Quoting Victoria Kim",
+      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "description": "<blockquote cite=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.nytimes.com/live/2026/10/05/world/openai-austra…",
+      "content": "<blockquote cite=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.nytimes.com/live/2026/10/05/world/openai-austra…",
+      "publishedAt": "2026-10-06T23:58:56.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "We're going to need default hard budget caps on pretty much everything",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "description": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p> <p>Coding agents, and personal agents (coding agents wrapped in a less threatenin…",
-      "content": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p> <p>Coding agents, and personal agents (coding agents wrapped in a less threatenin…",
-      "publishedAt": "2026-10-03T23:34:02.000Z"
+      "title": "llm-openai-decisions 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0\">llm-openai-decisions 0.1a0</a></p> <p>OpenAI released their new Jev-style <a href=\"https://developers.openai.com/api/docs/guides/decisions\">Decisions API</a>, as previously announced at last week's DevDay.</p> <p>Since I already have an <a href=\"https://github.com/simonw/llm-typesafe\">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and buil…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0\">llm-openai-decisions 0.1a0</a></p> <p>OpenAI released their new Jev-style <a href=\"https://developers.openai.com/api/docs/guides/decisions\">Decisions API</a>, as previously announced at last week's DevDay.</p> <p>Since I already have an <a href=\"https://github.com/simonw/llm-typesafe\">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and buil…",
+      "publishedAt": "2026-10-06T23:04:13.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "September sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
-      "description": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>More Fable class models</li> <li>A pricing war</li> <li>3D graphics, Blender, and pixel art</li> <li>LLMs come for mathematics</li> <li>So many more accidental cyberattacks</li> <…",
-      "content": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>More Fable class models</li> <li>A pricing war</li> <li>3D graphics, Blender, and pixel art</li> <li>LLMs come for mathematics</li> <li>So many more accidental cyberattacks</li> <…",
-      "publishedAt": "2026-10-03T22:00:31.000Z"
+      "title": "llm-mistral 0.16",
+      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mistral/releases/tag/0.16\">llm-mistral 0.16</a></p> <p>Adds support for reasoning models, such as the newly released <a href=\"https://simonwillison.net/2026/Oct/6/le-chonk/\">Mistral Large 4</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/mistral\">mistral</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a></p>",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mistral/releases/tag/0.16\">llm-mistral 0.16</a></p> <p>Adds support for reasoning models, such as the newly released <a href=\"https://simonwillison.net/2026/Oct/6/le-chonk/\">Mistral Large 4</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/mistral\">mistral</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a></p>",
+      "publishedAt": "2026-10-06T21:32:34.000Z"
     },
     {
       "name": "Simon Willison",
-      "title": "Rex's Dino Store",
-      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-      "description": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex's Dino Store</a></p> <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p> <p>The density of dinosaur puns is <em>exceptional</em>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
-      "content": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex's Dino Store</a></p> <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p> <p>The density of dinosaur puns is <em>exceptional</em>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
-      "publishedAt": "2026-10-02T22:57:38.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "pwasm 0.2a0",
-      "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/pwasm/releases/tag/0.2a0\">pwasm 0.2a0</a></p> <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp\">AI mania</a>.</p> <p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significa…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/pwasm/releases/tag/0.2a0\">pwasm 0.2a0</a></p> <p>pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.012.webp\">AI mania</a>.</p> <p>I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significa…",
-      "publishedAt": "2026-10-01T17:10:31.000Z"
+      "title": "EmbeddingGemma 2",
+      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49980487#49983751\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49980487\">EmbeddingGemma 2</a> &mdash; Hacker News.</p><p>I really appreciate that <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\">EmbeddingGemma 2</a> is under the Apache 2.0 license.</p> <p>For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.</p> <p>Most app…",
+      "content": "<p><a href=\"https://news.ycombinator.com/item?id=49980487#49983751\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49980487\">EmbeddingGemma 2</a> &mdash; Hacker News.</p><p>I really appreciate that <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\">EmbeddingGemma 2</a> is under the Apache 2.0 license.</p> <p>For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.</p> <p>Most app…",
+      "publishedAt": "2026-10-06T20:37:53.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "description": "Our head hurts.",
+      "content": "Our head hurts.",
+      "publishedAt": "2026-10-07T04:55:44.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
       "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
       "description": "A small win for US open source",
@@ -268,14 +276,6 @@
       "description": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
       "content": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
       "publishedAt": "2026-10-02T00:28:04.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
-      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-      "description": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
-      "content": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
-      "publishedAt": "2026-10-01T06:45:05.000Z"
     },
     {
       "name": "Cursor Blog",
