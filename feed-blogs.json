@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:12:13.202Z",
+  "generatedAt": "2026-10-08T07:21:26.514Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -66,24 +66,48 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5.5 Announcements Sep 28, 2026 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.",
+      "title": "Introducing Claude Haiku 5.5 Announcements Oct 7, 2026 Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Announcements Sep 28, 2026 Introducing Claude Sonnet 5.5 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Sep 1, 2026 Introducing Claude Fable 5.1 and Claude Mythos 5.1 Our most advanced models for coding and knowledge work. Their research capabilities also offer an earl…",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Announcements Oct 6, 2026 Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabiliti…",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
       "description": "",
       "content": ""
     },
     {
-      "name": "Anthropic News",
-      "title": "Announcements Sep 10, 2026 Detecting and countering misuse of AI: September 2026 Over the past eight months, our Threat Intelligence team identified and disrupted operations in wh…",
-      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "description": "",
-      "content": ""
+      "name": "OpenAI Blog",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "description": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "content": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "publishedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "description": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "content": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "publishedAt": "2026-10-07T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "description": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "content": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "publishedAt": "2026-10-07T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -110,28 +134,28 @@
       "publishedAt": "2026-10-06T10:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "content": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "publishedAt": "2026-10-06T16:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+      "description": "<blockquote cite=\"https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s\"><p>I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning.</p> <p>So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transfo…",
+      "content": "<blockquote cite=\"https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s\"><p>I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning.</p> <p>So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transfo…",
+      "publishedAt": "2026-10-07T23:14:58.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "content": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "publishedAt": "2026-10-05T15:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "description": "<p>As previously <a href=\"https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/\">promised</a>, here's Anthropic's new fast, low cost model: <a href=\"https://www.anthropic.com/claude-haiku-5-5\">Introducing Claude Haiku 5.5</a>.</p> <p>The previous Haiku, 4.5, was very much showing its age. It came out <a href=\"https://simonwillison.net/2025/Oct/15/claude-haiku-45/\">almost a year ago</a>, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full…",
+      "content": "<p>As previously <a href=\"https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/\">promised</a>, here's Anthropic's new fast, low cost model: <a href=\"https://www.anthropic.com/claude-haiku-5-5\">Introducing Claude Haiku 5.5</a>.</p> <p>The previous Haiku, 4.5, was very much showing its age. It came out <a href=\"https://simonwillison.net/2025/Oct/15/claude-haiku-45/\">almost a year ago</a>, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full…",
+      "publishedAt": "2026-10-07T20:56:21.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "content": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "publishedAt": "2026-10-05T10:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Anti-Patterns in Software Blogging",
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "description": "<p><strong><a href=\"https://refactoringenglish.com/blog/anti-patterns-software-blogging/#summary\">Anti-Patterns in Software Blogging</a></strong></p> Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality.</p> <p>He also warns against <a href=\"https://refactoringenglish.com/blog/anti-patterns-software-blogging/#overreliance-on-links\">overreliance…",
+      "content": "<p><strong><a href=\"https://refactoringenglish.com/blog/anti-patterns-software-blogging/#summary\">Anti-Patterns in Software Blogging</a></strong></p> Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality.</p> <p>He also warns against <a href=\"https://refactoringenglish.com/blog/anti-patterns-software-blogging/#overreliance-on-links\">overreliance…",
+      "publishedAt": "2026-10-07T14:53:51.000Z"
     },
     {
       "name": "Simon Willison",
@@ -156,30 +180,6 @@
       "description": "<blockquote cite=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.nytimes.com/live/2026/10/05/world/openai-austra…",
       "content": "<blockquote cite=\"https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing/94c8067e-4098-5c00-9673-c78cb58a9d8a\"><p>Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.nytimes.com/live/2026/10/05/world/openai-austra…",
       "publishedAt": "2026-10-06T23:58:56.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-openai-decisions 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0\">llm-openai-decisions 0.1a0</a></p> <p>OpenAI released their new Jev-style <a href=\"https://developers.openai.com/api/docs/guides/decisions\">Decisions API</a>, as previously announced at last week's DevDay.</p> <p>Since I already have an <a href=\"https://github.com/simonw/llm-typesafe\">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and buil…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openai-decisions/releases/tag/0.1a0\">llm-openai-decisions 0.1a0</a></p> <p>OpenAI released their new Jev-style <a href=\"https://developers.openai.com/api/docs/guides/decisions\">Decisions API</a>, as previously announced at last week's DevDay.</p> <p>Since I already have an <a href=\"https://github.com/simonw/llm-typesafe\">llm-typesafe</a> plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and buil…",
-      "publishedAt": "2026-10-06T23:04:13.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-mistral 0.16",
-      "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mistral/releases/tag/0.16\">llm-mistral 0.16</a></p> <p>Adds support for reasoning models, such as the newly released <a href=\"https://simonwillison.net/2026/Oct/6/le-chonk/\">Mistral Large 4</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/mistral\">mistral</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a></p>",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mistral/releases/tag/0.16\">llm-mistral 0.16</a></p> <p>Adds support for reasoning models, such as the newly released <a href=\"https://simonwillison.net/2026/Oct/6/le-chonk/\">Mistral Large 4</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/mistral\">mistral</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a></p>",
-      "publishedAt": "2026-10-06T21:32:34.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "EmbeddingGemma 2",
-      "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
-      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49980487#49983751\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49980487\">EmbeddingGemma 2</a> &mdash; Hacker News.</p><p>I really appreciate that <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\">EmbeddingGemma 2</a> is under the Apache 2.0 license.</p> <p>For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.</p> <p>Most app…",
-      "content": "<p><a href=\"https://news.ycombinator.com/item?id=49980487#49983751\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49980487\">EmbeddingGemma 2</a> &mdash; Hacker News.</p><p>I really appreciate that <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/\">EmbeddingGemma 2</a> is under the Apache 2.0 license.</p> <p>For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model.</p> <p>Most app…",
-      "publishedAt": "2026-10-06T20:37:53.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "description": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+      "content": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+      "publishedAt": "2026-10-07T14:10:45.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
       "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
       "description": "Our head hurts.",
@@ -268,14 +276,6 @@
       "description": "the minimalist harness goes stable... and TypeScript!",
       "content": "the minimalist harness goes stable... and TypeScript!",
       "publishedAt": "2026-10-02T06:40:53.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Academia is for Ambition — Alex Zhang, MIT",
-      "url": "https://www.latent.space/p/rlm",
-      "description": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
-      "content": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
-      "publishedAt": "2026-10-02T00:28:04.000Z"
     },
     {
       "name": "Cursor Blog",
