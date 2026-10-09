@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-08T07:21:26.514Z",
+  "generatedAt": "2026-10-09T07:22:12.325Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Narrative intelligence and the human advantage",
+      "url": "https://share.transistor.fm/s/f2fcb677",
+      "guid": "173f6c2b-e1b8-4de0-b7b7-4b15658d52e6",
+      "transcript": "<p>As AI reshapes how we work, create, and think about our roles, staying adaptable means understanding not just the technology, but our own stories and identities. Reed Frerichs joins Daniel and Chris to explore narrative intelligence, storytelling, leadership, and personal growth in an AI-driven world. They discuss how entrepreneurs and leaders can use AI tools to navigate changing roles, embrace uncertainty, and develop emotional intelligence along with Reed's “own, author, act” framework.</…",
+      "publishedAt": "2026-10-08T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Open models and the future of Physical AI with NVIDIA",
@@ -24,14 +32,6 @@
       "guid": "feacf9a3-586b-4106-8da3-aab51f1c2765",
       "transcript": "<p>AI search is changing how people discover information and how brands need to think about visibility. Daniel and Chris talk with Liam Dunne and Ben Moore, co-founders of Discovered Labs, about the shift from traditional SEO to AI search, what happens behind the scenes when an LLM generates an answer, and why retrieval and citations don't always tell the whole story. They dig into AI visibility, Reddit strategy, query fan-out, representation in model weights, and consensus. They also look ahea…",
       "publishedAt": "2026-09-17T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Computer-Use Agents and the Future of the Agentic Internet",
-      "url": "https://share.transistor.fm/s/72586f97",
-      "guid": "8a1c70d7-502d-40f8-b16e-341761a7f41b",
-      "transcript": "<p>Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different. They had a blast!</p><p>As AI agents become more capable of using computers, interacting with software, and taking action on behalf of users, what does that mean for the way we work and interact with the internet? Chris and Demetrios explore computer-use agents, MCP, agent harnes…",
-      "publishedAt": "2026-09-10T09:00:00.000Z"
     }
   ]
 }
