@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T07:41:01.235Z",
+  "generatedAt": "2026-10-14T06:07:30.762Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -17,7 +17,14 @@
     },
     {
       "name": "Anthropic Engineering",
-      "title": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve lear…",
+      "title": "Featured Redesigning source control at Anthropic As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migr…",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic Engineering",
+      "title": "How we contain Claude across products May 25, 2026",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "description": "",
       "content": ""
@@ -33,13 +40,6 @@
       "name": "Anthropic Engineering",
       "title": "Scaling Managed Agents: Decoupling the brain from the hands Apr 08, 2026",
       "url": "https://www.anthropic.com/engineering/managed-agents",
-      "description": "",
-      "content": ""
-    },
-    {
-      "name": "Anthropic Engineering",
-      "title": "How we built Claude Code auto mode: a safer way to skip permissions Mar 25, 2026",
-      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "description": "",
       "content": ""
     },
@@ -87,6 +87,14 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "content": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "publishedAt": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
@@ -126,12 +134,44 @@
       "publishedAt": "2026-10-08T12:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Disrupting AI-enabled “false front” operations",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "content": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "publishedAt": "2026-10-08T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "description": "<p><strong><a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Redesigning source control at Anthropic</a></strong></p> Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.</p> <blockquote> <p>In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.</p> </blockquote> <…",
+      "content": "<p><strong><a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Redesigning source control at Anthropic</a></strong></p> Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.</p> <blockquote> <p>In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.</p> </blockquote> <…",
+      "publishedAt": "2026-10-13T23:00:06.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.35\">llm-gemini 0.35</a></p> <p>I added support to <a href=\"https://github.com/simonw/llm-gemini\">llm-gemini</a> for the <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\">new Gemini 4 Argon</a> model, made available today via the Gemini API and for customers of their $100/month subscription plan.</p> <p>Here are <a href=\"https://tools.simonwillison.net/markdow…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.35\">llm-gemini 0.35</a></p> <p>I added support to <a href=\"https://github.com/simonw/llm-gemini\">llm-gemini</a> for the <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\">new Gemini 4 Argon</a> model, made available today via the Gemini API and for customers of their $100/month subscription plan.</p> <p>Here are <a href=\"https://tools.simonwillison.net/markdow…",
+      "publishedAt": "2026-10-13T22:28:54.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "description": "<blockquote cite=\"https://ghuntley.com/agency/\"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"h…",
+      "content": "<blockquote cite=\"https://ghuntley.com/agency/\"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"h…",
+      "publishedAt": "2026-10-13T13:32:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a1\">web-edit 0.1a1</a></p> <p>Includes <a href=\"https://github.com/simonw/web-edit/pull/1\">performance optimizations</a> written <a href=\"https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt\">by Claude Opus 5.5</a> after I fed it <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/\">this Python 3.15 profiling report</a> generated by GPT-6 Astra.</p> <p>Tags: <a href=\"https://sim…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a1\">web-edit 0.1a1</a></p> <p>Includes <a href=\"https://github.com/simonw/web-edit/pull/1\">performance optimizations</a> written <a href=\"https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt\">by Claude Opus 5.5</a> after I fed it <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/\">this Python 3.15 profiling report</a> generated by GPT-6 Astra.</p> <p>Tags: <a href=\"https://sim…",
+      "publishedAt": "2026-10-13T01:40:05.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.2\">llm-meta-ai 0.2</a></p> <p>Meta AI release <a href=\"https://research.meta.ai/blog/muse-wonder\">Muse Wonder</a> (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.042.webp\">Fable class models</a> - Artificial Analysis <a href=\"https://artificialanalysis.ai/models…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.2\">llm-meta-ai 0.2</a></p> <p>Meta AI release <a href=\"https://research.meta.ai/blog/muse-wonder\">Muse Wonder</a> (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.042.webp\">Fable class models</a> - Artificial Analysis <a href=\"https://artificialanalysis.ai/models…",
+      "publishedAt": "2026-10-12T23:58:46.000Z"
     },
     {
       "name": "Simon Willison",
@@ -140,46 +180,6 @@
       "description": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.</p> <p>First, some highlights from Python 3.15.</…",
       "content": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.</p> <p>First, some highlights from Python 3.15.</…",
       "publishedAt": "2026-10-12T18:15:38.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "web-edit 0.1a0",
-      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a0\">web-edit 0.1a0</a></p> <p>I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.</p> <p>So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have a…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a0\">web-edit 0.1a0</a></p> <p>I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.</p> <p>So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have a…",
-      "publishedAt": "2026-10-12T15:54:36.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-ports 0.4",
-      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-ports/releases/tag/0.4\">datasette-ports 0.4</a></p> <p>My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15/#a-sampling-profiler\">attach the new Python 3.15 profiler</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-ports/releases/tag/0.4\">datasette-ports 0.4</a></p> <p>My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15/#a-sampling-profiler\">attach the new Python 3.15 profiler</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/…",
-      "publishedAt": "2026-10-12T04:57:07.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "description": "<p>I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control <em>more</em>. That's art.</p> <p>I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time:</p> <ul> <li>March 2013: <a href=\"https://www.reddit.com/r/IAmA/comments/1avszc/comment/c919fo8/?solutio…",
-      "content": "<p>I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control <em>more</em>. That's art.</p> <p>I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time:</p> <ul> <li>March 2013: <a href=\"https://www.reddit.com/r/IAmA/comments/1avszc/comment/c919fo8/?solutio…",
-      "publishedAt": "2026-10-11T00:52:37.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "description": "<p><strong><a href=\"https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24\">Python 3.15.0 added to actions/python-versions</a></strong></p> Bit of a niche link, but I've been waiting for this for a couple of days - I even <a href=\"https://chatgpt.com/share/6acad42a-2868-83e8-9a16-736f9def2b45\">told ChatGPT</a> to check for it:</p> <blockquote> <p><code>Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 -…",
-      "content": "<p><strong><a href=\"https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24\">Python 3.15.0 added to actions/python-versions</a></strong></p> Bit of a niche link, but I've been waiting for this for a couple of days - I even <a href=\"https://chatgpt.com/share/6acad42a-2868-83e8-9a16-736f9def2b45\">told ChatGPT</a> to check for it:</p> <blockquote> <p><code>Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 -…",
-      "publishedAt": "2026-10-10T23:58:04.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting The New York Times",
-      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-      "description": "<blockquote cite=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\"><p>Anthropic detailed the activity of its A.I. agents in <a href=\"https://www.anthropic.com/research/investigating-unintended-model-actions\">a blog post</a> on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were…",
-      "content": "<blockquote cite=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\"><p>Anthropic detailed the activity of its A.I. agents in <a href=\"https://www.anthropic.com/research/investigating-unintended-model-actions\">a blog post</a> on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were…",
-      "publishedAt": "2026-10-10T02:04:12.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,30 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "description": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+      "content": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+      "publishedAt": "2026-10-14T05:40:28.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/p/dyna",
+      "description": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+      "content": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+      "publishedAt": "2026-10-13T22:25:55.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "description": "MSL’s emergence as a frontier lab is finally complete.",
+      "content": "MSL’s emergence as a frontier lab is finally complete.",
+      "publishedAt": "2026-10-13T09:37:04.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
       "url": "https://www.latent.space/p/claude-dynamic-workflows",
       "description": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
@@ -252,30 +276,6 @@
       "description": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
       "content": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
       "publishedAt": "2026-10-10T14:04:11.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
-      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
-      "description": "Wow.",
-      "content": "Wow.",
-      "publishedAt": "2026-10-10T06:45:57.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
-      "url": "https://www.latent.space/p/biohub-deepmind",
-      "description": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
-      "content": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
-      "publishedAt": "2026-10-10T00:31:26.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-      "description": "a quiet day.",
-      "content": "a quiet day.",
-      "publishedAt": "2026-10-08T23:29:43.000Z"
     },
     {
       "name": "Cursor Blog",
