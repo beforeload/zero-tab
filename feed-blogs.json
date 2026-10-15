@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T06:07:30.762Z",
+  "generatedAt": "2026-10-15T05:53:17.041Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,46 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "content": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "publishedAt": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "description": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "content": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "publishedAt": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "content": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "publishedAt": "2026-10-14T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "content": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "publishedAt": "2026-10-14T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "content": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "publishedAt": "2026-10-14T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Higgsfield takes AI video from 1 minute to over 10",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
@@ -94,44 +134,20 @@
       "publishedAt": "2026-10-13T12:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "content": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "publishedAt": "2026-10-09T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/tree-appreciator\">Tree Appreciator</a></p> <p>Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:</p> <blockquote> <p><code>Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to mak…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/tree-appreciator\">Tree Appreciator</a></p> <p>Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:</p> <blockquote> <p><code>Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to mak…",
+      "publishedAt": "2026-10-14T21:23:01.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "content": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "publishedAt": "2026-10-09T07:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "content": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "publishedAt": "2026-10-08T16:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "url": "https://openai.com/index/pollo-ai",
-      "description": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "content": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "publishedAt": "2026-10-08T12:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "description": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "content": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "publishedAt": "2026-10-08T12:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "description": "<p><strong><a href=\"https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/\">AI is mass decompiling games. That's both awesome and scary.</a></strong></p> Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly).</p> <p>I like how this piece ca…",
+      "content": "<p><strong><a href=\"https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/\">AI is mass decompiling games. That's both awesome and scary.</a></strong></p> Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly).</p> <p>I like how this piece ca…",
+      "publishedAt": "2026-10-14T16:26:53.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a1\">web-edit 0.1a1</a></p> <p>Includes <a href=\"https://github.com/simonw/web-edit/pull/1\">performance optimizations</a> written <a href=\"https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt\">by Claude Opus 5.5</a> after I fed it <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/\">this Python 3.15 profiling report</a> generated by GPT-6 Astra.</p> <p>Tags: <a href=\"https://sim…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a1\">web-edit 0.1a1</a></p> <p>Includes <a href=\"https://github.com/simonw/web-edit/pull/1\">performance optimizations</a> written <a href=\"https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt\">by Claude Opus 5.5</a> after I fed it <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/\">this Python 3.15 profiling report</a> generated by GPT-6 Astra.</p> <p>Tags: <a href=\"https://sim…",
       "publishedAt": "2026-10-13T01:40:05.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.2\">llm-meta-ai 0.2</a></p> <p>Meta AI release <a href=\"https://research.meta.ai/blog/muse-wonder\">Muse Wonder</a> (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.042.webp\">Fable class models</a> - Artificial Analysis <a href=\"https://artificialanalysis.ai/models…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.2\">llm-meta-ai 0.2</a></p> <p>Meta AI release <a href=\"https://research.meta.ai/blog/muse-wonder\">Muse Wonder</a> (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first <a href=\"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/#simon-willison-2026-in-llms.042.webp\">Fable class models</a> - Artificial Analysis <a href=\"https://artificialanalysis.ai/models…",
-      "publishedAt": "2026-10-12T23:58:46.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "description": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.</p> <p>First, some highlights from Python 3.15.</…",
-      "content": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.</p> <p>First, some highlights from Python 3.15.</…",
-      "publishedAt": "2026-10-12T18:15:38.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "description": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+      "content": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+      "publishedAt": "2026-10-14T21:40:52.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "description": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+      "content": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+      "publishedAt": "2026-10-14T20:35:09.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
       "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
       "description": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
@@ -260,22 +276,6 @@
       "description": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
       "content": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
       "publishedAt": "2026-10-12T18:18:17.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-      "url": "https://www.latent.space/p/nyc2026",
-      "description": "Tomorrow and Tuesday. If you see this you’re in!",
-      "content": "Tomorrow and Tuesday. If you see this you’re in!",
-      "publishedAt": "2026-10-10T22:07:17.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-      "url": "https://www.latent.space/p/standard-bots",
-      "description": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
-      "content": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
-      "publishedAt": "2026-10-10T14:04:11.000Z"
     },
     {
       "name": "Cursor Blog",
