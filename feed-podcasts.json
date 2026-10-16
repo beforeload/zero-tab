@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-15T05:53:17.041Z",
+  "generatedAt": "2026-10-16T05:49:32.416Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Education is Failing our Students in this AI-Driven World",
+      "url": "https://share.transistor.fm/s/4f81adfa",
+      "guid": "509842f7-f592-432c-b01a-ad26a2ae1e31",
+      "transcript": "<p>Schools and universities are failing to adapt to our modern world, in which AI is becoming increasingly pervasive in all aspects of life and work. In fact, AI may be changing what should be considered foundational knowledge that all students must learn.</p><p>In this Fully Connected episode, Daniel and Chris explore the role of AI in education and the future of learning. They note the bureaucratic inhibitors to educational reform, and the fact that classroom teachers don’t have the authority…",
+      "publishedAt": "2026-10-15T13:32:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Narrative intelligence and the human advantage",
@@ -24,14 +32,6 @@
       "guid": "2dbddf03-71ae-48d0-b902-a03f383621ac",
       "transcript": "<p>AI agents are moving beyond laptops and prototypes and into enterprise environments where security, compliance, scalability, and reliability matter. Nick Kuhn from VMware Tanzu Platform joins Daniel and Chris to discuss what changes (and what doesn’t) when deploying agents alongside traditional applications. They explore agent build packs, MCP gateways, shared memory, identity, sandboxing, and what enterprises can learn from years of platform engineering. Nick also shares practical advice fo…",
       "publishedAt": "2026-09-24T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "How to get discovered in AI search",
-      "url": "https://share.transistor.fm/s/66185604",
-      "guid": "feacf9a3-586b-4106-8da3-aab51f1c2765",
-      "transcript": "<p>AI search is changing how people discover information and how brands need to think about visibility. Daniel and Chris talk with Liam Dunne and Ben Moore, co-founders of Discovered Labs, about the shift from traditional SEO to AI search, what happens behind the scenes when an LLM generates an answer, and why retrieval and citations don't always tell the whole story. They dig into AI visibility, Reddit strategy, query fan-out, representation in model weights, and consensus. They also look ahea…",
-      "publishedAt": "2026-09-17T09:00:00.000Z"
     }
   ]
 }

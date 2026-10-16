@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T05:53:17.041Z",
+  "generatedAt": "2026-10-16T05:49:32.416Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,30 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "content": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "publishedAt": "2026-10-15T19:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "content": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "publishedAt": "2026-10-15T13:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "content": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "url": "https://openai.com/index/amp-beyond-coding",
       "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
@@ -110,28 +134,20 @@
       "publishedAt": "2026-10-14T07:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "content": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "publishedAt": "2026-10-14T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Chirp Pong",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/chirp-pong\">Chirp Pong</a></p> <p>Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!</p> <blockquote> <p><code>Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/chirp-pong\">Chirp Pong</a></p> <p>Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!</p> <blockquote> <p><code>Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web…",
+      "publishedAt": "2026-10-15T19:47:52.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "content": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "publishedAt": "2026-10-14T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "content": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "publishedAt": "2026-10-13T12:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "description": "<p><strong><a href=\"https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1\">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a></strong></p> The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \"<a href=\"https://simonwillison.net/2023/Nov/22/deciphering-clues/#hints-to-look-out-for\">people with knowledge of the matter</a>\".</p>…",
+      "content": "<p><strong><a href=\"https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1\">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a></strong></p> The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \"<a href=\"https://simonwillison.net/2023/Nov/22/deciphering-clues/#hints-to-look-out-for\">people with knowledge of the matter</a>\".</p>…",
+      "publishedAt": "2026-10-15T13:04:03.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.35\">llm-gemini 0.35</a></p> <p>I added support to <a href=\"https://github.com/simonw/llm-gemini\">llm-gemini</a> for the <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\">new Gemini 4 Argon</a> model, made available today via the Gemini API and for customers of their $100/month subscription plan.</p> <p>Here are <a href=\"https://tools.simonwillison.net/markdow…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.35\">llm-gemini 0.35</a></p> <p>I added support to <a href=\"https://github.com/simonw/llm-gemini\">llm-gemini</a> for the <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/\">new Gemini 4 Argon</a> model, made available today via the Gemini API and for customers of their $100/month subscription plan.</p> <p>Here are <a href=\"https://tools.simonwillison.net/markdow…",
       "publishedAt": "2026-10-13T22:28:54.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "description": "<blockquote cite=\"https://ghuntley.com/agency/\"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"h…",
-      "content": "<blockquote cite=\"https://ghuntley.com/agency/\"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"h…",
-      "publishedAt": "2026-10-13T13:32:00.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a1\">web-edit 0.1a1</a></p> <p>Includes <a href=\"https://github.com/simonw/web-edit/pull/1\">performance optimizations</a> written <a href=\"https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt\">by Claude Opus 5.5</a> after I fed it <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/\">this Python 3.15 profiling report</a> generated by GPT-6 Astra.</p> <p>Tags: <a href=\"https://sim…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a1\">web-edit 0.1a1</a></p> <p>Includes <a href=\"https://github.com/simonw/web-edit/pull/1\">performance optimizations</a> written <a href=\"https://claude.ai/code/session_01LE2R4P74P9GGUbE6yQ5YBt\">by Claude Opus 5.5</a> after I fed it <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/\">this Python 3.15 profiling report</a> generated by GPT-6 Astra.</p> <p>Tags: <a href=\"https://sim…",
-      "publishedAt": "2026-10-13T01:40:05.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "description": "Nick Cammarata out of nowhere with some major claims!",
+      "content": "Nick Cammarata out of nowhere with some major claims!",
+      "publishedAt": "2026-10-16T04:16:45.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+      "description": "Sandboxes are all you need.",
+      "content": "Sandboxes are all you need.",
+      "publishedAt": "2026-10-15T10:08:08.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
       "url": "https://www.latent.space/p/crossing-the-threshold",
       "description": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
@@ -260,22 +276,6 @@
       "description": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
       "content": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
       "publishedAt": "2026-10-13T22:25:55.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
-      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-      "description": "MSL’s emergence as a frontier lab is finally complete.",
-      "content": "MSL’s emergence as a frontier lab is finally complete.",
-      "publishedAt": "2026-10-13T09:37:04.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
-      "url": "https://www.latent.space/p/claude-dynamic-workflows",
-      "description": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-      "content": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-      "publishedAt": "2026-10-12T18:18:17.000Z"
     },
     {
       "name": "Cursor Blog",
