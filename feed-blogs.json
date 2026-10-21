@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:59:14.511Z",
+  "generatedAt": "2026-10-21T06:00:45.267Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -10,36 +10,36 @@
     },
     {
       "name": "Anthropic Engineering",
-      "title": "Skip to footer",
-      "url": "https://www.anthropic.com/engineering#footer",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/research/redesigning-source-control",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "Featured Redesigning source control at Anthropic As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migr…",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "title": "Harness design for long-running application development",
+      "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "How we contain Claude across products May 25, 2026",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "title": "Designing AI-resistant technical evaluations",
+      "url": "https://www.anthropic.com/research/AI-resistant-technical-evaluations",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports Apr 23, 2026",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/research/how-we-contain-claude",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands Apr 08, 2026",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/research/april-23-postmortem",
       "description": "",
       "content": ""
     },
@@ -52,38 +52,62 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Skip to footer",
-      "url": "https://www.anthropic.com/news#footer",
+      "title": "Announcements",
+      "url": "https://www.anthropic.com/news/announcements",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "How to get support",
-      "url": "https://support.claude.com/en/articles/9015913-how-to-get-support",
+      "title": "Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as th…",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabiliti…",
+      "title": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking cl…",
       "url": "https://www.anthropic.com/news/cyber-verification-program",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Oct 7, 2026 Introducing Claude Haiku 5.5 Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
+      "title": "Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic News",
-      "title": "Announcements Sep 28, 2026 Introducing Claude Sonnet 5.5 A clear upgrade over Sonnet 5 that runs 30% faster and costs up to 30% less for most work.",
+      "title": "Introducing Claude Sonnet 5.5 Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
       "description": "",
       "content": ""
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "content": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "publishedAt": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "content": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "publishedAt": "2026-10-20T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "content": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "publishedAt": "2026-10-20T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -103,14 +127,6 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "content": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "publishedAt": "2026-10-16T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
@@ -118,20 +134,20 @@
       "publishedAt": "2026-10-16T00:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "content": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "publishedAt": "2026-10-15T19:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "description": "<p><strong><a href=\"https://emudhra.we-have-a-problem.com\">eMudhra Intermediate CA Compromise</a></strong></p> This is very, very bad news:</p> <blockquote> <p>The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores.</p> </blockquote> <p>Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software…",
+      "content": "<p><strong><a href=\"https://emudhra.we-have-a-problem.com\">eMudhra Intermediate CA Compromise</a></strong></p> This is very, very bad news:</p> <blockquote> <p>The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores.</p> </blockquote> <p>Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software…",
+      "publishedAt": "2026-10-20T23:50:25.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "content": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "publishedAt": "2026-10-15T13:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "description": "<p>My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called <a href=\"https://github.com/simonw/battledrones#readme\">Battle Drones</a> (<a href=\"https://simonw.github.io/battledrones/\">play it here</a>). Unlike <a href=\"https://simonwillison.net/2026/Aug/5/raccoon-heist/\">my previous experiments</a>, this one is <em>actually fun to play</em>. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also…",
+      "content": "<p>My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called <a href=\"https://github.com/simonw/battledrones#readme\">Battle Drones</a> (<a href=\"https://simonw.github.io/battledrones/\">play it here</a>). Unlike <a href=\"https://simonwillison.net/2026/Aug/5/raccoon-heist/\">my previous experiments</a>, this one is <em>actually fun to play</em>. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also…",
+      "publishedAt": "2026-10-20T19:34:19.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong><a href=\"https://leanrada.com/notes/inline-rendering-currentscript/\">Inline rendering with document​.currentScript</a></strong></p> Lean Rada describes a neat trick that takes advantage of the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript\">document.currentScript</a> property. You can use that to drop in a tiny inline <code><script></code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.rep…",
       "content": "<p><strong><a href=\"https://leanrada.com/notes/inline-rendering-currentscript/\">Inline rendering with document​.currentScript</a></strong></p> Lean Rada describes a neat trick that takes advantage of the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript\">document.currentScript</a> property. You can use that to drop in a tiny inline <code><script></code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.rep…",
       "publishedAt": "2026-10-17T21:11:12.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "web-edit 0.1a2",
-      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a2\">web-edit 0.1a2</a></p> <p>web-edit (<a href=\"https://simonwillison.net/2026/Oct/12/web-edit/\">previously</a>) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale.</p> <p>I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/web-edit/releases/tag/0.1a2\">web-edit 0.1a2</a></p> <p>web-edit (<a href=\"https://simonwillison.net/2026/Oct/12/web-edit/\">previously</a>) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale.</p> <p>I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's…",
-      "publishedAt": "2026-10-17T13:16:49.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "description": "<blockquote cite=\"https://claude.dev/blog/solving-code-review-at-anthropic/\"><p>We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"</p> <p>Asking that question also changed <em>when</em> review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.</p> <p>Now, review runs continuously, more like spellcheck while you write. M…",
-      "content": "<blockquote cite=\"https://claude.dev/blog/solving-code-review-at-anthropic/\"><p>We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"</p> <p>Asking that question also changed <em>when</em> review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.</p> <p>Now, review runs continuously, more like spellcheck while you write. M…",
-      "publishedAt": "2026-10-16T22:06:37.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/p/tenex",
+      "description": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "content": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "publishedAt": "2026-10-21T05:01:26.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "description": "From GPU trading to physical settlement, independent markets, and programmable compute",
+      "content": "From GPU trading to physical settlement, independent markets, and programmable compute",
+      "publishedAt": "2026-10-20T19:31:57.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] not much happened today",
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
       "description": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
@@ -260,22 +276,6 @@
       "description": "Sandboxes are all you need.",
       "content": "Sandboxes are all you need.",
       "publishedAt": "2026-10-15T10:08:08.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "url": "https://www.latent.space/p/crossing-the-threshold",
-      "description": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "content": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "publishedAt": "2026-10-14T21:40:52.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
-      "description": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-      "content": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-      "publishedAt": "2026-10-14T20:35:09.000Z"
     },
     {
       "name": "Cursor Blog",

@@ -1,4 +1,77 @@
 {
-  "generatedAt": "2026-10-20T05:59:14.511Z",
-  "x": []
+  "generatedAt": "2026-10-21T06:00:45.267Z",
+  "x": [
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweets": [
+        {
+          "id": "2089179650891432270",
+          "text": "[![Image 4: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
+          "createdAt": "2026-10-21T06:00:55.796Z",
+          "url": "https://x.com/rauchg/status/2089179650891432270"
+        },
+        {
+          "id": "2112658577110520122",
+          "text": "[](https://x.com/rauchg)",
+          "createdAt": "2026-10-21T06:00:55.796Z",
+          "url": "https://x.com/rauchg/status/2112658577110520122"
+        },
+        {
+          "id": "2112638107749355867",
+          "text": "\ude91𝚊𝚛𝚗𝚎𝚜𝚜. Run Pi, OpenCode, Codex, Claude Code, eve, fx, or your own harness durably on Vercel. With 𝚍𝚞𝚛𝚊𝚋𝚕𝚎-𝚑𝚊𝚛𝚗𝚎𝚜𝚜, agents automatically resume work after failures and run for hours, days, or months. [vercel.com/blog/making-ev…](https://vercel.com/blog/making-every-harness-durable) [86](https://x.com/compose/post?in_reply_to=2112658577110520122) 22 419 33K",
+          "createdAt": "2026-10-21T06:00:55.796Z",
+          "url": "https://x.com/rauchg/status/2112638107749355867"
+        },
+        {
+          "id": "2112256718281551955",
+          "text": "://x.com/rauchg/status/2112638107749355867) AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea and unravel any mystery. If you so desire, you'll reach the maximum of your capability and intelligence. The ultimate education. For free. [181](https://x.com/compose/post?in_reply_to=2112638107749355867) 188 2.3K 58K",
+          "createdAt": "2026-10-21T06:00:55.796Z",
+          "url": "https://x.com/rauchg/status/2112256718281551955"
+        },
+        {
+          "id": "2112247046082363821",
+          "text": "ception_ai) is live on AI Gateway at a 50% discount. A high-throughput diffusion model with a 1M-token context window and support for tool calling and structured outputs. 𝚒𝚗𝚌𝚎𝚙𝚝𝚒𝚘𝚗/𝚖𝚎𝚛𝚌𝚞𝚛𝚢-𝟹 [vercel.com/changelog/merc…](https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway) [68](https://x.com/compose/post?in_reply_to=2112256718281551955) 12 324 30K",
+          "createdAt": "2026-10-21T06:00:55.796Z",
+          "url": "https://x.com/rauchg/status/2112247046082363821"
+        }
+      ]
+    },
+    {
+      "name": "Simon Willison",
+      "handle": "simonw",
+      "tweets": [
+        {
+          "id": "2112630778068881543",
+          "text": "Creator [@datasetteproj](https://x.com/datasetteproj), co-creator Django. PSF board. Hangs out with [@natbat](https://x.com/natbat). He/Him. Mastodon: [fedi.simonwillison.net/@simon](https://fedi.simonwillison.net/@simon) Bsky: [simonwillison.net](http://simonwillison.net/)",
+          "createdAt": "2026-10-21T06:00:56.347Z",
+          "url": "https://x.com/simonw/status/2112630778068881543"
+        },
+        {
+          "id": "2112541511032426857",
+          "text": "dle, and the red base with a refinery, other buildings, tanks and supply trucks sits in the upper right. Minimap at top right, zoom and lightning buttons at bottom left](https://pbs.twimg.com/media/HVGSc2-bQAA5kzf?format=webp&name=large) [](https://x.com/simonw/status/2112630778068881543/photo/2) [125](https://x.com/compose/post?in_reply_to=2112630778068881543) 27 593 34K",
+          "createdAt": "2026-10-21T06:00:56.347Z",
+          "url": "https://x.com/simonw/status/2112541511032426857"
+        },
+        {
+          "id": "2110721515130089787",
+          "text": "\"distillation\" - a controversial practice whereby rival Al labs train their models on the outputs of more advanced ones.",
+          "createdAt": "2026-10-21T06:00:56.347Z",
+          "url": "https://x.com/simonw/status/2110721515130089787"
+        },
+        {
+          "id": "2110151384289223103",
+          "text": "\"distillation\" - a controversial practice whereby rival Al labs train their models on the outputs of more advanced ones.",
+          "createdAt": "2026-10-21T06:00:56.347Z",
+          "url": "https://x.com/simonw/status/2110151384289223103"
+        },
+        {
+          "id": "2109711203077619768",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-10-21T06:00:56.347Z",
+          "url": "https://x.com/simonw/status/2109711203077619768"
+        }
+      ]
+    }
+  ]
 }
