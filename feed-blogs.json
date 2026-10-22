@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T06:00:45.267Z",
+  "generatedAt": "2026-10-22T06:06:04.021Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,51 +87,67 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "content": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "publishedAt": "2026-10-20T10:00:00.000Z"
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "content": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "publishedAt": "2026-10-21T17:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "content": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "publishedAt": "2026-10-20T07:00:00.000Z"
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "content": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "publishedAt": "2026-10-21T21:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "content": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "publishedAt": "2026-10-20T00:00:00.000Z"
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "content": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "publishedAt": "2026-10-21T12:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Advancing coding in low‑resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "content": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "publishedAt": "2026-10-19T12:00:00.000Z"
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "content": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "publishedAt": "2026-10-21T07:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "content": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "publishedAt": "2026-10-16T19:00:00.000Z"
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "content": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "publishedAt": "2026-10-21T13:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "content": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "publishedAt": "2026-10-16T00:00:00.000Z"
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "content": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "publishedAt": "2026-10-21T04:50:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "description": "<p><strong><a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">Today's PHP Security Release, and How We're Strengthening PHP Security</a></strong></p> If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p> <p>This pos…",
+      "content": "<p><strong><a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">Today's PHP Security Release, and How We're Strengthening PHP Security</a></strong></p> If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p> <p>This pos…",
+      "publishedAt": "2026-10-21T18:41:53.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Panache — RTS Belle Époque pour mobile",
+      "url": "https://simonwillison.net/2026/Oct/21/panache/",
+      "description": "<p><strong><a href=\"https://github.com/menufactory43/panache/\">Panache — RTS Belle Époque pour mobile</a></strong></p> Well this is delightful: I <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">released Battle Drones</a> yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro!</p> <blockquote> <p><strong>Panache</strong> est un jeu de stratégie en temps réel pour mobi…",
+      "content": "<p><strong><a href=\"https://github.com/menufactory43/panache/\">Panache — RTS Belle Époque pour mobile</a></strong></p> Well this is delightful: I <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">released Battle Drones</a> yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro!</p> <blockquote> <p><strong>Panache</strong> est un jeu de stratégie en temps réel pour mobi…",
+      "publishedAt": "2026-10-21T16:25:16.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-tools-datasette/releases/tag/0.1.1\">llm-tools-datasette 0.1.1</a></p> <p>When I switched LLM over to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a> in <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-33\">LLM 0.33</a> I forget that this would break any plugins which used <code>httpx</code> without directly depending on it. <code>llm-tools-datasette</code> was one of those plugins, now fixed.</p> <p>Tags: <a…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-tools-datasette/releases/tag/0.1.1\">llm-tools-datasette 0.1.1</a></p> <p>When I switched LLM over to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a> in <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-33\">LLM 0.33</a> I forget that this would break any plugins which used <code>httpx</code> without directly depending on it. <code>llm-tools-datasette</code> was one of those plugins, now fixed.</p> <p>Tags: <a…",
       "publishedAt": "2026-10-18T23:43:09.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.5\">llm-echo 0.5</a></p> <p>I'm working towards a new <a href=\"https://llm.datasette.io/\">LLM</a> release, and testing PRs caused me to revisit the <code>llm-echo</code> debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.5\">llm-echo 0.5</a></p> <p>I'm working towards a new <a href=\"https://llm.datasette.io/\">LLM</a> release, and testing PRs caused me to revisit the <code>llm-echo</code> debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and…",
-      "publishedAt": "2026-10-18T23:16:16.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Inline rendering with document​.currentScript",
-      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
-      "description": "<p><strong><a href=\"https://leanrada.com/notes/inline-rendering-currentscript/\">Inline rendering with document​.currentScript</a></strong></p> Lean Rada describes a neat trick that takes advantage of the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript\">document.currentScript</a> property. You can use that to drop in a tiny inline <code><script></code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.rep…",
-      "content": "<p><strong><a href=\"https://leanrada.com/notes/inline-rendering-currentscript/\">Inline rendering with document​.currentScript</a></strong></p> Lean Rada describes a neat trick that takes advantage of the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript\">document.currentScript</a> property. You can use that to drop in a tiny inline <code><script></code> element that replaces itself when the page loads:</p> <pre><code>The year is <script> document.currentScript.rep…",
-      "publishedAt": "2026-10-17T21:11:12.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://www.latent.space/p/claude-mods",
+      "description": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+      "content": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+      "publishedAt": "2026-10-21T13:04:19.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "description": "An open source “bomb” drops from China",
+      "content": "An open source “bomb” drops from China",
+      "publishedAt": "2026-10-21T06:54:09.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
       "url": "https://www.latent.space/p/tenex",
       "description": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
@@ -260,22 +276,6 @@
       "description": "a quiet day lets us pilot a new show",
       "content": "a quiet day lets us pilot a new show",
       "publishedAt": "2026-10-17T07:47:38.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-      "description": "Nick Cammarata out of nowhere with some major claims!",
-      "content": "Nick Cammarata out of nowhere with some major claims!",
-      "publishedAt": "2026-10-16T04:16:45.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
-      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
-      "description": "Sandboxes are all you need.",
-      "content": "Sandboxes are all you need.",
-      "publishedAt": "2026-10-15T10:08:08.000Z"
     },
     {
       "name": "Cursor Blog",
