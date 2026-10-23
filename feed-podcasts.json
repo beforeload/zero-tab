@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-22T06:06:04.021Z",
+  "generatedAt": "2026-10-23T06:01:08.012Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
+      "url": "https://share.transistor.fm/s/9a42098b",
+      "guid": "09810723-2d12-4151-b100-7944f5eaf813",
+      "transcript": "<p>AI is changing cybersecurity, accelerating vulnerability research and exploit development while raising new questions about reliability, risk, and guardrails. Daniel and Chris talk with Spencer McIntyre, Director of Exploit Development at VulnCheck, about how agents are being used to discover vulnerabilities, why many proof-of-concept exploits (POCs) fail to deliver, and how initial access intelligence helps security teams prioritize real threats. They also explore the limitations of AI-assi…",
+      "publishedAt": "2026-10-22T09:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Is Education Failing our Students in this AI-Driven World?",
@@ -24,14 +32,6 @@
       "guid": "b836fa1b-9246-43d5-8cbb-cf1446760a6d",
       "transcript": "<p>As AI moves beyond the cloud and into robots, vehicles, and other physical systems, new approaches to models, simulation, and inference are emerging. Daniel and Chris are joined by Ming-Yu Liu, Vice President of Cosmos Lab at NVIDIA, who shares his perspective on open models, world models, and the future of physical AI. They explore why open models matter for innovation, how world models can help AI understand and simulate the physical world, and what it could take to build increasingly capa…",
       "publishedAt": "2026-10-01T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "From AGENTS.md to Enterprise Deployment",
-      "url": "https://share.transistor.fm/s/74934e48",
-      "guid": "2dbddf03-71ae-48d0-b902-a03f383621ac",
-      "transcript": "<p>AI agents are moving beyond laptops and prototypes and into enterprise environments where security, compliance, scalability, and reliability matter. Nick Kuhn from VMware Tanzu Platform joins Daniel and Chris to discuss what changes (and what doesn’t) when deploying agents alongside traditional applications. They explore agent build packs, MCP gateways, shared memory, identity, sandboxing, and what enterprises can learn from years of platform engineering. Nick also shares practical advice fo…",
-      "publishedAt": "2026-09-24T09:00:00.000Z"
     }
   ]
 }
