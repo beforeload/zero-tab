@@ -1,4 +1,77 @@
 {
-  "generatedAt": "2026-10-24T05:49:05.376Z",
-  "x": []
+  "generatedAt": "2026-10-25T06:04:35.377Z",
+  "x": [
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweets": [
+        {
+          "id": "2089179650891432270",
+          "text": "[![Image 5: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
+          "createdAt": "2026-10-25T06:04:40.437Z",
+          "url": "https://x.com/rauchg/status/2089179650891432270"
+        },
+        {
+          "id": "2114164830403989880",
+          "text": "[](https://x.com/rauchg)",
+          "createdAt": "2026-10-25T06:04:40.437Z",
+          "url": "https://x.com/rauchg/status/2114164830403989880"
+        },
+        {
+          "id": "2114085432749347086",
+          "text": "/2114164830403989880) I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract… A lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics. I wonder Show more [86](https://x.com/compose/post?in_reply_to=2114164830403989880) 5 201 14K",
+          "createdAt": "2026-10-25T06:04:40.438Z",
+          "url": "https://x.com/rauchg/status/2114085432749347086"
+        },
+        {
+          "id": "2113759533801877920",
+          "text": "us/2114085432749347086) There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you. There’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context. How well you manage this superpower is the #0 skill I look for. [268](https://x.com/compose/post?in_reply_to=2114085432749347086) 87 1.9K 144K",
+          "createdAt": "2026-10-25T06:04:40.438Z",
+          "url": "https://x.com/rauchg/status/2113759533801877920"
+        },
+        {
+          "id": "2113462657059639505",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-10-25T06:04:40.438Z",
+          "url": "https://x.com/rauchg/status/2113462657059639505"
+        }
+      ]
+    },
+    {
+      "name": "Simon Willison",
+      "handle": "simonw",
+      "tweets": [
+        {
+          "id": "2113691493823369246",
+          "text": "Creator [@datasetteproj](https://x.com/datasetteproj), co-creator Django. PSF board. Hangs out with [@natbat](https://x.com/natbat). He/Him. Mastodon: [fedi.simonwillison.net/@simon](https://fedi.simonwillison.net/@simon) Bsky: [simonwillison.net](http://simonwillison.net/)",
+          "createdAt": "2026-10-25T06:04:40.878Z",
+          "url": "https://x.com/simonw/status/2113691493823369246"
+        },
+        {
+          "id": "2113633667583287786",
+          "text": "/2113680701770068067/photo/1) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at [61](https://x.com/compose/post?in_reply_to=2113691493823369246) 6 193 26K",
+          "createdAt": "2026-10-25T06:04:40.878Z",
+          "url": "https://x.com/simonw/status/2113633667583287786"
+        },
+        {
+          "id": "2113356466770121166",
+          "text": "on Willison](https://x.com/simonw) [@simonw](https://x.com/simonw) [Oct 23](https://x.com/simonw/status/2113633667583287786) Given the current vulnerability apocalypse, is there anyone left who thinks holding assets in cryptocurrency - where mistaken transactions are irreversible - is still a good idea? [160](https://x.com/compose/post?in_reply_to=2113633667583287786) 22 804 82K",
+          "createdAt": "2026-10-25T06:04:40.878Z",
+          "url": "https://x.com/simonw/status/2113356466770121166"
+        },
+        {
+          "id": "2112944161670488423",
+          "text": "r creature at 00:45s in this new music video for FREEDOM by De Staad [youtube.com/watch?v=hKO4pQ…](https://www.youtube.com/watch?v=hKO4pQtIXow) [Video 2](https://x.com/simonw)![Image 9](https://pbs.twimg.com/amplify_video_thumb/2113356400651046913/img/NVpKP3CPesN3gSM1?format=webp&name=medium) 00:00 [19](https://x.com/compose/post?in_reply_to=2113356466770121166) 7 413 30K",
+          "createdAt": "2026-10-25T06:04:40.878Z",
+          "url": "https://x.com/simonw/status/2112944161670488423"
+        },
+        {
+          "id": "2112630778068881543",
+          "text": "](https://x.com/simonw)! 🎩 I forked Battle Drones into Panache: a French Belle Époque RTS, with dirigibles, steam tractors, clockwork soldiers in képis and Gargantua, a walking steam fortress. Fully in French, built with Claude Code. [github.com/menufactory43/…](https://github.com/menufactory43/panache) [49](https://x.com/compose/post?in_reply_to=2112944161670488423) 8 94 17K",
+          "createdAt": "2026-10-25T06:04:40.878Z",
+          "url": "https://x.com/simonw/status/2112630778068881543"
+        }
+      ]
+    }
+  ]
 }

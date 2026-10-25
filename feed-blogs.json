@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T05:49:05.376Z",
+  "generatedAt": "2026-10-25T06:04:35.377Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,14 @@
     },
     {
       "name": "Simon Willison",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-a…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-a…",
+      "publishedAt": "2026-10-24T03:59:57.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quick Study",
       "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
       "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p> <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p> <blockquote> <p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p> </blockquote> <p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolo…",
@@ -172,14 +180,6 @@
       "description": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://sim…",
       "content": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://sim…",
       "publishedAt": "2026-10-22T15:34:13.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-      "description": "<p><strong><a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">Today's PHP Security Release, and How We're Strengthening PHP Security</a></strong></p> If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p> <p>This pos…",
-      "content": "<p><strong><a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">Today's PHP Security Release, and How We're Strengthening PHP Security</a></strong></p> If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process.</p> <p>This pos…",
-      "publishedAt": "2026-10-21T18:41:53.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "description": "We have Fable at home... or so we are being told by paid shills",
+      "content": "We have Fable at home... or so we are being told by paid shills",
+      "publishedAt": "2026-10-24T07:18:29.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "AI Is Getting Good at Math. Here’s Why.",
       "url": "https://latent.space/p/ai-is-getting-good-at-math/",
       "description": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
@@ -268,14 +276,6 @@
       "description": "The Big Hardening begins",
       "content": "The Big Hardening begins",
       "publishedAt": "2026-10-22T07:42:44.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "url": "https://latent.space/p/claude-mods/",
-      "description": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-      "content": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-      "publishedAt": "2026-10-21T13:04:19.000Z"
     },
     {
       "name": "Cursor Blog",
