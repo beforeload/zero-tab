@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T06:09:52.247Z",
+  "generatedAt": "2026-10-27T06:14:43.553Z",
   "x": [
     {
       "name": "Guillermo Rauch",
@@ -8,32 +8,32 @@
         {
           "id": "2089179650891432270",
           "text": "[![Image 5: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
-          "createdAt": "2026-10-26T06:09:56.152Z",
+          "createdAt": "2026-10-27T06:14:47.826Z",
           "url": "https://x.com/rauchg/status/2089179650891432270"
         },
         {
-          "id": "2114164830403989880",
+          "id": "2114770919436808572",
           "text": "[](https://x.com/rauchg)",
-          "createdAt": "2026-10-26T06:09:56.152Z",
+          "createdAt": "2026-10-27T06:14:47.826Z",
+          "url": "https://x.com/rauchg/status/2114770919436808572"
+        },
+        {
+          "id": "2114164830403989880",
+          "text": "gs of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I was able to chat via 3 separate mechanisms: ① CPU Show more [Video 2](blob:https://x.com/eb79f2e9-26d8-45f1-aa80-5123f39e588b) 01:07 [201](https://x.com/compose/post?in_reply_to=2114770919436808572) 234 1.9K 139K",
+          "createdAt": "2026-10-27T06:14:47.826Z",
           "url": "https://x.com/rauchg/status/2114164830403989880"
         },
         {
           "id": "2114085432749347086",
-          "text": "114164830403989880) I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract… A lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics. I wonder Show more [169](https://x.com/compose/post?in_reply_to=2114164830403989880) 19 391 31K",
-          "createdAt": "2026-10-26T06:09:56.152Z",
+          "text": "114164830403989880) I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract… A lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics. I wonder Show more [184](https://x.com/compose/post?in_reply_to=2114164830403989880) 22 413 34K",
+          "createdAt": "2026-10-27T06:14:47.826Z",
           "url": "https://x.com/rauchg/status/2114085432749347086"
         },
         {
           "id": "2113759533801877920",
-          "text": "tus/2114085432749347086) There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you. There’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context. How well you manage this superpower is the #0 skill I look for. [358](https://x.com/compose/post?in_reply_to=2114085432749347086) 246 3K 264K",
-          "createdAt": "2026-10-26T06:09:56.152Z",
+          "text": "s/2114085432749347086) There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you. There’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context. How well you manage this superpower is the #0 skill I look for. [373](https://x.com/compose/post?in_reply_to=2114085432749347086) 253 3.1K 288K",
+          "createdAt": "2026-10-27T06:14:47.826Z",
           "url": "https://x.com/rauchg/status/2113759533801877920"
-        },
-        {
-          "id": "2113462657059639505",
-          "text": "## Log in or sign up for X",
-          "createdAt": "2026-10-26T06:09:56.152Z",
-          "url": "https://x.com/rauchg/status/2113462657059639505"
         }
       ]
     },
@@ -44,32 +44,68 @@
         {
           "id": "2113691493823369246",
           "text": "Creator [@datasetteproj](https://x.com/datasetteproj), co-creator Django. PSF board. Hangs out with [@natbat](https://x.com/natbat). He/Him. Mastodon: [fedi.simonwillison.net/@simon](https://fedi.simonwillison.net/@simon) Bsky: [simonwillison.net](http://simonwillison.net/)",
-          "createdAt": "2026-10-26T06:09:56.529Z",
+          "createdAt": "2026-10-27T06:14:48.260Z",
           "url": "https://x.com/simonw/status/2113691493823369246"
         },
         {
           "id": "2113633667583287786",
-          "text": "/2113680701770068067/photo/1) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at [64](https://x.com/compose/post?in_reply_to=2113691493823369246) 6 205 30K",
-          "createdAt": "2026-10-26T06:09:56.529Z",
+          "text": "/2113680701770068067/photo/1) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at [69](https://x.com/compose/post?in_reply_to=2113691493823369246) 6 216 33K",
+          "createdAt": "2026-10-27T06:14:48.260Z",
           "url": "https://x.com/simonw/status/2113633667583287786"
         },
         {
           "id": "2113356466770121166",
-          "text": "on Willison](https://x.com/simonw) [@simonw](https://x.com/simonw) [Oct 23](https://x.com/simonw/status/2113633667583287786) Given the current vulnerability apocalypse, is there anyone left who thinks holding assets in cryptocurrency - where mistaken transactions are irreversible - is still a good idea? [160](https://x.com/compose/post?in_reply_to=2113633667583287786) 32 811 84K",
-          "createdAt": "2026-10-26T06:09:56.529Z",
+          "text": "on Willison](https://x.com/simonw) [@simonw](https://x.com/simonw) [Oct 23](https://x.com/simonw/status/2113633667583287786) Given the current vulnerability apocalypse, is there anyone left who thinks holding assets in cryptocurrency - where mistaken transactions are irreversible - is still a good idea? [164](https://x.com/compose/post?in_reply_to=2113633667583287786) 32 817 85K",
+          "createdAt": "2026-10-27T06:14:48.260Z",
           "url": "https://x.com/simonw/status/2113356466770121166"
         },
         {
           "id": "2112944161670488423",
-          "text": "ic video for FREEDOM by De Staad [youtube.com/watch?v=hKO4pQ…](https://www.youtube.com/watch?v=hKO4pQtIXow) [Video 2](blob:https://x.com/d7c0bb2e-ebbf-490c-98d0-6086fe45df8f)![Image 9](https://pbs.twimg.com/amplify_video_thumb/2113356400651046913/img/NVpKP3CPesN3gSM1?format=webp&name=medium) 00:03 [20](https://x.com/compose/post?in_reply_to=2113356466770121166) 8 417 31K",
-          "createdAt": "2026-10-26T06:09:56.529Z",
+          "text": "ic video for FREEDOM by De Staad [youtube.com/watch?v=hKO4pQ…](https://www.youtube.com/watch?v=hKO4pQtIXow) [Video 2](blob:https://x.com/f9e93dba-adc6-4171-b5fb-2558d13efabc)![Image 9](https://pbs.twimg.com/amplify_video_thumb/2113356400651046913/img/NVpKP3CPesN3gSM1?format=webp&name=medium) 00:03 [20](https://x.com/compose/post?in_reply_to=2113356466770121166) 8 418 32K",
+          "createdAt": "2026-10-27T06:14:48.260Z",
           "url": "https://x.com/simonw/status/2112944161670488423"
         },
         {
           "id": "2112630778068881543",
-          "text": "(https://x.com/simonw)! 🎩 I forked Battle Drones into Panache: a French Belle Époque RTS, with dirigibles, steam tractors, clockwork soldiers in képis and Gargantua, a walking steam fortress. Fully in French, built with Claude Code. [github.com/menufactory43/…](https://github.com/menufactory43/panache) [50](https://x.com/compose/post?in_reply_to=2112944161670488423) 12 97 18K",
-          "createdAt": "2026-10-26T06:09:56.529Z",
+          "text": "(https://x.com/simonw)! 🎩 I forked Battle Drones into Panache: a French Belle Époque RTS, with dirigibles, steam tractors, clockwork soldiers in képis and Gargantua, a walking steam fortress. Fully in French, built with Claude Code. [github.com/menufactory43/…](https://github.com/menufactory43/panache) [50](https://x.com/compose/post?in_reply_to=2112944161670488423) 12 99 18K",
+          "createdAt": "2026-10-27T06:14:48.260Z",
           "url": "https://x.com/simonw/status/2112630778068881543"
+        }
+      ]
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "tweets": [
+        {
+          "id": "1281424520100737025",
+          "text": "san francisco / singapore",
+          "createdAt": "2026-10-27T06:14:52.599Z",
+          "url": "https://x.com/swyx/status/1281424520100737025"
+        },
+        {
+          "id": "2114912126443893104",
+          "text": "status/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [399](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.8K",
+          "createdAt": "2026-10-27T06:14:52.599Z",
+          "url": "https://x.com/swyx/status/2114912126443893104"
+        },
+        {
+          "id": "2114864999709753526",
+          "text": "Yes, significant % of NW 0%0 0% Yes, \"average\" investment 0%0 0% No, its for retail chumps 0%0 0% Undecided/Maybe 0%0 0% 1,057 votes 6 days left [50](https://x.com/compose/post?in_reply_to=2114864999709753526) 2 14 9.7K",
+          "createdAt": "2026-10-27T06:14:52.599Z",
+          "url": "https://x.com/swyx/status/2114864999709753526"
+        },
+        {
+          "id": "2114805687226376267",
+          "text": "Yes, significant % of NW 0%0 0% Yes, \"average\" investment 0%0 0% No, its for retail chumps 0%0 0% Undecided/Maybe 0%0 0% 1,057 votes 6 days left [50](https://x.com/compose/post?in_reply_to=2114864999709753526) 2 14 9.7K",
+          "createdAt": "2026-10-27T06:14:52.599Z",
+          "url": "https://x.com/swyx/status/2114805687226376267"
+        },
+        {
+          "id": "2114145315196711194",
+          "text": "tus/2114794838541660443/photo/1) We are pleased to announce that @trq212 will be returning to AIE to share what's now and what's next! aie.codes will be the last flagship AIE of the year, gathering the top 1000 agentic engineers in the world by invite only. Apply here: ai.engineer/code/2026/apply As [37](https://x.com/compose/post?in_reply_to=2114805687226376267) 4 169 16K",
+          "createdAt": "2026-10-27T06:14:52.599Z",
+          "url": "https://x.com/swyx/status/2114145315196711194"
         }
       ]
     }
