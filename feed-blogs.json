@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T06:14:43.553Z",
+  "generatedAt": "2026-10-28T06:50:19.143Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -66,8 +66,15 @@
     },
     {
       "name": "Anthropic News",
-      "title": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking cl…",
-      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commis…",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "description": "",
+      "content": ""
+    },
+    {
+      "name": "Anthropic News",
+      "title": "Early progress on accelerating drug development with Claude We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scient…",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
       "description": "",
       "content": ""
     },
@@ -79,11 +86,28 @@
       "content": ""
     },
     {
-      "name": "Anthropic News",
-      "title": "Introducing Claude Sonnet 5.5 Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "description": "",
-      "content": ""
+      "name": "OpenAI Blog",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "content": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "publishedAt": "2026-10-27T15:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "content": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "publishedAt": "2026-10-27T07:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "content": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -110,28 +134,12 @@
       "publishedAt": "2026-10-26T13:45:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "content": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "publishedAt": "2026-10-26T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "content": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "publishedAt": "2026-10-26T07:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "content": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "publishedAt": "2026-10-26T07:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "description": "<p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">Game Boy Color on My Conference Badge</a></strong></p> I'm at GitHub Universe this week and, <a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">similar to last year</a>, the conference badge is a full-blown color screen computer.</p> <p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href=\"https://spf13.com/p/zelda-on-my-confere…",
+      "content": "<p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">Game Boy Color on My Conference Badge</a></strong></p> I'm at GitHub Universe this week and, <a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">similar to last year</a>, the conference badge is a full-blown color screen computer.</p> <p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href=\"https://spf13.com/p/zelda-on-my-confere…",
+      "publishedAt": "2026-10-27T19:34:18.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-a…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-a…",
       "publishedAt": "2026-10-24T03:59:57.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quick Study",
-      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p> <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p> <blockquote> <p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p> </blockquote> <p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolo…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p> <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p> <blockquote> <p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p> </blockquote> <p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolo…",
-      "publishedAt": "2026-10-23T21:35:13.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,38 @@
     },
     {
       "name": "Latent Space",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "description": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "content": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "publishedAt": "2026-10-27T18:53:10.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "description": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+      "content": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+      "publishedAt": "2026-10-27T18:40:19.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding/",
+      "description": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+      "content": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+      "publishedAt": "2026-10-27T14:41:25.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime bu…",
+      "url": "https://latent.space/p/ainews-anthropic-s1/",
+      "description": "The S-1, the numbers, and the reactions.",
+      "content": "The S-1, the numbers, and the reactions.",
+      "publishedAt": "2026-10-27T07:24:59.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
       "url": "https://latent.space/p/ainews-kimi-31/",
       "description": "We have Fable at home... or so we are being told by paid shills",
@@ -244,38 +276,6 @@
       "description": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
       "content": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
       "publishedAt": "2026-10-23T15:19:48.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Black October",
-      "url": "https://latent.space/p/ainews-black-october/",
-      "description": "the Cyber onslaught continues.",
-      "content": "the Cyber onslaught continues.",
-      "publishedAt": "2026-10-23T10:09:29.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-      "url": "https://latent.space/p/modal-d/",
-      "description": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
-      "content": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
-      "publishedAt": "2026-10-22T17:40:57.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "You are the Team — Anekha Sokhal, Moshi",
-      "url": "https://latent.space/p/moshi/",
-      "description": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
-      "content": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
-      "publishedAt": "2026-10-22T14:03:40.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response ov…",
-      "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
-      "description": "The Big Hardening begins",
-      "content": "The Big Hardening begins",
-      "publishedAt": "2026-10-22T07:42:44.000Z"
     },
     {
       "name": "Cursor Blog",
