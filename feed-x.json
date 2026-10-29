@@ -1,75 +1,39 @@
 {
-  "generatedAt": "2026-10-28T06:50:19.143Z",
+  "generatedAt": "2026-10-29T07:01:39.110Z",
   "x": [
-    {
-      "name": "Guillermo Rauch",
-      "handle": "rauchg",
-      "tweets": [
-        {
-          "id": "2089179650891432270",
-          "text": "[![Image 5: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
-          "createdAt": "2026-10-28T06:50:22.841Z",
-          "url": "https://x.com/rauchg/status/2089179650891432270"
-        },
-        {
-          "id": "2115218670389756243",
-          "text": "[](https://x.com/rauchg)",
-          "createdAt": "2026-10-28T06:50:22.841Z",
-          "url": "https://x.com/rauchg/status/2115218670389756243"
-        },
-        {
-          "id": "2115161107078021563",
-          "text": "in 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎 now deploys on Vercel. Add a 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎 or 𝙲𝚘𝚗𝚝𝚊𝚒𝚗𝚎𝚛𝚏𝚒𝚕𝚎 at your root, then Vercel selects the Container preset, builds it, and routes traffic to the image. [vercel.com/changelog/depl…](https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile) [49](https://x.com/compose/post?in_reply_to=2115218670389756243) 5 197 21K",
-          "createdAt": "2026-10-28T06:50:22.841Z",
-          "url": "https://x.com/rauchg/status/2115161107078021563"
-        },
-        {
-          "id": "2114770919436808572",
-          "text": "h](https://x.com/rauchg/status/2115161107078021563) [sf-blimp.vercel.app](https://sf-blimp.vercel.app/) [Video 3](blob:https://x.com/88ad2533-4523-42a3-84e1-82f005b8b693)![Image 14](https://pbs.twimg.com/amplify_video_thumb/2115159225060175872/img/j3OStjAwkhZOkWHZ?format=webp&name=medium) 00:41 [41](https://x.com/compose/post?in_reply_to=2115161107078021563) 14 455 33K",
-          "createdAt": "2026-10-28T06:50:22.842Z",
-          "url": "https://x.com/rauchg/status/2114770919436808572"
-        },
-        {
-          "id": "2114164830403989880",
-          "text": "## Log in or sign up for X",
-          "createdAt": "2026-10-28T06:50:22.842Z",
-          "url": "https://x.com/rauchg/status/2114164830403989880"
-        }
-      ]
-    },
     {
       "name": "Simon Willison",
       "handle": "simonw",
       "tweets": [
         {
+          "id": "2115444742595260551",
+          "text": "[simonwillison.net](https://t.co/p4R0XiEYEc)",
+          "createdAt": "2026-10-29T07:01:48.656Z",
+          "url": "https://x.com/simonw/status/2115444742595260551"
+        },
+        {
           "id": "2115128326922883517",
-          "text": "Creator [@datasetteproj](https://x.com/datasetteproj), co-creator Django. PSF board. Hangs out with [@natbat](https://x.com/natbat). He/Him. Mastodon: [fedi.simonwillison.net/@simon](https://fedi.simonwillison.net/@simon) Bsky: [simonwillison.net](http://simonwillison.net/)",
-          "createdAt": "2026-10-28T06:50:26.407Z",
+          "text": "bp&name=medium) simonwillison.net The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …](https://t.co/aPsJ14RHR0) [332](https://x.com/compose/post?in_reply_to=2115444742595260551) 119 1.1K 80K",
+          "createdAt": "2026-10-29T07:01:48.656Z",
           "url": "https://x.com/simonw/status/2115128326922883517"
         },
         {
           "id": "2113691493823369246",
-          "text": "/photo/2) ![Image 7](https://pbs.twimg.com/media/HVprAycWkAA0ny2?format=webp&name=large) [](https://x.com/benjedwards/status/2115120640906727914/photo/3) ![Image 8](https://pbs.twimg.com/media/HVprAykWgAA81dg?format=webp&name=large) [](https://x.com/benjedwards/status/2115120640906727914/photo/4) [35](https://x.com/compose/post?in_reply_to=2115128326922883517) 1 65 14K",
-          "createdAt": "2026-10-28T06:50:26.407Z",
+          "text": "photo/2) ![Image 9](https://pbs.twimg.com/media/HVprAycWkAA0ny2?format=webp&name=large) [](https://x.com/benjedwards/status/2115120640906727914/photo/3) ![Image 10](https://pbs.twimg.com/media/HVprAykWgAA81dg?format=webp&name=large) [](https://x.com/benjedwards/status/2115120640906727914/photo/4) [37](https://x.com/compose/post?in_reply_to=2115128326922883517) 2 74 19K",
+          "createdAt": "2026-10-29T07:01:48.656Z",
           "url": "https://x.com/simonw/status/2113691493823369246"
         },
         {
           "id": "2113633667583287786",
-          "text": "/2113680701770068067/photo/1) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at [72](https://x.com/compose/post?in_reply_to=2113691493823369246) 6 223 35K",
-          "createdAt": "2026-10-28T06:50:26.407Z",
+          "text": "/2113680701770068067/photo/1) Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 🔹 1M-token context, 2.8T total / 104B active params (MoE), Multimodal. 🔹 Full-project coding: games in Unreal, Unity & Godot. 🔹 Excels at parametric 3D modeling in Blender & CAD. 🔹 More reliable at [72](https://x.com/compose/post?in_reply_to=2113691493823369246) 6 225 37K",
+          "createdAt": "2026-10-29T07:01:48.656Z",
           "url": "https://x.com/simonw/status/2113633667583287786"
         },
         {
           "id": "2113356466770121166",
-          "text": "on Willison](https://x.com/simonw) [@simonw](https://x.com/simonw) [Oct 23](https://x.com/simonw/status/2113633667583287786) Given the current vulnerability apocalypse, is there anyone left who thinks holding assets in cryptocurrency - where mistaken transactions are irreversible - is still a good idea? [166](https://x.com/compose/post?in_reply_to=2113633667583287786) 32 819 86K",
-          "createdAt": "2026-10-28T06:50:26.407Z",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-10-29T07:01:48.656Z",
           "url": "https://x.com/simonw/status/2113356466770121166"
-        },
-        {
-          "id": "2112944161670488423",
-          "text": "c video for FREEDOM by De Staad [youtube.com/watch?v=hKO4pQ…](https://www.youtube.com/watch?v=hKO4pQtIXow) [Video 2](blob:https://x.com/a97762f4-3109-4d16-9ccc-f54c7f583e76)![Image 15](https://pbs.twimg.com/amplify_video_thumb/2113356400651046913/img/NVpKP3CPesN3gSM1?format=webp&name=medium) 00:03 [21](https://x.com/compose/post?in_reply_to=2113356466770121166) 8 419 33K",
-          "createdAt": "2026-10-28T06:50:26.407Z",
-          "url": "https://x.com/simonw/status/2112944161670488423"
         }
       ]
     }

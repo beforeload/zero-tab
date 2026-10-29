@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:50:19.143Z",
+  "generatedAt": "2026-10-29T07:01:39.110Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,30 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "content": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "publishedAt": "2026-10-28T13:15:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "description": "How AI might enter the org chart—beneath, beside, and between us.",
+      "content": "How AI might enter the org chart—beneath, beside, and between us.",
+      "publishedAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "content": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "publishedAt": "2026-10-28T09:30:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "url": "https://openai.com/index/retell-ai",
       "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
@@ -110,28 +134,36 @@
       "publishedAt": "2026-10-27T00:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "content": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "publishedAt": "2026-10-26T22:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "description": "<blockquote cite=\"https://news.ycombinator.com/item?id=50248124#50249160\"><p>In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of…",
+      "content": "<blockquote cite=\"https://news.ycombinator.com/item?id=50248124#50249160\"><p>In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of…",
+      "publishedAt": "2026-10-28T23:23:21.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "content": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "publishedAt": "2026-10-26T14:30:00.000Z"
+      "name": "Simon Willison",
+      "title": "GitHub Octoverse 2026",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "description": "<p><strong><a href=\"https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/\">GitHub Octoverse 2026</a></strong></p> I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular:</p> <p><img alt=\"Photo of a conference keynote stage: a wide curved screen shows three line charts side by sid…",
+      "content": "<p><strong><a href=\"https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/\">GitHub Octoverse 2026</a></strong></p> I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular:</p> <p><img alt=\"Photo of a conference keynote stage: a wide curved screen shows three line charts side by sid…",
+      "publishedAt": "2026-10-28T16:45:23.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "description": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "content": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "publishedAt": "2026-10-26T13:45:00.000Z"
+      "name": "Simon Willison",
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "description": "<p>I've written before about how November 2025 was <a href=\"https://simonwillison.net/tags/november-2025-inflection/\">an inflection point for coding agents</a> - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for <strong>vibe coding computer games</strong>.</p> <ul> <li><a href=\"https://simonwillison.net/20…",
+      "content": "<p>I've written before about how November 2025 was <a href=\"https://simonwillison.net/tags/november-2025-inflection/\">an inflection point for coding agents</a> - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for <strong>vibe coding computer games</strong>.</p> <ul> <li><a href=\"https://simonwillison.net/20…",
+      "publishedAt": "2026-10-28T13:55:15.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Terk Terkowitz",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "description": "<blockquote cite=\"https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai\"><p>If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.aboutamazon.co…",
+      "content": "<blockquote cite=\"https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai\"><p>If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://www.aboutamazon.co…",
+      "publishedAt": "2026-10-28T10:09:07.000Z"
     },
     {
       "name": "Simon Willison",
@@ -148,38 +180,6 @@
       "description": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">GPT-6.1 Terra</a></strong></p> It's always interesting to note which aspects of a new model are emphasized in the release announcement.</p> <p>In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:</p> <blockquote> <p>We’re introducing <strong>GPT-6.1 Terra</strong>, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A…",
       "content": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">GPT-6.1 Terra</a></strong></p> It's always interesting to note which aspects of a new model are emphasized in the release announcement.</p> <p>In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:</p> <blockquote> <p>We’re introducing <strong>GPT-6.1 Terra</strong>, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A…",
       "publishedAt": "2026-10-26T23:53:07.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Jason Koebler",
-      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "description": "<blockquote cite=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\"><p>Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, spec…",
-      "content": "<blockquote cite=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\"><p>Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, spec…",
-      "publishedAt": "2026-10-26T19:00:25.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "webframe: evaluated as a scraper and a sandbox",
-      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
-      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/webframe-evaluation#readme\">webframe: evaluated as a scraper and a sandbox</a></p> <p><a href=\"https://github.com/tractordev/webframe\">webframe</a> is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs <code>console.log()</code> to standard output and any exceptions to standard error.<…",
-      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/webframe-evaluation#readme\">webframe: evaluated as a scraper and a sandbox</a></p> <p><a href=\"https://github.com/tractordev/webframe\">webframe</a> is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs <code>console.log()</code> to standard output and any exceptions to standard error.<…",
-      "publishedAt": "2026-10-26T16:15:00.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Seam Cutter",
-      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/seam-cutter\">Seam Cutter</a></p> <p>I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.</p> <p>I wanted this because I often use <a href=\"https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095\">Tailor</a> on my iPhone to stitch seve…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/seam-cutter\">Seam Cutter</a></p> <p>I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image.</p> <p>I wanted this because I often use <a href=\"https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095\">Tailor</a> on my iPhone to stitch seve…",
-      "publishedAt": "2026-10-25T15:10:19.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-a…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-a…",
-      "publishedAt": "2026-10-24T03:59:57.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,30 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "description": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "content": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "publishedAt": "2026-10-29T05:55:19.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "description": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "content": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "publishedAt": "2026-10-28T19:48:05.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "description": "Since coding is solved, why code for the job?",
+      "content": "Since coding is solved, why code for the job?",
+      "publishedAt": "2026-10-28T08:50:30.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
       "url": "https://latent.space/p/opus55/",
       "description": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
@@ -252,30 +276,6 @@
       "description": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
       "content": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
       "publishedAt": "2026-10-27T14:41:25.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime bu…",
-      "url": "https://latent.space/p/ainews-anthropic-s1/",
-      "description": "The S-1, the numbers, and the reactions.",
-      "content": "The S-1, the numbers, and the reactions.",
-      "publishedAt": "2026-10-27T07:24:59.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-      "url": "https://latent.space/p/ainews-kimi-31/",
-      "description": "We have Fable at home... or so we are being told by paid shills",
-      "content": "We have Fable at home... or so we are being told by paid shills",
-      "publishedAt": "2026-10-24T07:18:29.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "AI Is Getting Good at Math. Here’s Why.",
-      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
-      "description": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
-      "content": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
-      "publishedAt": "2026-10-23T15:19:48.000Z"
     },
     {
       "name": "Cursor Blog",

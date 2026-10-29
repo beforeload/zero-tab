@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-10-28T06:50:19.143Z",
+  "generatedAt": "2026-10-29T07:01:39.110Z",
   "hasData": true,
   "counts": {
-    "xBuilders": 2,
-    "xTweets": 10,
+    "xBuilders": 1,
+    "xTweets": 5,
     "blogs": 42,
     "podcasts": 4
   },
   "errors": [
     "x:@boris_cherny: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/boris_cherny",
     "x:@AnthropicAI: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/AnthropicAI",
+    "x:@rauchg: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/rauchg",
     "x:@addyosmani: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/addyosmani",
     "x:@swyx: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/swyx",
     "x:@karpathy: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/karpathy",
