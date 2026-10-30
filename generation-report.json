@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-29T07:01:39.110Z",
+  "generatedAt": "2026-10-30T07:04:18.677Z",
   "hasData": true,
   "counts": {
-    "xBuilders": 1,
-    "xTweets": 5,
+    "xBuilders": 2,
+    "xTweets": 10,
     "blogs": 42,
     "podcasts": 4
   },
@@ -12,7 +12,6 @@
     "x:@AnthropicAI: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/AnthropicAI",
     "x:@rauchg: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/rauchg",
     "x:@addyosmani: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/addyosmani",
-    "x:@swyx: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/swyx",
     "x:@karpathy: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/karpathy",
     "podcast:Latent Space: HTTP 403 for https://api.substack.com/feed/podcast/1084089.rss"
   ]
