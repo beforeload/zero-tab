@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T06:58:11.197Z",
+  "generatedAt": "2026-11-01T07:30:00.850Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,22 @@
     },
     {
       "name": "Simon Willison",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "description": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p> Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called <a href=\"https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt\">HTML previews</a>), where interactive custom HTML apps are displayed in a s…",
+      "content": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p> Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called <a href=\"https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt\">HTML previews</a>), where interactive custom HTML apps are displayed in a s…",
+      "publishedAt": "2026-10-31T23:15:22.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p> <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p> <p>It now picks up the default model used by <a href=\"https://llm.datasette.io/\">LLM</a>, which means you can start using Datasette Agent withou…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p> <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p> <p>It now picks up the default model used by <a href=\"https://llm.datasette.io/\">LLM</a>, which means you can start using Datasette Agent withou…",
+      "publishedAt": "2026-10-31T22:10:01.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "dbreunig/nesformer",
       "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
       "description": "<p><strong><a href=\"https://github.com/dbreunig/nesformer\">dbreunig/nesformer</a></strong></p> Inspired by <a href=\"https://divagr.com/blog/qwenputer\">qwenputer</a> by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!</p> <p>In <a href=\"https://news.ycombinator.com/item?id=50306442#50307402\">a comment on Hacker News</a> Drew rev…",
@@ -164,22 +180,6 @@
       "description": "<blockquote cite=\"https://twitter.com/benhylak/status/2115172657910120740\"><p>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.</p> <p>except for our product, of course. </p> <p>in our product, customers love the ui and love us very much.</p> <p>we're special that way.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/benhylak/status/2115172657910120740\">Ben Hylak</a></p> <p>Tags: <a href=\"http…",
       "content": "<blockquote cite=\"https://twitter.com/benhylak/status/2115172657910120740\"><p>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.</p> <p>except for our product, of course. </p> <p>in our product, customers love the ui and love us very much.</p> <p>we're special that way.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/benhylak/status/2115172657910120740\">Ben Hylak</a></p> <p>Tags: <a href=\"http…",
       "publishedAt": "2026-10-29T14:06:27.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "description": "<blockquote cite=\"https://news.ycombinator.com/item?id=50248124#50249160\"><p>In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of…",
-      "content": "<blockquote cite=\"https://news.ycombinator.com/item?id=50248124#50249160\"><p>In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of…",
-      "publishedAt": "2026-10-28T23:23:21.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "GitHub Octoverse 2026",
-      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-      "description": "<p><strong><a href=\"https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/\">GitHub Octoverse 2026</a></strong></p> I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular:</p> <p><img alt=\"Photo of a conference keynote stage: a wide curved screen shows three line charts side by sid…",
-      "content": "<p><strong><a href=\"https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/\">GitHub Octoverse 2026</a></strong></p> I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular:</p> <p><img alt=\"Photo of a conference keynote stage: a wide curved screen shows three line charts side by sid…",
-      "publishedAt": "2026-10-28T16:45:23.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "description": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+      "content": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+      "publishedAt": "2026-10-31T16:05:00.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
       "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
       "description": "It turns out you cannot have your cake AND eat it",
@@ -268,14 +276,6 @@
       "description": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
       "content": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
       "publishedAt": "2026-10-28T19:48:05.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
-      "description": "Since coding is solved, why code for the job?",
-      "content": "Since coding is solved, why code for the job?",
-      "publishedAt": "2026-10-28T08:50:30.000Z"
     },
     {
       "name": "Cursor Blog",
