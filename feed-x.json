@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T07:39:16.898Z",
+  "generatedAt": "2026-11-03T07:53:58.804Z",
   "x": [
     {
       "name": "Guillermo Rauch",
@@ -7,69 +7,81 @@
       "tweets": [
         {
           "id": "2089179650891432270",
-          "text": "[![Image 5: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
-          "createdAt": "2026-11-02T07:39:21.800Z",
+          "text": "[![Image 6: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
+          "createdAt": "2026-11-03T07:54:04.243Z",
           "url": "https://x.com/rauchg/status/2089179650891432270"
         },
         {
-          "id": "2117039740096847920",
+          "id": "2117419661654720671",
           "text": "Posts Posts[Replies Replies](https://x.com/rauchg/with_replies)[Reposts Reposts](https://x.com/rauchg/reposts)[Media Media](https://x.com/rauchg/media)[Articles Articles](https://x.com/rauchg/articles)",
-          "createdAt": "2026-11-02T07:39:21.800Z",
-          "url": "https://x.com/rauchg/status/2117039740096847920"
+          "createdAt": "2026-11-03T07:54:04.243Z",
+          "url": "https://x.com/rauchg/status/2117419661654720671"
         },
         {
-          "id": "2117000819623243925",
-          "text": "Antonelli, 2026 F1 World Drivers' Champion. Vercel signed a partnership with [@MercedesAMGF1](https://x.com/MercedesAMGF1), but we get to watch history: [vercel.com/f1](https://t.co/7Hseh4ARGW \"https://vercel.com/f1\") [Video 2](blob:https://x.com/76db8cb3-60df-42fc-84c6-9470c65f43f2) 00:09 [36](https://x.com/compose/post?in_reply_to=2117039740096847920) 16 585 33K",
-          "createdAt": "2026-11-02T07:39:21.800Z",
-          "url": "https://x.com/rauchg/status/2117000819623243925"
+          "id": "2117394353304052210",
+          "text": "rminals on your page → List, read, type, press keys → Opt-in per terminal, read-only mode → React, Vue, Svelte + vanilla → No DOM scraping or fake key events Below: 5 fx agents launch each other across 4 browser terminals [Video 3](blob:https://x.com/5e09aff6-845f-42e8-9c0f-bc9125af6e30) 00:11 [77](https://x.com/compose/post?in_reply_to=2117419661654720671) 18 402 28K",
+          "createdAt": "2026-11-03T07:54:04.243Z",
+          "url": "https://x.com/rauchg/status/2117394353304052210"
         },
         {
-          "id": "2116988333096370443",
-          "text": "00819623243925) Own your intelligence. Anyone that opposes this has something to sell you (perhaps your own intelligence back to you.) Local models need to continue proliferating. The “absolute unit” massive models may be out of reach for now locally, so your best option is to, indeed, keep Show more [251](https://x.com/compose/post?in_reply_to=2117000819623243925) 332 2.3K 118K",
-          "createdAt": "2026-11-02T07:39:21.801Z",
-          "url": "https://x.com/rauchg/status/2116988333096370443"
+          "id": "2117338179535810957",
+          "text": "g/moni…](https://t.co/oGWlFcATL9 \"https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt\") [Video 4](blob:https://x.com/8768be14-9db3-406d-a4cd-7f42273bda3f)![Image 17](https://pbs.twimg.com/amplify_video_thumb/2117385758004932608/img/jKQVSlCutviQiRvr?format=webp&name=medium) 00:18 [14](https://x.com/compose/post?in_reply_to=2117394353304052210) 5 171 19K",
+          "createdAt": "2026-11-03T07:54:04.243Z",
+          "url": "https://x.com/rauchg/status/2117338179535810957"
         },
         {
-          "id": "2116942505333993680",
-          "text": "## Log in or sign up for X",
-          "createdAt": "2026-11-02T07:39:21.801Z",
-          "url": "https://x.com/rauchg/status/2116942505333993680"
+          "id": "2117328043228471552",
+          "text": "andboxes with Drives start 2.4x faster. • Median creation drops from 1.7s to 0.7s • p95 creation drops from 2.2s to 1.6s • No SDK upgrade or config changes needed [vercel.com/changelog/verc…](https://t.co/nuQLD0BZrp \"https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster\") [128](https://x.com/compose/post?in_reply_to=2117338179535810957) 13 239 24K",
+          "createdAt": "2026-11-03T07:54:04.244Z",
+          "url": "https://x.com/rauchg/status/2117328043228471552"
         }
       ]
     },
     {
-      "name": "Simon Willison",
-      "handle": "simonw",
+      "name": "Swyx",
+      "handle": "swyx",
       "tweets": [
         {
-          "id": "2115821668350435645",
-          "text": "[simonwillison.net](https://t.co/p4R0XiEYEc)",
-          "createdAt": "2026-11-02T07:39:22.038Z",
-          "url": "https://x.com/simonw/status/2115821668350435645"
+          "id": "1281424520100737025",
+          "text": "san francisco / singapore",
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/1281424520100737025"
         },
         {
-          "id": "2115444742595260551",
-          "text": "e How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.](https://x.com/jsnnsa/status/2115623382721126826) [202](https://x.com/compose/post?in_reply_to=2115821668350435645) 98 1.6K 195K",
-          "createdAt": "2026-11-02T07:39:22.038Z",
-          "url": "https://x.com/simonw/status/2115444742595260551"
+          "id": "2117492548780589510",
+          "text": "tatus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [399](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.8K",
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/2117492548780589510"
         },
         {
-          "id": "2115128326922883517",
-          "text": "p&name=medium) simonwillison.net The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …](https://t.co/aPsJ14RHR0) [407](https://x.com/compose/post?in_reply_to=2115444742595260551) 153 1.3K 120K",
-          "createdAt": "2026-11-02T07:39:22.038Z",
-          "url": "https://x.com/simonw/status/2115128326922883517"
+          "id": "2117341332645826945",
+          "text": "ps to two layers and edited 0.016% of Qwen’s weights. With sampling held fixed, its MATH-500 score rose from 7.9% to 48.1%. [latent.space/p/ainews-llms-…](https://t.co/2QiKGksZpj \"https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/\") [29](https://x.com/compose/post?in_reply_to=2117492548780589510) 32 3.9K",
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/2117341332645826945"
         },
         {
-          "id": "2113691493823369246",
-          "text": "to/2) ![Image 13](https://pbs.twimg.com/media/HVprAycWkAA0ny2?format=webp&name=large) [](https://x.com/benjedwards/status/2115120640906727914/photo/3) ![Image 14](https://pbs.twimg.com/media/HVprAykWgAA81dg?format=webp&name=large) [](https://x.com/benjedwards/status/2115120640906727914/photo/4) [36](https://x.com/compose/post?in_reply_to=2115128326922883517) 2 81 23K",
-          "createdAt": "2026-11-02T07:39:22.038Z",
-          "url": "https://x.com/simonw/status/2113691493823369246"
+          "id": "2117321973080760644",
+          "text": "warms, Big Research Bets, & the $40M AI Problem Solver [latent.space/p/rlm](https://t.co/4XWI5oCKAV \"https://www.latent.space/p/rlm\") MIT’s [@a1zhang](https://x.com/a1zhang) explains why Claude Code, Codex, and Pi are basically the same, how RLMs use code, context offloading, and recursive subagents to [11](https://x.com/compose/post?in_reply_to=2117341332645826945) 19 344 31K",
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/2117321973080760644"
         },
         {
-          "id": "2113633667583287786",
+          "id": "2103361254433993165",
+          "text": "are now serving 2M monthly unique engineers on aie youtube. (76% not subscribed lol. idk if it matters but pls subscribe! we need to keep up momentum to cross 1M subs roughly around [aie.codes](https://t.co/ydo8JgYDXr \"https://aie.codes\") it looks like) ![Image 18](https://pbs.twimg.com/media/HWI8lWzaEAAiBPY?format=webp&name=large) [](https://x.com/swyx/status/2117321973080760644/photo/1) [](",
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/2103361254433993165"
+        },
+        {
+          "id": "2116773135668404286",
+          "text": "3361254433993165/photo/1) In Jan this year I called my content strategy shot: \"Scaling without Slop\". It's finally starting to work. It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k. Similar other metrics on AEO/SEO/subscriber traction and have a lot of [102](https://x.com/compose/post?in_reply_to=2117321973080760644) 13 197 13K",
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/2116773135668404286"
+        },
+        {
+          "id": "2116642586387730593",
           "text": "## Log in or sign up for X",
-          "createdAt": "2026-11-02T07:39:22.038Z",
-          "url": "https://x.com/simonw/status/2113633667583287786"
+          "createdAt": "2026-11-03T07:54:10.373Z",
+          "url": "https://x.com/swyx/status/2116642586387730593"
         }
       ]
     }

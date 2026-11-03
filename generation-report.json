@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-02T07:39:16.898Z",
+  "generatedAt": "2026-11-03T07:53:58.804Z",
   "hasData": true,
   "counts": {
     "xBuilders": 2,
-    "xTweets": 10,
+    "xTweets": 12,
     "blogs": 42,
     "podcasts": 4
   },
   "errors": [
     "x:@boris_cherny: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/boris_cherny",
     "x:@AnthropicAI: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/AnthropicAI",
+    "x:@simonw: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/simonw",
     "x:@addyosmani: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/addyosmani",
-    "x:@swyx: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/swyx",
     "x:@karpathy: HTTP 429 for https://syndication.twitter.com/srv/timeline-profile/screen-name/karpathy",
     "podcast:Latent Space: HTTP 403 for https://api.substack.com/feed/podcast/1084089.rss"
   ]

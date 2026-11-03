@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T07:39:16.898Z",
+  "generatedAt": "2026-11-03T07:53:58.804Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,51 +87,83 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "description": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "content": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "publishedAt": "2026-10-30T09:30:00.000Z"
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "content": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "publishedAt": "2026-11-02T15:30:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "content": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "publishedAt": "2026-10-30T09:00:00.000Z"
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "content": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "publishedAt": "2026-11-02T15:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Fair use benefits everyone",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "content": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "publishedAt": "2026-10-30T00:00:00.000Z"
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "content": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "publishedAt": "2026-11-02T18:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "content": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "publishedAt": "2026-10-29T17:00:00.000Z"
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "content": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "publishedAt": "2026-11-02T18:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "content": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "publishedAt": "2026-10-29T09:00:00.000Z"
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "content": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "publishedAt": "2026-11-02T09:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "content": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "publishedAt": "2026-10-29T07:00:00.000Z"
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "content": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=UytYrhYLOKI\">I discovered a sound that leaks your exact location (and it's everywhere) - YouTube</a></strong></p> Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights.</p> <p>…",
+      "content": "<p><strong><a href=\"https://www.youtube.com/watch?v=UytYrhYLOKI\">I discovered a sound that leaks your exact location (and it's everywhere) - YouTube</a></strong></p> Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights.</p> <p>…",
+      "publishedAt": "2026-11-03T05:32:25.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "description": "<p>I sent out the October edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-10-october.md\">access it here</a>. This month:</p> <ul> <li>The October inflection point for vibe game development</li> <li>The vulnerability apocalypse gets hot</li> <li>LLM releases</li> <li>API credits for $100+/month subscriptions</li> <li>What I'…",
+      "content": "<p>I sent out the October edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-10-october.md\">access it here</a>. This month:</p> <ul> <li>The October inflection point for vibe game development</li> <li>The vulnerability apocalypse gets hot</li> <li>LLM releases</li> <li>API credits for $100+/month subscriptions</li> <li>What I'…",
+      "publishedAt": "2026-11-03T05:28:59.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37\">llm 0.37</a></p> <p>There's a <em>lot</em> of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.</p> <p>I added <code>gpt-6.1-sol</code> and <code>gpt-6.1-terra</code>, plus a new <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">llm openai endpoint add</a> command to make it easie…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37\">llm 0.37</a></p> <p>There's a <em>lot</em> of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.</p> <p>I added <code>gpt-6.1-sol</code> and <code>gpt-6.1-terra</code>, plus a new <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">llm openai endpoint add</a> command to make it easie…",
+      "publishedAt": "2026-11-02T23:49:30.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "description": "<p>I was reminded today of <a href=\"https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/\">AI Adoption Rate Trending Down for Large Companies</a>, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart <a href=\"https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/\">to demonstrate GPT-5 data analysis</a>, and t…",
+      "content": "<p>I was reminded today of <a href=\"https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/\">AI Adoption Rate Trending Down for Large Companies</a>, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart <a href=\"https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/\">to demonstrate GPT-5 data analysis</a>, and t…",
+      "publishedAt": "2026-11-02T13:31:26.000Z"
     },
     {
       "name": "Simon Willison",
@@ -148,38 +180,6 @@
       "description": "<blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]</p> <p>In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that w…",
       "content": "<blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]</p> <p>In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that w…",
       "publishedAt": "2026-11-01T16:49:04.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "How We Took Over ChatGPT Accounts",
-      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "description": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p> Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called <a href=\"https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt\">HTML previews</a>), where interactive custom HTML apps are displayed in a s…",
-      "content": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p> Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called <a href=\"https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt\">HTML previews</a>), where interactive custom HTML apps are displayed in a s…",
-      "publishedAt": "2026-10-31T23:15:22.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-llm 0.1a9",
-      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p> <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p> <p>It now picks up the default model used by <a href=\"https://llm.datasette.io/\">LLM</a>, which means you can start using Datasette Agent withou…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p> <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p> <p>It now picks up the default model used by <a href=\"https://llm.datasette.io/\">LLM</a>, which means you can start using Datasette Agent withou…",
-      "publishedAt": "2026-10-31T22:10:01.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "dbreunig/nesformer",
-      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "description": "<p><strong><a href=\"https://github.com/dbreunig/nesformer\">dbreunig/nesformer</a></strong></p> Inspired by <a href=\"https://divagr.com/blog/qwenputer\">qwenputer</a> by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!</p> <p>In <a href=\"https://news.ycombinator.com/item?id=50306442#50307402\">a comment on Hacker News</a> Drew rev…",
-      "content": "<p><strong><a href=\"https://github.com/dbreunig/nesformer\">dbreunig/nesformer</a></strong></p> Inspired by <a href=\"https://divagr.com/blog/qwenputer\">qwenputer</a> by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!</p> <p>In <a href=\"https://news.ycombinator.com/item?id=50306442#50307402\">a comment on Hacker News</a> Drew rev…",
-      "publishedAt": "2026-10-30T21:59:22.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "API credits benefit for eligible ChatGPT subscriptions",
-      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
-      "description": "<p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">API credits benefit for eligible ChatGPT subscriptions</a></strong></p> Earlier this month Anthropic <a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">announced a generous new benefit</a> for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic…",
-      "content": "<p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">API credits benefit for eligible ChatGPT subscriptions</a></strong></p> Earlier this month Anthropic <a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">announced a generous new benefit</a> for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic…",
-      "publishedAt": "2026-10-29T22:48:29.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,30 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "description": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+      "content": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+      "publishedAt": "2026-11-03T05:35:00.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+      "description": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+      "content": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+      "publishedAt": "2026-11-02T23:01:02.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+      "description": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+      "content": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+      "publishedAt": "2026-11-02T22:54:03.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
       "url": "https://latent.space/p/arca/",
       "description": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
@@ -252,30 +276,6 @@
       "description": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
       "content": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
       "publishedAt": "2026-10-30T08:24:29.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
-      "url": "https://latent.space/p/elorian/",
-      "description": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
-      "content": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
-      "publishedAt": "2026-10-29T16:00:00.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
-      "description": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-      "content": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-      "publishedAt": "2026-10-29T05:55:19.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Why Agents Love Supabase",
-      "url": "https://latent.space/p/supabase/",
-      "description": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-      "content": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-      "publishedAt": "2026-10-28T19:48:05.000Z"
     },
     {
       "name": "Cursor Blog",
