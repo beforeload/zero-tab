@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T07:53:58.804Z",
+  "generatedAt": "2026-11-04T07:28:31.330Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,38 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "content": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "publishedAt": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "content": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "publishedAt": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "content": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "publishedAt": "2026-11-03T08:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "description": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "content": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "publishedAt": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Scaling Git at OpenAI",
       "url": "https://openai.com/index/scaling-git-at-openai",
       "description": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
@@ -102,36 +134,12 @@
       "publishedAt": "2026-11-02T15:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "content": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "publishedAt": "2026-11-02T18:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "description": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "content": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "publishedAt": "2026-11-02T18:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "content": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "publishedAt": "2026-11-02T09:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "content": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "publishedAt": "2026-11-02T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "description": "<p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of t…",
+      "content": "<p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of t…",
+      "publishedAt": "2026-11-03T16:29:48.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p>I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is:</p> <p><strong>If in doubt, delete the uv.lock file</strong></p> <p>Most of my projects are libraries which don't include a <code>uv.lock</code> file, since it's rude for a library dependency to lock versions for anything else that uses it.</p> <p>Running <code>uv run pytest</code> etc tends to leave <code>uv.lock</code> files lying around, which are…",
       "content": "<p>I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is:</p> <p><strong>If in doubt, delete the uv.lock file</strong></p> <p>Most of my projects are libraries which don't include a <code>uv.lock</code> file, since it's rude for a library dependency to lock versions for anything else that uses it.</p> <p>Running <code>uv run pytest</code> etc tends to leave <code>uv.lock</code> files lying around, which are…",
       "publishedAt": "2026-11-01T23:24:22.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Kyle Kingsbury",
-      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-      "description": "<blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]</p> <p>In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that w…",
-      "content": "<blockquote cite=\"https://jepsen.io/analyses/particledb-1.1.4#llm-tradeoffs\"><p>More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...]</p> <p>In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that w…",
-      "publishedAt": "2026-11-01T16:49:04.000Z"
     },
     {
       "name": "Julia Evans",
