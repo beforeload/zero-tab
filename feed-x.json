@@ -1,81 +1,117 @@
 {
-  "generatedAt": "2026-11-05T07:54:04.782Z",
+  "generatedAt": "2026-11-06T07:54:18.948Z",
   "x": [
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "tweets": [
+        {
+          "id": "2089179650891432270",
+          "text": "## Guillermo Rauch’s posts",
+          "createdAt": "2026-11-06T07:54:23.476Z",
+          "url": "https://x.com/rauchg/status/2089179650891432270"
+        },
+        {
+          "id": "2118474519925158186",
+          "text": "Guillermo Rauch](https://x.com/rauchg)[![Image 6: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [Aug 17](https://x.com/rauchg/status/2089179650891432270) [▲.to](https://t.co/BaVgd3k0dc \"https://xn--c1h.to\") [345](https://x.com/compose/post?in_reply_to=2089179650891432270) 285 4.7K 2.6M",
+          "createdAt": "2026-11-06T07:54:23.476Z",
+          "url": "https://x.com/rauchg/status/2118474519925158186"
+        },
+        {
+          "id": "2118464177211940997",
+          "text": "91426304/video/1) You can now build live apps in Cursor and share them with a link. Agents have made it easier to write code, but most apps never make it off localhost. Describe the tool you want - Cursor will build it, set up a database, run deterministic and agentic security checks, and deploy. [105](https://x.com/compose/post?in_reply_to=2118474519925158186) 29 788 37K",
+          "createdAt": "2026-11-06T07:54:23.476Z",
+          "url": "https://x.com/rauchg/status/2118464177211940997"
+        },
+        {
+          "id": "2118440831355068671",
+          "text": "alhost. Describe the tool you want - Cursor will build it, set up a database, run deterministic and agentic security checks, and deploy. [Video 3](https://x.com/rauchg)![Image 17](https://pbs.twimg.com/amplify_video_thumb/2118458611320131584/img/uUJSIBl8QaDBnoAA?format=webp&name=medium) 00:00 [68](https://x.com/compose/post?in_reply_to=2118464177211940997) 55 853 44K",
+          "createdAt": "2026-11-06T07:54:23.476Z",
+          "url": "https://x.com/rauchg/status/2118440831355068671"
+        },
+        {
+          "id": "2118436510026580169",
+          "text": "public beta. Agents and applications can now schedule and manage their own work. ▪︎ Define static jobs once in code ▪︎ Create dynamic ones at runtime ▪︎ Run in any environment, including preview [vercel.com/blog/introduci…](https://t.co/yDAYTPzbi6 \"https://vercel.com/blog/introducing-vercel-schedules\") [90](https://x.com/compose/post?in_reply_to=2118440831355068671) 10 260 23K",
+          "createdAt": "2026-11-06T07:54:23.476Z",
+          "url": "https://x.com/rauchg/status/2118436510026580169"
+        }
+      ]
+    },
     {
       "name": "Simon Willison",
       "handle": "simonw",
       "tweets": [
         {
           "id": "2117655816581071203",
-          "text": "[simonwillison.net](https://t.co/p4R0XiEYEc)",
-          "createdAt": "2026-11-05T07:54:14.996Z",
+          "text": "## Simon Willison’s posts",
+          "createdAt": "2026-11-06T07:54:24.944Z",
           "url": "https://x.com/simonw/status/2117655816581071203"
         },
         {
           "id": "2117337139633607167",
-          "text": "hing [simonwillison.net Qwen 3.8 27B on my laptop can interpret model weights, too Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found …](https://t.co/6O7WltGP7K) [370](https://x.com/compose/post?in_reply_to=2117655816581071203) 537 5.3K 317K",
-          "createdAt": "2026-11-05T07:54:14.997Z",
+          "text": "hing [simonwillison.net Qwen 3.8 27B on my laptop can interpret model weights, too Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found …](https://t.co/6O7WltGP7K) [397](https://x.com/compose/post?in_reply_to=2117655816581071203) 552 5.4K 327K",
+          "createdAt": "2026-11-06T07:54:24.944Z",
           "url": "https://x.com/simonw/status/2117337139633607167"
         },
         {
           "id": "2115821668350435645",
-          "text": "064/PUkZ2NBL?format=webp&name=medium) simonwillison.net The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in …](https://t.co/YEu1tnWweT) [51](https://x.com/compose/post?in_reply_to=2117337139633607167) 17 204 51K",
-          "createdAt": "2026-11-05T07:54:14.997Z",
+          "text": "064/PUkZ2NBL?format=webp&name=medium) simonwillison.net The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in …](https://t.co/YEu1tnWweT) [53](https://x.com/compose/post?in_reply_to=2117337139633607167) 17 208 53K",
+          "createdAt": "2026-11-06T07:54:24.944Z",
           "url": "https://x.com/simonw/status/2115821668350435645"
         },
         {
           "id": "2115444742595260551",
-          "text": "How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.](https://x.com/jsnnsa/status/2115623382721126826) [208](https://x.com/compose/post?in_reply_to=2115821668350435645) 100 1.6K 200K",
-          "createdAt": "2026-11-05T07:54:14.997Z",
+          "text": "How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.](https://x.com/jsnnsa/status/2115623382721126826) [208](https://x.com/compose/post?in_reply_to=2115821668350435645) 101 1.6K 201K",
+          "createdAt": "2026-11-06T07:54:24.944Z",
           "url": "https://x.com/simonw/status/2115444742595260551"
         },
         {
           "id": "2115128326922883517",
-          "text": "p&name=medium) simonwillison.net The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …](https://t.co/aPsJ14RHR0) [412](https://x.com/compose/post?in_reply_to=2115444742595260551) 154 1.3K 123K",
-          "createdAt": "2026-11-05T07:54:14.997Z",
+          "text": "p&name=medium) simonwillison.net The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …](https://t.co/aPsJ14RHR0) [412](https://x.com/compose/post?in_reply_to=2115444742595260551) 154 1.3K 124K",
+          "createdAt": "2026-11-06T07:54:24.944Z",
           "url": "https://x.com/simonw/status/2115128326922883517"
         }
       ]
     },
     {
-      "name": "Andrej Karpathy",
-      "handle": "karpathy",
+      "name": "Swyx",
+      "handle": "swyx",
       "tweets": [
         {
-          "id": "2116957135661945283",
-          "text": "## Andrej Karpathy’s posts",
-          "createdAt": "2026-11-05T07:54:19.602Z",
-          "url": "https://x.com/karpathy/status/2116957135661945283"
+          "id": "1281424520100737025",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-11-06T07:54:30.073Z",
+          "url": "https://x.com/swyx/status/1281424520100737025"
         },
         {
-          "id": "2109361546505966046",
-          "text": "*Significantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 4](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=webp&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.2K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.4K 51K 4.9M",
-          "createdAt": "2026-11-05T07:54:19.603Z",
-          "url": "https://x.com/karpathy/status/2109361546505966046"
+          "id": "2118512013228077063",
+          "text": "tatus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [403](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.8K",
+          "createdAt": "2026-11-06T07:54:30.073Z",
+          "url": "https://x.com/swyx/status/2118512013228077063"
         },
         {
-          "id": "2042334451611693415",
-          "text": "karpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
-          "createdAt": "2026-11-05T07:54:19.603Z",
-          "url": "https://x.com/karpathy/status/2042334451611693415"
+          "id": "2118472770002792902",
+          "text": "Scoop: Sequoia forced out three US-based partners in its recent overhaul. Bogomil Balkansky, Jess Lee and Stephanie Zhan, were pushed out in recent weeks. Regarding Sequoia's Europe exit, my sources were surprised they didn't do it sooner More in story with [@cityofthetown](https://x.com/cityofthetown) [62](https://x.com/compose/post?in_reply_to=2118512013228077063) 23 886 142K",
+          "createdAt": "2026-11-06T07:54:30.073Z",
+          "url": "https://x.com/swyx/status/2118472770002792902"
         },
         {
-          "id": "2105909609487872075",
-          "text": "042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 6.9M",
-          "createdAt": "2026-11-05T07:54:19.603Z",
-          "url": "https://x.com/karpathy/status/2105909609487872075"
+          "id": "2043217991589102027",
+          "text": "orite songs from: - Tick Tick Boom - Hamilton -Show more [Video 3](https://x.com/swyx)![Image 16](https://pbs.twimg.com/amplify_video_thumb/2118471632264298496/img/-q5szK3DgPaIiDyI?format=webp&name=medium) 00:00 [Video 4](https://x.com/swyx)![Image 17](https://pbs.twimg.com/amplify_video_thumb/2118472078475292672/img/UxQjr24wQfxjyOyW?format=webp&name=medium) 00:00 [](",
+          "createdAt": "2026-11-06T07:54:30.073Z",
+          "url": "https://x.com/swyx/status/2043217991589102027"
         },
         {
-          "id": "2105819303471976479",
-          "text": "sts) [Sep 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 9](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=webp&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [724](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.5M",
-          "createdAt": "2026-11-05T07:54:19.603Z",
-          "url": "https://x.com/karpathy/status/2105819303471976479"
+          "id": "2118400768957202439",
+          "text": ".com/swyx) [Apr 12](https://x.com/swyx/status/2043217991589102027) ![Image 20](https://pbs.twimg.com/amplify_video_thumb/2043217235813318656/img/_Q3rJWh328ikEKi8?format=webp&name=medium)04:00 late night low TAM tweet: did a Broadway solo song for the first time in ~18 years! only fumbled lyrics once! [27](https://x.com/compose/post?in_reply_to=2118472770002792902) 6 97 11K",
+          "createdAt": "2026-11-06T07:54:30.073Z",
+          "url": "https://x.com/swyx/status/2118400768957202439"
         },
         {
-          "id": "2083749667410727319",
-          "text": "Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for Show more ![Image 11](https://pbs.twimg.com/media/HTlaHqgbwAAS1lv?format=webp&name=large) [](https://x.com/karpathy/status/2105819303471976479/photo/1) [1.7K](https://x.com/compose/post?in_reply_to=2105819303471976479) 8.2K 56K 8M",
-          "createdAt": "2026-11-05T07:54:19.603Z",
-          "url": "https://x.com/karpathy/status/2083749667410727319"
+          "id": "2118246851136909731",
+          "text": "g: \"Instructions likely distilled pitfalls from previous agents.\" 🤯 When we edit a task to contradict them, K3.1 refuses the new instructions and fails. Other ![Image 24](https://pbs.twimg.com/media/HWM_uhsXIAAz1sN?format=webp&name=large) [](https://x.com/JSchaeff3r/status/2117613618065793160/photo/1) [89](https://x.com/compose/post?in_reply_to=2118400768957202439) 2 61 5.5K",
+          "createdAt": "2026-11-06T07:54:30.073Z",
+          "url": "https://x.com/swyx/status/2118246851136909731"
         }
       ]
     }

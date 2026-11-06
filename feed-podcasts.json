@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-05T07:54:04.782Z",
+  "generatedAt": "2026-11-06T07:54:18.948Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
+      "url": "https://share.transistor.fm/s/1b301bdc",
+      "guid": "61100a8a-1794-45d2-9fc9-8cde63686074",
+      "transcript": "<p>How do organizations decide what AI should do, where to set boundaries, and when to keep humans in control? In this episode, Don Barger of the International Mission Board shares how establishing an AI charter helped define what the organization would and wouldn't use AI for. Mark Lay of Noblis explores four key decisions for managing AI across an organization, from delegation and accountability to technical debt. And Darren Taillie of Aerocore Technologies walks through how his team uses AI…",
+      "publishedAt": "2026-11-05T10:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Abundant Intelligence at the Midwest AI Summit",
@@ -24,14 +32,6 @@
       "guid": "509842f7-f592-432c-b01a-ad26a2ae1e31",
       "transcript": "<p>Schools and universities are failing to adapt to our modern world, in which AI is becoming increasingly pervasive in all aspects of life and work. In fact, AI may be changing what should be considered foundational knowledge that all students must learn.</p><p>In this Fully Connected episode, Daniel and Chris explore the role of AI in education and the future of learning. They note the bureaucratic inhibitors to educational reform, and the fact that classroom teachers don’t have the authority…",
       "publishedAt": "2026-10-15T13:32:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Narrative intelligence and the human advantage",
-      "url": "https://share.transistor.fm/s/f2fcb677",
-      "guid": "173f6c2b-e1b8-4de0-b7b7-4b15658d52e6",
-      "transcript": "<p>As AI reshapes how we work, create, and think about our roles, staying adaptable means understanding not just the technology, but our own stories and identities. Reed Frerichs joins Daniel and Chris to explore narrative intelligence, storytelling, leadership, and personal growth in an AI-driven world. They discuss how entrepreneurs and leaders can use AI tools to navigate changing roles, embrace uncertainty, and develop emotional intelligence along with Reed's “own, author, act” framework.</…",
-      "publishedAt": "2026-10-08T09:00:00.000Z"
     }
   ]
 }
