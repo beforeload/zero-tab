@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T07:54:18.948Z",
+  "generatedAt": "2026-11-07T07:05:49.443Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -31,15 +31,15 @@
     },
     {
       "name": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/research/how-we-contain-claude",
+      "title": "The components of agent memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
       "description": "",
       "content": ""
     },
     {
       "name": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/research/april-23-postmortem",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/research/how-we-contain-claude",
       "description": "",
       "content": ""
     },
@@ -87,6 +87,22 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "content": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "publishedAt": "2026-11-06T08:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "content": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "publishedAt": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Australian universities are creating AI-native graduates",
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
@@ -118,20 +134,12 @@
       "publishedAt": "2026-11-05T08:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "content": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "publishedAt": "2026-11-05T02:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "url": "https://openai.com/ads/customers/flipsnack",
-      "description": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "content": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "publishedAt": "2026-11-05T00:45:15.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "description": "<blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p> <p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p> <p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spend…",
+      "content": "<blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p> <p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p> <p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spend…",
+      "publishedAt": "2026-11-06T17:13:12.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.1\">llm 0.37.1</a></p> <p>A bugfix release for <a href=\"https://llm.datasette.io/\">LLM</a>, with contributions from <a href=\"https://github.com/remote-controlled-man\">Steven Huang</a>, <a href=\"https://github.com/tao-hpu\">Tao An</a>, <a href=\"https://github.com/ar-jan\">Arjan Mossel</a>, and <a href=\"https://github.com/XXXXXQ-0206\">XQ</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.1\">llm 0.37.1</a></p> <p>A bugfix release for <a href=\"https://llm.datasette.io/\">LLM</a>, with contributions from <a href=\"https://github.com/remote-controlled-man\">Steven Huang</a>, <a href=\"https://github.com/tao-hpu\">Tao An</a>, <a href=\"https://github.com/ar-jan\">Arjan Mossel</a>, and <a href=\"https://github.com/XXXXXQ-0206\">XQ</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
       "publishedAt": "2026-11-03T21:41:42.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "description": "<p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of t…",
-      "content": "<p>Yesterday's hot paper was <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\">Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights</a> by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of t…",
-      "publishedAt": "2026-11-03T16:29:48.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,30 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "description": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+      "content": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+      "publishedAt": "2026-11-07T03:04:53.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "description": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+      "content": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+      "publishedAt": "2026-11-06T15:10:53.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "description": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+      "content": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+      "publishedAt": "2026-11-06T10:35:21.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] It's Swapping Season",
       "url": "https://latent.space/p/ainews-it-s-swapping-season/",
       "description": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
@@ -252,30 +276,6 @@
       "description": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
       "content": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
       "publishedAt": "2026-11-03T05:35:00.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
-      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
-      "description": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
-      "content": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
-      "publishedAt": "2026-11-02T23:01:02.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
-      "description": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
-      "content": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
-      "publishedAt": "2026-11-02T22:54:03.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
-      "url": "https://latent.space/p/arca/",
-      "description": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
-      "content": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
-      "publishedAt": "2026-10-31T16:05:00.000Z"
     },
     {
       "name": "Cursor Blog",
