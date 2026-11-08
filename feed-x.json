@@ -1,36 +1,6 @@
 {
-  "generatedAt": "2026-11-07T07:05:49.443Z",
+  "generatedAt": "2026-11-08T07:17:24.709Z",
   "x": [
-    {
-      "name": "Guillermo Rauch",
-      "handle": "rauchg",
-      "tweets": [
-        {
-          "id": "2089179650891432270",
-          "text": "## Guillermo Rauch’s posts",
-          "createdAt": "2026-11-07T07:05:53.841Z",
-          "url": "https://x.com/rauchg/status/2089179650891432270"
-        },
-        {
-          "id": "2118928276118986991",
-          "text": "Guillermo Rauch](https://x.com/rauchg)[![Image 6: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [Aug 17](https://x.com/rauchg/status/2089179650891432270) [▲.to](https://t.co/BaVgd3k0dc \"https://xn--c1h.to\") [344](https://x.com/compose/post?in_reply_to=2089179650891432270) 285 4.7K 2.6M",
-          "createdAt": "2026-11-07T07:05:53.841Z",
-          "url": "https://x.com/rauchg/status/2118928276118986991"
-        },
-        {
-          "id": "2118856239719608353",
-          "text": "g) [Guillermo Rauch](https://x.com/rauchg)[![Image 10: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [2h](https://x.com/rauchg/status/2118916001152803057) Somewhere, something incredible is waiting to be known [44](https://x.com/compose/post?in_reply_to=2118916001152803057) 21 356 13K",
-          "createdAt": "2026-11-07T07:05:53.841Z",
-          "url": "https://x.com/rauchg/status/2118856239719608353"
-        },
-        {
-          "id": "2118777039226642547",
-          "text": "ion (HAI) paradigm: [vercel.com/changelog/json…](https://t.co/MHxtLyoy7t \"https://vercel.com/changelog/json-render-and-chat-sdk-agents\") [Video 2](https://x.com/rauchg)![Image 13](https://pbs.twimg.com/amplify_video_thumb/2118855022205394944/img/n1xesw87UlaiDiUo?format=webp&name=medium) 00:00 [132](https://x.com/compose/post?in_reply_to=2118856239719608353) 77 1.1K 62K",
-          "createdAt": "2026-11-07T07:05:53.841Z",
-          "url": "https://x.com/rauchg/status/2118777039226642547"
-        }
-      ]
-    },
     {
       "name": "Simon Willison",
       "handle": "simonw",
@@ -38,32 +8,68 @@
         {
           "id": "2117655816581071203",
           "text": "[simonwillison.net](https://t.co/p4R0XiEYEc)",
-          "createdAt": "2026-11-07T07:05:54.305Z",
+          "createdAt": "2026-11-08T07:17:31.784Z",
           "url": "https://x.com/simonw/status/2117655816581071203"
         },
         {
           "id": "2117337139633607167",
-          "text": "hing [simonwillison.net Qwen 3.8 27B on my laptop can interpret model weights, too Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found …](https://t.co/6O7WltGP7K) [410](https://x.com/compose/post?in_reply_to=2117655816581071203) 553 5.4K 331K",
-          "createdAt": "2026-11-07T07:05:54.305Z",
+          "text": "hing [simonwillison.net Qwen 3.8 27B on my laptop can interpret model weights, too Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found …](https://t.co/6O7WltGP7K) [411](https://x.com/compose/post?in_reply_to=2117655816581071203) 553 5.4K 334K",
+          "createdAt": "2026-11-08T07:17:31.784Z",
           "url": "https://x.com/simonw/status/2117337139633607167"
         },
         {
           "id": "2115821668350435645",
-          "text": "064/PUkZ2NBL?format=webp&name=medium) simonwillison.net The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in …](https://t.co/YEu1tnWweT) [53](https://x.com/compose/post?in_reply_to=2117337139633607167) 18 214 54K",
-          "createdAt": "2026-11-07T07:05:54.305Z",
+          "text": "064/PUkZ2NBL?format=webp&name=medium) simonwillison.net The U.S. Census Bureau and “Super Intelligence” I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in …](https://t.co/YEu1tnWweT) [53](https://x.com/compose/post?in_reply_to=2117337139633607167) 18 215 56K",
+          "createdAt": "2026-11-08T07:17:31.785Z",
           "url": "https://x.com/simonw/status/2115821668350435645"
         },
         {
           "id": "2115444742595260551",
-          "text": "How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.](https://x.com/jsnnsa/status/2115623382721126826) [208](https://x.com/compose/post?in_reply_to=2115821668350435645) 101 1.6K 202K",
-          "createdAt": "2026-11-07T07:05:54.305Z",
+          "text": "How I Built the Most AI-Pilled Company in the World Spawn is ten people. We spend 30x payroll on AI tokens and ship almost as much as Anthropic. In the last 30 days, Spawn shipped 77,000 substantial changes. That's about 108 an hour, around the clock.](https://x.com/jsnnsa/status/2115623382721126826) [207](https://x.com/compose/post?in_reply_to=2115821668350435645) 102 1.6K 203K",
+          "createdAt": "2026-11-08T07:17:31.785Z",
           "url": "https://x.com/simonw/status/2115444742595260551"
         },
         {
           "id": "2115128326922883517",
-          "text": "p&name=medium) simonwillison.net The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …](https://t.co/aPsJ14RHR0) [414](https://x.com/compose/post?in_reply_to=2115444742595260551) 154 1.3K 124K",
-          "createdAt": "2026-11-07T07:05:54.305Z",
+          "text": "p&name=medium) simonwillison.net The October inflection point for vibe game development I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents …](https://t.co/aPsJ14RHR0) [414](https://x.com/compose/post?in_reply_to=2115444742595260551) 154 1.3K 125K",
+          "createdAt": "2026-11-08T07:17:31.785Z",
           "url": "https://x.com/simonw/status/2115128326922883517"
+        }
+      ]
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "tweets": [
+        {
+          "id": "1281424520100737025",
+          "text": "## swyx 🔜 aie.codes’s posts",
+          "createdAt": "2026-11-08T07:17:33.721Z",
+          "url": "https://x.com/swyx/status/1281424520100737025"
+        },
+        {
+          "id": "2119242830707311005",
+          "text": "tatus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [409](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.8K",
+          "createdAt": "2026-11-08T07:17:33.722Z",
+          "url": "https://x.com/swyx/status/2119242830707311005"
+        },
+        {
+          "id": "2119210582654210255",
+          "text": "00/25voc1vQ_normal.jpg)](https://x.com/aiDotEngineer) [@swyx](https://x.com/swyx) [5h](https://x.com/swyx/status/2119242830707311005) sticker game inspired by [@dexhorthy](https://x.com/dexhorthy)[@CompleteSkeptic](https://x.com/CompleteSkeptic) et al ![Image 13](https://pbs.twimg.com/media/HWkQH55bsAArkQc?format=webp&name=large) [](https://x.com/swyx/status/2119242830707311005/photo/1) [](",
+          "createdAt": "2026-11-08T07:17:33.722Z",
+          "url": "https://x.com/swyx/status/2119210582654210255"
+        },
+        {
+          "id": "2119164641301696891",
+          "text": "poteto), Principal Engineer @ SpaceX [@steve_yegge](https://x.com/steve_yegge), Engineer, Writer, Advisor [@zachbruggeman](https://x.com/zachbruggeman), Principal Software Engineer @ Ramp Nov 10-12, SF. Come hang out with us. Apply at [ai.engineer/code](https://t.co/N46r5deFR1 \"https://ai.engineer/code\") [18](https://x.com/compose/post?in_reply_to=2119210582654210255) 4 93 12K",
+          "createdAt": "2026-11-08T07:17:33.722Z",
+          "url": "https://x.com/swyx/status/2119164641301696891"
+        },
+        {
+          "id": "2119140818690974203",
+          "text": "anoJacko](https://x.com/CapitanoJacko) [16h](https://x.com/CapitanoJacko/status/2119080872377004404) Replying to [@buccocapital](https://x.com/buccocapital) ![Image 25](https://pbs.twimg.com/media/HWh80EWbYAA_PPH?format=webp&name=large) [](https://x.com/CapitanoJacko/status/2119080872377004404/photo/1) [8](https://x.com/compose/post?in_reply_to=2119164641301696891) 155 8.8K",
+          "createdAt": "2026-11-08T07:17:33.722Z",
+          "url": "https://x.com/swyx/status/2119140818690974203"
         }
       ]
     },
@@ -72,40 +78,40 @@
       "handle": "karpathy",
       "tweets": [
         {
-          "id": "2116957135661945283",
+          "id": "2119114537442189652",
           "text": "## Andrej Karpathy’s posts",
-          "createdAt": "2026-11-07T07:05:58.885Z",
+          "createdAt": "2026-11-08T07:17:34.534Z",
+          "url": "https://x.com/karpathy/status/2119114537442189652"
+        },
+        {
+          "id": "2116957135661945283",
+          "text": "ished his top YouTube channels: [thume.ca/2026/11/01/you…](https://t.co/NZ3UCNo6cT \"https://thume.ca/2026/11/01/youtube-tier-list-2026/\") Which looked excellent so clearly I had to turn it into TristanTube: [karpathy.ai/tristan-tube/](https://t.co/l0KyW1WdNH \"https://karpathy.ai/tristan-tube/\") 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) [](",
+          "createdAt": "2026-11-08T07:17:34.534Z",
           "url": "https://x.com/karpathy/status/2116957135661945283"
         },
         {
           "id": "2109361546505966046",
-          "text": ". *Significantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 4](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=webp&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.3K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.4K 51K 5M",
-          "createdAt": "2026-11-07T07:05:58.885Z",
+          "text": "*Significantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 7](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=webp&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.3K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.5K 51K 5.4M",
+          "createdAt": "2026-11-08T07:17:34.534Z",
           "url": "https://x.com/karpathy/status/2109361546505966046"
         },
         {
           "id": "2042334451611693415",
           "text": "karpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
-          "createdAt": "2026-11-07T07:05:58.885Z",
+          "createdAt": "2026-11-08T07:17:34.534Z",
           "url": "https://x.com/karpathy/status/2042334451611693415"
         },
         {
           "id": "2105909609487872075",
           "text": "042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 6.9M",
-          "createdAt": "2026-11-07T07:05:58.885Z",
+          "createdAt": "2026-11-08T07:17:34.534Z",
           "url": "https://x.com/karpathy/status/2105909609487872075"
         },
         {
           "id": "2105819303471976479",
-          "text": "sts) [Sep 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 9](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=webp&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [724](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.5M",
-          "createdAt": "2026-11-07T07:05:58.885Z",
+          "text": "ts) [Sep 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 12](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=webp&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [724](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.5M",
+          "createdAt": "2026-11-08T07:17:34.534Z",
           "url": "https://x.com/karpathy/status/2105819303471976479"
-        },
-        {
-          "id": "2083749667410727319",
-          "text": "mething I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for Show more ![Image 11](https://pbs.twimg.com/media/HTlaHqgbwAAS1lv?format=webp&name=large) [](https://x.com/karpathy/status/2105819303471976479/photo/1) [1.7K](https://x.com/compose/post?in_reply_to=2105819303471976479) 8.2K 56K 8.1M",
-          "createdAt": "2026-11-07T07:05:58.886Z",
-          "url": "https://x.com/karpathy/status/2083749667410727319"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:05:49.443Z",
+  "generatedAt": "2026-11-08T07:17:24.709Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,14 @@
     },
     {
       "name": "Simon Willison",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "description": "<p><strong><a href=\"https://github.com/simonw/datasette/issues/3046\">datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages</a></strong></p> I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Prefetch\">HTTP prefetch</a> to the next page of rows in that table.</p> <p>This was happening because Datasette pages serve an HTTP <code>link</code…",
+      "content": "<p><strong><a href=\"https://github.com/simonw/datasette/issues/3046\">datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages</a></strong></p> I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Prefetch\">HTTP prefetch</a> to the next page of rows in that table.</p> <p>This was happening because Datasette pages serve an HTTP <code>link</code…",
+      "publishedAt": "2026-11-07T23:57:46.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quoting Nilay Patel",
       "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
       "description": "<blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p> <p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p> <p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spend…",
@@ -172,14 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.5a0\">datasette-agent 0.5a0</a></p> <p>This is a significant release of <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. The most notable new feature is called the <strong>panel</strong> - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.</p> <p>When combined with <a href=\"https://github.com/datasette/datasette-apps\">datasette-apps</a…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.5a0\">datasette-agent 0.5a0</a></p> <p>This is a significant release of <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. The most notable new feature is called the <strong>panel</strong> - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.</p> <p>When combined with <a href=\"https://github.com/datasette/datasette-apps\">datasette-apps</a…",
       "publishedAt": "2026-11-03T23:13:45.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm 0.37.1",
-      "url": "https://simonwillison.net/2026/Nov/3/llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.1\">llm 0.37.1</a></p> <p>A bugfix release for <a href=\"https://llm.datasette.io/\">LLM</a>, with contributions from <a href=\"https://github.com/remote-controlled-man\">Steven Huang</a>, <a href=\"https://github.com/tao-hpu\">Tao An</a>, <a href=\"https://github.com/ar-jan\">Arjan Mossel</a>, and <a href=\"https://github.com/XXXXXQ-0206\">XQ</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.1\">llm 0.37.1</a></p> <p>A bugfix release for <a href=\"https://llm.datasette.io/\">LLM</a>, with contributions from <a href=\"https://github.com/remote-controlled-man\">Steven Huang</a>, <a href=\"https://github.com/tao-hpu\">Tao An</a>, <a href=\"https://github.com/ar-jan\">Arjan Mossel</a>, and <a href=\"https://github.com/XXXXXQ-0206\">XQ</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-      "publishedAt": "2026-11-03T21:41:42.000Z"
     },
     {
       "name": "Julia Evans",
