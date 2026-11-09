@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T07:17:24.709Z",
+  "generatedAt": "2026-11-09T07:55:38.370Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,30 @@
     },
     {
       "name": "Simon Willison",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "description": "<p><a href=\"https://news.ycombinator.com/item?id=50416456#50421091\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50416456\">The Web Is More Than Enough, by Paul Ford</a> &mdash; Hacker News.</p><p>OK, this comment convinced me to give that a shot.</p> <p>Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: <a href=\"https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-threejs.html\">https://static.simonwillison.net/static/2026/Hidden-Reef-Egg…",
+      "content": "<p><a href=\"https://news.ycombinator.com/item?id=50416456#50421091\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50416456\">The Web Is More Than Enough, by Paul Ford</a> &mdash; Hacker News.</p><p>OK, this comment convinced me to give that a shot.</p> <p>Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: <a href=\"https://static.simonwillison.net/static/2026/Hidden-Reef-Egg-threejs.html\">https://static.simonwillison.net/static/2026/Hidden-Reef-Egg…",
+      "publishedAt": "2026-11-09T04:32:33.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "description": "<p>Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.</p> <h4 id=\"they-re-too-good-at-describing-the-work\">They're too good at describing the work</h4> <p>The problem is that they are <em>too</em> good. An…",
+      "content": "<p>Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.</p> <h4 id=\"they-re-too-good-at-describing-the-work\">They're too good at describing the work</h4> <p>The problem is that they are <em>too</em> good. An…",
+      "publishedAt": "2026-11-09T04:25:05.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "description": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/sqlite-parse-number-c-vs-rust#readme\">parse_number() as a SQLite extension: C vs Rust</a></p> <p>I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a <code>parse_number()</code> function for turning strings like <code>-$1,234.56</code> or <code>'12.5%'</code> into numeric values that could be summed and sorted.</p> <p>I fired up regular Claud…",
+      "content": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/sqlite-parse-number-c-vs-rust#readme\">parse_number() as a SQLite extension: C vs Rust</a></p> <p>I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a <code>parse_number()</code> function for turning strings like <code>-$1,234.56</code> or <code>'12.5%'</code> into numeric values that could be summed and sorted.</p> <p>I fired up regular Claud…",
+      "publishedAt": "2026-11-08T22:26:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
       "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
       "description": "<p><strong><a href=\"https://github.com/simonw/datasette/issues/3046\">datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages</a></strong></p> I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Prefetch\">HTTP prefetch</a> to the next page of rows in that table.</p> <p>This was happening because Datasette pages serve an HTTP <code>link</code…",
@@ -143,43 +167,19 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Terry Pratchett's Study",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+      "description": "<p><a href=\"https://news.ycombinator.com/item?id=50405674#50407316\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50405674\">Terry Pratchett's Study</a> &mdash; Hacker News.</p><p>Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: <a href=\"https://chibuikeani.blogspot.com/2017/02/the-p…",
+      "content": "<p><a href=\"https://news.ycombinator.com/item?id=50405674#50407316\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50405674\">Terry Pratchett's Study</a> &mdash; Hacker News.</p><p>Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: <a href=\"https://chibuikeani.blogspot.com/2017/02/the-p…",
+      "publishedAt": "2026-11-07T19:34:24.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quoting Nilay Patel",
       "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
       "description": "<blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p> <p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p> <p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spend…",
       "content": "<blockquote cite=\"https://www.youtube.com/watch?v=-U4thshDTL8&amp;t=422s\"><p>The products aren't good enough to sell people on the costs.</p> <p>You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.</p> <p>It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spend…",
       "publishedAt": "2026-11-06T17:13:12.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Paul Ford",
-      "url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
-      "description": "<blockquote cite=\"https://ftrain.com/aboard-the-web-is-more-than-enough\"><p>The web browser is very, very, very powerful software for applications, <em>and the cost of accessing that power is going down seemingly every day</em>.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://ftrain.com/aboard-the-web-is-more-than-enough\">Paul Ford</a>, The Web Is More Than Enough</p> <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/paul-…",
-      "content": "<blockquote cite=\"https://ftrain.com/aboard-the-web-is-more-than-enough\"><p>The web browser is very, very, very powerful software for applications, <em>and the cost of accessing that power is going down seemingly every day</em>.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://ftrain.com/aboard-the-web-is-more-than-enough\">Paul Ford</a>, The Web Is More Than Enough</p> <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/paul-…",
-      "publishedAt": "2026-11-05T17:34:03.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-llm 0.1a10",
-      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a10\">datasette-llm 0.1a10</a></p> <p>Fixes a <a href=\"https://github.com/datasette/datasette-llm/pull/11\">bug</a> that affected my <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a10\">datasette-llm 0.1a10</a></p> <p>Fixes a <a href=\"https://github.com/datasette/datasette-llm/pull/11\">bug</a> that affected my <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://…",
-      "publishedAt": "2026-11-04T15:26:02.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-apps 0.3a0",
-      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.3a0\">datasette-apps 0.3a0</a></p> <p>Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.</p> <p>These can be created by hand, but it's easier to create them using LLMs via <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. This release improves that integration:</p> <blockquote> <ul> <li>Apps can now be tagged in Datasette Agent chat messages by…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.3a0\">datasette-apps 0.3a0</a></p> <p>Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.</p> <p>These can be created by hand, but it's easier to create them using LLMs via <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. This release improves that integration:</p> <blockquote> <ul> <li>Apps can now be tagged in Datasette Agent chat messages by…",
-      "publishedAt": "2026-11-04T00:29:36.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-agent 0.5a0",
-      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.5a0\">datasette-agent 0.5a0</a></p> <p>This is a significant release of <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. The most notable new feature is called the <strong>panel</strong> - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.</p> <p>When combined with <a href=\"https://github.com/datasette/datasette-apps\">datasette-apps</a…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.5a0\">datasette-agent 0.5a0</a></p> <p>This is a significant release of <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. The most notable new feature is called the <strong>panel</strong> - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.</p> <p>When combined with <a href=\"https://github.com/datasette/datasette-apps\">datasette-apps</a…",
-      "publishedAt": "2026-11-03T23:13:45.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/cs146s/",
+      "description": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "content": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "publishedAt": "2026-11-08T21:41:44.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "description": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+      "content": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+      "publishedAt": "2026-11-08T21:23:29.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Anthropic IPO: Whither Now?",
       "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
       "description": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
@@ -260,22 +276,6 @@
       "description": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
       "content": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
       "publishedAt": "2026-11-05T06:24:09.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
-      "description": "November 3, 2026 — A quiet day lets us share some behind the senes.",
-      "content": "November 3, 2026 — A quiet day lets us share some behind the senes.",
-      "publishedAt": "2026-11-04T19:17:30.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
-      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
-      "description": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
-      "content": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
-      "publishedAt": "2026-11-03T05:35:00.000Z"
     },
     {
       "name": "Cursor Blog",
