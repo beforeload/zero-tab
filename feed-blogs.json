@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T08:17:51.180Z",
+  "generatedAt": "2026-11-13T07:54:10.989Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,38 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "content": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "publishedAt": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "content": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "publishedAt": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "content": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "publishedAt": "2026-11-12T09:30:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "content": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "publishedAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
@@ -102,36 +134,12 @@
       "publishedAt": "2026-11-11T08:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "description": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "content": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "publishedAt": "2026-11-11T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "content": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "publishedAt": "2026-11-10T12:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "content": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "publishedAt": "2026-11-10T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "content": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "publishedAt": "2026-11-10T09:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.37\">llm-gemini 0.37</a></p> <p>Google launched <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p> <p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing s…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.37\">llm-gemini 0.37</a></p> <p>Google launched <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p> <p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing s…",
+      "publishedAt": "2026-11-12T22:55:19.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p><strong><a href=\"https://ipo.anthropic.com/us/#roadshow-video\">Anthropic's IPO roadshow video</a></strong></p> Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.</p> <p>The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs.</p> <p>I'm not sure why th…",
       "content": "<p><strong><a href=\"https://ipo.anthropic.com/us/#roadshow-video\">Anthropic's IPO roadshow video</a></strong></p> Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.</p> <p>The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs.</p> <p>I'm not sure why th…",
       "publishedAt": "2026-11-11T15:11:59.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.36\">llm-gemini 0.36</a></p> <p>Gemini 4 Carbon was announced <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">two weeks ago</a> for \"a subset of cyber defenders\", but today it's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">available to everyone else</a>.</p> <p>This is Google's…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.36\">llm-gemini 0.36</a></p> <p>Gemini 4 Carbon was announced <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">two weeks ago</a> for \"a subset of cyber defenders\", but today it's <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">available to everyone else</a>.</p> <p>This is Google's…",
-      "publishedAt": "2026-11-10T20:09:44.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "description": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+      "content": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+      "publishedAt": "2026-11-13T04:17:25.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] D-Day (Decision Models Day)",
       "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
       "description": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
@@ -268,14 +276,6 @@
       "description": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
       "content": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
       "publishedAt": "2026-11-10T20:05:17.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
-      "url": "https://latent.space/p/naiveai/",
-      "description": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
-      "content": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
-      "publishedAt": "2026-11-10T18:56:32.000Z"
     },
     {
       "name": "Cursor Blog",
