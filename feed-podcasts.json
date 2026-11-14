@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-13T07:54:10.989Z",
+  "generatedAt": "2026-11-14T07:35:22.544Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Implementing Federated Learning to enhance Agentic AI",
+      "url": "https://share.transistor.fm/s/58a69653",
+      "guid": "831710d1-ed18-46f7-b479-539ba9a751d3",
+      "transcript": "<p>How can AI models learn from private data without compromising privacy? Chris is joined by Lorenzo Sani, Research Scientist at Flower Labs and PhD researcher at Cambridge, to explore federated learning and privacy-preserving AI. They discuss how collaborative learning can expand access to private data for LLM training, how model trajectories can help improve agentic AI systems, and the benefits of open-weight models. The conversation also explores real-world applications of locally hosted AI…",
+      "publishedAt": "2026-11-13T17:59:46.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
@@ -24,14 +32,6 @@
       "guid": "09810723-2d12-4151-b100-7944f5eaf813",
       "transcript": "<p>AI is changing cybersecurity, accelerating vulnerability research and exploit development while raising new questions about reliability, risk, and guardrails. Daniel and Chris talk with Spencer McIntyre, Director of Exploit Development at VulnCheck, about how agents are being used to discover vulnerabilities, why many proof-of-concept exploits (POCs) fail to deliver, and how initial access intelligence helps security teams prioritize real threats. They also explore the limitations of AI-assi…",
       "publishedAt": "2026-10-22T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Is Education Failing our Students in this AI-Driven World?",
-      "url": "https://share.transistor.fm/s/4f81adfa",
-      "guid": "509842f7-f592-432c-b01a-ad26a2ae1e31",
-      "transcript": "<p>Schools and universities are failing to adapt to our modern world, in which AI is becoming increasingly pervasive in all aspects of life and work. In fact, AI may be changing what should be considered foundational knowledge that all students must learn.</p><p>In this Fully Connected episode, Daniel and Chris explore the role of AI in education and the future of learning. They note the bureaucratic inhibitors to educational reform, and the fact that classroom teachers don’t have the authority…",
-      "publishedAt": "2026-10-15T13:32:00.000Z"
     }
   ]
 }
