@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T07:49:27.411Z",
+  "generatedAt": "2026-11-16T07:57:10.595Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,22 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "content": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "publishedAt": "2026-11-15T22:00:01.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "content": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "publishedAt": "2026-11-15T22:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
@@ -118,20 +134,44 @@
       "publishedAt": "2026-11-12T12:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "content": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "publishedAt": "2026-11-12T09:30:00.000Z"
+      "name": "Simon Willison",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0\">datasette-maplibre 0.1a0</a></p> <p>The first new Datasette geospatial plugin in quite a while! This one combines the excellent <a href=\"https://maplibre.org/maplibre-gl-js/docs/\">MapLibre GL</a> library with <a href=\"https://openfreemap.org\">OpenFreeMap</a>, the free vector map server operated by Zsolt Ero (you should <a href=\"https://github.com/sponsors/hyperknot\">sponsor Zsolt on GitHub<…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0\">datasette-maplibre 0.1a0</a></p> <p>The first new Datasette geospatial plugin in quite a while! This one combines the excellent <a href=\"https://maplibre.org/maplibre-gl-js/docs/\">MapLibre GL</a> library with <a href=\"https://openfreemap.org\">OpenFreeMap</a>, the free vector map server operated by Zsolt Ero (you should <a href=\"https://github.com/sponsors/hyperknot\">sponsor Zsolt on GitHub<…",
+      "publishedAt": "2026-11-15T23:58:36.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "content": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "publishedAt": "2026-11-12T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a43\">datasette 1.0a43</a></p> <p>I've been leaning hard into Claude Fable 5.2 to help knock things off the <a href=\"https://github.com/simonw/datasette/milestone/37\">1.0 milestone</a>, which is now 53% complete.</p> <p>The biggest 1.0 item in this release is <a href=\"https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-register-output-renderer-streaming\">streaming support for output renderers</a> -…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a43\">datasette 1.0a43</a></p> <p>I've been leaning hard into Claude Fable 5.2 to help knock things off the <a href=\"https://github.com/simonw/datasette/milestone/37\">1.0 milestone</a>, which is now 53% complete.</p> <p>The biggest 1.0 item in this release is <a href=\"https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-register-output-renderer-streaming\">streaming support for output renderers</a> -…",
+      "publishedAt": "2026-11-15T23:20:27.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.6\">datasette 0.65.6</a></p> <p>I backported a minor security fix from 1.0a43:</p> <blockquote> <p>Fixed a security issue where a database registered using <code>add_database(db, name=..., route=...)</code> with a route that differs from its name could be downloaded from <code>/<route>.db</code> by actors who were denied access to it. [...]</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tag…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.6\">datasette 0.65.6</a></p> <p>I backported a minor security fix from 1.0a43:</p> <blockquote> <p>Fixed a security issue where a database registered using <code>add_database(db, name=..., route=...)</code> with a route that differs from its name could be downloaded from <code>/<route>.db</code> by actors who were denied access to it. [...]</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tag…",
+      "publishedAt": "2026-11-15T23:18:17.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette A…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette A…",
+      "publishedAt": "2026-11-15T04:02:45.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p> <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p> <p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p> <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p> <p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an…",
+      "publishedAt": "2026-11-15T03:49:47.000Z"
     },
     {
       "name": "Simon Willison",
@@ -140,46 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local mo…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local mo…",
       "publishedAt": "2026-11-14T23:59:28.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-vega 0.7",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-vega/releases/tag/0.7\">datasette-vega 0.7</a></p> <p>A new release of Datasette's longest untouched plugin, for rendering charts (using <a href=\"https://vega.github.io/vega-lite/\">Vega-Lite</a>) against data in a table or custom query. The last release was in July 2018!</p> <p>I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with <a href=\"https://lite…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-vega/releases/tag/0.7\">datasette-vega 0.7</a></p> <p>A new release of Datasette's longest untouched plugin, for rendering charts (using <a href=\"https://vega.github.io/vega-lite/\">Vega-Lite</a>) against data in a table or custom query. The last release was in July 2018!</p> <p>I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with <a href=\"https://lite…",
-      "publishedAt": "2026-11-14T17:09:09.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-cluster-map 0.19",
-      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-cluster-map/releases/tag/0.19\">datasette-cluster-map 0.19</a></p> <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href=\"https://simonwillison.net/2026/Nov/13/datasette-leaflet/\">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p> <p>Here's <a href=\"https://datasette.io/global-power-plants/global-p…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-cluster-map/releases/tag/0.19\">datasette-cluster-map 0.19</a></p> <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href=\"https://simonwillison.net/2026/Nov/13/datasette-leaflet/\">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p> <p>Here's <a href=\"https://datasette.io/global-power-plants/global-p…",
-      "publishedAt": "2026-11-13T23:02:45.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-leaflet 0.3",
-      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-leaflet/releases/tag/0.3\">datasette-leaflet 0.3</a></p> <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href=\"https://wiki.openstreetmap.org/wiki/Referer\">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p> <p><code>datasette-leaflet</…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-leaflet/releases/tag/0.3\">datasette-leaflet 0.3</a></p> <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href=\"https://wiki.openstreetmap.org/wiki/Referer\">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p> <p><code>datasette-leaflet</…",
-      "publishedAt": "2026-11-13T22:30:54.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "llm-gemini 0.37",
-      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.37\">llm-gemini 0.37</a></p> <p>Google launched <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p> <p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing s…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.37\">llm-gemini 0.37</a></p> <p>Google launched <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p> <p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing s…",
-      "publishedAt": "2026-11-12T22:55:19.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Gemini Decisions API",
-      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-      "description": "<p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Gemini Decisions API</a></strong></p> Google join <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">Jev</a> and <a href=\"https://simonwillison.net/2026/Oct/6/llm-openai-decisions/\">OpenAI</a> in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even…",
-      "content": "<p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Gemini Decisions API</a></strong></p> Google join <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">Jev</a> and <a href=\"https://simonwillison.net/2026/Oct/6/llm-openai-decisions/\">OpenAI</a> in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even…",
-      "publishedAt": "2026-11-11T22:03:25.000Z"
     },
     {
       "name": "Julia Evans",

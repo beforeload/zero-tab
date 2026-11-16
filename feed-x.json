@@ -1,87 +1,75 @@
 {
-  "generatedAt": "2026-11-15T07:49:27.411Z",
+  "generatedAt": "2026-11-16T07:57:10.595Z",
   "x": [
+    {
+      "name": "Anthropic",
+      "handle": "AnthropicAI",
+      "tweets": [
+        {
+          "id": "2121317227618340990",
+          "text": "## Anthropic’s posts",
+          "createdAt": "2026-11-16T07:57:15.038Z",
+          "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+        },
+        {
+          "id": "2121272083863011714",
+          "text": "d an upright blue square overlap imperfectly, leaving their edges exposed; on the right, the two align exactly.](https://pbs.twimg.com/card_img/2121304601446035456/TPD7kPFo?format=webp&name=medium) Building strong safety evaluations](https://t.co/MtSQmqqi2D)[From anthropic.com](https://t.co/MtSQmqqi2D) [502](https://x.com/compose/post?in_reply_to=2121317227618340990) 339 2.2K 259K",
+          "createdAt": "2026-11-16T07:57:15.038Z",
+          "url": "https://x.com/AnthropicAI/status/2121272083863011714"
+        },
+        {
+          "id": "2120841731302154708",
+          "text": "dei](https://x.com/DarioAmodei). [youtube.com/live/YHEaEpeY3…](https://t.co/0L1FwTtEgD \"https://www.youtube.com/live/YHEaEpeY3ew\") Legal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before Show more [271](https://x.com/compose/post?in_reply_to=2121272083863011714) 252 2.2K 407K",
+          "createdAt": "2026-11-16T07:57:15.038Z",
+          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+        },
+        {
+          "id": "2120117722230968385",
+          "text": "ation Show more [![Image 7: Three engraved trees side by side, on graph paper, yellow paper and gray paper](https://pbs.twimg.com/card_img/2120177645845463040/_YDiOLh5?format=webp&name=medium) Anthropic’s Initial Public Offering](https://t.co/wPZ1LteuQv)[From ipo.anthropic.com](https://t.co/wPZ1LteuQv) [1K](https://x.com/compose/post?in_reply_to=2120841731302154708) 1.9K 10K 3.2M",
+          "createdAt": "2026-11-16T07:57:15.038Z",
+          "url": "https://x.com/AnthropicAI/status/2120117722230968385"
+        },
+        {
+          "id": "2119867707546071125",
+          "text": "e. These securities may not be sold, nor may Show more [![Image 9: Anthropic logo](https://pbs.twimg.com/card_img/2120340155710009344/Ts6kQE-w?format=webp&name=medium) Anthropic launches roadshow for proposed initial public offering](https://t.co/oE6TA0vt3E)[From anthropic.com](https://t.co/oE6TA0vt3E) [608](https://x.com/compose/post?in_reply_to=2120117722230968385) 1K 4.9K 1.3M",
+          "createdAt": "2026-11-16T07:57:15.038Z",
+          "url": "https://x.com/AnthropicAI/status/2119867707546071125"
+        }
+      ]
+    },
     {
       "name": "Guillermo Rauch",
       "handle": "rauchg",
       "tweets": [
         {
           "id": "2089179650891432270",
-          "text": "[![Image 5: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
-          "createdAt": "2026-11-15T07:49:31.501Z",
+          "text": "## Guillermo Rauch’s posts",
+          "createdAt": "2026-11-16T07:57:15.394Z",
           "url": "https://x.com/rauchg/status/2089179650891432270"
         },
         {
+          "id": "2122184794209714368",
+          "text": "Guillermo Rauch](https://x.com/rauchg)[![Image 6: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [Aug 17](https://x.com/rauchg/status/2089179650891432270) [▲.to](https://t.co/BaVgd3k0dc \"https://xn--c1h.to\") [345](https://x.com/compose/post?in_reply_to=2089179650891432270) 288 4.7K 2.6M",
+          "createdAt": "2026-11-16T07:57:15.394Z",
+          "url": "https://x.com/rauchg/status/2122184794209714368"
+        },
+        {
+          "id": "2122127120055034258",
+          "text": "ost to PNG in ~1ms (and 0.4 ms for [@jack](https://x.com/jack)'s \"setting up my twttr\" 😁). X is the global town square, and the Show more [Video 4](https://x.com/rauchg)![Image 9](https://pbs.twimg.com/amplify_video_thumb/2122179763309883393/img/lpUKKhwQvbgHkqUg?format=webp&name=medium) 00:00 [97](https://x.com/compose/post?in_reply_to=2122184794209714368) 52 781 34K",
+          "createdAt": "2026-11-16T07:57:15.394Z",
+          "url": "https://x.com/rauchg/status/2122127120055034258"
+        },
+        {
           "id": "2121825273373229134",
-          "text": "## Guillermo Rauch’s posts",
-          "createdAt": "2026-11-15T07:49:31.501Z",
+          "text": "//x.com/rauchg/status/2122127120055034258) AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science's hardest problems are solved after all 😂 [116](https://x.com/compose/post?in_reply_to=2122127120055034258) 13 490 25K",
+          "createdAt": "2026-11-16T07:57:15.394Z",
           "url": "https://x.com/rauchg/status/2121825273373229134"
         },
         {
           "id": "2121804295381377342",
-          "text": "m/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [2h](https://x.com/rauchg/status/2121825273373229134) An awesome day for humanity ✦ · ✧ · ✦ · ✧ ✧ · ✦ ✧ · ✧ [Video 4](blob:https://x.com/f3fc99cf-53be-4b2c-b558-e029eb3b5cc4) 00:05 [17](https://x.com/compose/post?in_reply_to=2121825273373229134) 31 488 12K",
-          "createdAt": "2026-11-15T07:49:31.501Z",
+          "text": "(https://x.com/rauchg) [Nov 15](https://x.com/rauchg/status/2121825273373229134) An awesome day for humanity ✦ · ✧ · ✦ · ✧ ✧ · ✦ ✧ · ✧ [Video 5](https://x.com/rauchg)![Image 14](https://pbs.twimg.com/amplify_video_thumb/2121824690885070849/img/vDYhp5LY6BvsVxeh?format=webp&name=medium) 00:00 [31](https://x.com/compose/post?in_reply_to=2121825273373229134) 88 1.8K 48K",
+          "createdAt": "2026-11-16T07:57:15.394Z",
           "url": "https://x.com/rauchg/status/2121804295381377342"
-        },
-        {
-          "id": "2121739228698886454",
-          "text": "x.com/ilyamiskov) [@ilyamiskov](https://x.com/ilyamiskov) [Nov 14](https://x.com/ilyamiskov/status/2121486705819799643) ![Image 14](https://pbs.twimg.com/media/HXEI6fMXYAAuRa5?format=webp&name=large) [](https://x.com/ilyamiskov/status/2121486705819799643/photo/1) We need to bring this kind of UI back [79](https://x.com/compose/post?in_reply_to=2121804295381377342) 34 687 32K",
-          "createdAt": "2026-11-15T07:49:31.501Z",
-          "url": "https://x.com/rauchg/status/2121739228698886454"
-        },
-        {
-          "id": "2121732487072432557",
-          "text": "## Log in or sign up for X",
-          "createdAt": "2026-11-15T07:49:31.501Z",
-          "url": "https://x.com/rauchg/status/2121732487072432557"
-        }
-      ]
-    },
-    {
-      "name": "Swyx",
-      "handle": "swyx",
-      "tweets": [
-        {
-          "id": "1281424520100737025",
-          "text": "## Log in or sign up for X",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/1281424520100737025"
-        },
-        {
-          "id": "2121815348370612414",
-          "text": "tatus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [420](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.8K",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/2121815348370612414"
-        },
-        {
-          "id": "2121757606801023085",
-          "text": "://x.com/poteto) [@poteto](https://x.com/poteto) [12h](https://x.com/poteto/status/2121673563489140863) my AIE talk is up! come hear how the grok [@bot](https://x.com/bot) team ships so quickly without compromise on quality [youtu.be/O_zcc6Xl12g](https://t.co/Fel7tlxqSL \"https://youtu.be/O_zcc6Xl12g\") [18](https://x.com/compose/post?in_reply_to=2121815348370612414) 2 108 6.9K",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/2121757606801023085"
-        },
-        {
-          "id": "2121681368224797014",
-          "text": "y PhD thesis, I thought about what interaction would look like if we could go beyond taking turns. One example is intra-turn interaction: [Video 3](https://x.com/swyx)![Image 18](https://pbs.twimg.com/amplify_video_thumb/2121015547387076608/img/X10kVib4QjRhWnJH?format=webp&name=medium) 00:00 [86](https://x.com/compose/post?in_reply_to=2121757606801023085) 11 239 18K",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/2121681368224797014"
-        },
-        {
-          "id": "2084185368950456421",
-          "text": "img.com/profile_images/2088074761607987200/25voc1vQ_normal.jpg)](https://x.com/aiDotEngineer) [@swyx](https://x.com/swyx) [11h](https://x.com/swyx/status/2121681368224797014) openai dot now has a setting to just solve all captchas for the rest of time ![Image 21](https://pbs.twimg.com/media/HXG59b7bAAABK1J?format=webp&name=large) [](https://x.com/swyx/status/2121681368224797014/photo/1) [](",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/2084185368950456421"
-        },
-        {
-          "id": "2121088973372334443",
-          "text": ".jpg)](https://x.com/aiDotEngineer) [@swyx](https://x.com/swyx) [Aug 3](https://x.com/swyx/status/2084185368950456421) ![Image 24](https://pbs.twimg.com/media/HOyDenca0AAXQsh?format=webp&name=large) [](https://x.com/swyx/status/2084185368950456421/photo/1) lol what are we even doing here anymore guys [114](https://x.com/compose/post?in_reply_to=2121681368224797014) 8 214 15K",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/2121088973372334443"
-        },
-        {
-          "id": "2118472770002792902",
-          "text": "m/amplify_video_thumb/2121088919962046464/img/SLdadruKD-eZssdy?format=webp&name=medium) 00:00 ![Image 28](https://pbs.twimg.com/media/HW-fIm7aIAA4r1x?format=webp&name=large) [](https://x.com/swyx/status/2121088973372334443/photo/2) ![Image 29](https://pbs.twimg.com/media/HW-fIm2asAAV-HE?format=webp&name=large) [](https://x.com/swyx/status/2121088973372334443/photo/3) [](",
-          "createdAt": "2026-11-15T07:49:37.220Z",
-          "url": "https://x.com/swyx/status/2118472770002792902"
         }
       ]
     },
@@ -92,37 +80,37 @@
         {
           "id": "2119114537442189652",
           "text": "## Andrej Karpathy’s posts",
-          "createdAt": "2026-11-15T07:49:37.887Z",
+          "createdAt": "2026-11-16T07:57:16.580Z",
           "url": "https://x.com/karpathy/status/2119114537442189652"
         },
         {
           "id": "2116957135661945283",
           "text": "ished his top YouTube channels: [thume.ca/2026/11/01/you…](https://t.co/NZ3UCNo6cT \"https://thume.ca/2026/11/01/youtube-tier-list-2026/\") Which looked excellent so clearly I had to turn it into TristanTube: [karpathy.ai/tristan-tube/](https://t.co/l0KyW1WdNH \"https://karpathy.ai/tristan-tube/\") 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) [](",
-          "createdAt": "2026-11-15T07:49:37.887Z",
+          "createdAt": "2026-11-16T07:57:16.580Z",
           "url": "https://x.com/karpathy/status/2116957135661945283"
         },
         {
           "id": "2109361546505966046",
           "text": "*Significantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 7](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=webp&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.6K 52K 5.8M",
-          "createdAt": "2026-11-15T07:49:37.887Z",
+          "createdAt": "2026-11-16T07:57:16.580Z",
           "url": "https://x.com/karpathy/status/2109361546505966046"
         },
         {
           "id": "2042334451611693415",
           "text": "karpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
-          "createdAt": "2026-11-15T07:49:37.887Z",
+          "createdAt": "2026-11-16T07:57:16.580Z",
           "url": "https://x.com/karpathy/status/2042334451611693415"
         },
         {
           "id": "2105909609487872075",
           "text": "/2042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 7M",
-          "createdAt": "2026-11-15T07:49:37.887Z",
+          "createdAt": "2026-11-16T07:57:16.580Z",
           "url": "https://x.com/karpathy/status/2105909609487872075"
         },
         {
           "id": "2105819303471976479",
           "text": "ts) [Sep 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 12](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=webp&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [724](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.6M",
-          "createdAt": "2026-11-15T07:49:37.887Z",
+          "createdAt": "2026-11-16T07:57:16.580Z",
           "url": "https://x.com/karpathy/status/2105819303471976479"
         }
       ]
