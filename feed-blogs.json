@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T07:57:10.595Z",
+  "generatedAt": "2026-11-17T09:11:01.734Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,51 +87,67 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "A step toward defining the Standard Model on a lattice",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "content": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "publishedAt": "2026-11-15T22:00:01.000Z"
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "description": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "content": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Our new blog for science",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "content": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "publishedAt": "2026-11-15T22:00:00.000Z"
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "content": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "publishedAt": "2026-11-16T17:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "content": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "publishedAt": "2026-11-13T15:00:00.000Z"
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "content": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "publishedAt": "2026-11-16T17:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "content": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "publishedAt": "2026-11-13T08:00:00.000Z"
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "content": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "publishedAt": "2026-11-16T12:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "content": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "publishedAt": "2026-11-12T20:00:00.000Z"
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "content": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "publishedAt": "2026-11-16T09:30:00.000Z"
     },
     {
       "name": "OpenAI Blog",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "content": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "publishedAt": "2026-11-12T12:00:00.000Z"
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "content": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "publishedAt": "2026-11-16T09:00:00.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "description": "<blockquote cite=\"https://go-proverbs.github.io\"><p>A little copying is better than a little dependency.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://go-proverbs.github.io\">Go Proverbs</a>, <a href=\"https://news.ycombinator.com/item?id=50516689#50526408\">via</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/programming\">programming</a></p>",
+      "content": "<blockquote cite=\"https://go-proverbs.github.io\"><p>A little copying is better than a little dependency.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://go-proverbs.github.io\">Go Proverbs</a>, <a href=\"https://news.ycombinator.com/item?id=50516689#50526408\">via</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/programming\">programming</a></p>",
+      "publishedAt": "2026-11-17T06:16:26.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.3\">llm 0.37.3</a></p> <p>A bug fix release for <a href=\"https://llm.datasette.io\">LLM</a>, mainly to cover a problem with the most recent Homebrew package of the software.</p> <p>Homebrew now ships the latest SQLite, <a href=\"https://www.sqlite.org/releaselog/3_54_1.html\">3.54.1</a>, which includes <a href=\"https://sqlite.org/bugs/info/2026-10-12T13:52:22Z\">a fix</a> that <a href=\"https://github.com/simonw/llm…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.3\">llm 0.37.3</a></p> <p>A bug fix release for <a href=\"https://llm.datasette.io\">LLM</a>, mainly to cover a problem with the most recent Homebrew package of the software.</p> <p>Homebrew now ships the latest SQLite, <a href=\"https://www.sqlite.org/releaselog/3_54_1.html\">3.54.1</a>, which includes <a href=\"https://sqlite.org/bugs/info/2026-10-12T13:52:22Z\">a fix</a> that <a href=\"https://github.com/simonw/llm…",
+      "publishedAt": "2026-11-16T23:57:26.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette A…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette A…",
       "publishedAt": "2026-11-15T04:02:45.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-agent 0.6a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p> <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p> <p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p> <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p> <p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an…",
-      "publishedAt": "2026-11-15T03:49:47.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-llm 0.1a11",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local mo…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p> <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p> <p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p> <p>This means that if you're running local mo…",
-      "publishedAt": "2026-11-14T23:59:28.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "url": "https://latent.space/p/bfl/",
+      "description": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+      "content": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+      "publishedAt": "2026-11-16T21:38:03.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] The No AI Slop Manifesto",
       "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
       "description": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
@@ -268,14 +276,6 @@
       "description": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
       "content": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
       "publishedAt": "2026-11-12T05:08:20.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
-      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
-      "description": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
-      "content": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
-      "publishedAt": "2026-11-11T09:34:28.000Z"
     },
     {
       "name": "Cursor Blog",
