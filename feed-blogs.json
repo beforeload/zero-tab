@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T09:11:01.734Z",
+  "generatedAt": "2026-11-18T08:30:24.315Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,10 +87,42 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "content": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "publishedAt": "2026-11-17T17:45:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "description": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "content": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "content": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "publishedAt": "2026-11-17T08:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "description": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "content": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "description": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "content": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "publishedAt": "2026-11-17T00:00:00.000Z"
     },
     {
@@ -102,36 +134,28 @@
       "publishedAt": "2026-11-16T17:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "content": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "publishedAt": "2026-11-16T17:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "description": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab b…",
+      "content": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab b…",
+      "publishedAt": "2026-11-17T22:52:29.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "content": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "publishedAt": "2026-11-16T12:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "description": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a…",
+      "content": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a…",
+      "publishedAt": "2026-11-17T22:38:52.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "How Revolut raises ambition without lowering the bar",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "content": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "publishedAt": "2026-11-16T09:30:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "content": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "publishedAt": "2026-11-16T09:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "description": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p> <p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</stron…",
+      "content": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p> <p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</stron…",
+      "publishedAt": "2026-11-17T16:48:33.000Z"
     },
     {
       "name": "Simon Willison",
@@ -156,30 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0\">datasette-maplibre 0.1a0</a></p> <p>The first new Datasette geospatial plugin in quite a while! This one combines the excellent <a href=\"https://maplibre.org/maplibre-gl-js/docs/\">MapLibre GL</a> library with <a href=\"https://openfreemap.org\">OpenFreeMap</a>, the free vector map server operated by Zsolt Ero (you should <a href=\"https://github.com/sponsors/hyperknot\">sponsor Zsolt on GitHub<…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0\">datasette-maplibre 0.1a0</a></p> <p>The first new Datasette geospatial plugin in quite a while! This one combines the excellent <a href=\"https://maplibre.org/maplibre-gl-js/docs/\">MapLibre GL</a> library with <a href=\"https://openfreemap.org\">OpenFreeMap</a>, the free vector map server operated by Zsolt Ero (you should <a href=\"https://github.com/sponsors/hyperknot\">sponsor Zsolt on GitHub<…",
       "publishedAt": "2026-11-15T23:58:36.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette 1.0a43",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a43\">datasette 1.0a43</a></p> <p>I've been leaning hard into Claude Fable 5.2 to help knock things off the <a href=\"https://github.com/simonw/datasette/milestone/37\">1.0 milestone</a>, which is now 53% complete.</p> <p>The biggest 1.0 item in this release is <a href=\"https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-register-output-renderer-streaming\">streaming support for output renderers</a> -…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a43\">datasette 1.0a43</a></p> <p>I've been leaning hard into Claude Fable 5.2 to help knock things off the <a href=\"https://github.com/simonw/datasette/milestone/37\">1.0 milestone</a>, which is now 53% complete.</p> <p>The biggest 1.0 item in this release is <a href=\"https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-register-output-renderer-streaming\">streaming support for output renderers</a> -…",
-      "publishedAt": "2026-11-15T23:20:27.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette 0.65.6",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.6\">datasette 0.65.6</a></p> <p>I backported a minor security fix from 1.0a43:</p> <blockquote> <p>Fixed a security issue where a database registered using <code>add_database(db, name=..., route=...)</code> with a route that differs from its name could be downloaded from <code>/<route>.db</code> by actors who were denied access to it. [...]</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tag…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.6\">datasette 0.65.6</a></p> <p>I backported a minor security fix from 1.0a43:</p> <blockquote> <p>Fixed a security issue where a database registered using <code>add_database(db, name=..., route=...)</code> with a route that differs from its name could be downloaded from <code>/<route>.db</code> by actors who were denied access to it. [...]</p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tag…",
-      "publishedAt": "2026-11-15T23:18:17.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-apps 0.4a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette A…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p> <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p> <p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette A…",
-      "publishedAt": "2026-11-15T04:02:45.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "url": "https://latent.space/p/cloudflare/",
+      "description": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+      "content": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+      "publishedAt": "2026-11-17T15:00:00.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "description": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "content": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "publishedAt": "2026-11-17T09:24:56.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
       "url": "https://latent.space/p/bfl/",
       "description": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
@@ -260,22 +276,6 @@
       "description": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
       "content": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
       "publishedAt": "2026-11-13T04:17:25.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] D-Day (Decision Models Day)",
-      "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
-      "description": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
-      "content": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
-      "publishedAt": "2026-11-12T05:26:54.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
-      "url": "https://latent.space/p/jev-revolution/",
-      "description": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
-      "content": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
-      "publishedAt": "2026-11-12T05:08:20.000Z"
     },
     {
       "name": "Cursor Blog",
