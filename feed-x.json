@@ -1,4 +1,191 @@
 {
-  "generatedAt": "2026-11-18T08:30:24.315Z",
-  "x": []
+  "generatedAt": "2026-11-19T08:45:21.092Z",
+  "x": [
+    {
+      "name": "Anthropic",
+      "handle": "AnthropicAI",
+      "tweets": [
+        {
+          "id": "2123196808675405860",
+          "text": "## Anthropic’s posts",
+          "createdAt": "2026-11-19T08:45:24.692Z",
+          "url": "https://x.com/AnthropicAI/status/2123196808675405860"
+        },
+        {
+          "id": "2121317227618340990",
+          "text": "effective by the Securities and Exchange Commission on November 18,Show more [![Image 6: Anthropic logo](https://pbs.twimg.com/card_img/2120989428113956864/0aB_1tfE?format=webp&name=medium) Anthropic prices initial public offering](https://t.co/igHvzweKdb)[From anthropic.com](https://t.co/igHvzweKdb) [937](https://x.com/compose/post?in_reply_to=2123196808675405860) 2.6K 12K 1.8M",
+          "createdAt": "2026-11-19T08:45:24.692Z",
+          "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+        },
+        {
+          "id": "2121272083863011714",
+          "text": "d an upright blue square overlap imperfectly, leaving their edges exposed; on the right, the two align exactly.](https://pbs.twimg.com/card_img/2121304601446035456/TPD7kPFo?format=webp&name=medium) Building strong safety evaluations](https://t.co/MtSQmqqi2D)[From anthropic.com](https://t.co/MtSQmqqi2D) [613](https://x.com/compose/post?in_reply_to=2121317227618340990) 363 2.3K 322K",
+          "createdAt": "2026-11-19T08:45:24.692Z",
+          "url": "https://x.com/AnthropicAI/status/2121272083863011714"
+        },
+        {
+          "id": "2120841731302154708",
+          "text": "dei](https://x.com/DarioAmodei). [youtube.com/live/YHEaEpeY3…](https://t.co/0L1FwTtEgD \"https://www.youtube.com/live/YHEaEpeY3ew\") Legal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before Show more [299](https://x.com/compose/post?in_reply_to=2121272083863011714) 265 2.2K 450K",
+          "createdAt": "2026-11-19T08:45:24.692Z",
+          "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+        },
+        {
+          "id": "2120117722230968385",
+          "text": "tion Show more [![Image 11: Three engraved trees side by side, on graph paper, yellow paper and gray paper](https://pbs.twimg.com/card_img/2121284933083963392/n6Z78gX1?format=webp&name=medium) Anthropic’s Initial Public Offering](https://t.co/wPZ1LteuQv)[From ipo.anthropic.com](https://t.co/wPZ1LteuQv) [1K](https://x.com/compose/post?in_reply_to=2120841731302154708) 1.9K 10K 3.3M",
+          "createdAt": "2026-11-19T08:45:24.692Z",
+          "url": "https://x.com/AnthropicAI/status/2120117722230968385"
+        }
+      ]
+    },
+    {
+      "name": "Simon Willison",
+      "handle": "simonw",
+      "tweets": [
+        {
+          "id": "2123305131206967571",
+          "text": "## Simon Willison’s posts",
+          "createdAt": "2026-11-19T08:45:25.363Z",
+          "url": "https://x.com/simonw/status/2123305131206967571"
+        },
+        {
+          "id": "2122822310428279136",
+          "text": "flat green ground and a pale sky, captioned \"40 input tokens, 5,311 output = 3.99 cents · 19s\". Row MEDIUM: gemini-4-carbon adds a red striped scarf](https://pbs.twimg.com/media/HXd-upcboAAffgZ?format=webp&name=large) [](https://x.com/simonw/status/2123305131206967571/photo/1) read image description ALT [90](https://x.com/compose/post?in_reply_to=2123305131206967571) 10 180 14K",
+          "createdAt": "2026-11-19T08:45:25.363Z",
+          "url": "https://x.com/simonw/status/2122822310428279136"
+        },
+        {
+          "id": "2122746008736276734",
+          "text": "p mapping data\" [simonwillison.net/2026/Nov/17/gp…](https://t.co/oRZT2zMByi \"https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/\") [Video 2](https://x.com/simonw)![Image 6](https://pbs.twimg.com/amplify_video_thumb/2122822265545125888/img/DE5nnt_andS6hYtX?format=webp&name=medium) 00:00 [100](https://x.com/compose/post?in_reply_to=2122822310428279136) 18 344 51K",
+          "createdAt": "2026-11-19T08:45:25.363Z",
+          "url": "https://x.com/simonw/status/2122746008736276734"
+        },
+        {
+          "id": "2122500307557265651",
+          "text": "g the full server-side Datasette Python app in the browser with service workers and Pyodide Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I’ve released a complete rewrite of Datasette Lite using service …](https://t.co/MXSF8Sus79) [75](https://x.com/compose/post?in_reply_to=2122746008736276734) 14 203 19K",
+          "createdAt": "2026-11-19T08:45:25.363Z",
+          "url": "https://x.com/simonw/status/2122500307557265651"
+        },
+        {
+          "id": "2121695097674981849",
+          "text": "h the folders you mount, and reaches allowed hosts on the internet through a proxy with an allow-list. Those are the only two ways out of the VM.](https://pbs.twimg.com/media/HXSiyAmbIAAgeUI?format=webp&name=large) [](https://x.com/simonw/status/2122500307557265651/photo/1) read image description ALT [390](https://x.com/compose/post?in_reply_to=2122500307557265651) 176 1.2K 74K",
+          "createdAt": "2026-11-19T08:45:25.363Z",
+          "url": "https://x.com/simonw/status/2121695097674981849"
+        }
+      ]
+    },
+    {
+      "name": "Addy Osmani",
+      "handle": "addyosmani",
+      "tweets": [
+        {
+          "id": "2114604912520921136",
+          "text": "## Addy Osmani’s posts",
+          "createdAt": "2026-11-19T08:45:26.826Z",
+          "url": "https://x.com/addyosmani/status/2114604912520921136"
+        },
+        {
+          "id": "2122590683055993308",
+          "text": "m) Article How the Claude Code team does code review We previously mentioned that Claude writes about 90 percent of the code for Claude Code. So how do we do code review at this scale? Who reads code anyway? What happens if code goes wrong? This post](https://x.com/addyosmani/status/2114604912520921136) [416](https://x.com/compose/post?in_reply_to=2114604912520921136) 2K 13K 2.7M",
+          "createdAt": "2026-11-19T08:45:26.826Z",
+          "url": "https://x.com/addyosmani/status/2122590683055993308"
+        },
+        {
+          "id": "2121732470118965298",
+          "text": "w the Claude Code team thinks about verification On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude. At this scale, how we equip our agents to verify their work with evidence becomes extremely important.](https://x.com/addyosmani/status/2122590683055993308) [166](https://x.com/compose/post?in_reply_to=2122590683055993308) 462 3.6K 421K",
+          "createdAt": "2026-11-19T08:45:26.826Z",
+          "url": "https://x.com/addyosmani/status/2121732470118965298"
+        },
+        {
+          "id": "2121489809453776909",
+          "text": "ut as many (82.7% vs 84.6%) but cost 2.80x as much per solved task. Opus already solves most of these tasks, though, so telling the two apart will take harder ![Image 10](https://pbs.twimg.com/media/HXD0p2EbwAAZ5iA?format=webp&name=large) [](https://x.com/garrytan/status/2121464508225053153/photo/1) [175](https://x.com/compose/post?in_reply_to=2121732470118965298) 86 1.2K 97K",
+          "createdAt": "2026-11-19T08:45:26.826Z",
+          "url": "https://x.com/addyosmani/status/2121489809453776909"
+        },
+        {
+          "id": "2119869672573251887",
+          "text": ". Just tell Claude how you want it to look, or get started quickly with the theme-examples plugin. We'd love to see what you make! [Video 3](https://x.com/addyosmani)![Image 14](https://pbs.twimg.com/amplify_video_thumb/2121392351218397185/img/14nrq2DI01cKbZqM?format=webp&name=medium) 00:00 [136](https://x.com/compose/post?in_reply_to=2121489809453776909) 24 418 40K",
+          "createdAt": "2026-11-19T08:45:26.826Z",
+          "url": "https://x.com/addyosmani/status/2119869672573251887"
+        }
+      ]
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "tweets": [
+        {
+          "id": "1281424520100737025",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-11-19T08:45:27.682Z",
+          "url": "https://x.com/swyx/status/1281424520100737025"
+        },
+        {
+          "id": "2123260852984013045",
+          "text": "tatus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [424](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.9K",
+          "createdAt": "2026-11-19T08:45:27.682Z",
+          "url": "https://x.com/swyx/status/2123260852984013045"
+        },
+        {
+          "id": "2123165970940441038",
+          "text": "3047) ![Image 15](https://pbs.twimg.com/media/HXafBqeWwAAZ_cy?format=webp&name=medium)02:05 New trailer for Luca Guadagnino's ‘ARTIFICIAL’, starring Andrew Garfield as Sam Altman. The film follows the story involving OpenAI focused on the firing & rehiring of CEO Sam Altman. In theaters on January 8. [20](https://x.com/compose/post?in_reply_to=2123260852984013045) 3 70 17K",
+          "createdAt": "2026-11-19T08:45:27.682Z",
+          "url": "https://x.com/swyx/status/2123165970940441038"
+        },
+        {
+          "id": "2122983553541812630",
+          "text": "[](https://x.com/alexrkonrad/status/2123072600083501194/photo/1) Last week, Netlify enjoyed its first day with 100,000 new signups, most of them new to AI and building software. After taking 5 years to reach 1M users, Netlify doubled to 10M by this past January, and expects to reach 25M by year's end 👀 [54](https://x.com/compose/post?in_reply_to=2123165970940441038) 5 96 12K",
+          "createdAt": "2026-11-19T08:45:27.682Z",
+          "url": "https://x.com/swyx/status/2122983553541812630"
+        },
+        {
+          "id": "2122944534229446791",
+          "text": "x](https://x.com/swyx)[![Image 23: AI.Engineer](https://pbs.twimg.com/profile_images/2088074761607987200/25voc1vQ_normal.jpg)](https://x.com/aiDotEngineer) [@swyx](https://x.com/swyx) [23h](https://x.com/swyx/status/2122983553541812630) look around, look around, at how lucky we are/ to be alive right now [45](https://x.com/compose/post?in_reply_to=2122983553541812630) 24 338 16K",
+          "createdAt": "2026-11-19T08:45:27.682Z",
+          "url": "https://x.com/swyx/status/2122944534229446791"
+        }
+      ]
+    },
+    {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy",
+      "tweets": [
+        {
+          "id": "2119114537442189652",
+          "text": "## Andrej Karpathy’s posts",
+          "createdAt": "2026-11-19T08:45:28.145Z",
+          "url": "https://x.com/karpathy/status/2119114537442189652"
+        },
+        {
+          "id": "2116957135661945283",
+          "text": "ished his top YouTube channels: [thume.ca/2026/11/01/you…](https://t.co/NZ3UCNo6cT \"https://thume.ca/2026/11/01/youtube-tier-list-2026/\") Which looked excellent so clearly I had to turn it into TristanTube: [karpathy.ai/tristan-tube/](https://t.co/l0KyW1WdNH \"https://karpathy.ai/tristan-tube/\") 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) [](",
+          "createdAt": "2026-11-19T08:45:28.145Z",
+          "url": "https://x.com/karpathy/status/2116957135661945283"
+        },
+        {
+          "id": "2109361546505966046",
+          "text": "*Significantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 7](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=webp&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.6K 52K 5.9M",
+          "createdAt": "2026-11-19T08:45:28.145Z",
+          "url": "https://x.com/karpathy/status/2109361546505966046"
+        },
+        {
+          "id": "2042334451611693415",
+          "text": "karpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
+          "createdAt": "2026-11-19T08:45:28.145Z",
+          "url": "https://x.com/karpathy/status/2042334451611693415"
+        },
+        {
+          "id": "2105909609487872075",
+          "text": "/2042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 7M",
+          "createdAt": "2026-11-19T08:45:28.145Z",
+          "url": "https://x.com/karpathy/status/2105909609487872075"
+        },
+        {
+          "id": "2105819303471976479",
+          "text": "ts) [Sep 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 12](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=webp&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [727](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.6M",
+          "createdAt": "2026-11-19T08:45:28.145Z",
+          "url": "https://x.com/karpathy/status/2105819303471976479"
+        }
+      ]
+    }
+  ]
 }
