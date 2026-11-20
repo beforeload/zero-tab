@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-19T08:45:21.092Z",
+  "generatedAt": "2026-11-20T08:29:49.235Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Building Human-Centered AI",
+      "url": "https://share.transistor.fm/s/bb4dad17",
+      "guid": "3cb337f1-41e8-46b6-b2c4-c7b5da3a0944",
+      "transcript": "<p>How can enterprises adopt AI and agentic systems while keeping people, business value, and trust at the center?</p><p>Chris is joined by Dr. Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank and author of <em>Invaluable</em>, to explore how organizations can approach AI-driven transformation. They discuss identifying meaningful opportunities for AI in highly regulated industries like banking, rethinking developer productivity, and using multi-agent systems to bring diffe…",
+      "publishedAt": "2026-11-19T10:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Implementing Federated Learning to enhance Agentic AI",
@@ -24,14 +32,6 @@
       "guid": "3fe2ac26-f639-47fe-b6a5-235cd8c644cd",
       "transcript": "<p>In this special episode, we bring you highlights from three talks at the Midwest AI Summit. Heidi Porter explores how to build reliable AI-augmented workflows using the right tools, evaluations, and guardrails. Kevin Solorio shares why building AI <em>with</em> frontline workers, not just for them, is key to earning trust and driving adoption, emphasizing collaboration and continuous feedback. And Chris Shinkle and Andrew Dunlap of SEP discuss how software teams can find the right level of A…",
       "publishedAt": "2026-10-29T09:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
-      "url": "https://share.transistor.fm/s/9a42098b",
-      "guid": "09810723-2d12-4151-b100-7944f5eaf813",
-      "transcript": "<p>AI is changing cybersecurity, accelerating vulnerability research and exploit development while raising new questions about reliability, risk, and guardrails. Daniel and Chris talk with Spencer McIntyre, Director of Exploit Development at VulnCheck, about how agents are being used to discover vulnerabilities, why many proof-of-concept exploits (POCs) fail to deliver, and how initial access intelligence helps security teams prioritize real threats. They also explore the limitations of AI-assi…",
-      "publishedAt": "2026-10-22T09:00:00.000Z"
     }
   ]
 }

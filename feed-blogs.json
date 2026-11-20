@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T08:45:21.092Z",
+  "generatedAt": "2026-11-20T08:29:49.235Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,46 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "content": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "publishedAt": "2026-11-19T08:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "content": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "content": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "content": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "description": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "content": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "The Silent Consensus",
       "url": "https://openai.com/index/the-silent-consensus",
       "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
@@ -94,44 +134,20 @@
       "publishedAt": "2026-11-18T10:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "content": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p> <p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</…",
+      "content": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p> <p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</…",
+      "publishedAt": "2026-11-20T02:49:57.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "content": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "content": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "content": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "publishedAt": "2026-11-18T06:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "content": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "description": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p> <p>This release was definitely…",
+      "content": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p> <p>This release was definitely…",
+      "publishedAt": "2026-11-19T20:43:57.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p> <p>If your company or your work benefits from Python, please consider donating this year!</p> <p>The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (includin…",
       "content": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p> <p>If your company or your work benefits from Python, please consider donating this year!</p> <p>The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (includin…",
       "publishedAt": "2026-11-18T14:44:48.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "External sandboxes for coding agents",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-      "description": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab b…",
-      "content": "<p><strong><a href=\"https://blog.primeradiant.com/external-sandboxes-for-coding-agents/\">External sandboxes for coding agents</a></strong></p> I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.</p> <p>I worked on this project with <a href=\"https://primeradiant.com\">Prime Radiant</a>, the AI research lab b…",
-      "publishedAt": "2026-11-17T22:52:29.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "description": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a…",
-      "content": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">GPT‑6.2 Astra and GPT‑6.2 Sol</a></strong></p> OpenAI:</p> <blockquote> <p>We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.</p> </blockquote> <p>They're available in the API as <code>gpt-6.2-astra</code> and <code>gpt-6.2-sol</code>. I shipped <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-38\">LLM 0.38</a…",
-      "publishedAt": "2026-11-17T22:38:52.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+      "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+      "description": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+      "content": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+      "publishedAt": "2026-11-20T07:12:24.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://latent.space/p/linear-scaling/",
+      "description": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+      "content": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+      "publishedAt": "2026-11-19T23:58:21.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
       "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
       "description": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
@@ -260,22 +276,6 @@
       "description": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
       "content": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
       "publishedAt": "2026-11-17T09:24:56.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
-      "url": "https://latent.space/p/bfl/",
-      "description": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
-      "content": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
-      "publishedAt": "2026-11-16T21:38:03.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] The No AI Slop Manifesto",
-      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
-      "description": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
-      "content": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
-      "publishedAt": "2026-11-14T08:31:02.000Z"
     },
     {
       "name": "Cursor Blog",
