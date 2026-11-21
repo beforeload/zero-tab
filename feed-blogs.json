@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T08:29:49.235Z",
+  "generatedAt": "2026-11-21T08:15:28.098Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,27 +87,35 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "content": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "publishedAt": "2026-11-20T10:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "content": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "content": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "content": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "publishedAt": "2026-11-19T08:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "content": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "publishedAt": "2026-11-19T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "content": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
       "name": "OpenAI Blog",
@@ -119,19 +127,27 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "description": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "content": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "content": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "The Silent Consensus",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "content": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "publishedAt": "2026-11-18T10:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "description": "<blockquote cite=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\"><p>Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now…",
+      "content": "<blockquote cite=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\"><p>Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now…",
+      "publishedAt": "2026-11-20T19:21:49.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "description": "<blockquote cite=\"https://alpo.ge/remark.pdf\"><p>I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course…",
+      "content": "<blockquote cite=\"https://alpo.ge/remark.pdf\"><p>I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course…",
+      "publishedAt": "2026-11-20T16:30:48.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/latest/changelog.html#a43-2026-11-15\">Datasette 1.0a43</a> added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming…",
       "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/latest/changelog.html#a43-2026-11-15\">Datasette 1.0a43</a> added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming…",
       "publishedAt": "2026-11-18T17:09:59.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Quoting Daniel Stenberg",
-      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-      "description": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and ma…",
-      "content": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and ma…",
-      "publishedAt": "2026-11-18T15:58:27.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "The PSF end-of-year fundraiser",
-      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
-      "description": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p> <p>If your company or your work benefits from Python, please consider donating this year!</p> <p>The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (includin…",
-      "content": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p> <p>If your company or your work benefits from Python, please consider donating this year!</p> <p>The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (includin…",
-      "publishedAt": "2026-11-18T14:44:48.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "description": "November 20 2026 —",
+      "content": "November 20 2026 —",
+      "publishedAt": "2026-11-21T05:02:13.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+      "url": "https://latent.space/p/formal-verification/",
+      "description": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+      "content": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+      "publishedAt": "2026-11-20T21:18:41.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
       "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
       "description": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
@@ -260,22 +276,6 @@
       "description": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
       "content": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
       "publishedAt": "2026-11-18T10:19:04.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
-      "url": "https://latent.space/p/cloudflare/",
-      "description": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
-      "content": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
-      "publishedAt": "2026-11-17T15:00:00.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
-      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
-      "description": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
-      "content": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
-      "publishedAt": "2026-11-17T09:24:56.000Z"
     },
     {
       "name": "Cursor Blog",
