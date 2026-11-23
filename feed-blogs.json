@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T07:58:10.981Z",
+  "generatedAt": "2026-11-23T08:58:38.681Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,14 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "content": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "Combatting adversarial distillation",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
@@ -119,19 +127,19 @@
     },
     {
       "name": "OpenAI Blog",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "content": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "content": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "publishedAt": "2026-11-19T00:00:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "content": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "publishedAt": "2026-11-19T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/select-styling\">Select Styling Specimens</a></p> <p>I got frustrated at how HTML <code><select></code> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:</p> <p><img alt=\"The same select box in Chrome, Safari, and Firefox, Chrome is white with a black border. Safari is grey with no border. Firefox is gray with a black border. They are all slightly different sizes.\" src=\"https://stat…",
+      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/select-styling\">Select Styling Specimens</a></p> <p>I got frustrated at how HTML <code><select></code> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:</p> <p><img alt=\"The same select box in Chrome, Safari, and Firefox, Chrome is white with a black border. Safari is grey with no border. Firefox is gray with a black border. They are all slightly different sizes.\" src=\"https://stat…",
+      "publishedAt": "2026-11-22T19:45:06.000Z"
     },
     {
       "name": "Simon Willison",
@@ -172,14 +180,6 @@
       "description": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p> <p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</…",
       "content": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p> <p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</…",
       "publishedAt": "2026-11-20T02:49:57.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "PostgreSQL 19 Released",
-      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
-      "description": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p> <p>This release was definitely…",
-      "content": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p> <p>This release was definitely…",
-      "publishedAt": "2026-11-19T20:43:57.000Z"
     },
     {
       "name": "Julia Evans",
