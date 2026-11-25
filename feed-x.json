@@ -1,33 +1,39 @@
 {
-  "generatedAt": "2026-11-24T10:53:45.710Z",
+  "generatedAt": "2026-11-25T09:49:41.608Z",
   "x": [
     {
       "name": "Anthropic",
       "handle": "AnthropicAI",
       "tweets": [
         {
+          "id": "2125365268381929637",
+          "text": "## Anthropic’s posts",
+          "createdAt": "2026-11-25T09:49:47.931Z",
+          "url": "https://x.com/AnthropicAI/status/2125365268381929637"
+        },
+        {
+          "id": "2125341904644763678",
+          "text": "8381929637) New Anthropic Fellows research: Returning to the neuron basis for interpretability Understanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that,Show more [275](https://x.com/compose/post?in_reply_to=2125365268381929637) 577 4.5K 484K",
+          "createdAt": "2026-11-25T09:49:47.931Z",
+          "url": "https://x.com/AnthropicAI/status/2125341904644763678"
+        },
+        {
           "id": "2123822989154369958",
-          "text": "_id_str\":\"2123822989154369958\",\"created_at\":\"Fri Nov 20 16:57:13 +0000 2026\",\"display_text_range\":[0,150],\"entities\":{\"media\":[{\"additional_media_info\":{\"description\":\"Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead.\",\"embeddable\":true,\"monetizable\":false,\"title\":\"The making of Anthropic\"},\"display_url\":\"pic.x.com/AkKNhIxLXS\",\"expanded_url\":\"",
-          "createdAt": "2026-11-20T16:57:13.000Z",
+          "text": "dbox. Across 1,700+ scenarios built to tempt Show more [![Image 7: Card image](https://pbs.twimg.com/card_img/2125263050097991680/A3AytO3o?format=jpg&name=medium) Measuring and mitigating agent sandbox escape with Siren](https://t.co/5MbjpBkEo3)[From safeguards.anthropic.com](https://t.co/5MbjpBkEo3) [409](https://x.com/compose/post?in_reply_to=2125341904644763678) 441 2.2K 218K",
+          "createdAt": "2026-11-25T09:49:47.931Z",
           "url": "https://x.com/AnthropicAI/status/2123822989154369958"
         },
         {
+          "id": "2123461658890686863",
+          "text": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah [Video 3](https://x.com/AnthropicAI)![Image 9: Video thumbnail](https://pbs.twimg.com/media/HXlVce1X0AARumK?format=jpg&name=medium) 00:00 [627](https://x.com/compose/post?in_reply_to=2123822989154369958) 753 6.5K 1.4M",
+          "createdAt": "2026-11-25T09:49:47.931Z",
+          "url": "https://x.com/AnthropicAI/status/2123461658890686863"
+        },
+        {
           "id": "2123431689934291083",
-          "text": "\":\"2125181091860971518\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"2123431689934291083\",\"created_at\":\"Thu Nov 19 15:02:20 +0000 2026\",\"display_text_range\":[0,0],\"entities\":{\"media\":[{\"additional_media_info\":{\"description\":\"\",\"embeddable\":true,\"monetizable\":false,\"title\":\"What we make of this moment, will make this moment.\"},\"display_url\":\"pic.x.com/Xa0ucYLnMN\",\"expanded_url\":\"",
-          "createdAt": "2026-11-19T15:02:20.000Z",
+          "text": "thropic CEO [@DarioAmodei](https://x.com/DarioAmodei) on our initial public offering: My co-founders and I started Anthropic because we believe that the most powerful technology of our time should be built for the benefit of humankind. Daniela and I lost our father to a disease that, just a Show more [1.3K](https://x.com/compose/post?in_reply_to=2123461658890686863) 1.9K 12K 2.1M",
+          "createdAt": "2026-11-25T09:49:47.931Z",
           "url": "https://x.com/AnthropicAI/status/2123431689934291083"
-        },
-        {
-          "id": "2118073667858887068",
-          "text": "\"conversation_id_str\":\"2118073665296228863\",\"created_at\":\"Wed Nov 04 20:11:28 +0000 2026\",\"display_text_range\":[0,52],\"entities\":{\"urls\":[{\"display_url\":\"www-cdn.anthropic.com/76e55fbe85697a…\",\"expanded_url\":\"https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf\",\"indices\":[29,52],\"url\":\"https://t.co/endRhOCTko\"}],\"media\":[{\"display_url\":\"pic.x.com/C2TO3Z4sAS\",\"expanded_url\":\"",
-          "createdAt": "2026-11-04T20:11:28.000Z",
-          "url": "https://x.com/AnthropicAI/status/2118073667858887068"
-        },
-        {
-          "id": "2116349211549843666",
-          "text": "\"withheld_in_countries\":[],\"withheld_scope\":\"\",\"is_blue_verified\":true}}}},{\"type\":\"tweet\",\"entry_id\":\"tweet-2116349211549843666\",\"sort_index\":\"2125181091860971505\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"2116349211549843666\",\"created_at\":\"Sat Oct 31 01:59:06 +0000 2026\",\"display_text_range\":[0,273],\"entities\":{\"media\":[{\"display_url\":\"pic.x.com/jlmo21NCLZ\",\"expanded_url\":\"",
-          "createdAt": "2026-10-31T01:59:06.000Z",
-          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
         }
       ]
     },
@@ -36,52 +42,70 @@
       "handle": "rauchg",
       "tweets": [
         {
-          "id": "1198962361941446657",
-          "text": "e,\"withheld_in_countries\":[],\"withheld_scope\":\"\",\"is_blue_verified\":true}}}},{\"type\":\"tweet\",\"entry_id\":\"tweet-1198962361941446657\",\"sort_index\":\"2125181093555470335\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1198962361941446657\",\"created_at\":\"Mon Nov 25 13:51:17 +0000 2019\",\"display_text_range\":[0,0],\"entities\":{\"media\":[{\"display_url\":\"pic.x.com/Ndyy2WVL2d\",\"expanded_url\":\"",
-          "createdAt": "2019-11-25T13:51:17.000Z",
-          "url": "https://x.com/rauchg/status/1198962361941446657"
+          "id": "2089179650891432270",
+          "text": "## Guillermo Rauch’s posts",
+          "createdAt": "2026-11-25T09:49:48.253Z",
+          "url": "https://x.com/rauchg/status/2089179650891432270"
         },
         {
-          "id": "1860140704334541243",
-          "text": ",\"withheld_in_countries\":[],\"withheld_scope\":\"\",\"is_blue_verified\":true}}}},{\"type\":\"tweet\",\"entry_id\":\"tweet-1860140704334541243\",\"sort_index\":\"2125181093555470333\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1860140704334541243\",\"created_at\":\"Sat Nov 23 01:57:58 +0000 2024\",\"display_text_range\":[0,21],\"entities\":{\"media\":[{\"display_url\":\"pic.x.com/hD1sYnBhW8\",\"expanded_url\":\"",
-          "createdAt": "2024-11-23T01:57:58.000Z",
-          "url": "https://x.com/rauchg/status/1860140704334541243"
+          "id": "2125482861033824410",
+          "text": "illermo Rauch](https://x.com/rauchg)[![Image 6: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [Aug 17](https://x.com/rauchg/status/2089179650891432270) [▲.to](https://t.co/BaVgd3k0dc \"https://xn--c1h.to\") [345](https://x.com/compose/post?in_reply_to=2089179650891432270) 291 4.7K 2.6M",
+          "createdAt": "2026-11-25T09:49:48.253Z",
+          "url": "https://x.com/rauchg/status/2125482861033824410"
         },
         {
-          "id": "1972669025525158031",
-          "text": "\"withheld_in_countries\":[],\"withheld_scope\":\"\",\"is_blue_verified\":true}}}},{\"type\":\"tweet\",\"entry_id\":\"tweet-1972669025525158031\",\"sort_index\":\"2125181093555470332\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1972669025525158031\",\"created_at\":\"Mon Sep 29 14:25:20 +0000 2025\",\"display_text_range\":[0,279],\"entities\":{\"media\":[{\"display_url\":\"pic.x.com/zENBbRig2L\",\"expanded_url\":\"",
-          "createdAt": "2025-09-29T14:25:20.000Z",
-          "url": "https://x.com/rauchg/status/1972669025525158031"
+          "id": "2125426206183239770",
+          "text": "ine and interactive modes. It implemented CLI Quick Look of its own volition 😁 ⁰ DS actually did all the heavy Show more [Video 5](https://x.com/rauchg)![Image 9: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125481170330959872/img/bjHYAC2uNubgNIpr?format=jpg&name=medium) 00:00 [62](https://x.com/compose/post?in_reply_to=2125482861033824410) 7 140 8.6K",
+          "createdAt": "2026-11-25T09:49:48.253Z",
+          "url": "https://x.com/rauchg/status/2125426206183239770"
         },
         {
-          "id": "1963035563587740149",
-          "text": "\"withheld_in_countries\":[],\"withheld_scope\":\"\",\"is_blue_verified\":true}}}},{\"type\":\"tweet\",\"entry_id\":\"tweet-1963035563587740149\",\"sort_index\":\"2125181093555470330\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1963035563587740149\",\"created_at\":\"Wed Sep 03 00:25:24 +0000 2025\",\"display_text_range\":[0,188],\"entities\":{\"media\":[{\"display_url\":\"pic.x.com/DSmYFzhOII\",\"expanded_url\":\"",
-          "createdAt": "2025-09-03T00:25:24.000Z",
-          "url": "https://x.com/rauchg/status/1963035563587740149"
+          "id": "2125320020666565096",
+          "text": "rauchg](https://x.com/rauchg) [5h](https://x.com/rauchg/status/2125426206183239770) Open sourced the bg effect builder: [retro-loops.vercel.app](https://t.co/1kXz8ojcCK \"https://retro-loops.vercel.app\") (🔉) [Video 6](https://x.com/rauchg)![Image 12: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125424760586911744/img/x71taxMFEChrKgtX?format=jpg&name=medium) 00:00 [](",
+          "createdAt": "2026-11-25T09:49:48.253Z",
+          "url": "https://x.com/rauchg/status/2125320020666565096"
         },
         {
-          "id": "1874130110120706556",
-          "text": "\"display_text_range\":[0,173],\"entities\":{\"urls\":[{\"display_url\":\"doom-captcha.vercel.app\",\"expanded_url\":\"http://doom-captcha.vercel.app\",\"indices\":[8,31],\"url\":\"https://t.co/YtUfA7fIyM\"}],\"user_mentions\":[{\"id_str\":\"1711764162290847745\",\"indices\":[169,172],\"name\":\"v0\",\"screen_name\":\"v0\"}],\"media\":[{\"additional_media_info\":{\"monetizable\":false},\"display_url\":\"pic.x.com/kv6TAbJglx\",\"expanded_url\":\"",
-          "createdAt": "2024-12-31T16:26:52.000Z",
-          "url": "https://x.com/rauchg/status/1874130110120706556"
+          "id": "2125330925324300725",
+          "text": "The main reason [fx.sh](https://t.co/3Z4NESzNKd \"https://fx.sh\") is a CLI (in this day and age!) is that it's a thin wrapper around 𝚕𝚒𝚋𝚏𝚡. The goal is to produce the smallest and most intelligent coding agent kernel, that's embeddable on any surface: browsers, servers, mobile, desktop, OS, ADEs… [9](https://x.com/compose/post?in_reply_to=2125426206183239770) 38 5.5K",
+          "createdAt": "2026-11-25T09:49:48.253Z",
+          "url": "https://x.com/rauchg/status/2125330925324300725"
+        }
+      ]
+    },
+    {
+      "name": "Simon Willison",
+      "handle": "simonw",
+      "tweets": [
+        {
+          "id": "2125369126877286662",
+          "text": "## Simon Willison’s posts",
+          "createdAt": "2026-11-25T09:49:48.541Z",
+          "url": "https://x.com/simonw/status/2125369126877286662"
         },
         {
-          "id": "1907132415560335674",
-          "text": ",\"withheld_in_countries\":[],\"withheld_scope\":\"\",\"is_blue_verified\":true}}}},{\"type\":\"tweet\",\"entry_id\":\"tweet-1907132415560335674\",\"sort_index\":\"2125181093555470323\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1907132415560335674\",\"created_at\":\"Tue Apr 01 18:06:15 +0000 2025\",\"display_text_range\":[0,95],\"entities\":{\"media\":[{\"display_url\":\"pic.x.com/7eNiX1CoF3\",\"expanded_url\":\"",
-          "createdAt": "2025-04-01T18:06:15.000Z",
-          "url": "https://x.com/rauchg/status/1907132415560335674"
+          "id": "2125017693917155424",
+          "text": "7068340224/Pydd7GIk?format=jpg&name=medium) simonwillison.net Three LLM inflection points in twelve months I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities …](https://t.co/lcq6fyK3LT) [68](https://x.com/compose/post?in_reply_to=2125369126877286662) 22 170 16K",
+          "createdAt": "2026-11-25T09:49:48.541Z",
+          "url": "https://x.com/simonw/status/2125017693917155424"
         },
         {
-          "id": "1264295947938365440",
-          "text": "0\",\"sort_index\":\"2125181093555470320\",\"content\":{\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1264295947938365440\",\"created_at\":\"Sat May 23 20:43:38 +0000 2020\",\"display_text_range\":[0,36],\"entities\":{\"urls\":[{\"display_url\":\"latex.now.sh\",\"expanded_url\":\"https://latex.now.sh\",\"indices\":[12,35],\"url\":\"https://t.co/n2ETCmle2k\"}],\"media\":[{\"display_url\":\"pic.x.com/guHkIgW1oS\",\"expanded_url\":\"",
-          "createdAt": "2020-05-23T20:43:38.000Z",
-          "url": "https://x.com/rauchg/status/1264295947938365440"
+          "id": "2125007029442114041",
+          "text": "age 6: The 5.4 and 5.3 pelicans look similar at all three levels. The 5.2 one is on a cyberpunk bicycle. The 5.1 is much more colorful and animated.](https://pbs.twimg.com/media/HX2UVBZa4AA0kHD?format=jpg&name=large) [](https://x.com/simonw/status/2125017693917155424/photo/1) read image description ALT [93](https://x.com/compose/post?in_reply_to=2125017693917155424) 14 203 32K",
+          "createdAt": "2026-11-25T09:49:48.541Z",
+          "url": "https://x.com/simonw/status/2125007029442114041"
         },
         {
-          "id": "1976383911724044554",
-          "text": "\"tweet\":{\"id\":0,\"location\":\"\",\"conversation_id_str\":\"1976383911724044554\",\"created_at\":\"Thu Oct 09 20:26:58 +0000 2025\",\"display_text_range\":[0,147],\"entities\":{\"user_mentions\":[{\"id_str\":\"31206819\",\"indices\":[13,20],\"name\":\"shadcn\",\"screen_name\":\"shadcn\"},{\"id_str\":\"13334762\",\"indices\":[58,65],\"name\":\"GitHub\",\"screen_name\":\"github\"}],\"media\":[{\"display_url\":\"pic.x.com/HY7OIVDLr0\",\"expanded_url\":\"",
-          "createdAt": "2025-10-09T20:26:58.000Z",
-          "url": "https://x.com/rauchg/status/1976383911724044554"
+          "id": "2125001984029921636",
+          "text": "g Datasette automatically pick credible visualizations for any data you might throw at it [![Image 8: Card image](https://pbs.twimg.com/card_img/2125007029219872768/gGcDf0Jt?format=jpg&name=medium) simonwillison.net Release: datasette-charts 0.1a0 A charting plugin for Datasette](https://t.co/FpOc8U99lm) [120](https://x.com/compose/post?in_reply_to=2125007029442114041) 23 286 43K",
+          "createdAt": "2026-11-25T09:49:48.541Z",
+          "url": "https://x.com/simonw/status/2125001984029921636"
+        },
+        {
+          "id": "2124988263857635572",
+          "text": "/status/2124987173439209561) Stupid things I did: 1. 250,000+ pages was a joke guys!, I find big number extremely hilarious. I tried to make it clear by the level of pedantry of the reals total ordered statement in the main theorem, but people ran with it unfortunately and I didn’t feel like talking on [26](https://x.com/compose/post?in_reply_to=2125001984029921636) 7 457 66K",
+          "createdAt": "2026-11-25T09:49:48.541Z",
+          "url": "https://x.com/simonw/status/2124988263857635572"
         }
       ]
     },
@@ -92,32 +116,32 @@
         {
           "id": "1281424520100737025",
           "text": "## Log in or sign up for X",
-          "createdAt": "2026-11-24T10:53:54.749Z",
+          "createdAt": "2026-11-25T09:49:52.941Z",
           "url": "https://x.com/swyx/status/1281424520100737025"
         },
         {
+          "id": "2125444028527468699",
+          "text": "atus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [425](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.9K",
+          "createdAt": "2026-11-25T09:49:52.941Z",
+          "url": "https://x.com/swyx/status/2125444028527468699"
+        },
+        {
+          "id": "2125371136943022423",
+          "text": "ally most jobs are UBI right now.\" Morph founder [@tejasybhakta](https://x.com/tejasybhakta) argues that AI could create even more bullshit jobs rather than lead to mass unemployment: \"Most people are in jobs that don't need to exist. These procurement officers that are putting out this paperwork that [23](https://x.com/compose/post?in_reply_to=2125444028527468699) 12 261 18K",
+          "createdAt": "2026-11-25T09:49:52.941Z",
+          "url": "https://x.com/swyx/status/2125371136943022423"
+        },
+        {
           "id": "2124730733147390347",
-          "text": "atus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [424](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.9K",
-          "createdAt": "2026-11-24T10:53:54.749Z",
+          "text": "icle The new set of problems for engineers to solve A lot of software engineers are going through what can only be described as an identity crisis. The job has changed a lot. Some are depressed, others are having the time of their lives. There's a](https://x.com/katelyn_lesse/status/2114542280535318557) [123](https://x.com/compose/post?in_reply_to=2125371136943022423) 63 773 49K",
+          "createdAt": "2026-11-25T09:49:52.941Z",
           "url": "https://x.com/swyx/status/2124730733147390347"
         },
         {
           "id": "2124583459356373052",
-          "text": "y... here's the story of our B2B SaaS Felt a lot of nostalgia for the quaint 2019–2024 era of startups writing this. Hopefully still some relevant lessons for early stage startups today: [taimur.me/blog-posts/cau…](https://t.co/GOFt4a0YBK \"https://taimur.me/blog-posts/causal-from-idea-to-acquisition\") [109](https://x.com/compose/post?in_reply_to=2124730733147390347) 10 233 31K",
-          "createdAt": "2026-11-24T10:53:54.749Z",
+          "text": "y... here's the story of our B2B SaaS Felt a lot of nostalgia for the quaint 2019–2024 era of startups writing this. Hopefully still some relevant lessons for early stage startups today: [taimur.me/blog-posts/cau…](https://t.co/GOFt4a0YBK \"https://taimur.me/blog-posts/causal-from-idea-to-acquisition\") [114](https://x.com/compose/post?in_reply_to=2124730733147390347) 11 235 32K",
+          "createdAt": "2026-11-25T09:49:52.941Z",
           "url": "https://x.com/swyx/status/2124583459356373052"
-        },
-        {
-          "id": "2124147427313861009",
-          "text": "y bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to ![Image 17](https://pbs.twimg.com/media/HXvptOTXIAAtrY0?format=webp&name=large) [](https://x.com/merettm/status/2124549218995949967/photo/1) [120](https://x.com/compose/post?in_reply_to=2124583459356373052) 9 162 22K",
-          "createdAt": "2026-11-24T10:53:54.749Z",
-          "url": "https://x.com/swyx/status/2124147427313861009"
-        },
-        {
-          "id": "2123843282082132335",
-          "text": "discovered this by sending a secret links -40 to 130 hours later someone opened the secret links -oop, this means that someone accessed your outputs!! ![Image 22](https://pbs.twimg.com/media/HXn8TyKaMAAM8Pl?format=webp&name=large) [](https://x.com/michael_chomsky/status/2124008002571428224/photo/1) [129](https://x.com/compose/post?in_reply_to=2124147427313861009) 22 279 60K",
-          "createdAt": "2026-11-24T10:53:54.749Z",
-          "url": "https://x.com/swyx/status/2123843282082132335"
         }
       ]
     },
@@ -128,37 +152,37 @@
         {
           "id": "2119114537442189652",
           "text": "## Andrej Karpathy’s posts",
-          "createdAt": "2026-11-24T10:53:55.211Z",
+          "createdAt": "2026-11-25T09:49:53.382Z",
           "url": "https://x.com/karpathy/status/2119114537442189652"
         },
         {
           "id": "2116957135661945283",
           "text": "ished his top YouTube channels: [thume.ca/2026/11/01/you…](https://t.co/NZ3UCNo6cT \"https://thume.ca/2026/11/01/youtube-tier-list-2026/\") Which looked excellent so clearly I had to turn it into TristanTube: [karpathy.ai/tristan-tube/](https://t.co/l0KyW1WdNH \"https://karpathy.ai/tristan-tube/\") 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) [](",
-          "createdAt": "2026-11-24T10:53:55.211Z",
+          "createdAt": "2026-11-25T09:49:53.382Z",
           "url": "https://x.com/karpathy/status/2116957135661945283"
         },
         {
           "id": "2109361546505966046",
-          "text": "*Significantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 7](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=webp&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.7K 52K 6M",
-          "createdAt": "2026-11-24T10:53:55.211Z",
+          "text": "ificantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 7: Image](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=jpg&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.7K 52K 6M",
+          "createdAt": "2026-11-25T09:49:53.382Z",
           "url": "https://x.com/karpathy/status/2109361546505966046"
         },
         {
           "id": "2042334451611693415",
-          "text": "karpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
-          "createdAt": "2026-11-24T10:53:55.211Z",
+          "text": "arpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
+          "createdAt": "2026-11-25T09:49:53.382Z",
           "url": "https://x.com/karpathy/status/2042334451611693415"
         },
         {
           "id": "2105909609487872075",
           "text": "2042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 7M",
-          "createdAt": "2026-11-24T10:53:55.211Z",
+          "createdAt": "2026-11-25T09:49:53.382Z",
           "url": "https://x.com/karpathy/status/2105909609487872075"
         },
         {
           "id": "2105819303471976479",
-          "text": "s) [Sep 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 12](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=webp&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [731](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.6M",
-          "createdAt": "2026-11-24T10:53:55.211Z",
+          "text": "p 24](https://x.com/celestepoasts/status/2103232383139057950) Replying to [@celestepoasts](https://x.com/celestepoasts) results for all claudes ![Image 12: Image](https://pbs.twimg.com/media/HTAureBb0AA1BoW?format=png&name=large) [](https://x.com/celestepoasts/status/2103232383139057950/photo/1) [732](https://x.com/compose/post?in_reply_to=2105909609487872075) 1.2K 19K 1.6M",
+          "createdAt": "2026-11-25T09:49:53.382Z",
           "url": "https://x.com/karpathy/status/2105819303471976479"
         }
       ]

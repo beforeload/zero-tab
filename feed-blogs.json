@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:53:45.710Z",
+  "generatedAt": "2026-11-25T09:49:41.608Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -87,6 +87,46 @@
     },
     {
       "name": "OpenAI Blog",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "content": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "publishedAt": "2026-11-24T13:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "description": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "content": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "publishedAt": "2026-11-24T11:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "description": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "content": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "publishedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "description": "",
+      "content": "",
+      "publishedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "content": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "publishedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "name": "OpenAI Blog",
       "title": "OpenAI and Cisco introduce Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
       "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
@@ -94,44 +134,20 @@
       "publishedAt": "2026-11-23T21:20:00.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Connected intelligence for in-house legal",
-      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-      "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "content": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "publishedAt": "2026-11-23T08:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "description": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9…",
+      "content": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9…",
+      "publishedAt": "2026-11-24T23:02:07.000Z"
     },
     {
-      "name": "OpenAI Blog",
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
-      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "content": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "publishedAt": "2026-11-23T08:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "content": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "publishedAt": "2026-11-22T00:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "content": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "publishedAt": "2026-11-20T10:00:00.000Z"
-    },
-    {
-      "name": "OpenAI Blog",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "content": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "publishedAt": "2026-11-20T00:00:00.000Z"
+      "name": "Simon Willison",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "description": "<p><strong><a href=\"https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\">GPT 6.2 Astra Solves a Historical Mystery</a></strong></p> Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:</p> <blockquote> <p>With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at <a href=\"https://beinecke.library.yale.edu/\">Yale’s Beinecke Library</a>. It…",
+      "content": "<p><strong><a href=\"https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\">GPT 6.2 Astra Solves a Historical Mystery</a></strong></p> Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:</p> <blockquote> <p>With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at <a href=\"https://beinecke.library.yale.edu/\">Yale’s Beinecke Library</a>. It…",
+      "publishedAt": "2026-11-24T16:53:59.000Z"
     },
     {
       "name": "Simon Willison",
@@ -145,8 +161,8 @@
       "name": "Simon Willison",
       "title": "datasette-agent 0.7a1",
       "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.7a1\">datasette-agent 0.7a1</a></p> <p>I small improvement to <a href=\"https://agent.datasette.io/\">Datasette Agent</a>: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way t…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.7a1\">datasette-agent 0.7a1</a></p> <p>I small improvement to <a href=\"https://agent.datasette.io/\">Datasette Agent</a>: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way t…",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.7a1\">datasette-agent 0.7a1</a></p> <p>A small improvement to <a href=\"https://agent.datasette.io/\">Datasette Agent</a>: chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.7a1\">datasette-agent 0.7a1</a></p> <p>A small improvement to <a href=\"https://agent.datasette.io/\">Datasette Agent</a>: chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way…",
       "publishedAt": "2026-11-24T03:45:57.000Z"
     },
     {
@@ -164,22 +180,6 @@
       "description": "<p><a href=\"https://ladybird.org\">Ladybird</a> is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like <a href=\"https://github.com/harfbuzz/harfbuzz\">HarfBuzz</a> for text shaping, <a href=\"https://skia.org/\">Skia</a> for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else…",
       "content": "<p><a href=\"https://ladybird.org\">Ladybird</a> is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like <a href=\"https://github.com/harfbuzz/harfbuzz\">HarfBuzz</a> for text shaping, <a href=\"https://skia.org/\">Skia</a> for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else…",
       "publishedAt": "2026-11-23T21:46:35.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-charts 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.1a0\">datasette-charts 0.1a0</a></p> <p>I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.</p> <p>You can <a href=\"https://lite.datasette.io/?install=datasette-charts#/content/stats#chart=%7B%22v%22%3A1%2C%22type%22%3A%22line%22%2C%22encoding%22%3A%7B%2…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.1a0\">datasette-charts 0.1a0</a></p> <p>I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.</p> <p>You can <a href=\"https://lite.datasette.io/?install=datasette-charts#/content/stats#chart=%7B%22v%22%3A1%2C%22type%22%3A%22line%22%2C%22encoding%22%3A%7B%2…",
-      "publishedAt": "2026-11-23T00:37:20.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Select Styling Specimens",
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/select-styling\">Select Styling Specimens</a></p> <p>I got frustrated at how HTML <code><select></code> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:</p> <p><img alt=\"The same select box in Chrome, Safari, and Firefox, Chrome is white with a black border. Safari is grey with no border. Firefox is gray with a black border. They are all slightly different sizes.\" src=\"https://stat…",
-      "content": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/select-styling\">Select Styling Specimens</a></p> <p>I got frustrated at how HTML <code><select></code> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:</p> <p><img alt=\"The same select box in Chrome, Safari, and Firefox, Chrome is white with a black border. Safari is grey with no border. Firefox is gray with a black border. They are all slightly different sizes.\" src=\"https://stat…",
-      "publishedAt": "2026-11-22T19:45:06.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+      "description": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+      "content": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+      "publishedAt": "2026-11-25T04:29:07.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
       "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
       "description": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
@@ -268,14 +276,6 @@
       "description": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
       "content": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
       "publishedAt": "2026-11-19T23:58:21.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
-      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
-      "description": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
-      "content": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
-      "publishedAt": "2026-11-19T07:07:43.000Z"
     },
     {
       "name": "Cursor Blog",
