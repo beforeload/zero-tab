@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T09:29:04.133Z",
+  "generatedAt": "2026-11-27T09:39:40.574Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,11 +135,27 @@
     },
     {
       "name": "Simon Willison",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "description": "<blockquote cite=\"https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude\"><p>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and…",
+      "content": "<blockquote cite=\"https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude\"><p>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and…",
+      "publishedAt": "2026-11-26T15:09:31.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
       "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
       "description": "<p><strong><a href=\"https://www.sqlite.org/rsync.html\">sqlite3_rsync: Database Remote-Copy Tool For SQLite</a></strong></p> This additional SQLite tool has been around for a while now - it was added as \"experimental\" <a href=\"https://www.sqlite.org/releaselog/3_47_0.html\">in SQLite 3.47.0 in October 2024</a> and enhanced in <a href=\"https://www.sqlite.org/releaselog/3_50_0.html\">SQLite 3.50.0 in May 2025</a>. It was only today that I understood one of its most attractive characteristics.</p> <p…",
       "content": "<p><strong><a href=\"https://www.sqlite.org/rsync.html\">sqlite3_rsync: Database Remote-Copy Tool For SQLite</a></strong></p> This additional SQLite tool has been around for a while now - it was added as \"experimental\" <a href=\"https://www.sqlite.org/releaselog/3_47_0.html\">in SQLite 3.47.0 in October 2024</a> and enhanced in <a href=\"https://www.sqlite.org/releaselog/3_50_0.html\">SQLite 3.50.0 in May 2025</a>. It was only today that I understood one of its most attractive characteristics.</p> <p…",
       "publishedAt": "2026-11-26T06:08:25.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "description": "<p><a href=\"https://news.ycombinator.com/item?id=50647673#50651685\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50647673\">The New York Times warns photographers not to update Photoshop over AI features</a> &mdash; Hacker News.</p><p>I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photograph…",
+      "content": "<p><a href=\"https://news.ycombinator.com/item?id=50647673#50651685\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50647673\">The New York Times warns photographers not to update Photoshop over AI features</a> &mdash; Hacker News.</p><p>I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photograph…",
+      "publishedAt": "2026-11-26T05:08:46.000Z"
     },
     {
       "name": "Simon Willison",
@@ -164,22 +180,6 @@
       "description": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9…",
       "content": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9…",
       "publishedAt": "2026-11-24T23:02:07.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "GPT 6.2 Astra Solves a Historical Mystery",
-      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
-      "description": "<p><strong><a href=\"https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\">GPT 6.2 Astra Solves a Historical Mystery</a></strong></p> Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:</p> <blockquote> <p>With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at <a href=\"https://beinecke.library.yale.edu/\">Yale’s Beinecke Library</a>. It…",
-      "content": "<p><strong><a href=\"https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical\">GPT 6.2 Astra Solves a Historical Mystery</a></strong></p> Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:</p> <blockquote> <p>With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at <a href=\"https://beinecke.library.yale.edu/\">Yale’s Beinecke Library</a>. It…",
-      "publishedAt": "2026-11-24T16:53:59.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-charts 0.2a1",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.2a1\">datasette-charts 0.2a1</a></p> <blockquote> <p>Minor UI improvements:</p> <ul> <li>Collapsing the <strong>suggested charts</strong> section now leaves the chart visible.</li> <li>Following a link to a chart opens it with the suggestions collapsed for that visit.</li> <li>On table pages the panel now sits below the \"4,235 rows where country = CHN\" line.</li> <li>The \"Data\" table under each cha…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.2a1\">datasette-charts 0.2a1</a></p> <blockquote> <p>Minor UI improvements:</p> <ul> <li>Collapsing the <strong>suggested charts</strong> section now leaves the chart visible.</li> <li>Following a link to a chart opens it with the suggestions collapsed for that visit.</li> <li>On table pages the panel now sits below the \"4,235 rows where country = CHN\" line.</li> <li>The \"Data\" table under each cha…",
-      "publishedAt": "2026-11-24T06:07:19.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,14 @@
     },
     {
       "name": "Latent Space",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "description": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+      "content": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+      "publishedAt": "2026-11-26T23:02:48.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
       "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
       "description": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
@@ -268,14 +276,6 @@
       "description": "November 20 2026 —",
       "content": "November 20 2026 —",
       "publishedAt": "2026-11-21T05:02:13.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
-      "url": "https://latent.space/p/formal-verification/",
-      "description": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
-      "content": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
-      "publishedAt": "2026-11-20T21:18:41.000Z"
     },
     {
       "name": "Cursor Blog",

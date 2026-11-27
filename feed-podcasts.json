@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-26T09:29:04.133Z",
+  "generatedAt": "2026-11-27T09:39:40.574Z",
   "podcasts": [
+    {
+      "name": "Practical AI",
+      "title": "Humans in a Post-Human World",
+      "url": "https://share.transistor.fm/s/45701c1a",
+      "guid": "ddeffa18-28ec-4837-ab2f-42fa8403c7a9",
+      "transcript": "<p>I’ve spent more than forty years writing software. AI agents now write it better than I do. My daughter Athena is fourteen and earns straight A’s in high school. How do I help her choose a career when her AI study partner will likely do that work better than she can?</p><p>Today those agents are my teammates, and I still decide what we’re trying to build. If machines eventually do all the work, where does that leave me? And who earns the money to buy what they make?</p><p>As an AI and autono…",
+      "publishedAt": "2026-11-26T10:00:00.000Z"
+    },
     {
       "name": "Practical AI",
       "title": "Building Human-Centered AI",
@@ -24,14 +32,6 @@
       "guid": "61100a8a-1794-45d2-9fc9-8cde63686074",
       "transcript": "<p>How do organizations decide what AI should do, where to set boundaries, and when to keep humans in control? In this special episode, we bring you three more talks from the Midwest AI Summit, exploring how organizations are putting AI into practice. Don Barger of the International Mission Board shares how establishing an AI charter helped define what the organization would and wouldn't use AI for. Mark Lay of Noblis explores four key decisions for managing AI across an organization, from dele…",
       "publishedAt": "2026-11-05T10:00:00.000Z"
-    },
-    {
-      "name": "Practical AI",
-      "title": "Abundant Intelligence at the Midwest AI Summit",
-      "url": "https://share.transistor.fm/s/37a0c3e9",
-      "guid": "3fe2ac26-f639-47fe-b6a5-235cd8c644cd",
-      "transcript": "<p>In this special episode, we bring you highlights from three talks at the Midwest AI Summit. Heidi Porter explores how to build reliable AI-augmented workflows using the right tools, evaluations, and guardrails. Kevin Solorio shares why building AI <em>with</em> frontline workers, not just for them, is key to earning trust and driving adoption, emphasizing collaboration and continuous feedback. And Chris Shinkle and Andrew Dunlap of SEP discuss how software teams can find the right level of A…",
-      "publishedAt": "2026-10-29T09:00:00.000Z"
     }
   ]
 }

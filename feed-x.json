@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T09:29:04.133Z",
+  "generatedAt": "2026-11-27T09:39:40.574Z",
   "x": [
     {
       "name": "Anthropic",
@@ -8,104 +8,68 @@
         {
           "id": "2125627317263466739",
           "text": "## Anthropic’s posts",
-          "createdAt": "2026-11-26T09:29:10.002Z",
+          "createdAt": "2026-11-27T09:39:44.310Z",
           "url": "https://x.com/AnthropicAI/status/2125627317263466739"
         },
         {
           "id": "2125365268381929637",
-          "text": "ams of Claude agents tracking down and fixing differences between the two versions. [![Image 6: Anthropic logo](https://pbs.twimg.com/card_img/2125626743868506114/hdOzRCrf?format=jpg&name=medium) Migrating our Messages API to Rust](https://t.co/NdrMzgrOwP)[From anthropic.com](https://t.co/NdrMzgrOwP) [634](https://x.com/compose/post?in_reply_to=2125627317263466739) 1.5K 11K 3.1M",
-          "createdAt": "2026-11-26T09:29:10.003Z",
+          "text": "ams of Claude agents tracking down and fixing differences between the two versions. [![Image 6: Anthropic logo](https://pbs.twimg.com/card_img/2125626743868506114/hdOzRCrf?format=jpg&name=medium) Migrating our Messages API to Rust](https://t.co/NdrMzgrOwP)[From anthropic.com](https://t.co/NdrMzgrOwP) [869](https://x.com/compose/post?in_reply_to=2125627317263466739) 2.2K 14K 4.9M",
+          "createdAt": "2026-11-27T09:39:44.310Z",
           "url": "https://x.com/AnthropicAI/status/2125365268381929637"
         },
         {
           "id": "2125341904644763678",
-          "text": "8381929637) New Anthropic Fellows research: Returning to the neuron basis for interpretability Understanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that,Show more [396](https://x.com/compose/post?in_reply_to=2125365268381929637) 830 6.4K 894K",
-          "createdAt": "2026-11-26T09:29:10.003Z",
+          "text": "8381929637) New Anthropic Fellows research: Returning to the neuron basis for interpretability Understanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that,Show more [417](https://x.com/compose/post?in_reply_to=2125365268381929637) 863 6.6K 951K",
+          "createdAt": "2026-11-27T09:39:44.310Z",
           "url": "https://x.com/AnthropicAI/status/2125341904644763678"
         },
         {
           "id": "2123822989154369958",
-          "text": "dbox. Across 1,700+ scenarios built to tempt Show more [![Image 9: Card image](https://pbs.twimg.com/card_img/2125263050097991680/A3AytO3o?format=jpg&name=medium) Measuring and mitigating agent sandbox escape with Siren](https://t.co/5MbjpBkEo3)[From safeguards.anthropic.com](https://t.co/5MbjpBkEo3) [549](https://x.com/compose/post?in_reply_to=2125341904644763678) 580 2.6K 322K",
-          "createdAt": "2026-11-26T09:29:10.003Z",
+          "text": "dbox. Across 1,700+ scenarios built to tempt Show more [![Image 9: Card image](https://pbs.twimg.com/card_img/2125263050097991680/A3AytO3o?format=jpg&name=medium) Measuring and mitigating agent sandbox escape with Siren](https://t.co/5MbjpBkEo3)[From safeguards.anthropic.com](https://t.co/5MbjpBkEo3) [576](https://x.com/compose/post?in_reply_to=2125341904644763678) 611 2.7K 359K",
+          "createdAt": "2026-11-27T09:39:44.310Z",
           "url": "https://x.com/AnthropicAI/status/2123822989154369958"
         },
         {
           "id": "2123461658890686863",
-          "text": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah [Video 2](https://x.com/AnthropicAI)![Image 11: Video thumbnail](https://pbs.twimg.com/media/HXlVce1X0AARumK?format=jpg&name=medium) 00:00 [632](https://x.com/compose/post?in_reply_to=2123822989154369958) 755 6.5K 1.4M",
-          "createdAt": "2026-11-26T09:29:10.003Z",
+          "text": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah [Video 2](https://x.com/AnthropicAI)![Image 11: Video thumbnail](https://pbs.twimg.com/media/HXlVce1X0AARumK?format=jpg&name=medium) 00:00 [635](https://x.com/compose/post?in_reply_to=2123822989154369958) 758 6.5K 1.4M",
+          "createdAt": "2026-11-27T09:39:44.311Z",
           "url": "https://x.com/AnthropicAI/status/2123461658890686863"
         }
       ]
     },
     {
-      "name": "Addy Osmani",
-      "handle": "addyosmani",
+      "name": "Simon Willison",
+      "handle": "simonw",
       "tweets": [
         {
-          "id": "2114604912520921136",
-          "text": "## Addy Osmani’s posts",
-          "createdAt": "2026-11-26T09:29:15.630Z",
-          "url": "https://x.com/addyosmani/status/2114604912520921136"
+          "id": "2125998873252605954",
+          "text": "## Simon Willison’s posts",
+          "createdAt": "2026-11-27T09:39:45.150Z",
+          "url": "https://x.com/simonw/status/2125998873252605954"
         },
         {
-          "id": "2125492213903978917",
-          "text": ") Article How the Claude Code team does code review We previously mentioned that Claude writes about 90 percent of the code for Claude Code. So how do we do code review at this scale? Who reads code anyway? What happens if code goes wrong? This post](https://x.com/addyosmani/status/2114604912520921136) [416](https://x.com/compose/post?in_reply_to=2114604912520921136) 2K 13K 2.7M",
-          "createdAt": "2026-11-26T09:29:15.630Z",
-          "url": "https://x.com/addyosmani/status/2125492213903978917"
+          "id": "2125816458911600681",
+          "text": "s/2125767584477790270) I get a few emails a day from people who have applied for jobs at Cloudflare and want me to consider them. A few years ago such an email was rare and a sign that someone was really excited about Cloudflare Workers specifically and were not just sending resumes to 100 companies. [122](https://x.com/compose/post?in_reply_to=2125998873252605954) 20 550 47K",
+          "createdAt": "2026-11-27T09:39:45.150Z",
+          "url": "https://x.com/simonw/status/2125816458911600681"
         },
         {
-          "id": "2124960211287101656",
-          "text": "le A practical guide to shipping with Claude Code We just launched Claude Ship which can review your pull requests, work on fixes and approve the ones your team's policy allows. You may have a custom skill or workflow for these steps, but we wanted](https://x.com/addyosmani/status/2125492213903978917) [88](https://x.com/compose/post?in_reply_to=2125492213903978917) 138 1.2K 108K",
-          "createdAt": "2026-11-26T09:29:15.630Z",
-          "url": "https://x.com/addyosmani/status/2124960211287101656"
+          "id": "2125640464863056148",
+          "text": "enerates SVG pelicans on bicycles gave it their real launch videos as refs. it actually looks like an official ad lol [Video 3](https://x.com/simonw)![Image 8: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125658434422865920/img/GAWHuJskxN-5encH?format=jpg&name=medium) 00:00 [84](https://x.com/compose/post?in_reply_to=2125816458911600681) 51 1.9K 110K",
+          "createdAt": "2026-11-27T09:39:45.150Z",
+          "url": "https://x.com/simonw/status/2125640464863056148"
         },
         {
-          "id": "2124229492248019362",
-          "text": "and approve the ones your team's policy allows. The goal is to help you ship code as fast as you can write it. [Video 2](https://x.com/addyosmani)![Image 10: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2124957499291832320/img/5uvC76lCrhP03Rlr?format=jpg&name=medium) 00:00 [153](https://x.com/compose/post?in_reply_to=2124960211287101656) 107 1.4K 163K",
-          "createdAt": "2026-11-26T09:29:15.630Z",
-          "url": "https://x.com/addyosmani/status/2124229492248019362"
+          "id": "2125619997796123135",
+          "text": "=medium) [![Image 13: @altinsmaili](https://pbs.twimg.com/profile_images/2089622054509178880/nDzJnP6__normal.jpg) Altin](https://x.com/altinsmaili/status/2120264712722272559) 00:00![Image 14: @altinsmaili](https://pbs.twimg.com/profile_images/2089622054509178880/nDzJnP6__normal.jpg) Altin [148](https://x.com/compose/post?in_reply_to=2125640464863056148) 10 207 31K",
+          "createdAt": "2026-11-27T09:39:45.150Z",
+          "url": "https://x.com/simonw/status/2125619997796123135"
         },
         {
-          "id": "2122590683055993308",
-          "text": "evs/status/2122801681939234950) Check out Code Mode, a new, experimental way for Claude Code to work with tools. Claude writes scripts that chain your tools together in sophisticated ways, and it can answer you while long commands are still running. Opt in with CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 [288](https://x.com/compose/post?in_reply_to=2124229492248019362) 190 2.4K 210K",
-          "createdAt": "2026-11-26T09:29:15.630Z",
-          "url": "https://x.com/addyosmani/status/2122590683055993308"
-        }
-      ]
-    },
-    {
-      "name": "Swyx",
-      "handle": "swyx",
-      "tweets": [
-        {
-          "id": "1281424520100737025",
-          "text": "## Log in or sign up for X",
-          "createdAt": "2026-11-26T09:29:16.073Z",
-          "url": "https://x.com/swyx/status/1281424520100737025"
-        },
-        {
-          "id": "2125638081848250634",
-          "text": "atus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [426](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.9K",
-          "createdAt": "2026-11-26T09:29:16.073Z",
-          "url": "https://x.com/swyx/status/2125638081848250634"
-        },
-        {
-          "id": "2125627281230205435",
-          "text": "tatus/2118446852655718405) ![Image 15: Image](https://pbs.twimg.com/media/HWY8LngXMAAtDH0?format=jpg&name=large) [](https://x.com/SteveGuest/status/2118446852655718405/photo/1) NEWS YOU CAN USE: Goodbye from Salon \"Today, after 31 years, we are saddened to announce that Salon is ceasing publication.\" [26](https://x.com/compose/post?in_reply_to=2125638081848250634) 2 53 9.1K",
-          "createdAt": "2026-11-26T09:29:16.073Z",
-          "url": "https://x.com/swyx/status/2125627281230205435"
-        },
-        {
-          "id": "2125444028527468699",
-          "text": "till have bugs (e.g., failing correct work) and mostly measure what's easy, not what matters. Here's my breakdown of 12 public evals: how they're built, where they break, and what to measure instead. [eugeneyan.com/writing/public…](https://t.co/ojpCsi6OBi \"https://eugeneyan.com/writing/public-evals\") [179](https://x.com/compose/post?in_reply_to=2125627281230205435) 32 304 19K",
-          "createdAt": "2026-11-26T09:29:16.073Z",
-          "url": "https://x.com/swyx/status/2125444028527468699"
-        },
-        {
-          "id": "2125371136943022423",
-          "text": "ally most jobs are UBI right now.\" Morph founder [@tejasybhakta](https://x.com/tejasybhakta) argues that AI could create even more bullshit jobs rather than lead to mass unemployment: \"Most people are in jobs that don't need to exist. These procurement officers that are putting out this paperwork that [44](https://x.com/compose/post?in_reply_to=2125444028527468699) 17 536 41K",
-          "createdAt": "2026-11-26T09:29:16.073Z",
-          "url": "https://x.com/swyx/status/2125371136943022423"
+          "id": "2125369126877286662",
+          "text": "tus/2125331396465996266) Having a look at grok bot. It seems keen to draft replies to tweets for me. All this time I thought those awful bot replies were externally automated somehow, when they were coming from within Twitter itself. How naive am I. For the record, I will never use that. Be assured that [36](https://x.com/compose/post?in_reply_to=2125619997796123135) 1 89 25K",
+          "createdAt": "2026-11-27T09:39:45.150Z",
+          "url": "https://x.com/simonw/status/2125369126877286662"
         }
       ]
     },
@@ -116,37 +80,37 @@
         {
           "id": "2125779541952246039",
           "text": "## Andrej Karpathy’s posts",
-          "createdAt": "2026-11-26T09:29:16.449Z",
+          "createdAt": "2026-11-27T09:39:50.449Z",
           "url": "https://x.com/karpathy/status/2125779541952246039"
         },
         {
           "id": "2119114537442189652",
-          "text": "er... it works :) - 31 real data sources including Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA,Show more [Video 2](https://x.com/karpathy)![Image 4: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125775560517570561/img/GDE8h47dSgwy5uSy?format=jpg&name=medium) 00:00 [705](https://x.com/compose/post?in_reply_to=2125779541952246039) 1.2K 11K 714K",
-          "createdAt": "2026-11-26T09:29:16.449Z",
+          "text": "r... it works :) - 31 real data sources including Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA,Show more [Video 2](https://x.com/karpathy)![Image 4: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125775560517570561/img/GDE8h47dSgwy5uSy?format=jpg&name=medium) 00:00 [1.4K](https://x.com/compose/post?in_reply_to=2125779541952246039) 2.9K 26K 2.4M",
+          "createdAt": "2026-11-27T09:39:50.449Z",
           "url": "https://x.com/karpathy/status/2119114537442189652"
         },
         {
           "id": "2116957135661945283",
           "text": "ished his top YouTube channels: [thume.ca/2026/11/01/you…](https://t.co/NZ3UCNo6cT \"https://thume.ca/2026/11/01/youtube-tier-list-2026/\") Which looked excellent so clearly I had to turn it into TristanTube: [karpathy.ai/tristan-tube/](https://t.co/l0KyW1WdNH \"https://karpathy.ai/tristan-tube/\") 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) [](",
-          "createdAt": "2026-11-26T09:29:16.449Z",
+          "createdAt": "2026-11-27T09:39:50.449Z",
           "url": "https://x.com/karpathy/status/2116957135661945283"
         },
         {
           "id": "2109361546505966046",
           "text": "ificantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 9: Image](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=jpg&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.7K 52K 6M",
-          "createdAt": "2026-11-26T09:29:16.449Z",
+          "createdAt": "2026-11-27T09:39:50.449Z",
           "url": "https://x.com/karpathy/status/2109361546505966046"
         },
         {
           "id": "2042334451611693415",
           "text": "arpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
-          "createdAt": "2026-11-26T09:29:16.449Z",
+          "createdAt": "2026-11-27T09:39:50.449Z",
           "url": "https://x.com/karpathy/status/2042334451611693415"
         },
         {
           "id": "2105909609487872075",
           "text": "2042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 7M",
-          "createdAt": "2026-11-26T09:29:16.449Z",
+          "createdAt": "2026-11-27T09:39:50.449Z",
           "url": "https://x.com/karpathy/status/2105909609487872075"
         }
       ]
