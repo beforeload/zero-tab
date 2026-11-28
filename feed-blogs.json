@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T09:39:40.574Z",
+  "generatedAt": "2026-11-28T08:53:46.670Z",
   "blogs": [
     {
       "name": "Anthropic Engineering",
@@ -135,6 +135,22 @@
     },
     {
       "name": "Simon Willison",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.4a0\">datasette-charts 0.4a0</a></p> <p>The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional…",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.4a0\">datasette-charts 0.4a0</a></p> <p>The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional…",
+      "publishedAt": "2026-11-27T23:57:17.000Z"
+    },
+    {
+      "name": "Simon Willison",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.4\">datasette-mcp 0.4</a></p> <p>Fixed for compatibility with <a href=\"https://docs.datasette.io/en/latest/changelog.html#a44-2026-11-22\">Datasette 1.0a44</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.4\">datasette-mcp 0.4</a></p> <p>Fixed for compatibility with <a href=\"https://docs.datasette.io/en/latest/changelog.html#a44-2026-11-22\">Datasette 1.0a44</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "publishedAt": "2026-11-27T00:26:17.000Z"
+    },
+    {
+      "name": "Simon Willison",
       "title": "Quoting Jack Despain Zhou",
       "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
       "description": "<blockquote cite=\"https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude\"><p>Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and…",
@@ -164,22 +180,6 @@
       "description": "<blockquote cite=\"https://scottaaronson.blog/?p=10379\"><p>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you <em>some</em> idea of how our resolution into the complexity-theoretic universe, and the whole univer…",
       "content": "<blockquote cite=\"https://scottaaronson.blog/?p=10379\"><p>It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you <em>some</em> idea of how our resolution into the complexity-theoretic universe, and the whole univer…",
       "publishedAt": "2026-11-25T23:26:32.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "datasette-charts 0.3a0",
-      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.3a0\">datasette-charts 0.3a0</a></p> <p>I added chart annotations to <a href=\"https://github.com/datasette/datasette-charts\">datasette-charts</a>!</p> <p>You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.</p> <p>A chart with annotations looks like this:</p> <p><img alt=\"Screenshot of an annotated bar chart with the y-axis label \"↑ Total…",
-      "content": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.3a0\">datasette-charts 0.3a0</a></p> <p>I added chart annotations to <a href=\"https://github.com/datasette/datasette-charts\">datasette-charts</a>!</p> <p>You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.</p> <p>A chart with annotations looks like this:</p> <p><img alt=\"Screenshot of an annotated bar chart with the y-axis label \"↑ Total…",
-      "publishedAt": "2026-11-25T18:16:50.000Z"
-    },
-    {
-      "name": "Simon Willison",
-      "title": "Three LLM inflection points in twelve months",
-      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
-      "description": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9…",
-      "content": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9…",
-      "publishedAt": "2026-11-24T23:02:07.000Z"
     },
     {
       "name": "Julia Evans",
@@ -231,6 +231,22 @@
     },
     {
       "name": "Latent Space",
+      "title": "[AINews] Inside the exploding Coding Data Market",
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "description": "November 27, 2026 — How frontier labs buy training data.",
+      "content": "November 27, 2026 — How frontier labs buy training data.",
+      "publishedAt": "2026-11-28T03:45:59.000Z"
+    },
+    {
+      "name": "Latent Space",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "description": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+      "content": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+      "publishedAt": "2026-11-27T22:19:18.000Z"
+    },
+    {
+      "name": "Latent Space",
       "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
       "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
       "description": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
@@ -260,22 +276,6 @@
       "description": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
       "content": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
       "publishedAt": "2026-11-25T04:29:07.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
-      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
-      "description": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
-      "content": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
-      "publishedAt": "2026-11-24T04:14:16.000Z"
-    },
-    {
-      "name": "Latent Space",
-      "title": "[AINews] Riemann Hypothesis proved...twice independently",
-      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
-      "description": "November 20 2026 —",
-      "content": "November 20 2026 —",
-      "publishedAt": "2026-11-21T05:02:13.000Z"
     },
     {
       "name": "Cursor Blog",

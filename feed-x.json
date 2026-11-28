@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-27T09:39:40.574Z",
+  "generatedAt": "2026-11-28T08:53:46.670Z",
   "x": [
     {
-      "name": "Anthropic",
-      "handle": "AnthropicAI",
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
       "tweets": [
         {
-          "id": "2125627317263466739",
-          "text": "## Anthropic’s posts",
-          "createdAt": "2026-11-27T09:39:44.310Z",
-          "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+          "id": "2089179650891432270",
+          "text": "[![Image 6: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel)",
+          "createdAt": "2026-11-28T08:53:50.301Z",
+          "url": "https://x.com/rauchg/status/2089179650891432270"
         },
         {
-          "id": "2125365268381929637",
-          "text": "ams of Claude agents tracking down and fixing differences between the two versions. [![Image 6: Anthropic logo](https://pbs.twimg.com/card_img/2125626743868506114/hdOzRCrf?format=jpg&name=medium) Migrating our Messages API to Rust](https://t.co/NdrMzgrOwP)[From anthropic.com](https://t.co/NdrMzgrOwP) [869](https://x.com/compose/post?in_reply_to=2125627317263466739) 2.2K 14K 4.9M",
-          "createdAt": "2026-11-27T09:39:44.310Z",
-          "url": "https://x.com/AnthropicAI/status/2125365268381929637"
+          "id": "2126503317786530105",
+          "text": "## Guillermo Rauch’s posts",
+          "createdAt": "2026-11-28T08:53:50.301Z",
+          "url": "https://x.com/rauchg/status/2126503317786530105"
         },
         {
-          "id": "2125341904644763678",
-          "text": "8381929637) New Anthropic Fellows research: Returning to the neuron basis for interpretability Understanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that,Show more [417](https://x.com/compose/post?in_reply_to=2125365268381929637) 863 6.6K 951K",
-          "createdAt": "2026-11-27T09:39:44.310Z",
-          "url": "https://x.com/AnthropicAI/status/2125341904644763678"
+          "id": "2126434620816384451",
+          "text": "jpg)](https://x.com/rauchg) [Guillermo Rauch](https://x.com/rauchg)[![Image 10: Vercel](https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_normal.png)](https://x.com/vercel) [@rauchg](https://x.com/rauchg) [5h](https://x.com/rauchg/status/2126503317786530105) Everyday is breakthrough day [23](https://x.com/compose/post?in_reply_to=2126503317786530105) 21 291 14K",
+          "createdAt": "2026-11-28T08:53:50.302Z",
+          "url": "https://x.com/rauchg/status/2126434620816384451"
         },
         {
-          "id": "2123822989154369958",
-          "text": "dbox. Across 1,700+ scenarios built to tempt Show more [![Image 9: Card image](https://pbs.twimg.com/card_img/2125263050097991680/A3AytO3o?format=jpg&name=medium) Measuring and mitigating agent sandbox escape with Siren](https://t.co/5MbjpBkEo3)[From safeguards.anthropic.com](https://t.co/5MbjpBkEo3) [576](https://x.com/compose/post?in_reply_to=2125341904644763678) 611 2.7K 359K",
-          "createdAt": "2026-11-27T09:39:44.310Z",
-          "url": "https://x.com/AnthropicAI/status/2123822989154369958"
+          "id": "2126416223592473046",
+          "text": "rmon](https://x.com/alecharmon) [10h](https://x.com/alecharmon/status/2126432291123777876) Upgraded [@floraai](https://x.com/floraai) to Vercel's WDK 5.8 today. Orchestration wall time −15%. End-to-end generations −3%. Zero code changes. Hats off to the [@vercel](https://x.com/vercel) Workflow team 👏 [21](https://x.com/compose/post?in_reply_to=2126434620816384451) 3 102 19K",
+          "createdAt": "2026-11-28T08:53:50.302Z",
+          "url": "https://x.com/rauchg/status/2126416223592473046"
         },
         {
-          "id": "2123461658890686863",
-          "text": "Anthropic’s co-founders on the story so far. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah [Video 2](https://x.com/AnthropicAI)![Image 11: Video thumbnail](https://pbs.twimg.com/media/HXlVce1X0AARumK?format=jpg&name=medium) 00:00 [635](https://x.com/compose/post?in_reply_to=2123822989154369958) 758 6.5K 1.4M",
-          "createdAt": "2026-11-27T09:39:44.311Z",
-          "url": "https://x.com/AnthropicAI/status/2123461658890686863"
+          "id": "2126359827849114040",
+          "text": "bsolutely unreal. It runs a full Linux kernal and distro in a browser tab. No tricks. The full thing. It can run coding agents, it can even run Chrome inside Chrome 🤯 and it's… fast!? [Video 3](blob:https://x.com/44ede65c-e1a3-4521-b3de-334c6b12d838) [Pooya Parsa](https://x.com/_pi0_) [205](https://x.com/compose/post?in_reply_to=2126416223592473046) 430 4.1K 182K",
+          "createdAt": "2026-11-28T08:53:50.302Z",
+          "url": "https://x.com/rauchg/status/2126359827849114040"
         }
       ]
     },
@@ -43,33 +43,69 @@
       "tweets": [
         {
           "id": "2125998873252605954",
-          "text": "## Simon Willison’s posts",
-          "createdAt": "2026-11-27T09:39:45.150Z",
+          "text": "[simonwillison.net](https://t.co/p4R0XiEYEc)",
+          "createdAt": "2026-11-28T08:53:50.828Z",
           "url": "https://x.com/simonw/status/2125998873252605954"
         },
         {
           "id": "2125816458911600681",
-          "text": "s/2125767584477790270) I get a few emails a day from people who have applied for jobs at Cloudflare and want me to consider them. A few years ago such an email was rare and a sign that someone was really excited about Cloudflare Workers specifically and were not just sending resumes to 100 companies. [122](https://x.com/compose/post?in_reply_to=2125998873252605954) 20 550 47K",
-          "createdAt": "2026-11-27T09:39:45.150Z",
+          "text": "s/2125767584477790270) I get a few emails a day from people who have applied for jobs at Cloudflare and want me to consider them. A few years ago such an email was rare and a sign that someone was really excited about Cloudflare Workers specifically and were not just sending resumes to 100 companies. [163](https://x.com/compose/post?in_reply_to=2125998873252605954) 23 660 70K",
+          "createdAt": "2026-11-28T08:53:50.828Z",
           "url": "https://x.com/simonw/status/2125816458911600681"
         },
         {
           "id": "2125640464863056148",
-          "text": "enerates SVG pelicans on bicycles gave it their real launch videos as refs. it actually looks like an official ad lol [Video 3](https://x.com/simonw)![Image 8: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125658434422865920/img/GAWHuJskxN-5encH?format=jpg&name=medium) 00:00 [84](https://x.com/compose/post?in_reply_to=2125816458911600681) 51 1.9K 110K",
-          "createdAt": "2026-11-27T09:39:45.150Z",
+          "text": "us Next (5.6/6) to make an Anthropic-style launch video for \"Claude Pelican 1\", a fake model that only generates SVG pelicans on bicycles gave it their real launch videos as refs. it actually looks like an official ad lol [Video 3](blob:https://x.com/9309cac7-3694-4d80-b127-bc5db8a07610) [86](https://x.com/compose/post?in_reply_to=2125816458911600681) 53 2K 118K",
+          "createdAt": "2026-11-28T08:53:50.828Z",
           "url": "https://x.com/simonw/status/2125640464863056148"
         },
         {
           "id": "2125619997796123135",
-          "text": "=medium) [![Image 13: @altinsmaili](https://pbs.twimg.com/profile_images/2089622054509178880/nDzJnP6__normal.jpg) Altin](https://x.com/altinsmaili/status/2120264712722272559) 00:00![Image 14: @altinsmaili](https://pbs.twimg.com/profile_images/2089622054509178880/nDzJnP6__normal.jpg) Altin [148](https://x.com/compose/post?in_reply_to=2125640464863056148) 10 207 31K",
-          "createdAt": "2026-11-27T09:39:45.150Z",
+          "text": "=medium) [![Image 12: @altinsmaili](https://pbs.twimg.com/profile_images/2089622054509178880/nDzJnP6__normal.jpg) Altin](https://x.com/altinsmaili/status/2120264712722272559) 00:24![Image 13: @altinsmaili](https://pbs.twimg.com/profile_images/2089622054509178880/nDzJnP6__normal.jpg) Altin [156](https://x.com/compose/post?in_reply_to=2125640464863056148) 10 214 33K",
+          "createdAt": "2026-11-28T08:53:50.828Z",
           "url": "https://x.com/simonw/status/2125619997796123135"
         },
         {
           "id": "2125369126877286662",
-          "text": "tus/2125331396465996266) Having a look at grok bot. It seems keen to draft replies to tweets for me. All this time I thought those awful bot replies were externally automated somehow, when they were coming from within Twitter itself. How naive am I. For the record, I will never use that. Be assured that [36](https://x.com/compose/post?in_reply_to=2125619997796123135) 1 89 25K",
-          "createdAt": "2026-11-27T09:39:45.150Z",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-11-28T08:53:50.828Z",
           "url": "https://x.com/simonw/status/2125369126877286662"
+        }
+      ]
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "tweets": [
+        {
+          "id": "1281424520100737025",
+          "text": "## Log in or sign up for X",
+          "createdAt": "2026-11-28T08:53:55.430Z",
+          "url": "https://x.com/swyx/status/1281424520100737025"
+        },
+        {
+          "id": "2126528882262348003",
+          "text": "atus/1281424520100737025) 💁‍♂️ How to Play Long Term Games: Systems > Goals Discipline > Motivation Trust > Distrust Principles > Tactics Writing > Reading Vulnerability > Confidence North Stars > Low Hanging Fruit Trends > News Habits > Sprints Questions > Answers Problems > Solutions People > Projects [427](https://x.com/compose/post?in_reply_to=1281424520100737025) 1K 5.9K",
+          "createdAt": "2026-11-28T08:53:55.430Z",
+          "url": "https://x.com/swyx/status/2126528882262348003"
+        },
+        {
+          "id": "2126352854394790172",
+          "text": "_normal.jpg)](https://x.com/Pragmatic_Eng) [@GergelyOrosz](https://x.com/GergelyOrosz) [9h](https://x.com/GergelyOrosz/status/2126458072596140248) Feels like the most straightforward way these days get an offer from Anthropic or OpenAI is “work at Cloudflare” (which itself is hard enough to do fwiw) [17](https://x.com/compose/post?in_reply_to=2126528882262348003) 11 213 12K",
+          "createdAt": "2026-11-28T08:53:55.430Z",
+          "url": "https://x.com/swyx/status/2126352854394790172"
+        },
+        {
+          "id": "2126201671026180469",
+          "text": "followers 🥹 to give thanks: i’m cooking up banked reset & fixing papercuts 🧚🏻‍♀️ how can [@antigravity](https://x.com/antigravity) be improved? ![Image 20: Image](https://pbs.twimg.com/media/HX9TiGqakAAOJ88?format=jpg&name=large) [](https://x.com/eliza_huang/status/2125509510630678798/photo/1) [102](https://x.com/compose/post?in_reply_to=2126352854394790172) 48 1.1K 117K",
+          "createdAt": "2026-11-28T08:53:55.430Z",
+          "url": "https://x.com/swyx/status/2126201671026180469"
+        },
+        {
+          "id": "2126106139582677088",
+          "text": "Store. It requires a Rex Server running on another device so maybe a hint that a full public release is imminent… in the meantime enjoy the startup animation and screenshots. 😎 [apps.apple.com/us/app/rex-by-…](https://t.co/pj5gq818my \"https://apps.apple.com/us/app/rex-by-superlogical/id6813649254\") [113](https://x.com/compose/post?in_reply_to=2126201671026180469) 39 767 107K",
+          "createdAt": "2026-11-28T08:53:55.430Z",
+          "url": "https://x.com/swyx/status/2126106139582677088"
         }
       ]
     },
@@ -80,37 +116,37 @@
         {
           "id": "2125779541952246039",
           "text": "## Andrej Karpathy’s posts",
-          "createdAt": "2026-11-27T09:39:50.449Z",
+          "createdAt": "2026-11-28T08:53:59.618Z",
           "url": "https://x.com/karpathy/status/2125779541952246039"
         },
         {
           "id": "2119114537442189652",
-          "text": "r... it works :) - 31 real data sources including Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA,Show more [Video 2](https://x.com/karpathy)![Image 4: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125775560517570561/img/GDE8h47dSgwy5uSy?format=jpg&name=medium) 00:00 [1.4K](https://x.com/compose/post?in_reply_to=2125779541952246039) 2.9K 26K 2.4M",
-          "createdAt": "2026-11-27T09:39:50.449Z",
+          "text": "r... it works :) - 31 real data sources including Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA,Show more [Video 2](https://x.com/karpathy)![Image 4: Video thumbnail](https://pbs.twimg.com/amplify_video_thumb/2125775560517570561/img/GDE8h47dSgwy5uSy?format=jpg&name=medium) 00:00 [1.6K](https://x.com/compose/post?in_reply_to=2125779541952246039) 3.3K 28K 2.9M",
+          "createdAt": "2026-11-28T08:53:59.618Z",
           "url": "https://x.com/karpathy/status/2119114537442189652"
         },
         {
           "id": "2116957135661945283",
           "text": "ished his top YouTube channels: [thume.ca/2026/11/01/you…](https://t.co/NZ3UCNo6cT \"https://thume.ca/2026/11/01/youtube-tier-list-2026/\") Which looked excellent so clearly I had to turn it into TristanTube: [karpathy.ai/tristan-tube/](https://t.co/l0KyW1WdNH \"https://karpathy.ai/tristan-tube/\") 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) [](",
-          "createdAt": "2026-11-27T09:39:50.449Z",
+          "createdAt": "2026-11-28T08:53:59.618Z",
           "url": "https://x.com/karpathy/status/2116957135661945283"
         },
         {
           "id": "2109361546505966046",
-          "text": "ificantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 9: Image](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=jpg&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.7K 52K 6M",
-          "createdAt": "2026-11-27T09:39:50.449Z",
+          "text": "icantly* better viewing experience, ~2 hours with Opus 5.5: [hackertube.org](https://t.co/xULTGY6VhH \"https://hackertube.org/\") - Excellent Show more ![Image 9: Image](https://pbs.twimg.com/media/HWDnuuCaIAA__wa?format=jpg&name=large) [](https://x.com/karpathy/status/2116957135661945283/photo/1) [2.4K](https://x.com/compose/post?in_reply_to=2116957135661945283) 6.7K 52K 6.1M",
+          "createdAt": "2026-11-28T08:53:59.618Z",
           "url": "https://x.com/karpathy/status/2109361546505966046"
         },
         {
           "id": "2042334451611693415",
           "text": "arpathy) [@karpathy](https://x.com/karpathy) [Oct 11](https://x.com/karpathy/status/2109361546505966046) Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come Show more [](",
-          "createdAt": "2026-11-27T09:39:50.449Z",
+          "createdAt": "2026-11-28T08:53:59.618Z",
           "url": "https://x.com/karpathy/status/2042334451611693415"
         },
         {
           "id": "2105909609487872075",
           "text": "2042334451611693415) Judging by my tl there is a growing gap in understanding of AI capability. The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere last year and allowed it to inform their views on AI a little too much. This is [2.2K](https://x.com/compose/post?in_reply_to=2109361546505966046) 8.2K 44K 7M",
-          "createdAt": "2026-11-27T09:39:50.449Z",
+          "createdAt": "2026-11-28T08:53:59.618Z",
           "url": "https://x.com/karpathy/status/2105909609487872075"
         }
       ]
